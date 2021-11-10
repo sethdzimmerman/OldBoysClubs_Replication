@@ -1,0 +1,14 @@
+\begin{tabular}{lc lc lc lc}
+\multicolumn{2}{c}{Activities}&	\multicolumn{2}{c}{UY Clubs}&	\multicolumn{2}{c}{Occupations}&	\multicolumn{2}{c}{Associations}\\ \hline
+\\ 
+Have any activity&	0.012&	Selective final club&	0.093&	Low management&	-0.011&	Country club&	0.110\\ 
+Activity count&	0.023&	Hasty Pudding Inst. 1770&	0.204&	Finance&	0.158&	Gentleman's club&	0.171\\ 
+Activity leadership position&	0.069&	Any final club&	0.236&	Medicine&	-0.049&	Fraternal order&	-0.033\\ 
+Social&	0.217&	&	&	Law&	-0.031&	Prof. Association&	-0.075\\ 
+Sports&	0.089&	&	&	Higher ed.&	-0.029&	Honor society&	-0.004\\ 
+Redbook&	0.041&	&	&	Science&	-0.032&	&	\\ 
+Dorm committee&	0.039&	&	&	&	&	&	\\ 
+Language club&	0.117&	&	&	&	&	&	\\ 
+Politics club&	-0.079&	&	&	&	&	&	\\ \hline
+N&	       14383&	&	       13394&	&	       10970&	&	       12597\\
+\end{tabular}

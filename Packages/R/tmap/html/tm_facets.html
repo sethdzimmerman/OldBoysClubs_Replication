@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Small multiples</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_facets {tmap}"><tr><td>tm_facets {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Small multiples</h2>
+
+<h3>Description</h3>
+
+<p>Creates a <code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code> that specifies facets (small multiples). Small multiples can be created in two ways: 1) by specifying the <code>by</code> argument with one or two variable names, by which the data is grouped, 2) by specifying multiple variable names in any of the aesthetic argument of the layer functions (for instance, the argument <code>col</code> in <code><a href="../../tmap/help/tm_fill.html">tm_fill</a></code>). This function further specifies the facets, for instance number of rows and columns, and whether the coordinate and scales are fixed or free (i.e. independent of each other). An overview of the different approaches to create facets is provided in the examples.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_facets(
+  by = NULL,
+  along = NULL,
+  as.layers = FALSE,
+  ncol = NA,
+  nrow = NA,
+  free.coords = !as.layers,
+  drop.units = TRUE,
+  drop.empty.facets = TRUE,
+  drop.NA.facets = FALSE,
+  sync = NA,
+  showNA = NA,
+  textNA = "Missing",
+  free.scales = NULL,
+  free.scales.fill = NULL,
+  free.scales.symbol.size = NULL,
+  free.scales.symbol.col = NULL,
+  free.scales.symbol.shape = NULL,
+  free.scales.text.size = NULL,
+  free.scales.text.col = NULL,
+  free.scales.line.col = NULL,
+  free.scales.line.lwd = NULL,
+  free.scales.raster = NULL,
+  inside.original.bbox = FALSE,
+  scale.factor = 2,
+  drop.shapes = drop.units
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>by</code></td>
+<td>
+<p>data variable name by which the data is split, or a vector of two variable names to split the data by two variables (where the first is used for the rows and the second for the columns).</p>
+</td></tr>
+<tr valign="top"><td><code>along</code></td>
+<td>
+<p>data variable name by which the data is split and plotted on separate pages. This is especially useful for animations made with <code><a href="../../tmap/help/tmap_animation.html">tmap_animation</a></code>. The <code>along</code> argument can be used in combination with the <code>by</code> argument. It is only supported in <code>"plot"</code> mode (so not in <code>"view"</code> mode).</p>
+</td></tr>
+<tr valign="top"><td><code>as.layers</code></td>
+<td>
+<p>logical that determines whether facets are shown as different layers in <code>"view"</code> mode. By default <code>FALSE</code>, i.e. facets are drawn as small multiples.</p>
+</td></tr>
+<tr valign="top"><td><code>ncol</code></td>
+<td>
+<p>number of columns of the small multiples grid. Not applicable if <code>by</code> contains two variable names.</p>
+</td></tr>
+<tr valign="top"><td><code>nrow</code></td>
+<td>
+<p>number of rows of the small multiples grid. Not applicable if <code>by</code> contains two variable names.</p>
+</td></tr>
+<tr valign="top"><td><code>free.coords</code></td>
+<td>
+<p>logical. If the <code>by</code> argument is specified, should each map has its own coordinate ranges? By default <code>TRUE</code>, unless facets are shown in as different layers (<code>as.layers = TRUE</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>drop.units</code></td>
+<td>
+<p>logical. If the <code>by</code> argument is specified, should non-selected spatial units be dropped? If <code>FALSE</code>, they are plotted where mapped aesthetics are regarded as missing values. Not applicable for raster shapes. By default <code>TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>drop.empty.facets</code></td>
+<td>
+<p>logical. If the <code>by</code> argument is specified, should empty facets be dropped? Empty facets occur when the <code>by</code>-variable contains unused levels. When <code>TRUE</code> and two <code>by</code>-variables are specified, empty rows and columns are dropped.</p>
+</td></tr>
+<tr valign="top"><td><code>drop.NA.facets</code></td>
+<td>
+<p>logical. If the <code>by</code> argument is specified, and all values of the defined aesthetic variables (e.g. <code>col</code> from <code><a href="../../tmap/help/tm_fill.html">tm_fill</a></code>) for specific facets, should these facets be dropped? <code>FALSE</code> by default.</p>
+</td></tr>
+<tr valign="top"><td><code>sync</code></td>
+<td>
+<p>logical. Should the navigation in view mode (zooming and panning) be synchronized? By default <code>TRUE</code> if the facets have the same bounding box. This is generally the case when <code><a href="../../raster/help/raster-package.html">raster</a></code>s are plotted, or when free.coords is <code>FALSE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>showNA</code></td>
+<td>
+<p>If the <code>by</code> argument is specified, should missing values of the <code>by</code>-variable be shown in a facet? If two <code>by</code>-variables are specified, should missing values be shown in an additional row and column? If <code>NA</code>, missing values only are shown if they exist. Similar to the <code>useNA</code> argument of <code><a href="../../base/help/table.html">table</a></code>, where <code>TRUE</code>, <code>FALSE</code>, and <code>NA</code> correspond to <code>"always"</code>, <code>"no"</code>, and <code>"ifany"</code> respectively.</p>
+</td></tr>
+<tr valign="top"><td><code>textNA</code></td>
+<td>
+<p>text used for facets of missing values.</p>
+</td></tr>
+<tr valign="top"><td><code>free.scales</code></td>
+<td>
+<p>logical. Should all scales of the plotted data variables be free, i.e. independent of each other? Specific scales can be set with <code>free.scales.x</code>, where <code>x</code> is the name of the aesthetic, e.g. <code>"symbol.col"</code>. By default, <code>free.scales</code> is <code>TRUE</code>, unless the <code>by</code> argument is used, the <code>along</code> argument is used, or a <code>stars</code> object with a third dimension is shown.</p>
+</td></tr>
+<tr valign="top"><td><code>free.scales.fill</code></td>
+<td>
+<p>logical. Should the color scale for the choropleth be free?</p>
+</td></tr>
+<tr valign="top"><td><code>free.scales.symbol.size</code></td>
+<td>
+<p>logical. Should the symbol size scale for the symbol map be free?</p>
+</td></tr>
+<tr valign="top"><td><code>free.scales.symbol.col</code></td>
+<td>
+<p>logical. Should the color scale for the symbol map be free?</p>
+</td></tr>
+<tr valign="top"><td><code>free.scales.symbol.shape</code></td>
+<td>
+<p>logical. Should the symbol shape scale for the symbol map be free?</p>
+</td></tr>
+<tr valign="top"><td><code>free.scales.text.size</code></td>
+<td>
+<p>logical. Should the text size scale be free?</p>
+</td></tr>
+<tr valign="top"><td><code>free.scales.text.col</code></td>
+<td>
+<p>logical. Should the text color scale be free?</p>
+</td></tr>
+<tr valign="top"><td><code>free.scales.line.col</code></td>
+<td>
+<p>Should the line color scale be free?</p>
+</td></tr>
+<tr valign="top"><td><code>free.scales.line.lwd</code></td>
+<td>
+<p>Should the line width scale be free?</p>
+</td></tr>
+<tr valign="top"><td><code>free.scales.raster</code></td>
+<td>
+<p>Should the color scale for raster layers be free?</p>
+</td></tr>
+<tr valign="top"><td><code>inside.original.bbox</code></td>
+<td>
+<p>If <code>free.coords</code>, should the bounding box of each small multiple be inside the original bounding box?</p>
+</td></tr>
+<tr valign="top"><td><code>scale.factor</code></td>
+<td>
+<p>Number that determines how the elements (e.g. font sizes, symbol sizes, line widths) of the small multiples are scaled in relation to the scaling factor of the shapes. The elements are scaled to the <code>scale.factor</code>th root of the scaling factor of the shapes. So, for <code>scale.factor=1</code>, they are scaled proportional to the scaling of the shapes. Since elements, especially text, are often too small to read, a higher value is recommended. By default, <code>scale.factor=2</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>drop.shapes</code></td>
+<td>
+<p>deprecated: renamed to <code>drop.units</code></p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The global option <code>limits</code> controls the limit of the number of facets that are plotted. By default, <code>tmap_options(limits=c(facets.plot=64, facets.view=4))</code>. The maximum number of interactive facets is set to four since otherwise it may become very slow.
+</p>
+
+
+<h3>Value</h3>
+
+<p><code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code>
+</p>
+
+
+<h3>References</h3>
+
+<p>Tennekes, M., 2018, tmap: Thematic Maps in R, Journal of Statistical Software, 84(6), 1-39, <a href="https://doi.org/10.18637/jss.v084.i06">DOI</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="../doc/tmap-getstarted.html"><code>vignette("tmap-getstarted")</code></a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(World, NLD_muni, NLD_prov, land, metro)
+
+current.mode &lt;- tmap_mode("plot")
+
+# CASE 1: Facets defined by constant values
+tm_shape(World) +
+    tm_fill(c("forestgreen", "goldenrod")) +
+tm_format("World", title=c("A green world", "A dry world"), bg.color="lightskyblue2", 
+    title.position=c("left", "bottom"))
+
+# CASE 2: Facets defined by multiple variables
+tm_shape(World) +
+    tm_polygons(c("well_being", "life_exp"),
+    	style=c("pretty", "fixed"), breaks=list(NULL, seq(45, 85, by = 5)),
+    	palette=list("Oranges", "Purples"),
+    	border.col = "black",
+        title=c("Well-Being Index", "Life Expectancy")) +
+tm_format("World")
+
+## Not run: 
+tm_shape(NLD_muni) +
+    tm_fill(c("pop_0_14", "pop_15_24", "pop_25_44", "pop_45_64", "pop_65plus"),
+        style="kmeans", 
+        palette=list("Oranges", "Greens", "Blues", "Purples", "Greys"),
+        title=c("Population 0 to 14", "Population 15 to 24", "Population 25 to 44",
+            "Population 45 to 64", "Population 65 and older")) +
+tm_shape(NLD_prov) +
+    tm_borders() +
+tm_format("NLD", frame = TRUE, asp=0)
+
+## End(Not run)
+
+# CASE 3: Facets defined by group-by variable(s)
+# A group-by variable that divides the objects spatially
+tm_shape(NLD_prov) +
+    tm_polygons("gold2") +
+    tm_facets(by="name")
+
+## Not run: 
+tm_shape(NLD_muni) +
+    tm_borders() +
+    tm_facets(by="province") +
+    tm_fill("population", style="kmeans", convert2density = TRUE) +
+tm_shape(NLD_prov) +
+    tm_borders(lwd=4) +
+    tm_facets(by="name")
+
+## End(Not run)
+
+# The objects are divided by a non-spatial variable (e.g. date/time)
+if (require(dplyr) &amp;&amp; require(tidyr)) {
+	metro_long &lt;- metro %&gt;% 
+		gather(year, population, -name, -name_long, -iso_a3, -geometry) %&gt;% 
+		mutate(year = as.integer(substr(year, 4, 7)))
+	
+	tm_shape(metro_long) +
+		tm_bubbles("population") +
+		tm_facets(by = "year")
+}
+## Not run: 
+tm_shape(land) +
+	tm_raster("black") +
+	tm_facets(by="cover_cls")
+
+## End(Not run)
+
+# Facets defined by two group-by variables
+## Not run: 
+World$HPI3 &lt;- cut(World$HPI, breaks = c(20, 35, 50, 65), 
+    labels = c("HPI low", "HPI medium", "HPI high"))
+World$GDP3 &lt;- cut(World$gdp_cap_est, breaks = c(0, 5000, 20000, Inf), 
+    labels = c("GDP low", "GDP medium", "GDP high"))
+
+tm_shape(World) + 
+	tm_fill("HPI3", palette="Dark2", colorNA="grey90", legend.show = FALSE) + 
+	tm_facets(c("HPI3", "GDP3"), showNA=FALSE, free.coords = FALSE, drop.units = FALSE)
+
+metro_edited &lt;- metro %&gt;% 
+	mutate(pop1950cat = cut(pop1950, breaks=c(0.5, 1, 1.5, 2, 3, 5, 10, 40)*1e6),
+		   pop2020cat = cut(pop2020, breaks=c(0.5, 1, 1.5, 2, 3, 5, 10, 40)*1e6))
+
+tm_shape(World) +
+	tm_fill() +
+tm_shape(metro_edited) +
+tm_dots("red", size = .5) +
+	tm_facets(c("pop1950cat", "pop2020cat"), free.coords = FALSE) +
+tm_layout(panel.label.rot = c(0, 90), panel.label.size = 2)
+
+## End(Not run)
+
+# restore current mode
+tmap_mode(current.mode)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

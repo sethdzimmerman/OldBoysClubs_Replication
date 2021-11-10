@@ -1,0 +1,56 @@
+\begin{tabular}{l cccc}
+&	All&	Wages \& rank&	Brothers&	Mixed membership\\ \hline
+\multicolumn{4}{l}{\emph{A. Demographics}}\\ 
+Have high school data&	0.984&	0.972&	0.966&	0.913\\ 
+Any private high school&	0.463&	0.456&	0.630&	0.952\\ 
+Private feeder&	0.240&	0.242&	0.375&	0.783\\ 
+Any public feeder&	0.226&	0.234&	0.175&	0.043\\ 
+From MA&	0.509&	0.515&	0.486&	0.522\\ 
+From NY&	0.172&	0.164&	0.221&	0.217\\ 
+Have Harvard father&	0.070&	0.104&	0.227&	0.217\\ 
+Have Harvard brother&	0.204&	0.227&	1.000&	1.000\\ 
+Jewish name&	0.066&	0.057&	0.066&	0.000\\ 
+Catholic name&	0.055&	0.049&	0.024&	0.000\\ 
+Colonial name&	0.293&	0.315&	0.398&	0.739\\ 
+\\ 
+\multicolumn{4}{l}{\emph{B. Census childhood household demographics}}\\ 
+Have Census pre-Harvard&	0.619&	0.702&	0.842&	0.826\\ 
+S or E Eur. immg. gen. 1-2&	0.099&	0.081&	0.034&	0.000\\ 
+Have father's occupation&	0.643&	0.637&	0.637&	0.579\\ 
+Father's occupation: doctor&	0.105&	0.087&	0.071&	0.000\\ 
+Father's occupation: lawyer&	0.122&	0.132&	0.141&	0.273\\ 
+\\ 
+\multicolumn{4}{l}{\emph{C. First-year campus location}}\\ 
+Have address data&	0.950&	0.930&	0.966&	1.000\\ 
+Live on campus&	0.800&	0.824&	0.891&	1.000\\ 
+Have room attributes&	0.712&	0.709&	0.792&	0.955\\ 
+Room price per occupant (\$)&	209.2&	198.6&	213.8&	224.4\\ 
+Peer neighborhood price (\$)&	213.9&	208.2&	216.9&	213.4\\ 
+25th pctile neighborhood rank&	0.256&	0.256&	0.304&	0.424\\ 
+75th pctile neighborhood rank&	0.711&	0.685&	0.734&	0.852\\ 
+\\ 
+\multicolumn{4}{l}{\emph{D. Academic class rank groups}}\\ 
+Rank group 1&	0.018&	0.018&	0.017&	0.000\\ 
+Rank group 2&	0.069&	0.059&	0.038&	0.000\\ 
+Rank group 3&	0.155&	0.141&	0.165&	0.130\\ 
+Rank group 4&	0.242&	0.237&	0.268&	0.217\\ 
+Rank group 5&	0.376&	0.381&	0.347&	0.304\\ 
+Rank group 6&	0.140&	0.164&	0.165&	0.348\\ 
+Not ranked&	0.208&	0.000&	0.000&	0.000\\ 
+\\ 
+\multicolumn{4}{l}{\emph{E. First-year activities}}\\ 
+Have any activity&	0.526&	0.567&	0.694&	0.913\\ 
+N activities&	1.047&	1.250&	1.722&	3.043\\ 
+Activity leadership position&	0.064&	0.080&	0.103&	0.304\\ 
+Sports&	0.367&	0.388&	0.491&	0.652\\ 
+Social&	0.083&	0.104&	0.172&	0.435\\ 
+Music&	0.133&	0.177&	0.216&	0.261\\ 
+First-year activity index&	0.000&	0.050&	0.375&	1.230\\ 
+\\ 
+\multicolumn{4}{l}{\emph{F. Upper-year social clubs}}\\ 
+Hasty Pudding&	0.153&	0.166&	0.292&	0.652\\ 
+Selective final club&	0.070&	0.076&	0.151&	0.522\\ 
+Any final club&	0.136&	0.155&	0.268&	0.652\\ 
+Upper-year club index&	0.000&	0.050&	0.403&	1.555\\ \hline
+N&	       14383&	        3417&	         291&	          23\\ 
+\end{tabular}

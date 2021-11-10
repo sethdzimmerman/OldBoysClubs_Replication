@@ -1,0 +1,25 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Massachusetts,1,480,1 single,1,L,1
+Massachusetts,2,520,1 single,1,L,2
+Massachusetts,3,240,3 single,1,L,3
+Massachusetts,4,540,1 single,2,L,4
+Massachusetts,5,560,1 single,2,L,5
+Massachusetts,6,280,3 single,2,L,6
+Massachusetts,7,540,1 single,3,L,7
+Massachusetts,8,560,1 single,3,L,8
+Massachusetts,9,280,3 single,3,L,9
+Massachusetts,10,400,1 single,4,L,10
+Massachusetts,11,460,1 single,4,L,11
+Massachusetts,12,200,3 single,4,L,12
+Massachusetts,13,260,3 single,1,R,13
+Massachusetts,14,500,1 single,1,R,14
+Massachusetts,15,460,1 single,1,R,15
+Massachusetts,16,280,3 single,2,R,16
+Massachusetts,17,,,2,R,17
+Massachusetts,18,520,1 single,2,R,18
+Massachusetts,19,280,3 single,3,R,19
+Massachusetts,20,580,1 single,3,R,20
+Massachusetts,21,520,1 single,3,R,21
+Massachusetts,22,200,3 single,4,R,22
+Massachusetts,23,480,1 single,4,R,23
+Massachusetts,24,400,1 single,4,R,24

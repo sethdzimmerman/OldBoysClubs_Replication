@@ -1,0 +1,51 @@
+File Manifest for ICPSR 2061
+
+U.S. Dept. of Education, National Center for Education Statistics. HIGHER
+EDUCATION GENERAL INFORMATION SURVEY (HEGIS) VIII: OPENING FALL ENROLLMENT
+IN HIGHER EDUCATION, 1973. ICPSR02061-v2. Washington, DC: U.S. Dept. of
+Education, National Center for Education Statistics [producer], 1973. Ann
+Arbor, MI: Inter-university Consortium for Political and Social Research
+[distributor], 2005-06-09. http://doi.org/10.3886/ICPSR02061.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02061-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    02061-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 ""
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02061-0001-Codebook.pdf             -       -         -       2005-06-09  f4deaede8c317983db12ae81da9da5c4
+
+    02061-0001-Data.dta                 -       27,300    43      2005-06-09  31ff7b3ffe2813fd75655c87017e9235
+
+    02061-0001-Data.por                 -       27,300    43      2005-06-09  d975e7cecd08db3c3c9ed77483fdf96b
+
+    02061-0001-Data.txt                 142     27,300    43      2005-06-09  dd03f21e6942395c316ec058d21adc9e
+
+    02061-0001-Data.xpt                 -       27,300    43      2005-06-09  97740a6e8ed8c47d8cd6cf01302dca90
+
+    02061-0001-Setup.dct                -       -         -       2005-06-09  8ed3b0f0eec0cc258441312d45e226c6
+
+    02061-0001-Setup.do                 -       -         -       2005-06-09  3635ce80a73249c8192b4eb7b42f57b3
+
+    02061-0001-Setup.sas                -       -         -       2005-06-09  9b0edb71113fbd2c3d466e11587029cc
+
+    02061-0001-Setup.sps                -       -         -       2005-06-09  8c2475829c0b958761c2248afe87cc42
+
+
+Version History
+
+2005-06-09 More detail has been added to the data  and the documentation
+has been updated. SAS, SPSS, and Stata setup  files, SAS transport (XPORT)
+file, SPSS portable file, and a Stata system file have been added.

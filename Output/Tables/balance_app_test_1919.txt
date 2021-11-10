@@ -1,0 +1,18 @@
+\begin{tabular}{l cccccc}
+&	\multicolumn{2}{c}{Year FEs}&	\multicolumn{2}{c}{Price * Year FEs}&	\multicolumn{2}{c}{Block FEs}\\ \hline
+\emph{A. Links to other data sources}\\ 
+Class report link&	0.002&	(0.010)&	-0.013&	(0.016)&	-0.012&	(0.017)\\ 
+Have occupation&	-0.002&	(0.014)&	-0.020&	(0.024)&	-0.008&	(0.027)\\ 
+1940 Census&	0.029&	(0.014)&	0.026&	(0.022)&	0.034&	(0.027)\\ 
+\\ 
+\emph{B. Endogenous peer outcomes}\\ 
+Peer mean acad. rank&	0.390&	(0.058)&	0.264&	(0.072)&	0.157&	(0.076)\\ 
+Peer activity index&	0.307&	(0.049)&	0.305&	(0.065)&	0.299&	(0.072)\\ 
+Peer mean activity count&	0.305&	(0.066)&	0.295&	(0.085)&	0.338&	(0.094)\\ 
+Peer mean social act.&	0.056&	(0.014)&	0.062&	(0.018)&	0.055&	(0.021)\\ 
+Peer more sel. final&	0.136&	(0.014)&	0.128&	(0.019)&	0.110&	(0.021)\\ 
+Peer occ. index&	0.378&	(0.050)&	0.499&	(0.068)&	0.438&	(0.075)\\ 
+Peer mean finance&	0.107&	(0.015)&	0.143&	(0.021)&	0.128&	(0.023)\\ 
+Peer mean wage inc.&	362.4&	(95.3)&	419.5&	(132.9)&	359.0&	(143.7)\\ \hline
+N&	        9343&	&	        9343&	&	        9343&	
+\end{tabular}

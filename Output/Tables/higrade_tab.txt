@@ -1,0 +1,20 @@
+\begin{tabular}{l cccc}
+&	\multicolumn{2}{c}{Rank group 1-4}&	\multicolumn{2}{c}{Rank group 5-6 or unlisted}\\ \hline
+\emph{A. Upper-year social clubs}\\ 
+Hasty Pudding Inst. 1770&	0.091&	(0.050)&	-0.003&	(0.058)\\ 
+Selective final club&	0.129&	(0.039)&	0.054&	(0.051)\\ 
+N&	        2457&	&	        2457&	\\ 
+\\ 
+\emph{B. Occupation choice}\\ 
+Finance&	0.113&	(0.034)&	0.030&	(0.049)\\ 
+Medicine&	-0.044&	(0.021)&	0.026&	(0.027)\\ 
+Law&	-0.004&	(0.032)&	-0.006&	(0.032)\\ 
+Higher ed.&	-0.049&	(0.026)&	0.023&	(0.020)\\ 
+N&	        2094&	&	        2094&	\\ 
+\\ 
+\emph{C. Adult associations}\\ 
+Any social club&	0.159&	(0.048)&	0.082&	(0.061)\\ 
+Prof. Association&	0.048&	(0.043)&	-0.016&	(0.054)\\ 
+N&	        2678&	&	        2678&	\\ \hline
+
+\end{tabular}

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Arrange small multiples in grid layout</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tmap_arrange {tmap}"><tr><td>tmap_arrange {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Arrange small multiples in grid layout</h2>
+
+<h3>Description</h3>
+
+<p>Arrange small multiples in a grid layout. Normally, small multiples are created by specifying multiple variables for one aesthetic or by specifying the by argument (see <code><a href="../../tmap/help/tm_facets.html">tm_facets</a></code>). This function can be used to arrange custom small multiples in a grid layout.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tmap_arrange(
+  ...,
+  ncol = NA,
+  nrow = NA,
+  widths = NA,
+  heights = NA,
+  sync = FALSE,
+  asp = 0,
+  outer.margins = 0.02
+)
+
+knit_print.tmap_arrange(x, ..., options = NULL)
+
+## S3 method for class 'tmap_arrange'
+print(x, knit = FALSE, ..., options = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p><code><a href="../../tmap/help/tmap.html">tmap</a></code> objects or one list of <code><a href="../../tmap/help/tmap.html">tmap</a></code> objects. The number of multiples that can be plot is limited (see details).</p>
+</td></tr>
+<tr valign="top"><td><code>ncol</code></td>
+<td>
+<p>number of columns</p>
+</td></tr>
+<tr valign="top"><td><code>nrow</code></td>
+<td>
+<p>number of rows</p>
+</td></tr>
+<tr valign="top"><td><code>widths</code></td>
+<td>
+<p>vector of column widths. It should add up to 1 and the length should be equal to <code>ncol</code></p>
+</td></tr>
+<tr valign="top"><td><code>heights</code></td>
+<td>
+<p>vector of row heights. It should add up to 1 and the length should be equal to <code>nrow</code></p>
+</td></tr>
+<tr valign="top"><td><code>sync</code></td>
+<td>
+<p>logical. Should the navigation in view mode (zooming and panning) be synchronized? By default <code>FALSE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>asp</code></td>
+<td>
+<p>aspect ratio. The aspect ratio of each map. Normally, this is controlled by the <code>asp</code> argument from <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code> (also a tmap option). This argument will overwrite it, unless set to <code>NULL</code>. The default value for <code>asp</code> is 0, which means that the aspect ratio is adjusted to the size of the device divided by the number of columns and rows. When <code>asp</code> is set to <code>NA</code>, which is also the default value for <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>, the aspect ratio will be adjusted to the used shapes.</p>
+</td></tr>
+<tr valign="top"><td><code>outer.margins</code></td>
+<td>
+<p>outer.margins, numeric vector four or a single value. If defines the outer margins for each multiple. If will overwrite the <code>outer.margins</code> argument from <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>, unless set to <code>NULL</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a <code>tmap_arrange</code> object (returned from <code>tmap_arrange</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>options</code></td>
+<td>
+<p>options passed on to knitprint</p>
+</td></tr>
+<tr valign="top"><td><code>knit</code></td>
+<td>
+<p>should <code><a href="../../knitr/help/knit_print.html">knit_print</a></code> be enabled, or the normal <code><a href="../../base/help/print.html">print</a></code> function?</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The global option <code>tmap.limits</code> controls the limit of the number of facets that are plotted. By default, <code>tmap_options(tmap.limits=c(facets.view=4, facets.plot=64))</code>. The maximum number of interactive facets is set to four since otherwise it may become very slow.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(World)
+w1 &lt;- qtm(World, projection = "+proj=eck4", title="Eckert IV")
+w2 &lt;- qtm(World, projection = 3857, title="Mercator")
+w3 &lt;- qtm(World, projection = "+proj=gall", title="Gall stereographic")
+w4 &lt;- qtm(World, projection = "+proj=robin", title="Robinsin")
+
+current.mode &lt;- tmap_mode("plot")
+tmap_arrange(w1, w2, w3, w4, widths = c(.25, .75))
+tmap_mode(current.mode)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

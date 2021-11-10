@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Axis labels</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_xlab {tmap}"><tr><td>tm_xlab {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Axis labels</h2>
+
+<h3>Description</h3>
+
+<p>Add axis labels
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_xlab(text, size = 0.8, rotation = 0, space = 0)
+
+tm_ylab(text, size = 0.8, rotation = 90, space = 0)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>text</code></td>
+<td>
+<p>text for the axis</p>
+</td></tr>
+<tr valign="top"><td><code>size</code></td>
+<td>
+<p>fontsize, by default 0.8</p>
+</td></tr>
+<tr valign="top"><td><code>rotation</code></td>
+<td>
+<p>rotation angle in degrees. By default, 0 for the x axis label and 90 for the y axis label.</p>
+</td></tr>
+<tr valign="top"><td><code>space</code></td>
+<td>
+<p>space between labels and the map in numbers of line heights. By default, it is 0, unless grid labels are plotted outside the frame (i.e., <code><a href="../../tmap/help/tm_grid.html">tm_grid</a></code> is called with <code>labels.inside.frame = FALSE</code>). In that case, <code>space</code> corresponds to the height of one line, taking the grid label size into account.</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(World)
+
+qtm(World, fill="#FFF8DC", projection=4326, inner.margins=0) +
+	tm_grid(x = seq(-180, 180, by=20), y=seq(-90,90,by=10), col = "gray70") +
+	tm_xlab("Longitude") +
+	tm_ylab("Latitude")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

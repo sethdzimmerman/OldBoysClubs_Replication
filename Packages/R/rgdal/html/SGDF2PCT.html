@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Convert RGB three band to single band colour table</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for SGDF2PCT {rgdal}"><tr><td>SGDF2PCT {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Convert RGB three band to single band colour table</h2>
+
+<h3>Description</h3>
+
+<p>This function converts a three-band SpatialGridDataFrame into a single band of colour indices and a colour look-up table using <code>RGB2PCT</code>. <code>vec2RGB</code> uses given breaks and colours (like <code>image</code>) to make a three column matrix of red, green, and blue values for a numeric vector. 
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+SGDF2PCT(x, ncolors = 256, adjust.bands=TRUE)
+vec2RGB(vec, breaks, col)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a three-band SpatialGridDataFrame object</p>
+</td></tr>
+<tr valign="top"><td><code>ncolors</code></td>
+<td>
+<p>a number of colours between 2 and 256</p>
+</td></tr>
+<tr valign="top"><td><code>adjust.bands</code></td>
+<td>
+<p>default TRUE; if FALSE the three bands must lie each between 0 and 255, but will not be streched within those bounds</p>
+</td></tr>
+<tr valign="top"><td><code>vec</code></td>
+<td>
+<p>a numeric vector</p>
+</td></tr>
+<tr valign="top"><td><code>breaks</code></td>
+<td>
+<p>a set of breakpoints for the colours: must give one more breakpoint than colour</p>
+</td></tr>
+<tr valign="top"><td><code>col</code></td>
+<td>
+<p>a list of colors</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>The value returned is a list:
+</p>
+<table summary="R valueblock">
+<tr valign="top"><td><code>idx</code></td>
+<td>
+<p>a vector of colour indices in the same spatial order as the input object</p>
+</td></tr>
+<tr valign="top"><td><code>ct</code></td>
+<td>
+<p>a vector of RGB colours</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Roger Bivand</p>
+
+
+<h3>References</h3>
+
+<p><a href="http://www.gdal.org/">http://www.gdal.org/</a></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+logo &lt;- system.file("pictures/Rlogo.jpg", package="rgdal")[1]
+SGlogo &lt;- readGDAL(logo)
+cols &lt;- SGDF2PCT(SGlogo)
+SGlogo$idx &lt;- cols$idx
+image(SGlogo, "idx", col=cols$ct)
+SGlogo &lt;- readGDAL(logo)
+cols &lt;- SGDF2PCT(SGlogo, ncolors=64)
+SGlogo$idx &lt;- cols$idx
+image(SGlogo, "idx", col=cols$ct)
+SGlogo &lt;- readGDAL(logo)
+cols &lt;- SGDF2PCT(SGlogo, ncolors=8)
+SGlogo$idx &lt;- cols$idx
+image(SGlogo, "idx", col=cols$ct)
+data(meuse.grid)
+coordinates(meuse.grid) &lt;- c("x", "y")
+gridded(meuse.grid) &lt;- TRUE
+fullgrid(meuse.grid) &lt;- TRUE
+summary(meuse.grid$dist)
+opar &lt;- par(no.readonly=TRUE)
+par(mfrow=c(1,2), mar=c(1,1,1,1)+0.1)
+image(meuse.grid, "dist", breaks=seq(0,1,1/10), col=bpy.colors(10))
+RGB &lt;- vec2RGB(meuse.grid$dist, breaks=seq(0,1,1/10), col=bpy.colors(10))
+summary(RGB)
+meuse.grid$red &lt;- RGB[,1]
+meuse.grid$green &lt;- RGB[,2]
+meuse.grid$blue &lt;- RGB[,3]
+cols &lt;- SGDF2PCT(meuse.grid[c("red", "green", "blue")], ncolors=10,
+ adjust.bands=FALSE)
+is.na(cols$idx) &lt;- is.na(meuse.grid$dist)
+meuse.grid$idx &lt;- cols$idx
+image(meuse.grid, "idx", col=cols$ct)
+par(opar)
+# Note: only one wrongly classified pixel after NA handling/dropping
+# The functions are not written to be reversible
+sort(table(findInterval(meuse.grid$dist, seq(0,1,1/10), all.inside=TRUE)))
+sort(table(cols$idx))
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

@@ -1,0 +1,51 @@
+\begin{tabular}{l cccc}&	Has earnings&	Earnings&	Topcoded&	Non-wage\\ \hline\\ 
+\\ 
+\multicolumn{5}{l}{\emph{A. Add most elite final clubs}}\\ 
+Private feeder&	0.017&	         145&	0.048&	0.142\\ 
+&	(0.015)&	(          58)&	(0.016)&	(0.018)\\ 
+Class rank&	0.000&	          50&	-0.004&	0.007\\ 
+&	(0.005)&	(          19)&	(0.005)&	(0.006)\\ 
+Selective final club&	-0.021&	         777&	0.230&	0.174\\ 
+&	(0.024)&	(          94)&	(0.031)&	(0.027)\\ 
+Sample mean&	0.480&	        2771&	0.181&	0.511\\ 
+N&	        7113&	        3417&	        3417&	        4611\\ 
+\\ 
+\multicolumn{5}{l}{\emph{B. Add Census family background controls}}\\ 
+Private feeder&	0.002&	         -57&	-0.004&	0.060\\ 
+&	(0.021)&	(          78)&	(0.022)&	(0.024)\\ 
+Class rank&	-0.000&	          67&	0.001&	0.006\\ 
+&	(0.007)&	(          27)&	(0.008)&	(0.009)\\ 
+Selective final club&	-0.026&	         661&	0.204&	0.145\\ 
+&	(0.031)&	(         122)&	(0.039)&	(0.034)\\ 
+Sample mean&	0.523&	        2778&	0.187&	0.518\\ 
+N&	        4163&	        2141&	        2141&	        2906\\ 
+\\ 
+\multicolumn{5}{l}{\emph{C. Private feeders with HS FEs, legacy indicators}}\\ 
+Class rank&	0.005&	          -9&	-0.027&	0.024\\ 
+&	(0.012)&	(          45)&	(0.013)&	(0.013)\\ 
+Selective final club&	-0.058&	         657&	0.184&	0.073\\ 
+&	(0.032)&	(         129)&	(0.041)&	(0.035)\\ 
+Has father from Harvard&	0.008&	         -15&	0.007&	0.042\\ 
+&	(0.031)&	(         121)&	(0.036)&	(0.034)\\ 
+Sample mean&	0.501&	        2978&	0.253&	0.645\\ 
+N&	        1650&	         827&	         827&	        1114\\ 
+\\ 
+\multicolumn{5}{l}{\emph{D. Within family}}\\ 
+Class rank&	0.008&	         -20&	-0.006&	0.001\\ 
+&	(0.022)&	(         107)&	(0.031)&	(0.032)\\ 
+Selective final club&	0.005&	        1250&	0.371&	-0.175\\ 
+&	(0.100)&	(         632)&	(0.147)&	(0.139)\\ 
+Sample mean&	0.504&	        2970&	0.237&	0.616\\ 
+N&	        1026&	         291&	         291&	         513\\ 
+\\ 
+\multicolumn{5}{l}{\emph{E. Within Hasty Pudding (approximate applicant pool)}}\\ 
+Private feeder&	-0.048&	          89&	0.033&	0.118\\ 
+&	(0.032)&	(         126)&	(0.040)&	(0.037)\\ 
+Class rank&	0.005&	          62&	0.012&	0.011\\ 
+&	(0.015)&	(          61)&	(0.019)&	(0.016)\\ 
+Selective final club&	-0.071&	         449&	0.130&	0.128\\ 
+&	(0.031)&	(         120)&	(0.039)&	(0.035)\\ 
+Sample mean&	0.504&	        3362&	0.359&	0.675\\ 
+N&	        1123&	         566&	         566&	         754\\ \hline
+
+\end{tabular}

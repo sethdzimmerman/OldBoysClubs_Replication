@@ -1,0 +1,33 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Hollis,1,240,study-bedroom,1,S,1
+Hollis,2,220,study-bedroom,1,S,2
+Hollis,3,260,study-bedroom,1,S,3
+Hollis,4,240,study-bedroom,1,S,4
+Hollis,5,260,study-bedroom,2,S,5
+Hollis,6,240,study-bedroom,2,S,6
+Hollis,7,,,2,S,7
+Hollis,8,260,study-bedroom,2,S,8
+Hollis,9,260,study-bedroom,3,S,9
+Hollis,10,240,study-bedroom,3,S,10
+Hollis,11,280,study-bedroom,3,S,11
+Hollis,12,260,study-bedroom,3,S,12
+Hollis,13,240,study-bedroom,4,S,13
+Hollis,14,220,study-bedroom,4,S,14
+Hollis,15,260,study-bedroom,4,S,15
+Hollis,16,240,study-bedroom,4,S,16
+Hollis,17,240,study-bedroom,1,N,17
+Hollis,18,220,study-bedroom,1,N,18
+Hollis,19,260,study-bedroom,1,N,19
+Hollis,20,240,study-bedroom,1,N,20
+Hollis,21,260,study-bedroom,2,N,21
+Hollis,22,240,study-bedroom,2,N,22
+Hollis,23,280,study-bedroom,2,N,23
+Hollis,24,260,study-bedroom,2,N,24
+Hollis,25,260,study-bedroom,3,N,25
+Hollis,26,240,study-bedroom,3,N,26
+Hollis,27,280,study-bedroom,3,N,27
+Hollis,28,260,study-bedroom,3,N,28
+Hollis,29,220,study-bedroom,4,N,29
+Hollis,30,200,study-bedroom,4,N,30
+Hollis,31,340,1 single,4,N,31
+Hollis,32,320,1 single,4,N,32

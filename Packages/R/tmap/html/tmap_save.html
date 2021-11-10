@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Save tmap</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tmap_save {tmap}"><tr><td>tmap_save {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Save tmap</h2>
+
+<h3>Description</h3>
+
+<p>Save tmap to a file. This can be either a static plot (e.g. png) or an interactive map (html).
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tmap_save(
+  tm = NULL,
+  filename = NA,
+  width = NA,
+  height = NA,
+  units = NA,
+  dpi = NA,
+  outer.margins = NA,
+  asp = NULL,
+  scale = NA,
+  insets_tm = NULL,
+  insets_vp = NULL,
+  add.titles = TRUE,
+  verbose = NULL,
+  ...
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>tm</code></td>
+<td>
+<p>tmap object</p>
+</td></tr>
+<tr valign="top"><td><code>filename</code></td>
+<td>
+<p>filename including extension, and optionally the path. The extensions pdf, eps, svg, wmf (Windows only), png, jpg, bmp, tiff, and html are supported. If the extension is missing, the file will be saved as a static plot in <code>"plot"</code> mode and as an interactive map (html) in <code>"view"</code> mode. The default format for static plots is png, but this can be changed using the option <code>"output.format"</code> in <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>height, width</code></td>
+<td>
+<p>The width and height of the plot (not applicable for html files). Units are set with the argument <code>units</code>. If one of them is not specified, this is calculated using the formula asp = width / height, where asp is the estimated aspect ratio of the map. If both are missing, they are set such that width * height is equal to the option <code>"output.size"</code> in <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code>. This is by default 49, meaning that is the map is a square (so aspect ratio of 1) both width and height are set to 7.</p>
+</td></tr>
+<tr valign="top"><td><code>units</code></td>
+<td>
+<p>units for width and height (<code>"in"</code>, <code>"cm"</code>, or <code>"mm"</code>). By default, pixels (<code>"px"</code>) are used if either width or height is set to a value greater than 50. Else, the units are inches (<code>"in"</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>dpi</code></td>
+<td>
+<p>dots per inch. Only applicable for raster graphics. By default it is set to 300, but this can be changed using the option <code>"output.dpi"</code> in <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>outer.margins</code></td>
+<td>
+<p>overrides the outer.margins argument of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code> (unless set to <code>NA</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>asp</code></td>
+<td>
+<p>if specified, it overrides the asp argument of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>. Tip: set to <code>0</code> if map frame should be placed on the edges of the image.</p>
+</td></tr>
+<tr valign="top"><td><code>scale</code></td>
+<td>
+<p>overrides the scale argument of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code> (unless set to <code>NA</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>insets_tm</code></td>
+<td>
+<p>tmap object of an inset map, or a list of tmap objects of multiple inset maps. The number of tmap objects should be equal to the number of viewports specified with <code>insets_vp</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>insets_vp</code></td>
+<td>
+<p><code><a href="../../grid/help/viewport.html">viewport</a></code> of an inset map, or a list of <code><a href="../../grid/help/viewport.html">viewport</a></code>s of multiple inset maps. The number of viewports should be equal to the number of tmap objects specified with <code>insets_tm</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>add.titles</code></td>
+<td>
+<p>add titles to leaflet object</p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>Deprecated. It is now controlled by the tmap option <code>show.messages</code> (see <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code>)</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>arguments passed on to device functions or to <code><a href="../../htmlwidgets/help/saveWidget.html">saveWidget</a></code></p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+	data(NLD_muni, NLD_prov)
+	m &lt;- tm_shape(NLD_muni) +
+		     tm_fill(col="population", convert2density=TRUE, 
+                 style="kmeans", 
+                 title=expression("Population (per " * km^2 * ")")) +
+		     tm_borders("black", alpha=.5) + 
+		 tm_shape(NLD_prov) +
+		     tm_borders("grey25", lwd=2) +
+		tm_style("classic") +
+		tm_format("NLD", inner.margins = c(.02, .15, .06, .15)) + 
+	    tm_scale_bar(position = c("left", "bottom")) +
+	    tm_compass(position=c("right", "bottom"))
+	
+	tmap_save(m, "choropleth.png", height=7)
+	
+	data(World)
+	m2 &lt;- tm_shape(World) +
+		tm_fill("well_being", id="name", title="Well-being") +
+		tm_format("World")
+
+	# save image
+	tmap_save(m2, "World_map.png", width=1920, height=1080, asp=0)
+
+	# cut left inner margin to make sure Antarctica is snapped to frame
+	tmap_save(m2 + tm_layout(inner.margins = c(0, -.1, 0.05, 0.01)), 
+        "World_map2.png", width=1920, height=1080, asp=0)
+	
+	# save interactive plot
+	tmap_save(m2, "World_map.html")
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

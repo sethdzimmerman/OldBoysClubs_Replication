@@ -1,0 +1,13 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Mower,A-11,,,1,W,A-11
+Mower,A-12,240,3 single,1,W,A-12
+Mower,A-21,340,2 single,2,W,A-21
+Mower,A-22,260,3 single,2,W,A-22
+Mower,A-31,280,2 single,3,W,A-31
+Mower,A-32,260,2 single,3,W,A-32
+Mower,B-11,240,3 single,1,E,B-11
+Mower,B-12,300,2 single,1,E,B-12
+Mower,B-21,260,3 single,2,E,B-21
+Mower,B-22,340,2 single,2,E,B-22
+Mower,B-31,220,3 single,3,E,B-31
+Mower,B-32,280,2 single,3,E,B-32

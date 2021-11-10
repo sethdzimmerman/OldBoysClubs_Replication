@@ -1,0 +1,24 @@
+\begin{tabular}{l rcccc}
+Census occ.&	N&	Has wage inc.&	Wage inc.&	Wage inc. 5k+&	Has non-wage inc.\\ \hline
+\multicolumn{6}{l}{\emph{A. Harvard cohorts 1920-1930}}\\ 
+Managers, officials, and proprietors (n.e.c.)&	 1100&	0.75&	 3476&	0.35&	0.56\\ 
+Lawyers and judges&	  688&	0.50&	 3228&	0.26&	0.67\\ 
+Physicians and surgeons&	  385&	0.36&	 1958&	0.12&	0.73\\ 
+Salesmen and sales clerks (n.e.c.)&	  370&	0.91&	 2449&	0.13&	0.36\\ 
+Teachers (n.e.c.)&	  343&	0.95&	 2247&	0.04&	0.43\\ 
+Professional, technical and kindred workers (n.e.c.)&	  275&	0.88&	 2750&	0.12&	0.40\\ 
+Clerical and kindred workers (n.e.c.)&	  253&	0.91&	 2069&	0.04&	0.32\\ 
+College professors&	  201&	0.97&	 2609&	0.09&	0.39\\ 
+All occupations&	 5707&	0.73&	 2747&	0.17&	0.50\\ 
+\\ 
+\multicolumn{6}{l}{\emph{B. All men ages 27-37}}\\ 
+Managers, officials, and proprietors (n.e.c.)&	722984&	0.54&	 1997&	0.06&	0.49\\ 
+Lawyers and judges&	63532&	0.39&	 2639&	0.14&	0.66\\ 
+Physicians and surgeons&	52091&	0.37&	 2074&	0.11&	0.66\\ 
+Salesmen and sales clerks (n.e.c.)&	560366&	0.90&	 1490&	0.01&	0.15\\ 
+Teachers (n.e.c.)&	123466&	0.95&	 1487&	0.00&	0.21\\ 
+Professional, technical and kindred workers (n.e.c.)&	78307&	0.89&	 1825&	0.02&	0.19\\ 
+Clerical and kindred workers (n.e.c.)&	424290&	0.95&	 1406&	0.00&	0.09\\ 
+College professors&	17977&	0.90&	 2185&	0.03&	0.29\\ 
+All occupations&	11161415&	0.76&	 1167&	0.01&	0.25\\ 
+\end{tabular}

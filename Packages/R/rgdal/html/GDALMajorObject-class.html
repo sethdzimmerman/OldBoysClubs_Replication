@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Class &quot;GDALMajorObject&quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for GDALMajorObject-class {rgdal}"><tr><td>GDALMajorObject-class {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Class &quot;GDALMajorObject&quot; </h2>
+
+<h3>Description</h3>
+
+<p>&quot;GDALMajorObject&quot; is a virtual base class for all GDAL objects.</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+getDescription(object)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>an object inheriting from &quot;GDALMajorObject&quot;</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+
+<dl>
+<dt><code>getDescription</code>:</dt><dd><p>returns a descrption string associated
+with the object. No setter method is defined because GDAL dataset
+objects use the description to hold the filename attached to the
+dataset. It would not be good to change that mid-stream.</p>
+</dd>
+</dl>
+
+
+
+<h3>Objects from the Class</h3>
+
+<p>Objects can be created by calls of the form <code>new("GDALMajorObject", ...)</code>, but are only created for classes that extend this class.</p>
+
+
+<h3>Slots</h3>
+
+
+<dl>
+<dt><code>handle</code>:</dt><dd><p>Object of class <code>"externalptr"</code>, used internally; not for public consumption</p>
+</dd>
+</dl>
+
+
+
+<h3>Methods</h3>
+
+<p>No methods defined with class &quot;GDALMajorObject&quot; in the signature.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Timothy H. Keitt, modified by Roger Bivand</p>
+
+
+<h3>References</h3>
+
+<p><a href="http://www.gdal.org/">http://www.gdal.org/</a></p>
+
+
+<h3>See Also</h3>
+
+ <p><code><a href="../../rgdal/help/GDALDriver-class.html">GDALDriver-class</a></code>,
+<code><a href="../../rgdal/help/GDALReadOnlyDataset-class.html">GDALReadOnlyDataset-class</a></code>, <code><a href="../../rgdal/help/GDALDataset-class.html">GDALDataset-class</a></code> and
+<code><a href="../../rgdal/help/GDALTransientDataset-class.html">GDALTransientDataset-class</a></code> </p>
+
+
+<h3>Examples</h3>
+
+<pre>
+driver &lt;- new('GDALDriver', as.character(getGDALDriverNames()[1,1]))
+driver
+rm(driver)
+logo &lt;- system.file("pictures/logo.jpg", package="rgdal")[1]
+x &lt;- new("GDALReadOnlyDataset", logo)
+x
+getDescription(x)
+dim(x)
+GDAL.close(x)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

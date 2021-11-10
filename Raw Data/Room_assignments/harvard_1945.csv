@@ -1,0 +1,843 @@
+name,year1,year2,dorm,roomno
+Bruce Hunter Zeiser,1945,1941,Grays,1
+Edgar Hugh Leoni,1945,1941,Grays,1
+George Randolph Winburn,1945,1941,Grays,10
+Otis William Erisman,1945,1941,Grays,10
+Eugene Edward Golub,1945,1941,Grays,11
+Paul Harold Seton,1945,1941,Grays,11
+Charles Theodore Egli,1945,1941,Grays,19
+McKim Marriott,1945,1941,Grays,19
+William Holt Killam,1945,1941,Grays,19
+Bruce Hunter Zeiser,1945,1941,Grays,2
+Edgar Hugh Leoni,1945,1941,Grays,2
+Charles Theodore Egli,1945,1941,Grays,20
+McKim Marriott,1945,1941,Grays,20
+William Holt Killam,1945,1941,Grays,20
+Allen Hoisington Barton,1945,1941,Grays,27
+Merrill Mason Gaffney,1945,1941,Grays,27
+William Martin Schenck,1945,1941,Grays,27
+Allen Hoisington Barton,1945,1941,Grays,28
+Merrill Mason Gaffney,1945,1941,Grays,28
+William Martin Schenck,1945,1941,Grays,28
+Armin Edward Gutstein,1945,1941,Grays,29
+John Rodger Kilpatrick,1945,1941,Grays,29
+"Arthur Benedict McCormick, Jr.",1945,1941,Grays,3
+"Melvin Lee Milligan, II",1945,1941,Grays,3
+Otto Amos Bremer,1945,1941,Grays,3
+Armin Edward Gutstein,1945,1941,Grays,30
+John Rodger Kilpatrick,1945,1941,Grays,30
+"Charles Grier Sellers, Jr.",1945,1941,Grays,39
+Robert Newell Bigham,1945,1941,Grays,39
+"Arthur Benedict McCormick, Jr.",1945,1941,Grays,4
+"Melvin Lee Milligan, II",1945,1941,Grays,4
+Otto Amos Bremer,1945,1941,Grays,4
+"Charles Grier Sellers, Jr.",1945,1941,Grays,40
+Robert Newell Bigham,1945,1941,Grays,40
+David Cutler,1945,1941,Grays,47
+Peter Garland,1945,1941,Grays,47
+Richard Lewis Gardner,1945,1941,Grays,47
+David Cutler,1945,1941,Grays,48
+Peter Garland,1945,1941,Grays,48
+Richard Lewis Gardner,1945,1941,Grays,48
+Arthur Louis Lobman,1945,1941,Grays,49
+Harry Goodfriend Green,1945,1941,Grays,49
+Arthur Louis Lobman,1945,1941,Grays,50
+Harry Goodfriend Green,1945,1941,Grays,50
+Donald Westgate Richards,1945,1941,Grays,51
+Richard Wendell Johnson,1945,1941,Grays,51
+"Walter Matthew Palmer, Jr.",1945,1941,Grays,51
+Donald Westgate Richards,1945,1941,Grays,52
+Richard Wendell Johnson,1945,1941,Grays,52
+"Walter Matthew Palmer, Jr.",1945,1941,Grays,52
+Emmons Stearns Ellis,1945,1941,Grays,7
+Philip Lee Ruppenthal,1945,1941,Grays,7
+Robert Fletcher Keahey,1945,1941,Grays,7
+Emmons Stearns Ellis,1945,1941,Grays,8
+Philip Lee Ruppenthal,1945,1941,Grays,8
+Robert Fletcher Keahey,1945,1941,Grays,8
+George Randolph Winburn,1945,1941,Grays,9
+Otis William Erisman,1945,1941,Grays,9
+Eugene Edward Golub,1945,1941,Grays,E12
+Paul Harold Seton,1945,1941,Grays,E12
+Augustus L. Hemenway,1945,1941,Grays,E21
+"William R. Macausland, Jr.",1945,1941,Grays,E21
+Augustus L. Hemenway,1945,1941,Grays,E22
+"William R. Macausland, Jr.",1945,1941,Grays,E22
+Richard Landreth Parker,1945,1941,Grays,E31
+Robert Hamilton Curlette,1945,1941,Grays,E31
+Robert Weis Merriam,1945,1941,Grays,E31
+Richard Landreth Parker,1945,1941,Grays,E32
+Robert Hamilton Curlette,1945,1941,Grays,E32
+Robert Weis Merriam,1945,1941,Grays,E32
+Judson Stewart Smith,1945,1941,Grays,M13
+Whitney Chase,1945,1941,Grays,M13
+Judson Stewart Smith,1945,1941,Grays,M14
+Whitney Chase,1945,1941,Grays,M14
+"Carl Fred Graves, Jr.",1945,1941,Grays,M23
+Hugh McCaffrey,1945,1941,Grays,M23
+Kendrick Russell Eilar,1945,1941,Grays,M23
+"Carl Fred Graves, Jr.",1945,1941,Grays,M24
+Hugh McCaffrey,1945,1941,Grays,M24
+Kendrick Russell Eilar,1945,1941,Grays,M24
+Douglas Richard Spencer,1945,1941,Grays,M33
+William Joseph Ward,1945,1941,Grays,M33
+Douglas Richard Spencer,1945,1941,Grays,M34
+William Joseph Ward,1945,1941,Grays,M34
+George Faulkner Gilbert,1945,1941,Grays,M43
+Wesley Asbury Dunn,1945,1941,Grays,M43
+"Wheelock Bigelow, Jr.",1945,1941,Grays,M43
+George Faulkner Gilbert,1945,1941,Grays,M44
+Wesley Asbury Dunn,1945,1941,Grays,M44
+"Wheelock Bigelow, Jr.",1945,1941,Grays,M44
+F. A. W. Hoffman De Vagujhely,1945,1941,Grays,W15
+Richard Winslow Damon,1945,1941,Grays,W15
+Robert Ware Green,1945,1941,Grays,W15
+F. A. W. Hoffman De Vagujhely,1945,1941,Grays,W16
+Richard Winslow Damon,1945,1941,Grays,W16
+Robert Ware Green,1945,1941,Grays,W16
+"Conrad Wesselhoeft, Jr.",1945,1941,Grays,W25
+"Stephen Bruce Smart, Jr.",1945,1941,Grays,W25
+"Conrad Wesselhoeft, Jr.",1945,1941,Grays,W26
+"Stephen Bruce Smart, Jr.",1945,1941,Grays,W26
+Converse Herrick Blanchard,1945,1941,Grays,W35,Hans Gunther Hachmann,1945,1941,Grays,W35,"Thomas Henry Walnut, II",1945,1941,Grays,W35,Converse Herrick Blanchard,1945,1941,Grays,W36,Hans Gunther Hachmann,1945,1941,Grays,W36,"Thomas Henry Walnut, II",1945,1941,Grays,W36,"Carl Harold Bolter, Jr.",1945,1941,Grays,W45,Charles Stuart Grover,1945,1941,Grays,W45,"Carl Harold Bolter, Jr.",1945,1941,Grays,W46,Charles Stuart Grover,1945,1941,Grays,W46,George Hamilton Montgomery,1945,1941,Hollis,1,Edward Wilson Merrill,1945,1941,Hollis,10,"Harold Sheffield Van Buren, Jr.",1945,1941,Hollis,11,"Claude Matthew Fredericks, Jr.",1945,1941,Hollis,12,Emanuel Solomon Weisgal,1945,1941,Hollis,13,"Nathan Smith Davis, Jr.",1945,1941,Hollis,14,Wilbur Arnold Cowett,1945,1941,Hollis,15,Peter Ignatz Kenmore,1945,1941,Hollis,16,Peter Kissel Eaton,1945,1941,Hollis,17,Allan Lippett David,1945,1941,Hollis,18,"Philip Kingsland Houston, Jr.",1945,1941,Hollis,19,"Herbert Spencer Allen, Jr.",1945,1941,Hollis,2,William Franklin Ginn,1945,1941,Hollis,20,David Leo Simon,1945,1941,Hollis,21,Walter Hines Winternitz,1945,1941,Hollis,22,John Arnold Steppacher,1945,1941,Hollis,23,"James Alexander Noble, Jr.",1945,1941,Hollis,24,"Maurice Vincent Joyce, Jr.",1945,1941,Hollis,25,Frederick Thomas Greenhalge,1945,1941,Hollis,26,"Vance Lauderdale, Jr.",1945,1941,Hollis,27,Andrew Robert Baggaley,1945,1941,Hollis,28,Paul Benjamin Coggins,1945,1941,Hollis,29,John Horton Fisher,1945,1941,Hollis,3,Rudolph Gerhard August Stephen Suskind,1945,1941,Hollis,30,Vincent Archibald Patrick Cronin,1945,1941,Hollis,31,"Lindesay Marc Parrott, Jr.",1945,1941,Hollis,32,John Barnes III,1945,1941,Hollis,5,Philip Charles Farwell Bankwitz,1945,1941,Hollis,6,Anthony Morris Clark,1945,1941,Hollis,8,"Nathaniel Ruggles Whitney, Jr.",1945,1941,Hollis,9,Gilbert Crosby Paine,1945,1941,Holworthy,1,John Walter Mattern,1945,1941,Holworthy,1,"Jewett Fowler Neiley, Jr.",1945,1941,Holworthy,10,"Richard Taylor Rives, Jr.",1945,1941,Holworthy,10,"Francis Parkman, Jr.",1945,1941,Holworthy,11,James Wood Perkins,1945,1941,Holworthy,11,Andrew Howell Wright,1945,1941,Holworthy,12,"Louis Edwin Smart, Jr.",1945,1941,Holworthy,12,Bennett Burt Friedman,1945,1941,Holworthy,13,Louis Gerstley III,1945,1941,Holworthy,13,Alan Robert Martin,1945,1941,Holworthy,14,"Gordon Graham Heiner, III",1945,1941,Holworthy,14,"Charles Edward Kiely, Jr.",1945,1941,Holworthy,15,Harold William Speyer,1945,1941,Holworthy,15,Eli Abraham Etscovitz,1945,1941,Holworthy,16,Kenneth Harris Pearlstein,1945,1941,Holworthy,16,"John Clay, Jr.",1945,1941,Holworthy,17,"William Donnison Swan, Jr.",1945,1941,Holworthy,17,Alexander Wadsworth Watson,1945,1941,Holworthy,18,Clarence Stuart Clark,1945,1941,Holworthy,18,Arthur Simpson Littell,1945,1941,Holworthy,19,Benjamin Collins Kenny,1945,1941,Holworthy,19,"Charles Prescott Stewart, Jr.",1945,1941,Holworthy,2,"Fairfield Goodale, Jr.",1945,1941,Holworthy,2,"Faneuil Adams, Jr.",1945,1941,Holworthy,21,Peter Ward Fay,1945,1941,Holworthy,21,George Weston Ayer,1945,1941,Holworthy,22,Kenneth Putnam Coffin,1945,1941,Holworthy,22,Eugene Arthur Sands,1945,1941,Holworthy,23,Robert Collier Nusbaum,1945,1941,Holworthy,23,Benjamin De Brie Taylor,1945,1941,Holworthy,24,John Reid Thompson,1945,1941,Holworthy,24,Arthur Stuart Eldredge,1945,1941,Holworthy,3,"Thomas Allen, Jr.",1945,1941,Holworthy,3,Henry Sherwood Fleek II,1945,1941,Holworthy,5,Paul Shepard Morgan,1945,1941,Holworthy,5,Richard Meyers,1945,1941,Holworthy,6,Zelwyn Henry Sharpe,1945,1941,Holworthy,6,"George Clyde Hale, Jr.",1945,1941,Holworthy,7,Otto Curtis Brosius,1945,1941,Holworthy,7,Charles David Grinnell,1945,1941,Holworthy,8,Curtis Wilson Cate,1945,1941,Holworthy,8,Reed Moyer,1945,1941,Holworthy,9,Robert Carter Harrison,1945,1941,Holworthy,9,Carl Loeb Kempner,1945,1941,Lionel,A-11,Manton Bradley Metcalf III,1945,1941,Lionel,A-11,"Clark McKinely Whittemore, Jr.",1945,1941,Lionel,A-12,Eric Gray,1945,1941,Lionel,A-12,"William Duncan Reid, Jr.",1945,1941,Lionel,A-12,Allison Francis Page,1945,1941,Lionel,A-22,Dwight Durkee Evans,1945,1941,Lionel,A-22,Theodore Lewis Clark,1945,1941,Lionel,A-22,George Carlisle Adams,1945,1941,Lionel,A-31,Louis Adams Williams,1945,1941,Lionel,A-31,"Frank Leon Haley, Jr.",1945,1941,Lionel,A-32,"Joseph Charles Kiefe, Jr.",1945,1941,Lionel,A-32,Harold Richard Hafner,1945,1941,Lionel,B-11,Hugh Chatham Butler,1945,1941,Lionel,B-11,"Samuel Crocker Lawrence, Jr.",1945,1941,Lionel,B-11,Alan Benjamin Goldberg,1945,1941,Lionel,B-12
+Converse Herrick Blanchard,1945,1941,Grays,W35
+Hans Gunther Hachmann,1945,1941,Grays,W35
+"Thomas Henry Walnut, II",1945,1941,Grays,W35
+Converse Herrick Blanchard,1945,1941,Grays,W36
+Hans Gunther Hachmann,1945,1941,Grays,W36
+"Thomas Henry Walnut, II",1945,1941,Grays,W36
+"Carl Harold Bolter, Jr.",1945,1941,Grays,W45
+Charles Stuart Grover,1945,1941,Grays,W45
+"Carl Harold Bolter, Jr.",1945,1941,Grays,W46
+Charles Stuart Grover,1945,1941,Grays,W46
+George Hamilton Montgomery,1945,1941,Hollis,1
+Edward Wilson Merrill,1945,1941,Hollis,10
+"Harold Sheffield Van Buren, Jr.",1945,1941,Hollis,11
+"Claude Matthew Fredericks, Jr.",1945,1941,Hollis,12
+Emanuel Solomon Weisgal,1945,1941,Hollis,13
+"Nathan Smith Davis, Jr.",1945,1941,Hollis,14
+Wilbur Arnold Cowett,1945,1941,Hollis,15
+Peter Ignatz Kenmore,1945,1941,Hollis,16
+Peter Kissel Eaton,1945,1941,Hollis,17
+Allan Lippett David,1945,1941,Hollis,18
+"Philip Kingsland Houston, Jr.",1945,1941,Hollis,19
+"Herbert Spencer Allen, Jr.",1945,1941,Hollis,2
+William Franklin Ginn,1945,1941,Hollis,20
+David Leo Simon,1945,1941,Hollis,21
+Walter Hines Winternitz,1945,1941,Hollis,22
+John Arnold Steppacher,1945,1941,Hollis,23
+"James Alexander Noble, Jr.",1945,1941,Hollis,24
+"Maurice Vincent Joyce, Jr.",1945,1941,Hollis,25
+Frederick Thomas Greenhalge,1945,1941,Hollis,26
+"Vance Lauderdale, Jr.",1945,1941,Hollis,27
+Andrew Robert Baggaley,1945,1941,Hollis,28
+Paul Benjamin Coggins,1945,1941,Hollis,29
+John Horton Fisher,1945,1941,Hollis,3
+Rudolph Gerhard August Stephen Suskind,1945,1941,Hollis,30
+Vincent Archibald Patrick Cronin,1945,1941,Hollis,31
+"Lindesay Marc Parrott, Jr.",1945,1941,Hollis,32
+John Barnes III,1945,1941,Hollis,5
+Philip Charles Farwell Bankwitz,1945,1941,Hollis,6
+Anthony Morris Clark,1945,1941,Hollis,8
+"Nathaniel Ruggles Whitney, Jr.",1945,1941,Hollis,9
+Gilbert Crosby Paine,1945,1941,Holworthy,1
+John Walter Mattern,1945,1941,Holworthy,1
+"Jewett Fowler Neiley, Jr.",1945,1941,Holworthy,10
+"Richard Taylor Rives, Jr.",1945,1941,Holworthy,10
+"Francis Parkman, Jr.",1945,1941,Holworthy,11
+James Wood Perkins,1945,1941,Holworthy,11
+Andrew Howell Wright,1945,1941,Holworthy,12
+"Louis Edwin Smart, Jr.",1945,1941,Holworthy,12
+Bennett Burt Friedman,1945,1941,Holworthy,13
+Louis Gerstley III,1945,1941,Holworthy,13
+Alan Robert Martin,1945,1941,Holworthy,14
+"Gordon Graham Heiner, III",1945,1941,Holworthy,14
+"Charles Edward Kiely, Jr.",1945,1941,Holworthy,15
+Harold William Speyer,1945,1941,Holworthy,15
+Eli Abraham Etscovitz,1945,1941,Holworthy,16
+Kenneth Harris Pearlstein,1945,1941,Holworthy,16
+"John Clay, Jr.",1945,1941,Holworthy,17
+"William Donnison Swan, Jr.",1945,1941,Holworthy,17
+Alexander Wadsworth Watson,1945,1941,Holworthy,18
+Clarence Stuart Clark,1945,1941,Holworthy,18
+Arthur Simpson Littell,1945,1941,Holworthy,19
+Benjamin Collins Kenny,1945,1941,Holworthy,19
+"Charles Prescott Stewart, Jr.",1945,1941,Holworthy,2
+"Fairfield Goodale, Jr.",1945,1941,Holworthy,2
+"Faneuil Adams, Jr.",1945,1941,Holworthy,21
+Peter Ward Fay,1945,1941,Holworthy,21
+George Weston Ayer,1945,1941,Holworthy,22
+Kenneth Putnam Coffin,1945,1941,Holworthy,22
+Eugene Arthur Sands,1945,1941,Holworthy,23
+Robert Collier Nusbaum,1945,1941,Holworthy,23
+Benjamin De Brie Taylor,1945,1941,Holworthy,24
+John Reid Thompson,1945,1941,Holworthy,24
+Arthur Stuart Eldredge,1945,1941,Holworthy,3
+"Thomas Allen, Jr.",1945,1941,Holworthy,3
+Henry Sherwood Fleek II,1945,1941,Holworthy,5
+Paul Shepard Morgan,1945,1941,Holworthy,5
+Richard Meyers,1945,1941,Holworthy,6
+Zelwyn Henry Sharpe,1945,1941,Holworthy,6
+"George Clyde Hale, Jr.",1945,1941,Holworthy,7
+Otto Curtis Brosius,1945,1941,Holworthy,7
+Charles David Grinnell,1945,1941,Holworthy,8
+Curtis Wilson Cate,1945,1941,Holworthy,8
+Reed Moyer,1945,1941,Holworthy,9
+Robert Carter Harrison,1945,1941,Holworthy,9
+Carl Loeb Kempner,1945,1941,Lionel,A-11
+Manton Bradley Metcalf III,1945,1941,Lionel,A-11
+"Clark McKinely Whittemore, Jr.",1945,1941,Lionel,A-12
+Eric Gray,1945,1941,Lionel,A-12
+"William Duncan Reid, Jr.",1945,1941,Lionel,A-12
+Allison Francis Page,1945,1941,Lionel,A-22
+Dwight Durkee Evans,1945,1941,Lionel,A-22
+Theodore Lewis Clark,1945,1941,Lionel,A-22
+George Carlisle Adams,1945,1941,Lionel,A-31
+Louis Adams Williams,1945,1941,Lionel,A-31
+"Frank Leon Haley, Jr.",1945,1941,Lionel,A-32
+"Joseph Charles Kiefe, Jr.",1945,1941,Lionel,A-32
+Harold Richard Hafner,1945,1941,Lionel,B-11
+Hugh Chatham Butler,1945,1941,Lionel,B-11
+"Samuel Crocker Lawrence, Jr.",1945,1941,Lionel,B-11
+Alan Benjamin Goldberg,1945,1941,Lionel,B-12
+Martin Byron Singer,1945,1941,Lionel,B-12,"Gardner Jackson, Jr.",1945,1941,Lionel,B-21,"Maurice Machado Osborne, Jr.",1945,1941,Lionel,B-21,"Theodore Chadwick, Jr.",1945,1941,Lionel,B-21,Donald Wayne Jeffries,1945,1941,Lionel,B-22,Frank Lake Garner,1945,1941,Lionel,B-22,"George Browne Post, Jr.",1945,1941,Lionel,B-31,"James Windsor Hubbell, Jr.",1945,1941,Lionel,B-31,Edward Herrick Rushmore,1945,1941,Lionel,B-32,Robert Chapin Alsop,1945,1941,Lionel,B-32,Verner Zevola Reed III,1945,1941,Lionel,B-32,Joshua Bailey Richmond,1945,1941,Massachusetts,A-32,"John Shillito, Jr.",1945,1941,Massachusetts,A-33,Wentworth Dutton Shepard,1945,1941,Massachusetts,A-33,Weston Flint,1945,1941,Massachusetts,A-33,"Oliver Dwight Filley, Jr.",1945,1941,Massachusetts,A-41,Richard Terence Crossman,1945,1941,Massachusetts,A-42,"John Robert Lee Keig, Jr.",1945,1941,Massachusetts,A-43,Robert Kay Humphrey,1945,1941,Massachusetts,A-43,Walston Chubb,1945,1941,Massachusetts,A-43,Alan Thompson Wenzell,1945,1941,Massachusetts,B-31,"Chester Fisher Chapin, Jr.",1945,1941,Massachusetts,B-31,"Harold Hall Hartwell, Jr.",1945,1941,Massachusetts,B-31,Edward John Behn,1945,1941,Massachusetts,B-32,Thomas Lionel Howard Cole,1945,1941,Massachusetts,B-33,Byron David MacK,1945,1941,Massachusetts,B-41,"James Francis Fallon, Jr.",1945,1941,Massachusetts,B-41,"William E. Whittington, III",1945,1941,Massachusetts,B-41,"William Burry, III",1945,1941,Massachusetts,B-42,Nicolas Manuel Betancourt,1945,1941,Massachusetts,B-43,Steven Ausnit,1945,1941,Massachusetts,B-43,John Hall Snow,1945,1941,Matthews,101,Uco Van Wijk,1945,1941,Matthews,101,"William Thomas Gaddis, Jr.",1945,1941,Matthews,101,Clark Bennett,1945,1941,Matthews,103,Whitney Blair,1945,1941,Matthews,103,David Deane Harrower,1945,1941,Matthews,104,Ernest Johnston Dieterich,1945,1941,Matthews,104,Arthur Joseph Torsiglieri,1945,1941,Matthews,105,John James McCulloch,1945,1941,Matthews,105,"Raymond Harold Ripley, Jr.",1945,1941,Matthews,105,Peter Frederick Kranz,1945,1941,Matthews,106,Stephen Taylor Boggs,1945,1941,Matthews,106,Frank David Bixler,1945,1941,Matthews,107,"Thomas Victor Keene, Jr.",1945,1941,Matthews,107,"Edmund Joseph Morgan, Jr.",1945,1941,Matthews,108,Harold Tristram Coffin,1945,1941,Matthews,108,John James Weldon,1945,1941,Matthews,108,Robert Arnold Goldthwaite,1945,1941,Matthews,108,Kenneth Myron Case,1945,1941,Matthews,109,"Frederick Jay Carr, Jr.",1945,1941,Matthews,110,John Lathrop Ecob,1945,1941,Matthews,110,David Granden Gill,1945,1941,Matthews,111,Richard Vincent Collins,1945,1941,Matthews,111,Barney Dunan Emmart,1945,1941,Matthews,112,Richard Lee Ingraham,1945,1941,Matthews,112,James Sargent Apthorp,1945,1941,Matthews,201,"John Robertson Ward, Jr.",1945,1941,Matthews,201,"Bigelow Watts, Jr.",1945,1941,Matthews,202,"Paul Coste, Jr.",1945,1941,Matthews,202,Richard Watson Mechem,1945,1941,Matthews,202,George Spiros Pappagianis,1945,1941,Matthews,203,Nicholas George Pitarys,1945,1941,Matthews,203,Charles Fowler Adamson,1945,1941,Matthews,204,Robert Croll Stevens,1945,1941,Matthews,204,Breed Hall,1945,1941,Matthews,205,Eugene Allen Arnold,1945,1941,Matthews,205,Henry Richard Berman,1945,1941,Matthews,206,Howard Mortye Vinecour,1945,1941,Matthews,206,Dana Pierre Deshon,1945,1941,Matthews,207,"James Murray Howe, IV",1945,1941,Matthews,207,Francis Parker Reidy,1945,1941,Matthews,209,Victor James Dowling,1945,1941,Matthews,209,Arthur Brooks Du Bois,1945,1941,Matthews,210,Guerdon Holden Nelson,1945,1941,Matthews,210,"Armand Schwab, Jr.",1945,1941,Matthews,211,Robert Stephen Landau,1945,1941,Matthews,211,Charles Chandler Works,1945,1941,Matthews,212,"John Roofe Macarthur, III",1945,1941,Matthews,212,"Gerald Pickard Peters, Jr.",1945,1941,Matthews,301,Kenneth Fremont-smith,1945,1941,Matthews,301,"William John Porell, II",1945,1941,Matthews,301,Irwin Hoffman,1945,1941,Matthews,302,Justin Stanford Colin,1945,1941,Matthews,302,Waldo Blanchard Lyon,1945,1941,Matthews,303,"William Francis Ganong, Jr.",1945,1941,Matthews,303,Holtan Peter Odegard,1945,1941,Matthews,304,Paul Lebard Goodrich,1945,1941,Matthews,306,William Jacob Bean,1945,1941,Matthews,306,"Aldis Adelbert Johnson, Jr.",1945,1941,Matthews,307,Jules Frederick Bittner,1945,1941,Matthews,307,"Robert S. Haltiwanger, Jr.",1945,1941,Matthews,308,"Whitson M. Overcash, Jr.",1945,1941,Matthews,308,Alfred Bosworth Downes,1945,1941,Matthews,309,Leonard C. R. Langer,1945,1941,Matthews,309,Pierre G. T. Beauregard,1945,1941,Matthews,310,Robert Dougherty Cross,1945,1941,Matthews,310,Herman Jay Engel,1945,1941,Matthews,311,Mitchell S. M.krock,1945,1941,Matthews,311,Joseph Leland Yarlott,1945,1941,Matthews,312
+Martin Byron Singer,1945,1941,Lionel,B-12
+"Gardner Jackson, Jr.",1945,1941,Lionel,B-21
+"Maurice Machado Osborne, Jr.",1945,1941,Lionel,B-21
+"Theodore Chadwick, Jr.",1945,1941,Lionel,B-21
+Donald Wayne Jeffries,1945,1941,Lionel,B-22
+Frank Lake Garner,1945,1941,Lionel,B-22
+"George Browne Post, Jr.",1945,1941,Lionel,B-31
+"James Windsor Hubbell, Jr.",1945,1941,Lionel,B-31
+Edward Herrick Rushmore,1945,1941,Lionel,B-32
+Robert Chapin Alsop,1945,1941,Lionel,B-32
+Verner Zevola Reed III,1945,1941,Lionel,B-32
+Joshua Bailey Richmond,1945,1941,Massachusetts,A-32
+"John Shillito, Jr.",1945,1941,Massachusetts,A-33
+Wentworth Dutton Shepard,1945,1941,Massachusetts,A-33
+Weston Flint,1945,1941,Massachusetts,A-33
+"Oliver Dwight Filley, Jr.",1945,1941,Massachusetts,A-41
+Richard Terence Crossman,1945,1941,Massachusetts,A-42
+"John Robert Lee Keig, Jr.",1945,1941,Massachusetts,A-43
+Robert Kay Humphrey,1945,1941,Massachusetts,A-43
+Walston Chubb,1945,1941,Massachusetts,A-43
+Alan Thompson Wenzell,1945,1941,Massachusetts,B-31
+"Chester Fisher Chapin, Jr.",1945,1941,Massachusetts,B-31
+"Harold Hall Hartwell, Jr.",1945,1941,Massachusetts,B-31
+Edward John Behn,1945,1941,Massachusetts,B-32
+Thomas Lionel Howard Cole,1945,1941,Massachusetts,B-33
+Byron David MacK,1945,1941,Massachusetts,B-41
+"James Francis Fallon, Jr.",1945,1941,Massachusetts,B-41
+"William E. Whittington, III",1945,1941,Massachusetts,B-41
+"William Burry, III",1945,1941,Massachusetts,B-42
+Nicolas Manuel Betancourt,1945,1941,Massachusetts,B-43
+Steven Ausnit,1945,1941,Massachusetts,B-43
+John Hall Snow,1945,1941,Matthews,101
+Uco Van Wijk,1945,1941,Matthews,101
+"William Thomas Gaddis, Jr.",1945,1941,Matthews,101
+Clark Bennett,1945,1941,Matthews,103
+Whitney Blair,1945,1941,Matthews,103
+David Deane Harrower,1945,1941,Matthews,104
+Ernest Johnston Dieterich,1945,1941,Matthews,104
+Arthur Joseph Torsiglieri,1945,1941,Matthews,105
+John James McCulloch,1945,1941,Matthews,105
+"Raymond Harold Ripley, Jr.",1945,1941,Matthews,105
+Peter Frederick Kranz,1945,1941,Matthews,106
+Stephen Taylor Boggs,1945,1941,Matthews,106
+Frank David Bixler,1945,1941,Matthews,107
+"Thomas Victor Keene, Jr.",1945,1941,Matthews,107
+"Edmund Joseph Morgan, Jr.",1945,1941,Matthews,108
+Harold Tristram Coffin,1945,1941,Matthews,108
+John James Weldon,1945,1941,Matthews,108
+Robert Arnold Goldthwaite,1945,1941,Matthews,108
+Kenneth Myron Case,1945,1941,Matthews,109
+"Frederick Jay Carr, Jr.",1945,1941,Matthews,110
+John Lathrop Ecob,1945,1941,Matthews,110
+David Granden Gill,1945,1941,Matthews,111
+Richard Vincent Collins,1945,1941,Matthews,111
+Barney Dunan Emmart,1945,1941,Matthews,112
+Richard Lee Ingraham,1945,1941,Matthews,112
+James Sargent Apthorp,1945,1941,Matthews,201
+"John Robertson Ward, Jr.",1945,1941,Matthews,201
+"Bigelow Watts, Jr.",1945,1941,Matthews,202
+"Paul Coste, Jr.",1945,1941,Matthews,202
+Richard Watson Mechem,1945,1941,Matthews,202
+George Spiros Pappagianis,1945,1941,Matthews,203
+Nicholas George Pitarys,1945,1941,Matthews,203
+Charles Fowler Adamson,1945,1941,Matthews,204
+Robert Croll Stevens,1945,1941,Matthews,204
+Breed Hall,1945,1941,Matthews,205
+Eugene Allen Arnold,1945,1941,Matthews,205
+Henry Richard Berman,1945,1941,Matthews,206
+Howard Mortye Vinecour,1945,1941,Matthews,206
+Dana Pierre Deshon,1945,1941,Matthews,207
+"James Murray Howe, IV",1945,1941,Matthews,207
+Francis Parker Reidy,1945,1941,Matthews,209
+Victor James Dowling,1945,1941,Matthews,209
+Arthur Brooks Du Bois,1945,1941,Matthews,210
+Guerdon Holden Nelson,1945,1941,Matthews,210
+"Armand Schwab, Jr.",1945,1941,Matthews,211
+Robert Stephen Landau,1945,1941,Matthews,211
+Charles Chandler Works,1945,1941,Matthews,212
+"John Roofe Macarthur, III",1945,1941,Matthews,212
+"Gerald Pickard Peters, Jr.",1945,1941,Matthews,301
+Kenneth Fremont-smith,1945,1941,Matthews,301
+"William John Porell, II",1945,1941,Matthews,301
+Irwin Hoffman,1945,1941,Matthews,302
+Justin Stanford Colin,1945,1941,Matthews,302
+Waldo Blanchard Lyon,1945,1941,Matthews,303
+"William Francis Ganong, Jr.",1945,1941,Matthews,303
+Holtan Peter Odegard,1945,1941,Matthews,304
+Paul Lebard Goodrich,1945,1941,Matthews,306
+William Jacob Bean,1945,1941,Matthews,306
+"Aldis Adelbert Johnson, Jr.",1945,1941,Matthews,307
+Jules Frederick Bittner,1945,1941,Matthews,307
+"Robert S. Haltiwanger, Jr.",1945,1941,Matthews,308
+"Whitson M. Overcash, Jr.",1945,1941,Matthews,308
+Alfred Bosworth Downes,1945,1941,Matthews,309
+Leonard C. R. Langer,1945,1941,Matthews,309
+Pierre G. T. Beauregard,1945,1941,Matthews,310
+Robert Dougherty Cross,1945,1941,Matthews,310
+Herman Jay Engel,1945,1941,Matthews,311
+Mitchell S. M.krock,1945,1941,Matthews,311
+Joseph Leland Yarlott,1945,1941,Matthews,312
+Victor R. P. Casavant,1945,1941,Matthews,312,Thomas James Ashton,1945,1941,Matthews,401,"Thomas Richard Nunan, Jr.",1945,1941,Matthews,401,"Frederick William Wright, Jr.",1945,1941,Matthews,402,Neil Francis Murphy,1945,1941,Matthews,402,Bille Chandler Carlson,1945,1941,Matthews,403,"Ellery Redfield Purdy, Jr.",1945,1941,Matthews,403,"Edward Robinson Squibb, III",1945,1941,Matthews,404,John Tillinghast Potter,1945,1941,Matthews,404,"Lewis Slack, Jr.",1945,1941,Matthews,405,Robert Drew Harrison,1945,1941,Matthews,405,Charles Mysel Finbury,1945,1941,Matthews,406,Harry Edward Silver,1945,1941,Matthews,406,Cornelius Lansing,1945,1941,Matthews,407,Edward G. S. Chalkley,1945,1941,Matthews,407,David Thurston Holland,1945,1941,Matthews,408,"Joseph Matthew Kuder, Jr.",1945,1941,Matthews,408,Ezra Lamdin,1945,1941,Matthews,409,Stanley Vergil Baum,1945,1941,Matthews,409,Victor Herbert Fazio,1945,1941,Matthews,410,William Edward Prier,1945,1941,Matthews,410,"Francis C. Ware, Jr.",1945,1941,Matthews,411,Frederick Woodruff,1945,1941,Matthews,411,Daniel Garelick,1945,1941,Matthews,412,Frederick David Malkinson,1945,1941,Matthews,412,Bradley Duane Harris,1945,1941,Matthews,501,"Robert James Hanley, Jr.",1945,1941,Matthews,501,"Russell A. Farrington, Jr.",1945,1941,Matthews,501,James Robert Murphy,1945,1941,Matthews,502,"William Anthony Pace, Jr.",1945,1941,Matthews,502,Herbert Seymour Kassman,1945,1941,Matthews,503,Jonathan B. Wittenberg,1945,1941,Matthews,503,Joseph Charles Finneran,1945,1941,Matthews,504,Walter F. X. Collopy,1945,1941,Matthews,504,Warren Haskell Pettingell,1945,1941,Matthews,505,William Robert Skardon,1945,1941,Matthews,505,"John Busfield Lancaster, Jr.",1945,1941,Matthews,506,Roger Lamont Creighton,1945,1941,Matthews,506,Weaver White Dunnan,1945,1941,Matthews,506,Charles William Socarides,1945,1941,Matthews,507,"George Graham Murray, Jr.",1945,1941,Matthews,507,James Trowbridge Tucker,1945,1941,Matthews,507,Dean McDonald Hennessy,1945,1941,Matthews,508,"Samuel Earl Line, Jr.",1945,1941,Matthews,508,Theodore C. Argiris,1945,1941,Matthews,509,Theodosios N. Papleacos,1945,1941,Matthews,509,"Frederic B. Withington, Jr.",1945,1941,Matthews,510,John Clark Fyffe,1945,1941,Matthews,510,Donor Mitchell Lion,1945,1941,Matthews,511,Saul George Marias,1945,1941,Matthews,511,"Bynum Edward Green, Jr.",1945,1941,Matthews,512,"John William Pink, Jr.",1945,1941,Matthews,512,Richard John McNamara,1945,1941,Matthews,512,Allen Young Davis,1945,1941,Mower,A-12,David Dorman,1945,1941,Mower,A-12,Robert Irvine Curts,1945,1941,Mower,A-12,Lassor Harris Grosberg,1945,1941,Mower,A-21,Robert Krones,1945,1941,Mower,A-21,"Alexander Wheeler, Jr.",1945,1941,Mower,A-22,Benjamin Munroe Burr,1945,1941,Mower,A-22,"Kenneth Moller, Jr.",1945,1941,Mower,A-22,Bruce Sheridan Corby,1945,1941,Mower,A-31,John Everett Duke,1945,1941,Mower,A-31,Arthur James Alley,1945,1941,Mower,A-32,George Barry McMennamin,1945,1941,Mower,A-32,Edward Leigh French,1945,1941,Mower,B-11,George Dyer O'Day,1945,1941,Mower,B-11,James Turnbull Knowles,1945,1941,Mower,B-11,Gerlad Dun Levy,1945,1941,Mower,B-12,Francis Woodbridge Reed,1945,1941,Mower,B-21,John Reed,1945,1941,Mower,B-21,"Langdon Savage Simons, Jr.",1945,1941,Mower,B-21,Sewell Rollins Guild,1945,1941,Mower,B-21,James Greenbury Nuland,1945,1941,Mower,B-22,"Robert Porter Patterson, Jr.",1945,1941,Mower,B-22,Samuel Heilner III,1945,1941,Mower,B-22,"Gaius Warner Merwin, Jr.",1945,1941,Mower,B-31,Malcolm Arthur Chandler,1945,1941,Mower,B-31,Richard Francis Ellis,1945,1941,Mower,B-31,Robert Guestier Goelet,1945,1941,Mower,B-32,Robert Lovett Sturgis,1945,1941,Mower,B-32,Robert Lee Caulfield,1945,1941,Stoughton,1,"Frederick Arthur Johnson, Jr.",1945,1941,Stoughton,10,Stuart Carleton Davidson,1945,1941,Stoughton,11,William Taliaferro Close,1945,1941,Stoughton,12,Robert Folger Miller,1945,1941,Stoughton,13,William Stockman Pilling II,1945,1941,Stoughton,14,Robert Alan Shwitzer,1945,1941,Stoughton,15,Henry Wheeler III,1945,1941,Stoughton,16,Paul Arnold Nurick,1945,1941,Stoughton,17,Milton Robert Kane,1945,1941,Stoughton,18,Charles Sumner Eaton,1945,1941,Stoughton,2,Robert Arthur Burton,1945,1941,Stoughton,20,George Jessup Salisbury,1945,1941,Stoughton,21,Paul Drewes Tibbetts,1945,1941,Stoughton,22,Thomas Simon Langner,1945,1941,Stoughton,23,William Mansfield Groton,1945,1941,Stoughton,24,Stanley Rich,1945,1941,Stoughton,25,John Gilchrist Loucks,1945,1941,Stoughton,26,Charles Greenhouse,1945,1941,Stoughton,27
+Victor R. P. Casavant,1945,1941,Matthews,312
+Thomas James Ashton,1945,1941,Matthews,401
+"Thomas Richard Nunan, Jr.",1945,1941,Matthews,401
+"Frederick William Wright, Jr.",1945,1941,Matthews,402
+Neil Francis Murphy,1945,1941,Matthews,402
+Bille Chandler Carlson,1945,1941,Matthews,403
+"Ellery Redfield Purdy, Jr.",1945,1941,Matthews,403
+"Edward Robinson Squibb, III",1945,1941,Matthews,404
+John Tillinghast Potter,1945,1941,Matthews,404
+"Lewis Slack, Jr.",1945,1941,Matthews,405
+Robert Drew Harrison,1945,1941,Matthews,405
+Charles Mysel Finbury,1945,1941,Matthews,406
+Harry Edward Silver,1945,1941,Matthews,406
+Cornelius Lansing,1945,1941,Matthews,407
+Edward G. S. Chalkley,1945,1941,Matthews,407
+David Thurston Holland,1945,1941,Matthews,408
+"Joseph Matthew Kuder, Jr.",1945,1941,Matthews,408
+Ezra Lamdin,1945,1941,Matthews,409
+Stanley Vergil Baum,1945,1941,Matthews,409
+Victor Herbert Fazio,1945,1941,Matthews,410
+William Edward Prier,1945,1941,Matthews,410
+"Francis C. Ware, Jr.",1945,1941,Matthews,411
+Frederick Woodruff,1945,1941,Matthews,411
+Daniel Garelick,1945,1941,Matthews,412
+Frederick David Malkinson,1945,1941,Matthews,412
+Bradley Duane Harris,1945,1941,Matthews,501
+"Robert James Hanley, Jr.",1945,1941,Matthews,501
+"Russell A. Farrington, Jr.",1945,1941,Matthews,501
+James Robert Murphy,1945,1941,Matthews,502
+"William Anthony Pace, Jr.",1945,1941,Matthews,502
+Herbert Seymour Kassman,1945,1941,Matthews,503
+Jonathan B. Wittenberg,1945,1941,Matthews,503
+Joseph Charles Finneran,1945,1941,Matthews,504
+Walter F. X. Collopy,1945,1941,Matthews,504
+Warren Haskell Pettingell,1945,1941,Matthews,505
+William Robert Skardon,1945,1941,Matthews,505
+"John Busfield Lancaster, Jr.",1945,1941,Matthews,506
+Roger Lamont Creighton,1945,1941,Matthews,506
+Weaver White Dunnan,1945,1941,Matthews,506
+Charles William Socarides,1945,1941,Matthews,507
+"George Graham Murray, Jr.",1945,1941,Matthews,507
+James Trowbridge Tucker,1945,1941,Matthews,507
+Dean McDonald Hennessy,1945,1941,Matthews,508
+"Samuel Earl Line, Jr.",1945,1941,Matthews,508
+Theodore C. Argiris,1945,1941,Matthews,509
+Theodosios N. Papleacos,1945,1941,Matthews,509
+"Frederic B. Withington, Jr.",1945,1941,Matthews,510
+John Clark Fyffe,1945,1941,Matthews,510
+Donor Mitchell Lion,1945,1941,Matthews,511
+Saul George Marias,1945,1941,Matthews,511
+"Bynum Edward Green, Jr.",1945,1941,Matthews,512
+"John William Pink, Jr.",1945,1941,Matthews,512
+Richard John McNamara,1945,1941,Matthews,512
+Allen Young Davis,1945,1941,Mower,A-12
+David Dorman,1945,1941,Mower,A-12
+Robert Irvine Curts,1945,1941,Mower,A-12
+Lassor Harris Grosberg,1945,1941,Mower,A-21
+Robert Krones,1945,1941,Mower,A-21
+"Alexander Wheeler, Jr.",1945,1941,Mower,A-22
+Benjamin Munroe Burr,1945,1941,Mower,A-22
+"Kenneth Moller, Jr.",1945,1941,Mower,A-22
+Bruce Sheridan Corby,1945,1941,Mower,A-31
+John Everett Duke,1945,1941,Mower,A-31
+Arthur James Alley,1945,1941,Mower,A-32
+George Barry McMennamin,1945,1941,Mower,A-32
+Edward Leigh French,1945,1941,Mower,B-11
+George Dyer O'Day,1945,1941,Mower,B-11
+James Turnbull Knowles,1945,1941,Mower,B-11
+Gerlad Dun Levy,1945,1941,Mower,B-12
+Francis Woodbridge Reed,1945,1941,Mower,B-21
+John Reed,1945,1941,Mower,B-21
+"Langdon Savage Simons, Jr.",1945,1941,Mower,B-21
+Sewell Rollins Guild,1945,1941,Mower,B-21
+James Greenbury Nuland,1945,1941,Mower,B-22
+"Robert Porter Patterson, Jr.",1945,1941,Mower,B-22
+Samuel Heilner III,1945,1941,Mower,B-22
+"Gaius Warner Merwin, Jr.",1945,1941,Mower,B-31
+Malcolm Arthur Chandler,1945,1941,Mower,B-31
+Richard Francis Ellis,1945,1941,Mower,B-31
+Robert Guestier Goelet,1945,1941,Mower,B-32
+Robert Lovett Sturgis,1945,1941,Mower,B-32
+Robert Lee Caulfield,1945,1941,Stoughton,1
+"Frederick Arthur Johnson, Jr.",1945,1941,Stoughton,10
+Stuart Carleton Davidson,1945,1941,Stoughton,11
+William Taliaferro Close,1945,1941,Stoughton,12
+Robert Folger Miller,1945,1941,Stoughton,13
+William Stockman Pilling II,1945,1941,Stoughton,14
+Robert Alan Shwitzer,1945,1941,Stoughton,15
+Henry Wheeler III,1945,1941,Stoughton,16
+Paul Arnold Nurick,1945,1941,Stoughton,17
+Milton Robert Kane,1945,1941,Stoughton,18
+Charles Sumner Eaton,1945,1941,Stoughton,2
+Robert Arthur Burton,1945,1941,Stoughton,20
+George Jessup Salisbury,1945,1941,Stoughton,21
+Paul Drewes Tibbetts,1945,1941,Stoughton,22
+Thomas Simon Langner,1945,1941,Stoughton,23
+William Mansfield Groton,1945,1941,Stoughton,24
+Stanley Rich,1945,1941,Stoughton,25
+John Gilchrist Loucks,1945,1941,Stoughton,26
+Charles Greenhouse,1945,1941,Stoughton,27
+George Brett,1945,1941,Stoughton,28,David Shelley Nicholl,1945,1941,Stoughton,29,Stewart Alan King,1945,1941,Stoughton,3,Allan Lawrence Kluber,1945,1941,Stoughton,30,"Sedgewick Minot, Jr.",1945,1941,Stoughton,31,Joseph Taylor Fitzpatrick,1945,1941,Stoughton,32,Stanley Leo Gould,1945,1941,Stoughton,4,Robert Alan Brooks,1945,1941,Stoughton,5,John Earle Connolly,1945,1941,Stoughton,6,Richard Kenneth Friedlander,1945,1941,Stoughton,7,"Gilbert King, Jr.",1945,1941,Stoughton,8,Dryden Phelps Morse,1945,1941,Stoughton,9,Calvin Wavle Cutler,1945,1941,Straus,A-12,Thaxter Swan,1945,1941,Straus,A-12,Warren Howley Algeo,1945,1941,Straus,A-21,William Rippey Rawlings,1945,1941,Straus,A-21,Edward Meredith Rothman,1945,1941,Straus,A-22,Lee Ripley Lyon,1945,1941,Straus,A-22,"James Edward Connor, Jr.",1945,1941,Straus,A-31,Vincent Francis Leahy,1945,1941,Straus,A-31,Franklin Culbertson French,1945,1941,Straus,A-32,"Thomas D. Connolly, Jr.",1945,1941,Straus,A-32,Alan Nourse Houghton,1945,1941,Straus,A-41,Ward Bennett Sanford,1945,1941,Straus,A-41,Samuel Morrill Robbins,1945,1941,Straus,A-42,Rockwood Hoar Foster,1945,1941,Straus,B-11,Rwin Edward Spalding,1945,1941,Straus,B-11,Herbert Marshal Stanton,1945,1941,Straus,B-21,Samuel Herbert Post,1945,1941,Straus,B-21,John Ernest Stern,1945,1941,Straus,B-22,Jules Samler Golden,1945,1941,Straus,B-22,"Harold Truscott Davis, Jr.",1945,1941,Straus,B-31,"Joseph Chapman Merriam, Jr.",1945,1941,Straus,B-31,Christopher H. Southwick,1945,1941,Straus,B-32,Lewis Cox Green,1945,1941,Straus,B-32,"James Francis Gallagher, Jr.",1945,1941,Straus,B-41,Richard Draper McFarland,1945,1941,Straus,B-41,"Philip Arthur Damon, Jr.",1945,1941,Straus,B-42,Walter Carlo Dietzgen,1945,1941,Straus,B-42,Day Lee,1945,1941,Straus,C-12,"Olney Brown Kent, Jr.",1945,1941,Straus,C-12,Eugene Lee Mark,1945,1941,Straus,C-21,Max Jay Pincus,1945,1941,Straus,C-21,Andrew McCullough,1945,1941,Straus,C-22,Charles Snow Burns,1945,1941,Straus,C-22,Richard Frank McCarthy,1945,1941,Straus,C-22,"John Theodore Haneman, Jr.",1945,1941,Straus,C-31,Seton Ijams,1945,1941,Straus,C-31,"Charles Lyon Chandler, Jr.",1945,1941,Straus,C-32,"John Watts Baer Bausman, III",1945,1941,Straus,C-32,Alexander Wise Allport,1945,1941,Straus,C-41,Richard Engstrom Bond,1945,1941,Straus,C-41,Edward Theophile Beer,1945,1941,Straus,C-42,Hardy Ferguson Perry,1945,1941,Straus,C-42,Andrew Sanquar Crichton,1945,1941,Straus,D-11,William Walter Curran,1945,1941,Straus,D-11,"Henry Stump Middendorf, Jr.",1945,1941,Straus,D-12,"Stanley Royal Ashby, Jr.",1945,1941,Straus,D-12,"Robert H. Montgomert, Jr.",1945,1941,Straus,D-22,Theodore Tillinghast Foster,1945,1941,Straus,D-22,Daniel Offley Bettle,1945,1941,Straus,D-31,Donald Leo Albion,1945,1941,Straus,D-31,Everett Mould Myers,1945,1941,Straus,D-31,Donald Elliot Marks,1945,1941,Straus,D-32,Pierre Samuel Dreyfus,1945,1941,Straus,D-41,Jay Carl Hornberger,1945,1941,Straus,D-42,William Jay Hornbeck,1945,1941,Straus,D-42,Daniel Dickinson Gage,1945,1941,Thayer,101,Hugh Calkins,1945,1941,Thayer,101,Amial Philippe Van Teslaar,1945,1941,Thayer,102,James Webster Hawes,1945,1941,Thayer,102,Nicholas Tawa,1945,1941,Thayer,102,William Daniels Quinn,1945,1941,Thayer,102,Carroll Hodgkins Brown,1945,1941,Thayer,103,Patrick Beaufrere Staehle,1945,1941,Thayer,103,Richard Conger Bryan,1945,1941,Thayer,103,"Robert Thompson Sanford, Jr.",1945,1941,Thayer,103,Thaddeus Emil Mroz,1945,1941,Thayer,103,James Newton Snyder,1945,1941,Thayer,104,Joseph Lippincott Eldredge,1945,1941,Thayer,104,Alan Rich,1945,1941,Thayer,105,Kalman Novak,1945,1941,Thayer,105,Peter Frank,1945,1941,Thayer,105,Richard Abbott Kaye,1945,1941,Thayer,105,David Mitchell Thompson,1945,1941,Thayer,106,Edward Dunham Bodman,1945,1941,Thayer,107,Lewis Christian Bohn,1945,1941,Thayer,107,Erwin Burghard Steiner,1945,1941,Thayer,108,Arthur Hudson Schulz,1945,1941,Thayer,109,Ray Edward Donner,1945,1941,Thayer,109,Andrew Ivan Gerrick,1945,1941,Thayer,110,Henry Stehli Bonner,1945,1941,Thayer,110,Marshall Mitchell Massey,1945,1941,Thayer,111,Otis Harold Torve,1945,1941,Thayer,111,Charles Edwin Carlston,1945,1941,Thayer,112,George John Kirn,1945,1941,Thayer,112,Harold Clendenin Hinton,1945,1941,Thayer,114,Walter Wood Adams,1945,1941,Thayer,114,Homer Clifton Wilkins,1945,1941,Thayer,13,Paul Daniel Hoeprich,1945,1941,Thayer,13
+George Brett,1945,1941,Stoughton,28
+David Shelley Nicholl,1945,1941,Stoughton,29
+Stewart Alan King,1945,1941,Stoughton,3
+Allan Lawrence Kluber,1945,1941,Stoughton,30
+"Sedgewick Minot, Jr.",1945,1941,Stoughton,31
+Joseph Taylor Fitzpatrick,1945,1941,Stoughton,32
+Stanley Leo Gould,1945,1941,Stoughton,4
+Robert Alan Brooks,1945,1941,Stoughton,5
+John Earle Connolly,1945,1941,Stoughton,6
+Richard Kenneth Friedlander,1945,1941,Stoughton,7
+"Gilbert King, Jr.",1945,1941,Stoughton,8
+Dryden Phelps Morse,1945,1941,Stoughton,9
+Calvin Wavle Cutler,1945,1941,Straus,A-12
+Thaxter Swan,1945,1941,Straus,A-12
+Warren Howley Algeo,1945,1941,Straus,A-21
+William Rippey Rawlings,1945,1941,Straus,A-21
+Edward Meredith Rothman,1945,1941,Straus,A-22
+Lee Ripley Lyon,1945,1941,Straus,A-22
+"James Edward Connor, Jr.",1945,1941,Straus,A-31
+Vincent Francis Leahy,1945,1941,Straus,A-31
+Franklin Culbertson French,1945,1941,Straus,A-32
+"Thomas D. Connolly, Jr.",1945,1941,Straus,A-32
+Alan Nourse Houghton,1945,1941,Straus,A-41
+Ward Bennett Sanford,1945,1941,Straus,A-41
+Samuel Morrill Robbins,1945,1941,Straus,A-42
+Rockwood Hoar Foster,1945,1941,Straus,B-11
+Rwin Edward Spalding,1945,1941,Straus,B-11
+Herbert Marshal Stanton,1945,1941,Straus,B-21
+Samuel Herbert Post,1945,1941,Straus,B-21
+John Ernest Stern,1945,1941,Straus,B-22
+Jules Samler Golden,1945,1941,Straus,B-22
+"Harold Truscott Davis, Jr.",1945,1941,Straus,B-31
+"Joseph Chapman Merriam, Jr.",1945,1941,Straus,B-31
+Christopher H. Southwick,1945,1941,Straus,B-32
+Lewis Cox Green,1945,1941,Straus,B-32
+"James Francis Gallagher, Jr.",1945,1941,Straus,B-41
+Richard Draper McFarland,1945,1941,Straus,B-41
+"Philip Arthur Damon, Jr.",1945,1941,Straus,B-42
+Walter Carlo Dietzgen,1945,1941,Straus,B-42
+Day Lee,1945,1941,Straus,C-12
+"Olney Brown Kent, Jr.",1945,1941,Straus,C-12
+Eugene Lee Mark,1945,1941,Straus,C-21
+Max Jay Pincus,1945,1941,Straus,C-21
+Andrew McCullough,1945,1941,Straus,C-22
+Charles Snow Burns,1945,1941,Straus,C-22
+Richard Frank McCarthy,1945,1941,Straus,C-22
+"John Theodore Haneman, Jr.",1945,1941,Straus,C-31
+Seton Ijams,1945,1941,Straus,C-31
+"Charles Lyon Chandler, Jr.",1945,1941,Straus,C-32
+"John Watts Baer Bausman, III",1945,1941,Straus,C-32
+Alexander Wise Allport,1945,1941,Straus,C-41
+Richard Engstrom Bond,1945,1941,Straus,C-41
+Edward Theophile Beer,1945,1941,Straus,C-42
+Hardy Ferguson Perry,1945,1941,Straus,C-42
+Andrew Sanquar Crichton,1945,1941,Straus,D-11
+William Walter Curran,1945,1941,Straus,D-11
+"Henry Stump Middendorf, Jr.",1945,1941,Straus,D-12
+"Stanley Royal Ashby, Jr.",1945,1941,Straus,D-12
+"Robert H. Montgomert, Jr.",1945,1941,Straus,D-22
+Theodore Tillinghast Foster,1945,1941,Straus,D-22
+Daniel Offley Bettle,1945,1941,Straus,D-31
+Donald Leo Albion,1945,1941,Straus,D-31
+Everett Mould Myers,1945,1941,Straus,D-31
+Donald Elliot Marks,1945,1941,Straus,D-32
+Pierre Samuel Dreyfus,1945,1941,Straus,D-41
+Jay Carl Hornberger,1945,1941,Straus,D-42
+William Jay Hornbeck,1945,1941,Straus,D-42
+Daniel Dickinson Gage,1945,1941,Thayer,101
+Hugh Calkins,1945,1941,Thayer,101
+Amial Philippe Van Teslaar,1945,1941,Thayer,102
+James Webster Hawes,1945,1941,Thayer,102
+Nicholas Tawa,1945,1941,Thayer,102
+William Daniels Quinn,1945,1941,Thayer,102
+Carroll Hodgkins Brown,1945,1941,Thayer,103
+Patrick Beaufrere Staehle,1945,1941,Thayer,103
+Richard Conger Bryan,1945,1941,Thayer,103
+"Robert Thompson Sanford, Jr.",1945,1941,Thayer,103
+Thaddeus Emil Mroz,1945,1941,Thayer,103
+James Newton Snyder,1945,1941,Thayer,104
+Joseph Lippincott Eldredge,1945,1941,Thayer,104
+Alan Rich,1945,1941,Thayer,105
+Kalman Novak,1945,1941,Thayer,105
+Peter Frank,1945,1941,Thayer,105
+Richard Abbott Kaye,1945,1941,Thayer,105
+David Mitchell Thompson,1945,1941,Thayer,106
+Edward Dunham Bodman,1945,1941,Thayer,107
+Lewis Christian Bohn,1945,1941,Thayer,107
+Erwin Burghard Steiner,1945,1941,Thayer,108
+Arthur Hudson Schulz,1945,1941,Thayer,109
+Ray Edward Donner,1945,1941,Thayer,109
+Andrew Ivan Gerrick,1945,1941,Thayer,110
+Henry Stehli Bonner,1945,1941,Thayer,110
+Marshall Mitchell Massey,1945,1941,Thayer,111
+Otis Harold Torve,1945,1941,Thayer,111
+Charles Edwin Carlston,1945,1941,Thayer,112
+George John Kirn,1945,1941,Thayer,112
+Harold Clendenin Hinton,1945,1941,Thayer,114
+Walter Wood Adams,1945,1941,Thayer,114
+Homer Clifton Wilkins,1945,1941,Thayer,13
+Paul Daniel Hoeprich,1945,1941,Thayer,13
+Arthur Bauman,1945,1941,Thayer,19,Philip Azreal Mazel,1945,1941,Thayer,19,Frederick Arlan Olafson,1945,1941,Thayer,201,Robert West Hopkins,1945,1941,Thayer,201,Alvin Ruml,1945,1941,Thayer,202,Richard Maurice Brown,1945,1941,Thayer,203,Warren Bennett,1945,1941,Thayer,203,Burt William Miller,1945,1941,Thayer,204,"John Robert Douglas, Jr.",1945,1941,Thayer,204,Carlos De Almeida Prado,1945,1941,Thayer,205,Edgard De Almeida Prado,1945,1941,Thayer,205,Georges Brigham,1945,1941,Thayer,207,"John Joseph Dorgan, Jr.",1945,1941,Thayer,207,Jack Oppenheimer,1945,1941,Thayer,208,Louis Irwin Rothschild,1945,1941,Thayer,208,"Clyde Dewey Bird, Jr.",1945,1941,Thayer,211,Don William Crary,1945,1941,Thayer,211,Lester Katz,1945,1941,Thayer,212,Roy Jay Glauber,1945,1941,Thayer,212,"Barrie Moseley White, Jr.",1945,1941,Thayer,214,William Stafford Bucknall,1945,1941,Thayer,214,Leslie Walter Ecklund,1945,1941,Thayer,22,Lindley Hadley Gander,1945,1941,Thayer,22,Sumner Richard Libby,1945,1941,Thayer,301,William Harold White,1945,1941,Thayer,301,Burton Benedict,1945,1941,Thayer,302,De Forest Porter Rudd II,1945,1941,Thayer,303,Frederick Burlingham Boyden,1945,1941,Thayer,303,Albert Clinton Petite,1945,1941,Thayer,304,John Dickson Kendall,1945,1941,Thayer,304,Earl Thomas Winters,1945,1941,Thayer,305,"James Edmund McNulty, Jr.",1945,1941,Thayer,305,"Daniel Joseph Crowley,jr.",1945,1941,Thayer,306,James Walter Warwick,1945,1941,Thayer,306,Ian Morgan Hamilton,1945,1941,Thayer,307,Hugh Charles Walter Stockbridge,1945,1941,Thayer,308,"James McArthur Beale, Jr.",1945,1941,Thayer,308,Carlton Johnson,1945,1941,Thayer,309,Robert Walter Chiesa,1945,1941,Thayer,309,Donald Carlyle Edwards,1945,1941,Thayer,310,John Daniel Fallon,1945,1941,Thayer,310,Luther Court Chien,1945,1941,Thayer,310,Robert Dolbeare Devereaux,1945,1941,Thayer,310,"William Thomas Grubb, Jr.",1945,1941,Thayer,310,Chester Robert Ogden,1945,1941,Thayer,311,Robert Lumley Winter II,1945,1941,Thayer,311,Cornelius John Peck,1945,1941,Thayer,314,John Anthony Callahan,1945,1941,Thayer,314,Dudley Perkins Frasier,1945,1941,Thayer,316,James Eliot Chapman,1945,1941,Thayer,316,"Carl William Kuhlman, Jr.",1945,1941,Thayer,32,James Allen Robinson,1945,1941,Thayer,32,Gershon Newman Ross,1945,1941,Thayer,401,Harvey Pastel,1945,1941,Thayer,401,"Henry Conrad Roemer, Jr.",1945,1941,Thayer,402,George Bearcovitch,1945,1941,Thayer,403,Maximilian Piatok Gorney,1945,1941,Thayer,403,"Herbert Leonard Ley, Jr.",1945,1941,Thayer,404,"Ormonde De Kay, Jr.",1945,1941,Thayer,404,Donald Philip Harnish,1945,1941,Thayer,405,George Breckenridge Beard,1945,1941,Thayer,405,Frederick Atwood Hagar,1945,1941,Thayer,406,"Richard Fyfe Boyce, Jr.",1945,1941,Thayer,406,Joseph Weiss,1945,1941,Thayer,407,Alfred Francis Kwisinsky,1945,1941,Thayer,408,"James McKinnon Smith, Jr.",1945,1941,Thayer,408,"Preston Lambuth Wright, Jr.",1945,1941,Thayer,409,Roger Calverley Tyler,1945,1941,Thayer,409,"Lewis Jefferson Proctor, Jr.",1945,1941,Thayer,410,Mitchell Ira Goodman,1945,1941,Thayer,411,Paul Sidney Entmacher,1945,1941,Thayer,411,Alan Jay Simmons,1945,1941,Thayer,412,Donald Saul Gair,1945,1941,Thayer,412,David Winthrop Smith,1945,1941,Thayer,413,David Woodman Hardy,1945,1941,Thayer,413,Adolphe Gilbert Slocum,1945,1941,Thayer,414,William Edward Lucht,1945,1941,Thayer,414,"John Todd Stewart, Jr.",1945,1941,Thayer,416,John Wyeth Williams,1945,1941,Thayer,416,Melvin Jay Kessel,1945,1941,Thayer,48,Robert Lawthers,1945,1941,Thayer,504,Wilson Porter Fraker,1945,1941,Thayer,504,Frederic Eustis Grimes,1945,1941,Thayer,505,Russell Shanklin Long,1945,1941,Thayer,505,Earl Wilson Stevick,1945,1941,Thayer,512,Lyman Jay Scripter,1945,1941,Thayer,512,Charles Pence Slichter,1945,1941,Thayer,53,John Harding Durant,1945,1941,Thayer,53,"Samuel Edward Stewart, II",1945,1941,Weld,1,David Gardner Hinners,1945,1941,Weld,11,"Dexter Parshall Cooper, Jr.",1945,1941,Weld,12,"William Holyoke Cliff, Jr.",1945,1941,Weld,12,Edwin Henry Fox,1945,1941,Weld,13,Jerry Le Roy Gottschalk,1945,1941,Weld,13,John Nathan Plank,1945,1941,Weld,13,Gerard Patrick Schwartz,1945,1941,Weld,14,John Drewry Comer,1945,1941,Weld,15,"Nathaniel P. Brackett, Jr.",1945,1941,Weld,15,"Robert Tate Caldwell, Jr.",1945,1941,Weld,15,"Sidney Oslin Smith, Jr.",1945,1941,Weld,15
+
+
+
+Arthur Bauman,1945,1941,Thayer,19
+Philip Azreal Mazel,1945,1941,Thayer,19
+Frederick Arlan Olafson,1945,1941,Thayer,201
+Robert West Hopkins,1945,1941,Thayer,201
+Alvin Ruml,1945,1941,Thayer,202
+Richard Maurice Brown,1945,1941,Thayer,203
+Warren Bennett,1945,1941,Thayer,203
+Burt William Miller,1945,1941,Thayer,204
+"John Robert Douglas, Jr.",1945,1941,Thayer,204
+Carlos De Almeida Prado,1945,1941,Thayer,205
+Edgard De Almeida Prado,1945,1941,Thayer,205
+Georges Brigham,1945,1941,Thayer,207
+"John Joseph Dorgan, Jr.",1945,1941,Thayer,207
+Jack Oppenheimer,1945,1941,Thayer,208
+Louis Irwin Rothschild,1945,1941,Thayer,208
+"Clyde Dewey Bird, Jr.",1945,1941,Thayer,211
+Don William Crary,1945,1941,Thayer,211
+Lester Katz,1945,1941,Thayer,212
+Roy Jay Glauber,1945,1941,Thayer,212
+"Barrie Moseley White, Jr.",1945,1941,Thayer,214
+William Stafford Bucknall,1945,1941,Thayer,214
+Leslie Walter Ecklund,1945,1941,Thayer,22
+Lindley Hadley Gander,1945,1941,Thayer,22
+Sumner Richard Libby,1945,1941,Thayer,301
+William Harold White,1945,1941,Thayer,301
+Burton Benedict,1945,1941,Thayer,302
+De Forest Porter Rudd II,1945,1941,Thayer,303
+Frederick Burlingham Boyden,1945,1941,Thayer,303
+Albert Clinton Petite,1945,1941,Thayer,304
+John Dickson Kendall,1945,1941,Thayer,304
+Earl Thomas Winters,1945,1941,Thayer,305
+"James Edmund McNulty, Jr.",1945,1941,Thayer,305
+"Daniel Joseph Crowley,jr.",1945,1941,Thayer,306
+James Walter Warwick,1945,1941,Thayer,306
+Ian Morgan Hamilton,1945,1941,Thayer,307
+Hugh Charles Walter Stockbridge,1945,1941,Thayer,308
+"James McArthur Beale, Jr.",1945,1941,Thayer,308
+Carlton Johnson,1945,1941,Thayer,309
+Robert Walter Chiesa,1945,1941,Thayer,309
+Donald Carlyle Edwards,1945,1941,Thayer,310
+John Daniel Fallon,1945,1941,Thayer,310
+Luther Court Chien,1945,1941,Thayer,310
+Robert Dolbeare Devereaux,1945,1941,Thayer,310
+"William Thomas Grubb, Jr.",1945,1941,Thayer,310
+Chester Robert Ogden,1945,1941,Thayer,311
+Robert Lumley Winter II,1945,1941,Thayer,311
+Cornelius John Peck,1945,1941,Thayer,314
+John Anthony Callahan,1945,1941,Thayer,314
+Dudley Perkins Frasier,1945,1941,Thayer,316
+James Eliot Chapman,1945,1941,Thayer,316
+"Carl William Kuhlman, Jr.",1945,1941,Thayer,32
+James Allen Robinson,1945,1941,Thayer,32
+Gershon Newman Ross,1945,1941,Thayer,401
+Harvey Pastel,1945,1941,Thayer,401
+"Henry Conrad Roemer, Jr.",1945,1941,Thayer,402
+George Bearcovitch,1945,1941,Thayer,403
+Maximilian Piatok Gorney,1945,1941,Thayer,403
+"Herbert Leonard Ley, Jr.",1945,1941,Thayer,404
+"Ormonde De Kay, Jr.",1945,1941,Thayer,404
+Donald Philip Harnish,1945,1941,Thayer,405
+George Breckenridge Beard,1945,1941,Thayer,405
+Frederick Atwood Hagar,1945,1941,Thayer,406
+"Richard Fyfe Boyce, Jr.",1945,1941,Thayer,406
+Joseph Weiss,1945,1941,Thayer,407
+Alfred Francis Kwisinsky,1945,1941,Thayer,408
+"James McKinnon Smith, Jr.",1945,1941,Thayer,408
+"Preston Lambuth Wright, Jr.",1945,1941,Thayer,409
+Roger Calverley Tyler,1945,1941,Thayer,409
+"Lewis Jefferson Proctor, Jr.",1945,1941,Thayer,410
+Mitchell Ira Goodman,1945,1941,Thayer,411
+Paul Sidney Entmacher,1945,1941,Thayer,411
+Alan Jay Simmons,1945,1941,Thayer,412
+Donald Saul Gair,1945,1941,Thayer,412
+David Winthrop Smith,1945,1941,Thayer,413
+David Woodman Hardy,1945,1941,Thayer,413
+Adolphe Gilbert Slocum,1945,1941,Thayer,414
+William Edward Lucht,1945,1941,Thayer,414
+"John Todd Stewart, Jr.",1945,1941,Thayer,416
+John Wyeth Williams,1945,1941,Thayer,416
+Melvin Jay Kessel,1945,1941,Thayer,48
+Robert Lawthers,1945,1941,Thayer,504
+Wilson Porter Fraker,1945,1941,Thayer,504
+Frederic Eustis Grimes,1945,1941,Thayer,505
+Russell Shanklin Long,1945,1941,Thayer,505
+Earl Wilson Stevick,1945,1941,Thayer,512
+Lyman Jay Scripter,1945,1941,Thayer,512
+Charles Pence Slichter,1945,1941,Thayer,53
+John Harding Durant,1945,1941,Thayer,53
+"Samuel Edward Stewart, II",1945,1941,Weld,1
+David Gardner Hinners,1945,1941,Weld,11
+"Dexter Parshall Cooper, Jr.",1945,1941,Weld,12
+"William Holyoke Cliff, Jr.",1945,1941,Weld,12
+Edwin Henry Fox,1945,1941,Weld,13
+Jerry Le Roy Gottschalk,1945,1941,Weld,13
+John Nathan Plank,1945,1941,Weld,13
+Gerard Patrick Schwartz,1945,1941,Weld,14
+John Drewry Comer,1945,1941,Weld,15
+"Nathaniel P. Brackett, Jr.",1945,1941,Weld,15
+"Robert Tate Caldwell, Jr.",1945,1941,Weld,15
+"Sidney Oslin Smith, Jr.",1945,1941,Weld,15
+
+
+
+Donald R. Rausch,1945,1941,Weld,16,Douglass R. Macdonald,1945,1941,Weld,16,George Robert Hooper,1945,1941,Weld,16,James Roland Ingram,1945,1941,Weld,18,John Rodney White,1945,1941,Weld,18,"John Peter Ezra Dempsey, Jr.",1945,1941,Weld,19,Alexander Gerardo,1945,1941,Weld,2,Mario John Borra,1945,1941,Weld,2,Armin Richard Moths,1945,1941,Weld,21,Jonathan Glick Busby,1945,1941,Weld,21,"Charles Joseph Hubbard, II",1945,1941,Weld,22,Jack McKenna,1945,1941,Weld,22,"Arthur Joseph Driscoll, Jr.",1945,1941,Weld,23,James Robert Finn,1945,1941,Weld,23,Edgar Outerbridge Appleby,1945,1941,Weld,24,John Samuel Schlesinger,1945,1941,Weld,25,Henry Robert Krakauer,1945,1941,Weld,26,James Thomson Otis,1945,1941,Weld,26,Robert Taft Makinson,1945,1941,Weld,26,Roy Kevin Victor Andrews,1945,1941,Weld,27,William Sheldon Malcom,1945,1941,Weld,27,Edwin Maurice Davidson,1945,1941,Weld,28,Philip Hyman Cinis,1945,1941,Weld,28,"Harold Francis La Croix, Jr.",1945,1941,Weld,29,"James Francis Conway, Jr.",1945,1941,Weld,29,Arthur Robert Silberberg,1945,1941,Weld,3,Rafael Andres Ortega Pena,1945,1941,Weld,32,"Stanley Earl Collins, Jr.",1945,1941,Weld,33,David Loring,1945,1941,Weld,34,Norman Feinberg,1945,1941,Weld,34,"Sinclair Weeks, Jr.",1945,1941,Weld,34,Thomas Russell Ayres,1945,1941,Weld,34,"Vincent Weaver Jones, Jr.",1945,1941,Weld,34,"David W. R. Morgan, Jr.",1945,1941,Weld,35,John Bernard Levin,1945,1941,Weld,36,"Joseph James Borgatti, Jr.",1945,1941,Weld,36,Richard Danforth Karb,1945,1941,Weld,36,"William Wilton Anthony, Jr.",1945,1941,Weld,36,Alfred Plamondon Beacom,1945,1941,Weld,37,Peter Samuel Berger,1945,1941,Weld,37,John Marshall Alcorn,1945,1941,Weld,38,Maxwell Parkhurst Aley,1945,1941,Weld,38,"Charles Francis Boyle, Jr.",1945,1941,Weld,4,"Lauriat Lane, Jr.",1945,1941,Weld,4,Robert Joseph Hallisey,1945,1941,Weld,4,Robert Neil Philip,1945,1941,Weld,4,Roger Joseph Donahue,1945,1941,Weld,4,Earnest Lucien Levinger,1945,1941,Weld,41,Irvin Milton Horowitz,1945,1941,Weld,41,Peter Viek,1945,1941,Weld,42,Robert James Low,1945,1941,Weld,43,Hugh Montgomery,1945,1941,Weld,44,James Bernard Farrell,1945,1941,Weld,45,Arthur Cushman Merrill,1945,1941,Weld,46,Paul Schneider,1945,1941,Weld,46,Burrage Warner,1945,1941,Weld,47,Charles Lewis Gostenhofer,1945,1941,Weld,47,Robert Paul Meyer,1945,1941,Weld,48,"Theodore Paul Bank, Jr.",1945,1941,Weld,48,Howard Allen Weiss,1945,1941,Weld,49,Robert Hugh Kuhn,1945,1941,Weld,49,David Curlett Porter,1945,1941,Weld,5,James William Murphy,1945,1941,Weld,52,Raymond Koloski,1945,1941,Weld,52,Edward Henry Winter,1945,1941,Weld,53,Robert Joseph Stampfl,1945,1941,Weld,53,Alan Strong Cook,1945,1941,Weld,54,John Matthew Wejman,1945,1941,Weld,54,John Peter Barricelli,1945,1941,Weld,54,"William Parker Cooke, II",1945,1941,Weld,54,"David Frederick Babson, Jr.",1945,1941,Weld,55,"Oscar Roland Frost, Jr.",1945,1941,Weld,55,"Lucien Hynes Warner, Jr.",1945,1941,Weld,6,Colin F. N. Irving,1945,1941,Weld,7,Milton Sharp Grossman,1945,1941,Weld,9,Bayard Cutting Auchincloss,1945,1941,Wigglesworth,A-11,James Bishop Peabody,1945,1941,Wigglesworth,A-11,Donald Mills McCartin,1945,1941,Wigglesworth,A-12,Nicholas Ernest Capeci,1945,1941,Wigglesworth,A-12,Edward Knox Morris,1945,1941,Wigglesworth,A-21,Stanley Cozzens Bodell,1945,1941,Wigglesworth,A-21,David Kent Waer,1945,1941,Wigglesworth,A-31,Henry Taylor Wiggin,1945,1941,Wigglesworth,A-31,Lucien Lee Kinsolving,1945,1941,Wigglesworth,A-31,Robert Houghton Morrison,1945,1941,Wigglesworth,A-31,George G. D. Rockwell,1945,1941,Wigglesworth,B-11,"John Burney Pierce, Jr.",1945,1941,Wigglesworth,B-11,Alfred Haskell Cohen,1945,1941,Wigglesworth,B-12,Daniel Siegel,1945,1941,Wigglesworth,B-12,John Quincy Adams,1945,1941,Wigglesworth,B-21,Michael Henry Irving,1945,1941,Wigglesworth,B-21,"Paul Foster Clark, Jr.",1945,1941,Wigglesworth,B-21,"Francis Joseph Sherman, Jr.",1945,1941,Wigglesworth,B-22,John Ely Littleton,1945,1941,Wigglesworth,B-22,"John Sharman Zinsser, Jr.",1945,1941,Wigglesworth,B-22,"George Edwin Brown, Jr.",1945,1941,Wigglesworth,B-31,Hugh McCracken Hadley,1945,1941,Wigglesworth,B-31,"Robert Treat Paine Storer, Jr.",1945,1941,Wigglesworth,B-31,Warren Carstensen,1945,1941,Wigglesworth,B-31,Bernardo Hugh Tovar,1945,1941,Wigglesworth,B-32
+
+
+
+
+Donald R. Rausch,1945,1941,Weld,16
+Douglass R. Macdonald,1945,1941,Weld,16
+George Robert Hooper,1945,1941,Weld,16
+James Roland Ingram,1945,1941,Weld,18
+John Rodney White,1945,1941,Weld,18
+"John Peter Ezra Dempsey, Jr.",1945,1941,Weld,19
+Alexander Gerardo,1945,1941,Weld,2
+Mario John Borra,1945,1941,Weld,2
+Armin Richard Moths,1945,1941,Weld,21
+Jonathan Glick Busby,1945,1941,Weld,21
+"Charles Joseph Hubbard, II",1945,1941,Weld,22
+Jack McKenna,1945,1941,Weld,22
+"Arthur Joseph Driscoll, Jr.",1945,1941,Weld,23
+James Robert Finn,1945,1941,Weld,23
+Edgar Outerbridge Appleby,1945,1941,Weld,24
+John Samuel Schlesinger,1945,1941,Weld,25
+Henry Robert Krakauer,1945,1941,Weld,26
+James Thomson Otis,1945,1941,Weld,26
+Robert Taft Makinson,1945,1941,Weld,26
+Roy Kevin Victor Andrews,1945,1941,Weld,27
+William Sheldon Malcom,1945,1941,Weld,27
+Edwin Maurice Davidson,1945,1941,Weld,28
+Philip Hyman Cinis,1945,1941,Weld,28
+"Harold Francis La Croix, Jr.",1945,1941,Weld,29
+"James Francis Conway, Jr.",1945,1941,Weld,29
+Arthur Robert Silberberg,1945,1941,Weld,3
+Rafael Andres Ortega Pena,1945,1941,Weld,32
+"Stanley Earl Collins, Jr.",1945,1941,Weld,33
+David Loring,1945,1941,Weld,34
+Norman Feinberg,1945,1941,Weld,34
+"Sinclair Weeks, Jr.",1945,1941,Weld,34
+Thomas Russell Ayres,1945,1941,Weld,34
+"Vincent Weaver Jones, Jr.",1945,1941,Weld,34
+"David W. R. Morgan, Jr.",1945,1941,Weld,35
+John Bernard Levin,1945,1941,Weld,36
+"Joseph James Borgatti, Jr.",1945,1941,Weld,36
+Richard Danforth Karb,1945,1941,Weld,36
+"William Wilton Anthony, Jr.",1945,1941,Weld,36
+Alfred Plamondon Beacom,1945,1941,Weld,37
+Peter Samuel Berger,1945,1941,Weld,37
+John Marshall Alcorn,1945,1941,Weld,38
+Maxwell Parkhurst Aley,1945,1941,Weld,38
+"Charles Francis Boyle, Jr.",1945,1941,Weld,4
+"Lauriat Lane, Jr.",1945,1941,Weld,4
+Robert Joseph Hallisey,1945,1941,Weld,4
+Robert Neil Philip,1945,1941,Weld,4
+Roger Joseph Donahue,1945,1941,Weld,4
+Earnest Lucien Levinger,1945,1941,Weld,41
+Irvin Milton Horowitz,1945,1941,Weld,41
+Peter Viek,1945,1941,Weld,42
+Robert James Low,1945,1941,Weld,43
+Hugh Montgomery,1945,1941,Weld,44
+James Bernard Farrell,1945,1941,Weld,45
+Arthur Cushman Merrill,1945,1941,Weld,46
+Paul Schneider,1945,1941,Weld,46
+Burrage Warner,1945,1941,Weld,47
+Charles Lewis Gostenhofer,1945,1941,Weld,47
+Robert Paul Meyer,1945,1941,Weld,48
+"Theodore Paul Bank, Jr.",1945,1941,Weld,48
+Howard Allen Weiss,1945,1941,Weld,49
+Robert Hugh Kuhn,1945,1941,Weld,49
+David Curlett Porter,1945,1941,Weld,5
+James William Murphy,1945,1941,Weld,52
+Raymond Koloski,1945,1941,Weld,52
+Edward Henry Winter,1945,1941,Weld,53
+Robert Joseph Stampfl,1945,1941,Weld,53
+Alan Strong Cook,1945,1941,Weld,54
+John Matthew Wejman,1945,1941,Weld,54
+John Peter Barricelli,1945,1941,Weld,54
+"William Parker Cooke, II",1945,1941,Weld,54
+"David Frederick Babson, Jr.",1945,1941,Weld,55
+"Oscar Roland Frost, Jr.",1945,1941,Weld,55
+"Lucien Hynes Warner, Jr.",1945,1941,Weld,6
+Colin F. N. Irving,1945,1941,Weld,7
+Milton Sharp Grossman,1945,1941,Weld,9
+Bayard Cutting Auchincloss,1945,1941,Wigglesworth,A-11
+James Bishop Peabody,1945,1941,Wigglesworth,A-11
+Donald Mills McCartin,1945,1941,Wigglesworth,A-12
+Nicholas Ernest Capeci,1945,1941,Wigglesworth,A-12
+Edward Knox Morris,1945,1941,Wigglesworth,A-21
+Stanley Cozzens Bodell,1945,1941,Wigglesworth,A-21
+David Kent Waer,1945,1941,Wigglesworth,A-31
+Henry Taylor Wiggin,1945,1941,Wigglesworth,A-31
+Lucien Lee Kinsolving,1945,1941,Wigglesworth,A-31
+Robert Houghton Morrison,1945,1941,Wigglesworth,A-31
+George G. D. Rockwell,1945,1941,Wigglesworth,B-11
+"John Burney Pierce, Jr.",1945,1941,Wigglesworth,B-11
+Alfred Haskell Cohen,1945,1941,Wigglesworth,B-12
+Daniel Siegel,1945,1941,Wigglesworth,B-12
+John Quincy Adams,1945,1941,Wigglesworth,B-21
+Michael Henry Irving,1945,1941,Wigglesworth,B-21
+"Paul Foster Clark, Jr.",1945,1941,Wigglesworth,B-21
+"Francis Joseph Sherman, Jr.",1945,1941,Wigglesworth,B-22
+John Ely Littleton,1945,1941,Wigglesworth,B-22
+"John Sharman Zinsser, Jr.",1945,1941,Wigglesworth,B-22
+"George Edwin Brown, Jr.",1945,1941,Wigglesworth,B-31
+Hugh McCracken Hadley,1945,1941,Wigglesworth,B-31
+"Robert Treat Paine Storer, Jr.",1945,1941,Wigglesworth,B-31
+Warren Carstensen,1945,1941,Wigglesworth,B-31
+Bernardo Hugh Tovar,1945,1941,Wigglesworth,B-32
+
+
+
+"James Francis Whelan, Jr.",1945,1941,Wigglesworth,B-32,"John Anthony Maher, Jr.",1945,1941,Wigglesworth,B-32,"John H. Cornell, Jr.",1945,1941,Wigglesworth,C-11,Arthur Lyman Lee,1945,1941,Wigglesworth,C-12,"Orrin Grout Wood, Jr.",1945,1941,Wigglesworth,C-12,Erwin Harold Zimmerman,1945,1941,Wigglesworth,C-21,Kenneth Ethan Levin,1945,1941,Wigglesworth,C-21,Roger George Berk,1945,1941,Wigglesworth,C-21,John Marshall Russell,1945,1941,Wigglesworth,C-22,"Joseph Albert Minott, Jr.",1945,1941,Wigglesworth,C-22,Joseph Ivins Caldwell,1945,1941,Wigglesworth,C-22,Whitney Tower,1945,1941,Wigglesworth,C-22,"Joseph William Drake, Jr.",1945,1941,Wigglesworth,C-31,"Thomas Cochran, II",1945,1941,Wigglesworth,C-31,William Davis Cochran,1945,1941,Wigglesworth,C-31,Braley Abbot Cameron,1945,1941,Wigglesworth,C-32,"William Andros Barron, III",1945,1941,Wigglesworth,C-32,Joseph McLean Houley,1945,1941,Wigglesworth,D-11,William Francis Di Pesa,1945,1941,Wigglesworth,D-11,"Donald Clark Cottrell, Jr.",1945,1941,Wigglesworth,D-12,George Russell Van Brunt,1945,1941,Wigglesworth,D-12,"Charles A. Coolidge, Jr.",1945,1941,Wigglesworth,D-22,Walter Channing Howe,1945,1941,Wigglesworth,D-22,"Harold Grant Tobey, Jr.",1945,1941,Wigglesworth,D-31,Richard Hall Forster,1945,1941,Wigglesworth,D-31,Richard McClure Hawkins,1945,1941,Wigglesworth,D-31,Robert Moors Cabot,1945,1941,Wigglesworth,E-11,Theodore Van R. Wagenaar,1945,1941,Wigglesworth,E-11,"Charles Wesley Gardner, Jr.",1945,1941,Wigglesworth,E-21,Douglas McCanliss,1945,1941,Wigglesworth,E-21,"Horace Ross Baker, Jr.",1945,1941,Wigglesworth,E-22,John Donaher Ryan,1945,1941,Wigglesworth,E-31,Nelson James Gammans,1945,1941,Wigglesworth,E-31,Thomas Addison Burcham,1945,1941,Wigglesworth,E-31,"Edward Cahill Park, Jr.",1945,1941,Wigglesworth,F-11,Eric Kenneth Petschek,1945,1941,Wigglesworth,F-11,"Richard Warton Elliott, Jr.",1945,1941,Wigglesworth,F-11,Edward Lees Henderson,1945,1941,Wigglesworth,F-12,"Kingsley Ervin, Jr.",1945,1941,Wigglesworth,F-12,Andrew Fiske Willis,1945,1941,Wigglesworth,F-21,Patrick Grant,1945,1941,Wigglesworth,F-21,"Ralph Lowell, Jr.",1945,1941,Wigglesworth,F-21,"Frank Pelham Coolidge, Jr.",1945,1941,Wigglesworth,F-22,Samuel Riker Davis,1945,1941,Wigglesworth,F-22,"William Wallace Rowe, Jr.",1945,1941,Wigglesworth,F-22,Douglas Finch Wood,1945,1941,Wigglesworth,F-31,"Howard Everett Shore, III",1945,1941,Wigglesworth,F-31,Peter Alan Jenks,1945,1941,Wigglesworth,F-31,Bernard Vincent Winebaum,1945,1941,Wigglesworth,F-32,Julian Howard Ellner,1945,1941,Wigglesworth,F-32,Myron Kraus Nobil,1945,1941,Wigglesworth,F-32,Edward Hall Harding,1945,1941,Wigglesworth,G-11,Milton Hughes,1945,1941,Wigglesworth,G-11,Crystal Lang,1945,1941,Wigglesworth,G-12,Richard Sumner Morrison,1945,1941,Wigglesworth,G-12,Charles Mellish Kidner,1945,1941,Wigglesworth,G-21,James Kidder,1945,1941,Wigglesworth,G-21,William Roelker Curtis,1945,1941,Wigglesworth,G-21,Henry Bliss Mason,1945,1941,Wigglesworth,G-22,Stephen Hopkins Glidden,1945,1941,Wigglesworth,G-22,Ward Perry Harding,1945,1941,Wigglesworth,G-22,"William Taylor Glidden, III",1945,1941,Wigglesworth,G-22,Frederick Theodore Ernst,1945,1941,Wigglesworth,G-31,"Robert Pratt Kelsey, Jr.",1945,1941,Wigglesworth,G-31,David Bonnell Green,1945,1941,Wigglesworth,G-32,Haskell Myron Goodman,1945,1941,Wigglesworth,G-32,Irving Joel Lazarus,1945,1941,Wigglesworth,G-32,Warren Herbert Burroughs,1945,1941,Wigglesworth,G-32,Bronson Winthrop Chanler,1945,1941,Wigglesworth,H-11,Maxwell Evarts Cox,1945,1941,Wigglesworth,H-11,Temple Emmet Morgan,1945,1941,Wigglesworth,H-11,Donald Nelson Michael,1945,1941,Wigglesworth,H-12,Sheldon Saul Waldstein,1945,1941,Wigglesworth,H-12,Douglas Stewart Thompson,1945,1941,Wigglesworth,H-21,Foster Boardman,1945,1941,Wigglesworth,H-21,Sherwood Estes Bain,1945,1941,Wigglesworth,H-21,Daniel Alan Friedman,1945,1941,Wigglesworth,H-22,Willard Joel Hertz,1945,1941,Wigglesworth,H-22,"Henry Bartholmay, III",1945,1941,Wigglesworth,H-31,"James Lowell Oakes, III",1945,1941,Wigglesworth,H-31,Richard Warren Howe,1945,1941,Wigglesworth,H-31,"Francis Dewey Everett, Jr.",1945,1941,Wigglesworth,H-32,Peter Earnest Caron,1945,1941,Wigglesworth,H-32,Douglas Grahame Smyth,1945,1941,Wigglesworth,I-11,"Robert Winthrop Young, Jr.",1945,1941,Wigglesworth,I-12,Charles Edward Hodges,1945,1941,Wigglesworth,I-21,Henry McNevin Jones,1945,1941,Wigglesworth,I-21,John Lloyd Hadden,1945,1941,Wigglesworth,I-31,"Richard Wheatland, II",1945,1941,Wigglesworth,I-31,Theodore Douglas Wright,1945,1941,Wigglesworth,I-31,John George Andrews,1945,1941,Wigglesworth,J-11,"Nathaniel Cushing Nash, IV",1945,1941,Wigglesworth,J-12,William Pudney Hall,1945,1941,Wigglesworth,J-12,"George Baxter Upham, III",1945,1941,Wigglesworth,J-21,Edwin Bradford Holmes,1945,1941,Wigglesworth,J-22,"Frederic Waldo Rugg, II",1945,1941,Wigglesworth,J-22,Alexander G. Rogerson,1945,1941,Wigglesworth,J-31,Leonard Marshall Wright,1945,1941,Wigglesworth,J-31,"Seth Turner Crawford, Jr.",1945,1941,Wigglesworth,J-31,Howard Bicknell Hodgson,1945,1941,Wigglesworth,K-11
+
+
+
+
+"James Francis Whelan, Jr.",1945,1941,Wigglesworth,B-32
+"John Anthony Maher, Jr.",1945,1941,Wigglesworth,B-32
+"John H. Cornell, Jr.",1945,1941,Wigglesworth,C-11
+Arthur Lyman Lee,1945,1941,Wigglesworth,C-12
+"Orrin Grout Wood, Jr.",1945,1941,Wigglesworth,C-12
+Erwin Harold Zimmerman,1945,1941,Wigglesworth,C-21
+Kenneth Ethan Levin,1945,1941,Wigglesworth,C-21
+Roger George Berk,1945,1941,Wigglesworth,C-21
+John Marshall Russell,1945,1941,Wigglesworth,C-22
+"Joseph Albert Minott, Jr.",1945,1941,Wigglesworth,C-22
+Joseph Ivins Caldwell,1945,1941,Wigglesworth,C-22
+Whitney Tower,1945,1941,Wigglesworth,C-22
+"Joseph William Drake, Jr.",1945,1941,Wigglesworth,C-31
+"Thomas Cochran, II",1945,1941,Wigglesworth,C-31
+William Davis Cochran,1945,1941,Wigglesworth,C-31
+Braley Abbot Cameron,1945,1941,Wigglesworth,C-32
+"William Andros Barron, III",1945,1941,Wigglesworth,C-32
+Joseph McLean Houley,1945,1941,Wigglesworth,D-11
+William Francis Di Pesa,1945,1941,Wigglesworth,D-11
+"Donald Clark Cottrell, Jr.",1945,1941,Wigglesworth,D-12
+George Russell Van Brunt,1945,1941,Wigglesworth,D-12
+"Charles A. Coolidge, Jr.",1945,1941,Wigglesworth,D-22
+Walter Channing Howe,1945,1941,Wigglesworth,D-22
+"Harold Grant Tobey, Jr.",1945,1941,Wigglesworth,D-31
+Richard Hall Forster,1945,1941,Wigglesworth,D-31
+Richard McClure Hawkins,1945,1941,Wigglesworth,D-31
+Robert Moors Cabot,1945,1941,Wigglesworth,E-11
+Theodore Van R. Wagenaar,1945,1941,Wigglesworth,E-11
+"Charles Wesley Gardner, Jr.",1945,1941,Wigglesworth,E-21
+Douglas McCanliss,1945,1941,Wigglesworth,E-21
+"Horace Ross Baker, Jr.",1945,1941,Wigglesworth,E-22
+John Donaher Ryan,1945,1941,Wigglesworth,E-31
+Nelson James Gammans,1945,1941,Wigglesworth,E-31
+Thomas Addison Burcham,1945,1941,Wigglesworth,E-31
+"Edward Cahill Park, Jr.",1945,1941,Wigglesworth,F-11
+Eric Kenneth Petschek,1945,1941,Wigglesworth,F-11
+"Richard Warton Elliott, Jr.",1945,1941,Wigglesworth,F-11
+Edward Lees Henderson,1945,1941,Wigglesworth,F-12
+"Kingsley Ervin, Jr.",1945,1941,Wigglesworth,F-12
+Andrew Fiske Willis,1945,1941,Wigglesworth,F-21
+Patrick Grant,1945,1941,Wigglesworth,F-21
+"Ralph Lowell, Jr.",1945,1941,Wigglesworth,F-21
+"Frank Pelham Coolidge, Jr.",1945,1941,Wigglesworth,F-22
+Samuel Riker Davis,1945,1941,Wigglesworth,F-22
+"William Wallace Rowe, Jr.",1945,1941,Wigglesworth,F-22
+Douglas Finch Wood,1945,1941,Wigglesworth,F-31
+"Howard Everett Shore, III",1945,1941,Wigglesworth,F-31
+Peter Alan Jenks,1945,1941,Wigglesworth,F-31
+Bernard Vincent Winebaum,1945,1941,Wigglesworth,F-32
+Julian Howard Ellner,1945,1941,Wigglesworth,F-32
+Myron Kraus Nobil,1945,1941,Wigglesworth,F-32
+Edward Hall Harding,1945,1941,Wigglesworth,G-11
+Milton Hughes,1945,1941,Wigglesworth,G-11
+Crystal Lang,1945,1941,Wigglesworth,G-12
+Richard Sumner Morrison,1945,1941,Wigglesworth,G-12
+Charles Mellish Kidner,1945,1941,Wigglesworth,G-21
+James Kidder,1945,1941,Wigglesworth,G-21
+William Roelker Curtis,1945,1941,Wigglesworth,G-21
+Henry Bliss Mason,1945,1941,Wigglesworth,G-22
+Stephen Hopkins Glidden,1945,1941,Wigglesworth,G-22
+Ward Perry Harding,1945,1941,Wigglesworth,G-22
+"William Taylor Glidden, III",1945,1941,Wigglesworth,G-22
+Frederick Theodore Ernst,1945,1941,Wigglesworth,G-31
+"Robert Pratt Kelsey, Jr.",1945,1941,Wigglesworth,G-31
+David Bonnell Green,1945,1941,Wigglesworth,G-32
+Haskell Myron Goodman,1945,1941,Wigglesworth,G-32
+Irving Joel Lazarus,1945,1941,Wigglesworth,G-32
+Warren Herbert Burroughs,1945,1941,Wigglesworth,G-32
+Bronson Winthrop Chanler,1945,1941,Wigglesworth,H-11
+Maxwell Evarts Cox,1945,1941,Wigglesworth,H-11
+Temple Emmet Morgan,1945,1941,Wigglesworth,H-11
+Donald Nelson Michael,1945,1941,Wigglesworth,H-12
+Sheldon Saul Waldstein,1945,1941,Wigglesworth,H-12
+Douglas Stewart Thompson,1945,1941,Wigglesworth,H-21
+Foster Boardman,1945,1941,Wigglesworth,H-21
+Sherwood Estes Bain,1945,1941,Wigglesworth,H-21
+Daniel Alan Friedman,1945,1941,Wigglesworth,H-22
+Willard Joel Hertz,1945,1941,Wigglesworth,H-22
+"Henry Bartholmay, III",1945,1941,Wigglesworth,H-31
+"James Lowell Oakes, III",1945,1941,Wigglesworth,H-31
+Richard Warren Howe,1945,1941,Wigglesworth,H-31
+"Francis Dewey Everett, Jr.",1945,1941,Wigglesworth,H-32
+Peter Earnest Caron,1945,1941,Wigglesworth,H-32
+Douglas Grahame Smyth,1945,1941,Wigglesworth,I-11
+"Robert Winthrop Young, Jr.",1945,1941,Wigglesworth,I-12
+Charles Edward Hodges,1945,1941,Wigglesworth,I-21
+Henry McNevin Jones,1945,1941,Wigglesworth,I-21
+John Lloyd Hadden,1945,1941,Wigglesworth,I-31
+"Richard Wheatland, II",1945,1941,Wigglesworth,I-31
+Theodore Douglas Wright,1945,1941,Wigglesworth,I-31
+John George Andrews,1945,1941,Wigglesworth,J-11
+"Nathaniel Cushing Nash, IV",1945,1941,Wigglesworth,J-12
+William Pudney Hall,1945,1941,Wigglesworth,J-12
+"George Baxter Upham, III",1945,1941,Wigglesworth,J-21
+Edwin Bradford Holmes,1945,1941,Wigglesworth,J-22
+"Frederic Waldo Rugg, II",1945,1941,Wigglesworth,J-22
+Alexander G. Rogerson,1945,1941,Wigglesworth,J-31
+Leonard Marshall Wright,1945,1941,Wigglesworth,J-31
+"Seth Turner Crawford, Jr.",1945,1941,Wigglesworth,J-31
+Howard Bicknell Hodgson,1945,1941,Wigglesworth,K-11
+
+
+
+"Robert Gregg Stone, Jr.",1945,1941,Wigglesworth,K-11,Lewis Hanauer Strauss,1945,1941,Wigglesworth,K-12,Philip Wade Drake,1945,1941,Wigglesworth,K-12,James Gaston Summers,1945,1941,Wigglesworth,K-21,David Elmslie Moore,1945,1941,Wigglesworth,K-31,John Lowell Gardner,1945,1941,Wigglesworth,K-31,William Thorndike Hamlen,1945,1941,Wigglesworth,K-31
+
+
+
+
+"Robert Gregg Stone, Jr.",1945,1941,Wigglesworth,K-11
+Lewis Hanauer Strauss,1945,1941,Wigglesworth,K-12
+Philip Wade Drake,1945,1941,Wigglesworth,K-12
+James Gaston Summers,1945,1941,Wigglesworth,K-21
+David Elmslie Moore,1945,1941,Wigglesworth,K-31
+John Lowell Gardner,1945,1941,Wigglesworth,K-31
+William Thorndike Hamlen,1945,1941,Wigglesworth,K-31
+
+
+

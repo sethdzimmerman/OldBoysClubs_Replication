@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: World and Netherlands map</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for World {tmap}"><tr><td>World {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>World and Netherlands map</h2>
+
+<h3>Description</h3>
+
+<p>Maps of the world and the Netherlands (province and municipality level), class <code><a href="../../sf/help/sf.html">sf</a></code>
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+data(World)
+
+data(NLD_prov)
+
+data(NLD_muni)
+</pre>
+
+
+<h3>Details</h3>
+
+<p>The default projections for these maps are Eckhart IV (World) and Rijksdriehoekstelsel (Netherlands). See below. The projection can be changed temporarily for plotting purposes by using the projection argument of <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code> (or <code><a href="../../tmap/help/qtm.html">qtm</a></code>).
+</p>
+<p><code>World</code> World map. The default projection for this world map is Eckhart IV since area sizes are preserved, which is a very important property for choropleths.
+</p>
+<p><code>NLD_prov</code> and <code>NLD_muni</code>, maps of the Netherlands at province and municipality level of 2013. The used projection is the Rijksdriehoekstelsel projection. <strong>Important:</strong> publication of these maps is only allowed when cited to Statistics Netherlands (CBS) and Kadaster Nederland as source.
+</p>
+
+
+<h3>Source</h3>
+
+<p><a href="http://www.naturalearthdata.com">http://www.naturalearthdata.com</a> for <code>World</code>
+</p>
+<p><a href="http://www.happyplanetindex.org">http://www.happyplanetindex.org</a> for <code>World</code>
+</p>
+<p><a href="http://www.cbs.nl">http://www.cbs.nl</a> for <code>NLD_prov</code> and <code>NLD_muni</code>.
+</p>
+
+
+<h3>References</h3>
+
+<p>Statistics Netherlands (2014), The Hague/Heerlen, Netherlands, <a href="http://www.cbs.nl">http://www.cbs.nl</a>.
+</p>
+<p>Kadaster, the Netherlands' Cadastre, Land Registry, and Mapping Agency (2014), Apeldoorn, Netherlands, <a href="http://www.kadaster.nl">http://www.kadaster.nl</a>.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

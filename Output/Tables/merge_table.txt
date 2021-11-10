@@ -1,0 +1,16 @@
+\begin{tabular}{l ccl}
+Data type&	Share non-missing&	Universe&	N\\ \hline
+\multicolumn{4}{l}{\emph{A. Match rates within available cohorts}}\\ 
+Freshman Red Book&	1.000&	Cohorts 1919-35&	       14383\\ 
+High school&	0.984&	Cohorts 1919-35&	       14383\\ 
+Campus address&	0.950&	Cohorts 1919-25; 1927-35&	       13629\\ 
+25 year Class Report&	0.911&	Cohorts 1920-35&	       13820\\ 
+Class Report occupation&	0.793&	Cohorts 1920-35&	       13820\\ 
+1940 Census&	0.647&	Cohorts 1920-30&	        8851\\ 
+Pre-Harvard census&	0.619&	Cohorts 1920-33&	       11800\\ 
+\\ 
+\multicolumn{4}{l}{\emph{B. Match rates conditional on Class Report availability}}\\ 
+Class Report occupation&	0.871&	Cohorts 1920-35 in Class Report&	       12592\\ 
+1940 Census&	0.685&	Cohorts 1920-30 in Class Report&	        8350\\ 
+Pre-Harvard Census&	0.661&	Cohorts 1920-33 in Class Report&	       11039\\ \hline
+\end{tabular}

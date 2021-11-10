@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create a leaflet widget from a tmap object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tmap_leaflet {tmap}"><tr><td>tmap_leaflet {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create a leaflet widget from a tmap object</h2>
+
+<h3>Description</h3>
+
+<p>Create a leaflet widget from a tmap object. An interactive map (see <code><a href="../../tmap/help/tmap_mode.html">tmap_mode</a></code>) is an automatically generated leaflet widget. With this function, this leaflet widget is obtained, which can then be changed or extended by using leaflet's own methods.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tmap_leaflet(
+  x,
+  mode = "view",
+  show = FALSE,
+  add.titles = TRUE,
+  in.shiny = FALSE,
+  ...
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>tmap object. A tmap object is created with <code><a href="../../tmap/help/qtm.html">qtm</a></code> or by stacking <code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code>s.</p>
+</td></tr>
+<tr valign="top"><td><code>mode</code></td>
+<td>
+<p>the mode of tmap, which is set to <code>"view"</code> in order to obtain the leaflet object. See <code><a href="../../tmap/help/tmap_mode.html">tmap_mode</a></code> for details.</p>
+</td></tr>
+<tr valign="top"><td><code>show</code></td>
+<td>
+<p>should the leaflet map be shown? <code>FALSE</code> by default</p>
+</td></tr>
+<tr valign="top"><td><code>add.titles</code></td>
+<td>
+<p>add titles to leaflet object</p>
+</td></tr>
+<tr valign="top"><td><code>in.shiny</code></td>
+<td>
+<p>is the leaflet output going to be used in shiny? If so, two features are not supported and therefore disabled: facets and colored backgrounds.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>arguments passed on to <code><a href="../../tmap/help/print.tmap.html">print.tmap</a></code></p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p><code><a href="../../leaflet/help/leaflet.html">leaflet</a></code> object
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../tmap/help/tmapOutput.html">tmapOutput</a></code> for tmap in Shiny, <code><a href="../../tmap/help/tmap_mode.html">tmap_mode</a></code>, <code><a href="../../tmap/help/tm_view.html">tm_view</a></code>, <code><a href="../../tmap/help/print.tmap.html">print.tmap</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# world choropleth/bubble map of the world
+data(World, metro)
+metro$growth &lt;- (metro$pop2020 - metro$pop2010) / (metro$pop2010 * 10) * 100
+
+map1 &lt;- tm_shape(metro) +
+	tm_bubbles("pop2010", col = "growth", 
+			   border.col = "black", border.alpha = .5, 
+			   style="fixed", breaks=c(-Inf, seq(0, 6, by=2), Inf),
+			   palette="-RdYlBu", contrast=1, 
+			   title.size="Metro population", 
+			   title.col="Growth rate (%)", id="name") + 
+	tm_layout(legend.bg.color = "grey90", legend.bg.alpha=.5, legend.frame=TRUE)
+
+
+lf &lt;- tmap_leaflet(map1)
+
+# show leaflet widget
+lf
+
+# add marker
+require(leaflet)
+lf %&gt;% leaflet::addMarkers(2.2945, 48.8582, popup = "Eiffel tower")
+
+## Not run: 
+# alternative
+eiffelTower &lt;- geocode_OSM("Eiffel Tower, Paris", as.SPDF = TRUE)
+
+map1 + 
+tm_shape(eiffelTower) +
+	tm_markers()
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

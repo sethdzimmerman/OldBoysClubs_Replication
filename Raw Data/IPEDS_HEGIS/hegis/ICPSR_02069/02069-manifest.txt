@@ -1,0 +1,54 @@
+File Manifest for ICPSR 2069
+
+U.S. Dept. of Education, National Center for Education Statistics. HIGHER
+EDUCATION GENERAL INFORMATION SURVEY (HEGIS) XVI: FALL ENROLLMENT, 1981.
+ICPSR02069-v1. Washington, DC: U.S. Dept. of Education, National Center for
+Education Statistics [producer], 1982. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 2005-09-12.
+http://doi.org/10.3886/ICPSR02069.v1
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02069-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    02069-related_literature.txt        -       -         -       daily       -
+
+    02069-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Higher Education General Information Survey (HEGIS) XVI: Fall
+Enrollment, 1981
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02069-0001-Codebook.pdf             -       -         -       2005-09-09  2a43e84bc7ef001a08a85957766d8f15
+
+    02069-0001-Data.dta                 -       46,914    61      2005-09-09  6832c68cda1747c5a631d77c62db5301
+
+    02069-0001-Data.por                 -       46,914    61      2005-09-09  7e739e130dee507aecd4ed8faf8b47ee
+
+    02069-0001-Data.txt                 237     46,914    61      2005-09-09  08d8ab535c7ca6f79c006bc6267dd133
+
+    02069-0001-Data.xpt                 -       46,914    61      2005-09-09  c7673813f793f3c20c3206b42a3d1543
+
+    02069-0001-Setup.dct                -       -         -       2005-09-09  a928003cd6c4d88690f3cb20ad2fd216
+
+    02069-0001-Setup.do                 -       -         -       2005-09-09  d4043999fbe983b12459857399af583b
+
+    02069-0001-Setup.sas                -       -         -       2005-09-09  c1072db6925c046fd4b8edd6b72257b8
+
+    02069-0001-Setup.sps                -       -         -       2005-09-09  5a21ee6f1b303d9249f2c590a5ef98b7
+
+
+Version History
+
+2005-09-12 SAS, SPSS, and Stata setup and portable  files were created for
+this collection. Also, an ICPSR PDF codebook was created and added to the
+documentation for this collection.

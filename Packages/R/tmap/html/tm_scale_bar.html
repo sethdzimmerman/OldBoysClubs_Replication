@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Scale bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_scale_bar {tmap}"><tr><td>tm_scale_bar {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Scale bar</h2>
+
+<h3>Description</h3>
+
+<p>Creates a scale bar. By default, the coordinate units are assumed to be meters, and the map units in kilometers. This can be changed in <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_scale_bar(
+  breaks = NULL,
+  width = NA,
+  text.size = 0.5,
+  text.color = NA,
+  color.dark = "black",
+  color.light = "white",
+  lwd = 1,
+  position = NA,
+  just = NA,
+  size = NULL
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>breaks</code></td>
+<td>
+<p>breaks of the scale bar. If not specified, breaks will be automatically be chosen given the prefered <code>width</code> of the scale bar. Not available for view mode.</p>
+</td></tr>
+<tr valign="top"><td><code>width</code></td>
+<td>
+<p>(preferred) width of the scale bar. Only applicable when <code>breaks=NULL</code>. In plot mode, it corresponds the relative width; the default is 0.25 so one fourth of the map width. In view mode, it corresponds to the width in pixels; the default is 100.</p>
+</td></tr>
+<tr valign="top"><td><code>text.size</code></td>
+<td>
+<p>relative text size (which is upperbound by the available label width)</p>
+</td></tr>
+<tr valign="top"><td><code>text.color</code></td>
+<td>
+<p>color of the text. By default equal to the argument <code>attr.color</code> of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>color.dark</code></td>
+<td>
+<p>color of the dark parts of the scale bar, typically (and by default) black.</p>
+</td></tr>
+<tr valign="top"><td><code>color.light</code></td>
+<td>
+<p>color of the light parts of the scale bar, typically (and by default) white.</p>
+</td></tr>
+<tr valign="top"><td><code>lwd</code></td>
+<td>
+<p>line width of the scale bar</p>
+</td></tr>
+<tr valign="top"><td><code>position</code></td>
+<td>
+<p>position of the scale bar Vector of two values, specifying the x and y coordinates. Either this vector contains &quot;left&quot;, &quot;LEFT&quot;, &quot;center&quot;, &quot;right&quot;, or &quot;RIGHT&quot; for the first value and &quot;top&quot;, &quot;TOP&quot;, &quot;center&quot;, &quot;bottom&quot;, or &quot;BOTTOM&quot; for the second value, or this vector contains two numeric values between 0 and 1 that specifies the x and y value of the left bottom corner of the scale bar. The uppercase values correspond to the position without margins (so tighter to the frame). The default value is controlled by the argument <code>"attr.position"</code> of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>just</code></td>
+<td>
+<p>Justification of the attribute relative to the point coordinates.  The first value specifies horizontal and the second value vertical justification. Possible values are: <code>"left"</code> , <code>"right"</code>, <code>"center"</code>, <code>"bottom"</code>, and <code>"top"</code>. Numeric values of 0 specify left/bottom alignment and 1 right/top alignment. This option is only used, if <code>position</code> is specified by numeric coordinates. The default value is controlled by the argument <code>"attr.just"</code> of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>size</code></td>
+<td>
+<p>deprecated: renamed to text.size</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+current.mode &lt;- tmap_mode("plot")
+
+data(NLD_muni)
+qtm(NLD_muni, theme = "NLD") + tm_scale_bar(position=c("left", "bottom"))
+
+# restore current mode
+tmap_mode(current.mode)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

@@ -1,0 +1,44 @@
+\begin{tabular}{l cc}
+&	All&	Randomized\\ \hline
+\multicolumn{2}{l}{\emph{A. Demographics}}\\ 
+Any private high school&	0.463&	0.589\\ 
+Private feeder&	0.240&	0.313\\ 
+Any public feeder&	0.226&	0.080\\ 
+Have Harvard father&	0.070&	0.087\\ 
+Have Harvard brother&	0.204&	0.229\\ 
+Jewish name&	0.066&	0.038\\ 
+Catholic name&	0.055&	0.037\\ 
+Colonial name&	0.293&	0.333\\ 
+\\ 
+\multicolumn{2}{l}{\emph{B. Census childhood household demographics}}\\ 
+S or E Eur. immg. gen. 1-2&	0.099&	0.051\\ 
+Father's occupation: doctor&	0.105&	0.122\\ 
+Father's occupation: lawyer&	0.122&	0.146\\ 
+\\ 
+\multicolumn{2}{l}{\emph{C. First-year campus location}}\\ 
+Live on campus&	0.800&	1.000\\ 
+Room price per occupant (\$)&	209.2&	213.0\\ 
+Peer neighborhood price (\$)&	213.9&	213.9\\ 
+25th pctile neighborhood rank&	0.256&	0.256\\ 
+75th pctile neighborhood rank&	0.711&	0.711\\ 
+\\ 
+\multicolumn{2}{l}{\emph{D. Academic class rank groups}}\\ 
+High grades (groups 1-3)&	0.242&	0.234\\ 
+Not ranked&	0.208&	0.207\\ 
+\\ 
+\multicolumn{2}{l}{\emph{E. First-year activities}}\\ 
+Have any activity&	0.526&	0.605\\ 
+N activities&	1.047&	1.268\\ 
+Activity leadership position&	0.064&	0.084\\ 
+Sports&	0.367&	0.430\\ 
+Social&	0.083&	0.108\\ 
+Music&	0.133&	0.156\\ 
+First-year activity index&	0.000&	0.159\\ 
+\\ 
+\multicolumn{2}{l}{\emph{F. Upper-year social clubs}}\\ 
+Hasty Pudding&	0.153&	0.209\\ 
+Selective final club&	0.070&	0.095\\ 
+Any final club&	0.136&	0.185\\ 
+Upper-year club index&	0.000&	0.152\\ \hline
+N&	       14383&	        9343\\ 
+\end{tabular}

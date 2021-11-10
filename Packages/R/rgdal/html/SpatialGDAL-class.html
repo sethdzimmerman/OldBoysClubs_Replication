@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Class &quot;SpatialGDAL&quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for SpatialGDAL-class {rgdal}"><tr><td>SpatialGDAL-class {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Class &quot;SpatialGDAL&quot; </h2>
+
+<h3>Description</h3>
+
+<p>  Class for spatial attributes that have spatial locations
+on a (full) regular grid on file, not (yet) actually read. </p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'SpatialGDAL'
+open(con, ..., silent = FALSE, allowedDrivers = NULL, options=NULL)
+## S3 method for class 'SpatialGDAL'
+close(con, ...)
+copy.SpatialGDAL(dataset, fname, driver = getDriver(dataset@grod),
+ strict = FALSE, options = NULL, silent = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>con</code></td>
+<td>
+<p> file name of grid map for opening, SpatialGDAL object for closing </p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p> other arguments (currently ignored)</p>
+</td></tr>
+<tr valign="top"><td><code>silent</code></td>
+<td>
+<p> logical; if TRUE, comment and non-fatal CPL driver errors suppressed </p>
+</td></tr>
+<tr valign="top"><td><code>dataset</code></td>
+<td>
+<p> object of class SpatialGDAL</p>
+</td></tr>
+<tr valign="top"><td><code>fname</code></td>
+<td>
+<p> file name of grid map </p>
+</td></tr>
+<tr valign="top"><td><code>driver</code></td>
+<td>
+<p> GDAL driver name </p>
+</td></tr>
+<tr valign="top"><td><code>strict</code></td>
+<td>
+<p>TRUE if the copy must be strictly equivalent, or more normally FALSE indicating that the copy may adapt as needed for the output format</p>
+</td></tr>
+<tr valign="top"><td><code>allowedDrivers</code></td>
+<td>
+<p>a character vector of suggested driver short names may be provided starting from GDAL 2.0</p>
+</td></tr>
+<tr valign="top"><td><code>options</code></td>
+<td>
+<p>driver-specific options to be passed to the GDAL driver; only available for opening datasets from GDAL 2.0</p>
+</td></tr>
+</table>
+
+
+<h3>Objects from the Class</h3>
+
+<p>Objects can be created by calls of the form <code>open.
+SpatialGDAL(name), </code>, where <code>name</code> is the name of
+the GDAL file.
+</p>
+
+
+<h3>Slots</h3>
+
+
+<dl>
+<dt><code>points</code>:</dt><dd><p>see <a href="../../sp/help/SpatialPoints.html">SpatialPoints</a>; points slot which is
+not actually filled with all coordinates (only with min/max) </p>
+</dd>
+<dt><code>grid</code>:</dt><dd><p>see <a href="../../sp/help/GridTopology-class.html">GridTopology-class</a>; grid parameters </p>
+</dd>
+<dt><code>grid.index</code>:</dt><dd><p>see <a href="../../sp/help/SpatialPixels-class.html">SpatialPixels-class</a>; this slot
+is of zero length for this class, as the grid is full </p>
+</dd>
+<dt><code>bbox</code>:</dt><dd><p>Object of class <code>"matrix"</code>; bounding box </p>
+</dd>
+<dt><code>proj4string</code>:</dt><dd><p>Object of class <code>"CRS"</code>; projection </p>
+</dd>
+<dt><code>data</code>:</dt><dd><p>Object of class data.frame, containing attribute data </p>
+</dd>
+</dl>
+
+
+
+<h3>Extends</h3>
+
+<p> Class <a href="../../sp/help/Spatial-class.html">Spatial-class</a>, directly.  </p>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>[</dt><dd><p><code>signature(x = "SpatialGDAL", i, j, ...)</code>: 
+selects rows (i), columns (j), and bands (third argument); returns an object of 
+class <a href="../../sp/help/SpatialGridDataFrame-class.html">SpatialGridDataFrame-class</a>. Only the selection is actually read. </p>
+</dd>
+<dt>[[</dt><dd><p><code>signature(i)</code>: reads band i and returns the values as a
+numeric vector</p>
+</dd>
+</dl>
+
+
+
+<h3>Note</h3>
+
+<p>Non-fatal CPL errors may be displayed for some drivers, currently for the AIG ArcInfo 9.3 binary raster driver using GDAL &gt;= 1.6.2; the data has been read correctly, but the contents of the info directory did not meet the specifications used to reverse engineer the driver used in GDAL (see <a href="http://trac.osgeo.org/gdal/ticket/3031">http://trac.osgeo.org/gdal/ticket/3031</a>)</p>
+
+
+<h3>Author(s)</h3>
+
+<p> Edzer Pebesma, <a href="mailto:edzer.pebesma@uni-muenster.de">edzer.pebesma@uni-muenster.de</a> </p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../sp/help/SpatialGridDataFrame-class.html">SpatialGridDataFrame-class</a></code>, which is actually sub-classed.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+x &lt;- open.SpatialGDAL(system.file("external/test.ag", package="sp")[1])
+image(x[])
+image(as(x, "SpatialGridDataFrame"))
+summary(as(x, "SpatialGridDataFrame"))
+spplot(as(x, "SpatialGridDataFrame"))
+# select first 50 rows:
+summary(x[1:50])
+# select first 50 columns:
+summary(x[,1:50])
+# select band 1:
+summary(x[,,1])
+# select first 50 rows, first 50 columns, band 1:
+summary(x[1:50,1:50,1])
+# get values of first band:
+summary(x[[1]])
+close(x)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

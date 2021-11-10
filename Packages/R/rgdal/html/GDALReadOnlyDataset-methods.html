@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: subset methods for &quot;GDALReadOnlyDataset&quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for GDALReadOnlyDataset-methods {rgdal}"><tr><td>GDALReadOnlyDataset-methods {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>subset methods for &quot;GDALReadOnlyDataset&quot;</h2>
+
+<h3>Description</h3>
+
+<p>subsets GDAL objects, returning a SpatialGridDataFrame object</p>
+
+
+<h3>Details</h3>
+
+<p>The <code>[</code> method subsets a GDAL data set, returning a SpatialGridDataFrame object. Reading is
+done on the GDAL side, and only the subset requested is ever read into memory.
+</p>
+<p>Further named arguments to <code>[</code> are to either getRasterTable or getRasterData:
+</p>
+
+<dl>
+<dt>as.is</dt><dd><p>see <a href="../../rgdal/help/getRasterData.html">getRasterData</a></p>
+</dd>
+<dt>interleave</dt><dd><p>see <a href="../../rgdal/help/getRasterData.html">getRasterData</a></p>
+</dd>
+<dt>output.dim</dt><dd><p>see <a href="../../rgdal/help/getRasterData.html">getRasterData</a></p>
+</dd>
+</dl>
+
+<p>the other arguments, <code>offset</code> and <code>region.dim</code> are
+derived from row/column selection values.
+</p>
+<p>An GDALReadOnlyDataset object can be coerced directly to a SpatialGridDataFrame
+</p>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>&quot;[&quot;</dt><dd><p><code>signature(.Object = "GDALReadOnlyDataset")</code>: requires package
+sp; selects rows and columns, and returns an object of class SpatialGridDataFrame
+if the grid is not rotated, or else of class SpatialPointsDataFrame. Any arguments
+passed to getRasterData (or in case of rotation getRasterTable) may be passed as
+named arguments; the first three unnamed arguments are row,col,band </p>
+</dd>
+</dl>
+
+
+
+<h3>Author(s)</h3>
+
+<p>Edzer Pebesma</p>
+
+
+<h3>See Also</h3>
+
+<p>See also <code><a href="../../rgdal/help/readGDAL.html">readGDAL</a></code> <code><a href="../../rgdal/help/GDALDriver-class.html">GDALDriver-class</a></code>,
+<code><a href="../../rgdal/help/GDALDataset-class.html">GDALDataset-class</a></code>, <code><a href="../../rgdal/help/GDALTransientDataset-class.html">GDALTransientDataset-class</a></code>,
+<code><a href="../../sp/help/SpatialGridDataFrame-class.html">SpatialGridDataFrame-class</a></code> .</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+library(grid)
+logo &lt;- system.file("pictures/logo.jpg", package="rgdal")[1]
+x &lt;- new("GDALReadOnlyDataset", logo)
+dim(x)
+x.sp = x[20:50, 20:50]
+class(x.sp)
+summary(x.sp)
+spplot(x.sp)
+GDAL.close(x)
+
+logo &lt;- system.file("pictures/Rlogo.jpg", package="rgdal")[1]
+x.gdal &lt;- new("GDALReadOnlyDataset", logo)
+x = x.gdal[,,3]
+dim(x)
+summary(x)
+spplot(x)
+spplot(x.gdal[])
+GDAL.close(x.gdal)
+
+logo &lt;- system.file("pictures/Rlogo.jpg", package="rgdal")[1]
+x.gdal &lt;- new("GDALReadOnlyDataset", logo)
+x.as &lt;- as(x.gdal, "SpatialGridDataFrame")
+GDAL.close(x.gdal)
+summary(x.as)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

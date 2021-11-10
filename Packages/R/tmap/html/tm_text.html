@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Add text labels</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_text {tmap}"><tr><td>tm_text {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Add text labels</h2>
+
+<h3>Description</h3>
+
+<p>Creates a <code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code> that adds text labels.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_text(
+  text,
+  size = 1,
+  col = NA,
+  root = 3,
+  clustering = FALSE,
+  size.lim = NA,
+  sizes.legend = NULL,
+  sizes.legend.labels = NULL,
+  sizes.legend.text = "Abc",
+  n = 5,
+  style = ifelse(is.null(breaks), "pretty", "fixed"),
+  style.args = list(),
+  as.count = NA,
+  breaks = NULL,
+  interval.closure = "left",
+  palette = NULL,
+  labels = NULL,
+  drop.levels = FALSE,
+  labels.text = NA,
+  midpoint = NULL,
+  stretch.palette = TRUE,
+  contrast = NA,
+  colorNA = NA,
+  textNA = "Missing",
+  showNA = NA,
+  colorNULL = NA,
+  fontface = NA,
+  fontfamily = NA,
+  alpha = NA,
+  case = NA,
+  shadow = FALSE,
+  bg.color = NA,
+  bg.alpha = NA,
+  size.lowerbound = 0.4,
+  print.tiny = FALSE,
+  scale = 1,
+  auto.placement = FALSE,
+  remove.overlap = FALSE,
+  along.lines = FALSE,
+  overwrite.lines = FALSE,
+  just = "center",
+  xmod = 0,
+  ymod = 0,
+  title.size = NA,
+  title.col = NA,
+  legend.size.show = TRUE,
+  legend.col.show = TRUE,
+  legend.format = list(),
+  legend.size.is.portrait = FALSE,
+  legend.col.is.portrait = TRUE,
+  legend.size.reverse = FALSE,
+  legend.col.reverse = FALSE,
+  legend.hist = FALSE,
+  legend.hist.title = NA,
+  legend.size.z = NA,
+  legend.col.z = NA,
+  legend.hist.z = NA,
+  zindex = NA,
+  group = NA,
+  auto.palette.mapping = NULL,
+  max.categories = NULL
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>text</code></td>
+<td>
+<p>name of the variable in the shape object that contains the text labels</p>
+</td></tr>
+<tr valign="top"><td><code>size</code></td>
+<td>
+<p>relative size of the text labels (see note). Either one number, a name of a numeric variable in the shape data that is used to scale the sizes proportionally, or the value <code>"AREA"</code>, where the text size is proportional to the area size of the polygons.</p>
+</td></tr>
+<tr valign="top"><td><code>col</code></td>
+<td>
+<p>color of the text labels. Either a color value or a data variable name. If multiple values are specified, small multiples are drawn (see details).</p>
+</td></tr>
+<tr valign="top"><td><code>root</code></td>
+<td>
+<p>root number to which the font sizes are scaled. Only applicable if <code>size</code> is a variable name or <code>"AREA"</code>. If <code>root=2</code>, the square root is taken, if <code>root=3</code>, the cube root etc.</p>
+</td></tr>
+<tr valign="top"><td><code>clustering</code></td>
+<td>
+<p>value that determines whether the text labels are clustered in <code>"view"</code> mode. One of: <code>TRUE</code>, <code>FALSE</code>, or the output of <code><a href="../../leaflet/help/markerClusterOptions.html">markerClusterOptions</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>size.lim</code></td>
+<td>
+<p>vector of two limit values of the <code>size</code> variable. Only text labels are drawn whose value is greater than or equal to the first value. Text labels whose values exceed the second value are drawn at the size of the second value. Only applicable when <code>size</code> is the name of a numeric variable of <code>shp</code>. See also <code>size.lowerbound</code> which is a threshold of the relative font size.</p>
+</td></tr>
+<tr valign="top"><td><code>sizes.legend</code></td>
+<td>
+<p>vector of text sizes that are shown in the legend. By default, this is determined automatically.</p>
+</td></tr>
+<tr valign="top"><td><code>sizes.legend.labels</code></td>
+<td>
+<p>vector of labels for that correspond to <code>sizes.legend</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>sizes.legend.text</code></td>
+<td>
+<p>vector of example text to show in the legend next to sizes.legend.labels. By default &quot;Abc&quot;. When <code>NA</code>, examples from the data variable whose sizes are close to the sizes.legend are taken and <code>"NA"</code> for classes where no match is found.</p>
+</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+<p>preferred number of color scale classes. Only applicable when <code>col</code> is a numeric variable name.</p>
+</td></tr>
+<tr valign="top"><td><code>style</code></td>
+<td>
+<p>method to process the color scale when <code>col</code> is a numeric variable. Discrete gradient options are <code>"cat"</code>, <code>"fixed"</code>, <code>"sd"</code>, <code>"equal"</code>, <code>"pretty"</code>, <code>"quantile"</code>, <code>"kmeans"</code>, <code>"hclust"</code>, <code>"bclust"</code>, <code>"fisher"</code>, <code>"jenks"</code>, <code>"dpih"</code>, <code>"headtails"</code>, and <code>"log10_pretty"</code>. A numeric variable is processed as a categorical variable when using <code>"cat"</code>, i.e. each unique value will correspond to a distinct category. For the other discrete gradient options (except <code>"log10_pretty"</code>), see the details in <code><a href="../../classInt/help/classIntervals.html">classIntervals</a></code> (extra arguments can be passed on via <code>style.args</code>). Continuous gradient options are <code>"cont"</code>, <code>"order"</code>, and <code>"log10"</code>. The first maps the values of <code>col</code> to a smooth gradient, the second maps the order of values of <code>col</code> to a smooth gradient, and the third uses a logarithmic transformation. The numeric variable can be either regarded as a continuous variable or a count (integer) variable. See <code>as.count</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>style.args</code></td>
+<td>
+<p>arguments passed on to <code><a href="../../classInt/help/classIntervals.html">classIntervals</a></code>, the function that determine color classes (see also <code>style</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>as.count</code></td>
+<td>
+<p>when <code>col</code> is a numeric variable, should it be processed as a count variable? For instance, if <code>style = "pretty"</code>, <code>n = 2</code>, and the value range of the variable is 0 to 10, then the column classes for <code>as.count = TRUE</code> are 0; 1 to 5; 6 to 10 (note that 0 is regarded as an own category) whereas for <code>as.count = FALSE</code> they are 0 to 5; 5 to 10. Only applicable if <code>style</code> is <code>"pretty"</code>, <code>"fixed"</code>, or <code>"log10_pretty"</code>. By default, <code>TRUE</code> if <code>style</code> is one of these, and the variable is an integer.</p>
+</td></tr>
+<tr valign="top"><td><code>breaks</code></td>
+<td>
+<p>in case <code>style=="fixed"</code>, breaks should be specified. The <code>breaks</code> argument can also be used when <code>style="cont"</code>. In that case, the breaks are mapped evenly to the sequential or diverging color palette.</p>
+</td></tr>
+<tr valign="top"><td><code>interval.closure</code></td>
+<td>
+<p>value that determines whether where the intervals are closed: <code>"left"</code> or <code>"right"</code>. Only applicable if <code>col</code> is a numeric variable. If <code>as.count = TRUE</code>, <code>inverval.closure</code> is always set to <code>"left"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>palette</code></td>
+<td>
+<p>a palette name or a vector of colors. See <code>tmaptools::palette_explorer()</code> for the named palettes. Use a <code>"-"</code> as prefix to reverse the palette. The default palette is taken from <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>'s argument <code>aes.palette</code>, which typically depends on the style. The type of palette from <code>aes.palette</code> is automatically determined, but can be overwritten: use <code>"seq"</code> for sequential, <code>"div"</code> for diverging, and <code>"cat"</code> for categorical.</p>
+</td></tr>
+<tr valign="top"><td><code>labels</code></td>
+<td>
+<p>labels of the color classes, applicable if <code>col</code> is a data variable name</p>
+</td></tr>
+<tr valign="top"><td><code>drop.levels</code></td>
+<td>
+<p>should unused color classes be omitted? <code>FALSE</code> by default.</p>
+</td></tr>
+<tr valign="top"><td><code>labels.text</code></td>
+<td>
+<p>Example text to show in the legend next to the <code>labels</code>. When <code>NA</code> (default), examples from the data variable are taken and <code>"NA"</code> for classes where they don't exist.</p>
+</td></tr>
+<tr valign="top"><td><code>midpoint</code></td>
+<td>
+<p>The value mapped to the middle color of a diverging palette. By default it is set to 0 if negative and positive values are present. In that case, the two sides of the color palette are assigned to negative respectively positive values. If all values are positive or all values are negative, then the midpoint is set to <code>NA</code>, which means that the value that corresponds to the middle color class (see <code>style</code>) is mapped to the middle color. Only applies when <code>col</code> is a numeric variable. If it is specified for sequential color palettes (e.g. <code>"Blues"</code>), then this color palette will be treated as a diverging color palette.</p>
+</td></tr>
+<tr valign="top"><td><code>stretch.palette</code></td>
+<td>
+<p>Logical that determines whether the categorical color palette should be stretched if there are more categories than colors. If <code>TRUE</code> (default), interpolated colors are used (like a rainbow). If <code>FALSE</code>, the palette is repeated.</p>
+</td></tr>
+<tr valign="top"><td><code>contrast</code></td>
+<td>
+<p>vector of two numbers that determine the range that is used for sequential and diverging palettes (applicable when <code>auto.palette.mapping=TRUE</code>). Both numbers should be between 0 and 1. The first number determines where the palette begins, and the second number where it ends. For sequential palettes, 0 means the brightest color, and 1 the darkest color. For diverging palettes, 0 means the middle color, and 1 both extremes. If only one number is provided, this number is interpreted as the endpoint (with 0 taken as the start).</p>
+</td></tr>
+<tr valign="top"><td><code>colorNA</code></td>
+<td>
+<p>colour for missing values. Use <code>NULL</code> for transparency.</p>
+</td></tr>
+<tr valign="top"><td><code>textNA</code></td>
+<td>
+<p>text used for missing values.</p>
+</td></tr>
+<tr valign="top"><td><code>showNA</code></td>
+<td>
+<p>logical that determines whether missing values are named in the legend. By default (<code>NA</code>), this depends on the presence of missing values.</p>
+</td></tr>
+<tr valign="top"><td><code>colorNULL</code></td>
+<td>
+<p>colour for polygons that are shown on the map that are out of scope</p>
+</td></tr>
+<tr valign="top"><td><code>fontface</code></td>
+<td>
+<p>font face of the text labels. By default, determined by the fontface argument of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>fontfamily</code></td>
+<td>
+<p>font family of the text labels. By default, determined by the fontfamily argument of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>alpha</code></td>
+<td>
+<p>transparency number between 0 (totally transparent) and 1 (not transparent). By default, the alpha value of the <code>fontcolor</code> is used (normally 1).</p>
+</td></tr>
+<tr valign="top"><td><code>case</code></td>
+<td>
+<p>case of the font. Use &quot;upper&quot; to generate upper-case text, &quot;lower&quot; to generate lower-case text, and <code>NA</code> to leave the text as is.</p>
+</td></tr>
+<tr valign="top"><td><code>shadow</code></td>
+<td>
+<p>logical that determines whether a shadow is depicted behind the text. The color of the shadow is either white or yellow, depending of the <code>fontcolor</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>bg.color</code></td>
+<td>
+<p>background color of the text labels. By default, <code>bg.color=NA</code>, so no background is drawn.</p>
+</td></tr>
+<tr valign="top"><td><code>bg.alpha</code></td>
+<td>
+<p>number between 0 and 1 that specifies the transparency of the text background (0 is totally transparent, 1 is solid background).</p>
+</td></tr>
+<tr valign="top"><td><code>size.lowerbound</code></td>
+<td>
+<p>lowerbound for <code>size</code>. Only applicable when <code>size</code> is not a constant. If <code>print.tiny</code> is <code>TRUE</code>, then all text labels which relative text is smaller than <code>size.lowerbound</code> are depicted at relative size <code>size.lowerbound</code>. If <code>print.tiny</code> is <code>FALSE</code>, then text labels are only depicted if their relative sizes are at least <code>size.lowerbound</code> (in other words, tiny labels are omitted).</p>
+</td></tr>
+<tr valign="top"><td><code>print.tiny</code></td>
+<td>
+<p>boolean, see <code>size.lowerbound</code></p>
+</td></tr>
+<tr valign="top"><td><code>scale</code></td>
+<td>
+<p>text size multiplier, useful in case <code>size</code> is variable or <code>"AREA"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>auto.placement</code></td>
+<td>
+<p>logical (or numeric) that determines whether the labels are placed automatically. If <code>TRUE</code>, the labels are placed next to the coordinate points with as little overlap as possible using the simulated annealing algorithm. Therefore, it is recommended for labeling spatial dots or symbols. If a numeric value is provided, this value acts as a parameter that specifies the distance between the coordinate points and the text labels in terms of text line heights.</p>
+</td></tr>
+<tr valign="top"><td><code>remove.overlap</code></td>
+<td>
+<p>logical that determines whether the overlapping labels are removed</p>
+</td></tr>
+<tr valign="top"><td><code>along.lines</code></td>
+<td>
+<p>logical that determines whether labels are rotated along the spatial lines. Only applicable if a spatial lines shape is used.</p>
+</td></tr>
+<tr valign="top"><td><code>overwrite.lines</code></td>
+<td>
+<p>logical that determines whether the part of the lines below the text labels is removed. Only applicable if a spatial lines shape is used.</p>
+</td></tr>
+<tr valign="top"><td><code>just</code></td>
+<td>
+<p>justification of the text relative to the point coordinates. Either one of the following values: <code>"left"</code> , <code>"right"</code>, <code>"center"</code>, <code>"bottom"</code>, and <code>"top"</code>, or a vector of two values where first value specifies horizontal and the second value vertical justification. Besides the mentioned values, also numeric values between 0 and 1 can be used. 0 means left justification for the first value and bottom justification for the second value. Note that in view mode, only one value is used.</p>
+</td></tr>
+<tr valign="top"><td><code>xmod</code></td>
+<td>
+<p>horizontal position modification of the text (relatively): 0 means no modification, and 1 corresponds to the height of one line of text. Either a single number for all polygons, or a numeric variable in the shape data specifying a number for each polygon. Together with <code>ymod</code>, it determines position modification of the text labels. In most coordinate systems (projections), the origin is located at the bottom left, so negative <code>xmod</code> move the text to the left, and negative <code>ymod</code> values to the bottom.</p>
+</td></tr>
+<tr valign="top"><td><code>ymod</code></td>
+<td>
+<p>vertical position modification. See xmod.</p>
+</td></tr>
+<tr valign="top"><td><code>title.size</code></td>
+<td>
+<p>title of the legend element regarding the text sizes</p>
+</td></tr>
+<tr valign="top"><td><code>title.col</code></td>
+<td>
+<p>title of the legend element regarding the text colors</p>
+</td></tr>
+<tr valign="top"><td><code>legend.size.show</code></td>
+<td>
+<p>logical that determines whether the legend for the text sizes is shown</p>
+</td></tr>
+<tr valign="top"><td><code>legend.col.show</code></td>
+<td>
+<p>logical that determines whether the legend for the text colors is shown</p>
+</td></tr>
+<tr valign="top"><td><code>legend.format</code></td>
+<td>
+<p>list of formatting options for the legend numbers. Only applicable if <code>labels</code> is undefined. Parameters are:
+</p>
+
+<dl>
+<dt>fun</dt><dd><p>Function to specify the labels. It should take a numeric vector, and should return a character vector of the same size. By default it is not specified. If specified, the list items <code>scientific</code>, <code>format</code>, and <code>digits</code> (see below) are not used.</p>
+</dd>
+<dt>scientific</dt><dd><p>Should the labels be formatted scientifically? If so, square brackets are used, and the <code>format</code> of the numbers is <code>"g"</code>. Otherwise, <code>format="f"</code>, and <code>text.separator</code>, <code>text.less.than</code>, and <code>text.or.more</code> are used. Also, the numbers are automatically  rounded to millions or billions if applicable.</p>
+</dd>
+<dt>format</dt><dd><p>By default, <code>"f"</code>, i.e. the standard notation <code>xxx.xxx</code>, is used. If <code>scientific=TRUE</code> then <code>"g"</code>, which means that numbers are formatted scientifically, i.e. <code>n.dddE+nn</code> if needed to save space.</p>
+</dd>
+<dt>digits</dt><dd><p>Number of digits after the decimal point if <code>format="f"</code>, and the number of significant digits otherwise.</p>
+</dd>
+<dt>big.num.abbr</dt><dd><p>Vector that defines whether and which abbrevations are used for large numbers. It is a named numeric vector, where the name indicated the abbreviation, and the number the magnitude (in terms on numbers of zero). Numbers are only abbrevation when they are large enough. Set it to <code>NA</code> to disable abbrevations.  The default is <code>c("mln" = 6, "bln" = 9)</code>. For layers where <code>style</code> is set to <code>log10</code> or <code>log10_pretty</code>, the default is <code>NA</code>.</p>
+</dd>
+<dt>prefix</dt><dd><p>Prefix of each number</p>
+</dd>
+<dt>suffix</dt><dd><p>Suffix of each number</p>
+</dd>
+<dt>prefix</dt><dd><p>Prefix of each number</p>
+</dd>
+<dt>suffix</dt><dd><p>Suffix of each number</p>
+</dd>
+<dt>text.separator</dt><dd><p>Character string to use to separate numbers in the legend (default: &quot;to&quot;).</p>
+</dd>
+<dt>text.less.than</dt><dd><p>Character value(s) to use to translate &quot;Less than&quot;. When a character vector of length 2 is specified, one for each word, these words are aligned when <code>text.to.columns = TRUE</code></p>
+</dd>
+<dt>text.or.more</dt><dd><p>Character value(s) to use to translate &quot;or more&quot;. When a character vector of length 2 is specified, one for each word, these words are aligned when <code>text.to.columns = TRUE</code></p>
+</dd>
+<dt>text.align</dt><dd><p>Value that determines how the numbers are aligned, <code>"left"</code>, <code>"center"</code> or <code>"right"</code></p>
+</dd></dl>
+<p>. By default <code>"left"</code> for legends in portrait format (<code>legend.is.portrait = TRUE</code>), and <code>"center"</code> otherwise.
+</p>
+<dl>
+<dt>text.to.columns</dt><dd><p>Logical that determines whether the text is aligned to three columns (from, text.separator, to). By default <code>FALSE</code>.</p>
+</dd>
+<dt>...</dt><dd><p>Other arguments passed on to <code><a href="../../base/help/formatC.html">formatC</a></code></p>
+</dd>
+</dl>
+</td></tr>
+<tr valign="top"><td><code>legend.size.is.portrait</code></td>
+<td>
+<p>logical that determines whether the legend element regarding the text sizes is in portrait mode (<code>TRUE</code>) or landscape (<code>FALSE</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>legend.col.is.portrait</code></td>
+<td>
+<p>logical that determines whether the legend element regarding the text colors is in portrait mode (<code>TRUE</code>) or landscape (<code>FALSE</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>legend.size.reverse</code></td>
+<td>
+<p>logical that determines whether the items of the legend regarding the text sizes are shown in reverse order, i.e. from bottom to top when <code>legend.size.is.portrait = TRUE</code> and from right to left when <code>legend.size.is.portrait = FALSE</code></p>
+</td></tr>
+<tr valign="top"><td><code>legend.col.reverse</code></td>
+<td>
+<p>logical that determines whether the items of the legend regarding the text colors are shown in reverse order, i.e. from bottom to top when <code>legend.col.is.portrait = TRUE</code> and from right to left when <code>legend.col.is.portrait = FALSE</code></p>
+</td></tr>
+<tr valign="top"><td><code>legend.hist</code></td>
+<td>
+<p>logical that determines whether a histogram is shown regarding the text colors</p>
+</td></tr>
+<tr valign="top"><td><code>legend.hist.title</code></td>
+<td>
+<p>title for the histogram. By default, one title is used for both the histogram and the normal legend for text colors.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.size.z</code></td>
+<td>
+<p>index value that determines the position of the legend element regarding the text sizes with respect to other legend elements. The legend elements are stacked according to their z values. The legend element with the lowest z value is placed on top.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.col.z</code></td>
+<td>
+<p>index value that determines the position of the legend element regarding the text colors. (See <code>legend.size.z</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>legend.hist.z</code></td>
+<td>
+<p>index value that determines the position of the histogram legend element. (See <code>legend.size.z</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>zindex</code></td>
+<td>
+<p>zindex of the pane in view mode. By default, it is set to the layer number plus 400. By default, the tmap layers will therefore be placed in the custom panes <code>"tmap401"</code>, <code>"tmap402"</code>, etc., except for the base tile layers, which are placed in the standard <code>"tile"</code>. This parameter determines both the name of the pane and the z-index, which determines the pane order from bottom to top. For instance, if <code>zindex</code> is set to 500, the pane will be named <code>"tmap500"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>group</code></td>
+<td>
+<p>name of the group to which this layer belongs in view mode. Each group can be selected or deselected in the layer control item. Set <code>group = NULL</code> to hide the layer in the layer control item. By default, it will be set to the name of the shape (specified in <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code>).</p>
+</td></tr>
+<tr valign="top"><td><code>auto.palette.mapping</code></td>
+<td>
+<p>deprecated. It has been replaced by <code>midpoint</code> for numeric variables and <code>stretch.palette</code> for categorical variables.</p>
+</td></tr>
+<tr valign="top"><td><code>max.categories</code></td>
+<td>
+<p>deprecated. It has moved to <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p><code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code>
+</p>
+
+
+<h3>Note</h3>
+
+<p>The absolute fontsize (in points) is determined by the (ROOT) viewport, which may depend on the graphics device.
+</p>
+
+
+<h3>References</h3>
+
+<p>Tennekes, M., 2018, tmap: Thematic Maps in R, Journal of Statistical Software, 84(6), 1-39, <a href="https://doi.org/10.18637/jss.v084.i06">DOI</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="../doc/tmap-getstarted.html"><code>vignette("tmap-getstarted")</code></a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+current.mode &lt;- tmap_mode("plot")
+
+data(World, metro)
+
+tm_shape(World) +
+    tm_text("name", size="AREA")
+
+tm_shape(World) +
+	tm_text("name", size="pop_est", col="continent", palette="Dark2",
+			title.size = "Population", title.col="Continent") +
+	tm_legend(outside = TRUE)
+
+tmap_mode("view")
+
+## Not run: 
+require(tmaptools)
+metro_aus &lt;- crop_shape(metro, bb("Australia"))
+
+tm_shape(metro_aus) +
+	tm_dots() +
+	tm_text("name", just = "top")
+
+# alternative
+tm_shape(metro_aus) +
+	tm_markers(text = "name")
+
+## End(Not run)
+
+# restore current mode
+tmap_mode(current.mode)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

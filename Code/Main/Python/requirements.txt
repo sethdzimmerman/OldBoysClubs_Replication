@@ -1,0 +1,14 @@
+joblib
+scipy
+jellyfish
+numpy
+tqdm
+pandas
+requests
+matplotlib
+recordlinkage
+autograd
+beautifulsoup4
+clean
+Pillow
+scikit_learn

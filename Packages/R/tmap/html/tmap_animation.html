@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create animation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tmap_animation {tmap}"><tr><td>tmap_animation {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create animation</h2>
+
+<h3>Description</h3>
+
+<p>Create a gif or mpeg animation from a tmap plot. The free tool ImageMagick is required.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tmap_animation(
+  tm,
+  filename = "animation.gif",
+  width = NA,
+  height = NA,
+  dpi = NA,
+  delay = 40,
+  loop = TRUE,
+  restart.delay = 0
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>tm</code></td>
+<td>
+<p>tmap object. In order to create a series of tmap plots, which will be the frames of the animation, it is important to set nrow and ncol in <code><a href="../../tmap/help/tm_facets.html">tm_facets</a></code>, for otherwise a small multiples plot is generated. Commonly, where one map is shown at a time, both nrow and ncol are set to 1.</p>
+</td></tr>
+<tr valign="top"><td><code>filename</code></td>
+<td>
+<p>filename of the video (should be a .gif or .mpg file)</p>
+</td></tr>
+<tr valign="top"><td><code>width</code></td>
+<td>
+<p>width of the animation file (in pixels)</p>
+</td></tr>
+<tr valign="top"><td><code>height</code></td>
+<td>
+<p>height of the animation file (in pixels)</p>
+</td></tr>
+<tr valign="top"><td><code>dpi</code></td>
+<td>
+<p>dots per inch. Only applicable for raster graphics. By default 300, but this can be set with the option <code>output.dpi</code> in <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>delay</code></td>
+<td>
+<p>delay time between images (in 1/100th of a second)</p>
+</td></tr>
+<tr valign="top"><td><code>loop</code></td>
+<td>
+<p>logical that determined whether the animation is looped, or an integer value that determines how many times the animation is looped.</p>
+</td></tr>
+<tr valign="top"><td><code>restart.delay</code></td>
+<td>
+<p>delay time between the loops (in 1/100th of a second)</p>
+</td></tr>
+</table>
+
+
+<h3>Note</h3>
+
+<p>Not only tmap plots are supported, but any series of R plots.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+data(NLD_prov)
+
+m1 &lt;- tm_shape(NLD_prov) + 
+	      tm_polygons("yellow") +
+	  tm_facets(along = "name")
+
+tmap_animation(m1, filename="Dutch_provinces.gif", width=800, delay=40)
+
+data(World, metro)
+
+m2 &lt;- tm_shape(World, simplify = 0.5) +
+          tm_fill() +
+      tm_shape(metro) + 
+          tm_bubbles(size = paste0("pop", seq(1970, 2030, by=10)),
+          		   col = "purple",
+          		   border.col = "black", border.alpha = .5,
+          		   scale = 2) +
+      tm_facets(free.scales.symbol.size = FALSE, nrow=1,ncol=1) + 
+      tm_format("World", scale=.5)
+
+tmap_animation(m2, filename="World population.gif", width=1200, delay=100)
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

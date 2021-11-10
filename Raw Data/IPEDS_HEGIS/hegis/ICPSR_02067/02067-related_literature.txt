@@ -1,0 +1,30 @@
+Bibliography
+Higher Education General Information Survey (HEGIS), 1979:  Fall Enrollment
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 2067. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Alsalam, Nabeel, "The Cost of Higher Education." Findings from the
+Condition of Education, 1995. NCES 96-769, Washington, DC: United States
+Department of Education, Office of Educational Research and Improvement,
+May 1996.
+Abstract: http://www.nces.ed.gov/pubsearch/pubsinfo.asp?pubid=96769
+Full text PDF: http://nces.ed.gov/pubs/96769.pdf
+
+2. Schantz, Nancy, "Trends in Minority Enrollments in Higher Education,
+Fall 1978 - Fall 1988." NCES 90-370, Washington, DC: United States
+Department of Education, Office of Educational Research and Improvement,
+Jul 1990.
+Abstract: http://www.nces.ed.gov/pubsearch/pubsinfo.asp?pubid=90370
+
+3. Schwarzmueller, E. Beth; Pounds, Haskin R., "The use of HEGIS data in
+higher education research." Research in Higher Education. Sep 1984, 20,
+(3), 323 - 327. DOI: 10.1007/BF00983506
+Abstract: http://www.nces.ed.gov/pubsearch/pubsinfo.asp?pubid=90370

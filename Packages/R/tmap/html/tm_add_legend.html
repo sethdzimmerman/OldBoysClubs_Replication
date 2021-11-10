@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Add manual legend</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_add_legend {tmap}"><tr><td>tm_add_legend {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Add manual legend</h2>
+
+<h3>Description</h3>
+
+<p>Creates a <code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code> that adds a manual legend.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_add_legend(
+  type = c("fill", "symbol", "text", "line"),
+  labels = NULL,
+  col = NULL,
+  size = NULL,
+  shape = NULL,
+  lwd = NULL,
+  lty = NULL,
+  text = NULL,
+  alpha = NA,
+  border.col = "black",
+  border.lwd = 1,
+  border.alpha = NA,
+  title = "",
+  is.portrait = TRUE,
+  legend.format = list(),
+  reverse = FALSE,
+  z = NA,
+  group = NULL
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>type</code></td>
+<td>
+<p>type of legend. One of <code>"fill"</code>, <code>"symbol"</code>, <code>"text"</code>, or <code>"line"</code></p>
+</td></tr>
+<tr valign="top"><td><code>labels</code></td>
+<td>
+<p>legend labels</p>
+</td></tr>
+<tr valign="top"><td><code>col</code></td>
+<td>
+<p>legend colors</p>
+</td></tr>
+<tr valign="top"><td><code>size</code></td>
+<td>
+<p>legend symbol sizes (if <code>type=="symbol"</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>shape</code></td>
+<td>
+<p>legend symbol shapes (if <code>type=="symbol"</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>lwd</code></td>
+<td>
+<p>legend line widths (if <code>type=="line"</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>lty</code></td>
+<td>
+<p>legend line types (if <code>type=="line"</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>text</code></td>
+<td>
+<p>legend texts (if <code>type=="text"</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>alpha</code></td>
+<td>
+<p>legend fill transparency</p>
+</td></tr>
+<tr valign="top"><td><code>border.col</code></td>
+<td>
+<p>legend border col (if <code>type</code> is <code>"fill"</code> or <code>"symbol"</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>border.lwd</code></td>
+<td>
+<p>legend border width (if <code>type</code> is <code>"fill"</code> or <code>"symbol"</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>border.alpha</code></td>
+<td>
+<p>legend border alpha (if <code>type</code> is <code>"fill"</code> or <code>"symbol"</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>title</code></td>
+<td>
+<p>legend title</p>
+</td></tr>
+<tr valign="top"><td><code>is.portrait</code></td>
+<td>
+<p>is legend portrait (<code>TRUE</code>) or landscape (<code>FALSE</code>)?</p>
+</td></tr>
+<tr valign="top"><td><code>legend.format</code></td>
+<td>
+<p>options to format the legend, see <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code> (the description of the argument <code>legend.format</code>) for details. Note that many of these arguments are not applicable for <code>tm_add_legend</code> since <code>labels</code> should be a character vector. However, some options could still be handy, e.g. <code>list(text.align = "right")</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>reverse</code></td>
+<td>
+<p>are the legend items reversed (by default <code>FALSE</code>)?</p>
+</td></tr>
+<tr valign="top"><td><code>z</code></td>
+<td>
+<p>legend stack position</p>
+</td></tr>
+<tr valign="top"><td><code>group</code></td>
+<td>
+<p>name of the group to which this layer belongs in view mode. Each group can be selected or deselected in the layer control item. By default <code>NULL</code>, which means that the legend will not be shown in the layer control item.</p>
+</td></tr>
+</table>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code> for an example
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

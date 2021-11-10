@@ -1,0 +1,1 @@
+Contains data on Yale housing costs prior to 1942.

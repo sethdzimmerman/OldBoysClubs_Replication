@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Class &quot;GDALTransientDataset&quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for GDALTransientDataset-class {rgdal}"><tr><td>GDALTransientDataset-class {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Class &quot;GDALTransientDataset&quot;</h2>
+
+<h3>Description</h3>
+
+<p><code>GDALTransientDataset</code> is identical to 
+<code><a href="../../rgdal/help/GDALDataset-class.html">GDALDataset-class</a></code>
+except that transient datasets are not associated with any
+user-visible file. Transient datasets delete their associated file
+data when closed. See <code><a href="../../rgdal/help/saveDataset.html">saveDataset</a></code> and
+<code><a href="../../rgdal/help/saveDatasetAs.html">saveDatasetAs</a></code>.</p>
+
+
+<h3>Objects from the Class</h3>
+
+<p>Objects can be created by calls of the form <code>new("GDALTransientDataset", driver, rows, cols, bands, type, options, fname, handle)</code>.
+</p>
+
+<dl>
+<dt>driver</dt><dd><p>A &quot;GDALDriver&quot; object that determines the storage
+format</p>
+</dd>
+<dt>rows</dt><dd><p>Number of rows in the newly created dataset</p>
+</dd>
+<dt>cols</dt><dd><p>Number of columns in the newly created dataset</p>
+</dd>
+<dt>bands</dt><dd><p>Number of bands to create</p>
+</dd>
+<dt>type</dt><dd><p>A GDAL type name as listed in <code>.GDALDataTypes</code></p>
+</dd>
+<dt>options</dt><dd><p>Driver specific options </p>
+</dd>
+<dt>fname</dt><dd><p>default NULL, used internally to pass through a file name with a required extension (RST driver has this problem)</p>
+</dd>
+<dt>handle</dt><dd><p>Used internally; not for public consumption</p>
+</dd>
+</dl>
+
+
+
+<h3>Slots</h3>
+
+
+<dl>
+<dt><code>handle</code>:</dt><dd><p>Object of class <code>"externalptr", from class "GDALDataset"</code>, used internally; not for public consumption</p>
+</dd>
+</dl>
+
+
+
+<h3>Extends</h3>
+
+<p>Class <code>"GDALDataset"</code>, directly.
+Class <code>"GDALReadOnlyDataset"</code>, by class &quot;GDALDataset&quot;.
+Class <code>"GDALMajorObject"</code>, by class &quot;GDALDataset&quot;.
+</p>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>closeDataset</dt><dd><p><code>signature(dataset = "GDALTransientDataset")</code>: ... </p>
+</dd>
+<dt>initialize</dt><dd><p><code>signature(.Object = "GDALTransientDataset")</code>: ... </p>
+</dd>
+</dl>
+
+
+
+<h3>Author(s)</h3>
+
+<p>Timothy H. Keitt, modified by Roger Bivand</p>
+
+
+<h3>See Also</h3>
+
+<p>See also <code><a href="../../rgdal/help/GDALDriver-class.html">GDALDriver-class</a></code>,
+<code><a href="../../rgdal/help/GDALReadOnlyDataset-class.html">GDALReadOnlyDataset-class</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+list.files(tempdir())
+x &lt;- new('GDALTransientDataset', driver=new('GDALDriver', "GTiff"), rows=100,
+ cols=100, bands=3, type='Byte')
+dim(x)
+list.files(tempdir())
+GDAL.close(x)
+list.files(tempdir())
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

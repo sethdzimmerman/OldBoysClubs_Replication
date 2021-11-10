@@ -1,0 +1,61 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Wigglesworth,A-11,280,2 single,1,A,A-11
+Wigglesworth,A-12,260,2 single,1,A,A-12
+Wigglesworth,A-21,320,2 single,2,A,A-21
+Wigglesworth,A-22,,,2,A,A-22
+Wigglesworth,A-31,240,3 single,3,A,A-31
+Wigglesworth,B-11,260,2 single,1,B,B-11
+Wigglesworth,B-12,260,2 single,1,B,B-12
+Wigglesworth,B-21,260,3 single,2,B,B-21
+Wigglesworth,B-22,260,3 single,2,B,B-22
+Wigglesworth,B-31,180,4 single,3,B,B-31
+Wigglesworth,B-32,220,3 single,3,B,B-32
+Wigglesworth,C-11,260,2 single,1,C,C-11
+Wigglesworth,C-12,260,2 single,1,C,C-12
+Wigglesworth,C-21,260,3 single,2,C,C-21
+Wigglesworth,C-22,260,3 single,2,C,C-22
+Wigglesworth,C-31,220,3 single,3,C,C-31
+Wigglesworth,C-32,240,3 single,3,C,C-32
+Wigglesworth,D-11,260,2 single,1,D,D-11
+Wigglesworth,D-12,280,2 single,1,D,D-12
+Wigglesworth,D-21,,,2,D,D-21
+Wigglesworth,D-22,320,2 single,2,D,D-22
+Wigglesworth,D-31,240,3 single,3,D,D31
+Wigglesworth,E-11,280,2 single,1,E,E-11
+Wigglesworth,E-12,,,1,E,E-12
+Wigglesworth,E-21,300,2 single,2,E,E-21
+Wigglesworth,E-22,520,1 single,2,E,E-22
+Wigglesworth,E-31,220,3 single,3,E,E-31
+Wigglesworth,F-11,240,3 single,1,F,F-11
+Wigglesworth,F-12,260,2 single,1,F,F-12
+Wigglesworth,F-21,260,3 single,2,F,F-21
+Wigglesworth,F-22,260,3 single,2,F,F-22
+Wigglesworth,F-31,220,3 single,3,F,F-31
+Wigglesworth,F-32,220,3 single,3,F,F-32
+Wigglesworth,G-11,260,2 single,1,G,G-11
+Wigglesworth,G-12,260,2 single,1,G,G-12
+Wigglesworth,G-21,260,3 single,2,G,G-21
+Wigglesworth,G-22,220,4 single,2,G,G-22
+Wigglesworth,G-31,260,2 single,3,G,G-31
+Wigglesworth,G-32,180,4 single,3,G,G-32
+Wigglesworth,H-11,240,3 single,1,H,H-11
+Wigglesworth,H-12,280,2 single,1,H,H-12
+Wigglesworth,H-21,260,3 single,2,H,H-21
+Wigglesworth,H-22,300,2 single,2,H,H-22
+Wigglesworth,H-31,220,3 single,3,H,H-31
+Wigglesworth,H-32,260,2 single,3,H,H-32
+Wigglesworth,I-11,280,2 single,1,I,I-11
+Wigglesworth,I-12,480,1 single,1,I,I-12
+Wigglesworth,I-21,300,2 single,2,I,I-21
+Wigglesworth,I-22,,,2,I,I-22
+Wigglesworth,I-31,240,3 single,3,I,I-31
+Wigglesworth,J-11,520,1 single,1,J,J-11
+Wigglesworth,J-12,280,2 single,1,J,J-12
+Wigglesworth,J-21,560,1 single,2,J,J-21
+Wigglesworth,J-22,300,2 single,2,J,J-22
+Wigglesworth,J-31,220,3 single,3,J,J-31
+Wigglesworth,K-11,280,2 single,1,K,K-11
+Wigglesworth,K-12,480,1 single,1,K,K-12
+Wigglesworth,K-21,300,2 single,2,K,K-21
+Wigglesworth,K-22,,,2,K,K-22
+Wigglesworth,K-31,220,3 single,3,K,K-31

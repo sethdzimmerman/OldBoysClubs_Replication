@@ -1,0 +1,62 @@
+File Manifest for ICPSR 2056
+
+United States Department of Education. National Center for Education
+Statistics. Higher Education General Information Survey (HEGIS), 1968: Fall
+Enrollment. ICPSR02056-v2. Ann Arbor, MI: Inter-university Consortium for
+Political and Social Research [distributor], 2014-03-26.
+http://doi.org/10.3886/ICPSR02056.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02056-descriptioncitation.pdf       -       -         -       2014-07-22  -
+
+    02056-related_literature.txt        -       -         -       daily       -
+
+    02056-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Higher Education General Information Survey (HEGIS), 1968: Fall
+Enrollment
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02056-0001-Codebook.pdf             -       -         -       2014-03-26  d267d8447b67886b2d6ba9d9e21724fc
+
+    02056-0001-Data.dta                 -       10,618    28      2014-03-26  f7f9c908fb5078367627bbaad8a3aba9
+
+    02056-0001-Data.rda                 -       10,618    28      2014-03-26  b72b748962a3db3796da99feeffd119e
+
+    02056-0001-Data.sav                 -       10,618    28      2014-03-26  108146aeba3419c3bd54f4cc98fb1408
+
+    02056-0001-Data.stc                 -       10,618    28      2014-03-26  55fee6fc5aa5878bc8b684fe6ea4c336
+
+    02056-0001-Data.tsv                 -       10,618    28      2014-03-26  73f5cc4520ea2bfd2873691e7df32b6f
+
+    02056-0001-Data.txt                 100     10,618    28      2014-03-26  685003dddbd837dd379695b5e1558fc5
+
+    02056-0001-Record_layout.xls        -       -         -       2014-03-26  59d3d2186e89eea043bdf31f6b1fe1c2
+
+    02056-0001-Setup.dct                -       -         -       2014-03-26  9532f5eabef80e538a91a818a3cc0098
+
+    02056-0001-Setup.do                 -       -         -       2014-03-26  86c7aa1c90a801988d5b3f9b7a0bdb08
+
+    02056-0001-Setup.sas                -       -         -       2014-03-26  714b59e68f8565cfdc64867d344027d7
+
+    02056-0001-Setup.sps                -       -         -       2014-03-26  5811af863fba0ac4741a409f778803eb
+
+
+Version History
+
+2014-03-26 SPSS, SAS, and Stata setup files, as well as SPSS and Stata
+system files, a SAS transport (CPORT) file, an R data file and a tab-
+delimited data file have been added to the collection. The original Excel
+workbook describing the record layouts for the entire HEGIS project,
+including the 1968 Fall Enrollment data has been removed from DS2 and has
+been added to DS1 to accompany the dataset. The codebook has been updated.

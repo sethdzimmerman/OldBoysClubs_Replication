@@ -1,0 +1,1 @@
+Contains data on Yale housing assignments.

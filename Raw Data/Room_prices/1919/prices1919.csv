@@ -1,0 +1,250 @@
+dorm,roomno,price,bedrooms
+Persis Smith,A 11,325,2
+Persis Smith,A 12,225,1
+Persis Smith,A 21,200,1
+Persis Smith,A 22,225,1
+Persis Smith,A 23,200,1
+Persis Smith,A 24,350,2
+Persis Smith,A 25,250,1
+Persis Smith,A 26,350,2
+Persis Smith,A 31,100,2
+Persis Smith,A 32,350,2
+Persis Smith,A 33,250,1
+Persis Smith,A 34,350,2
+Persis Smith,A 41,200,5
+Persis Smith,B 11,250,2
+Persis Smith,B 12,325,2
+Persis Smith,B 14,350,1
+Persis Smith,B 21,275,2
+Persis Smith,B 22,375,2
+Persis Smith,B 23,250,1
+Persis Smith,B 24,375,2
+Persis Smith,B 31,300,3
+Persis Smith,B 32,375,2
+Persis Smith,B 33,300,2
+Persis Smith,B 34,375,2
+Persis Smith,B 41,250,2
+Persis Smith,B 42,300,2
+Persis Smith,B 43,250,2
+Persis Smith,B 44,300,2
+Persis Smith,B 51,135,3
+Persis Smith,B 52,140,4
+Persis Smith,C 11,275,1
+Persis Smith,C 12,225,1
+Persis Smith,C 13,250,2
+Persis Smith,C 14,250,1
+Persis Smith,C 21,350,2
+Persis Smith,C 23,275,2
+Persis Smith,C 31,350,2
+Persis Smith,C 32,250,1
+Persis Smith,C 33,225,2
+Persis Smith,C 34,350,1
+Persis Smith,C 41,120,3
+Persis Smith,C 42,105,3
+George Smith,A 11,350,2
+George Smith,A 12,350,2
+George Smith,A 22,400,2
+George Smith,A 31,400,2
+George Smith,A 32,400,2
+George Smith,B 11,350,2
+George Smith,B 12,350,2
+George Smith,B 21,400,2
+George Smith,B 22,400,2
+George Smith,B 31,400,2
+George Smith,B 32,400,2
+George Smith,B 41,135,3
+George Smith,B 42,135,3
+George Smith,C 11,350,2
+George Smith,C 12,350,2
+George Smith,C 21,400,2
+George Smith,C 22,400,2
+George Smith,C 31,400,2
+George Smith,C 32,400,2
+James Smith,A 11,250,1
+James Smith,A 12,275,2
+James Smith,A 13,300,1
+James Smith,A 14,275,1
+James Smith,A 21,275,1
+James Smith,A 22,300,2
+James Smith,A 23,325,1
+James Smith,A 24,325,2
+James Smith,A 31,300,1
+James Smith,A 32,325,2
+James Smith,A 34,325,2
+James Smith,A 41,135,3
+James Smith,A 42,135,3
+James Smith,B 11,275,2
+James Smith,B 12,300,1
+James Smith,B 13,275,2
+James Smith,B 14,300,1
+James Smith,B 21,325,1
+James Smith,B 22,300,2
+James Smith,B 23,300,2
+James Smith,B 24,350,2
+James Smith,B 31,350,1
+James Smith,B 32,300,2
+James Smith,B 33,300,2
+James Smith,B 34,350,2
+James Smith,B 41,135,3
+James Smith,B 42,135,3
+James Smith,C 11,300,2
+James Smith,C 20,300,2
+James Smith,C 22,350,2
+James Smith,C 23,200,1
+James Smith,C 24,200,1
+James Smith,C 25,175,1
+James Smith,C 26,200,1
+James Smith,C 27,200,1
+James Smith,C 28,220,1
+James Smith,C 29,300,2
+James Smith,C 31,325,2
+James Smith,C 32,325,1
+James Smith,C 33,375,2
+James Smith,C 34,100,2
+James Smith,C 41,135,2
+James Smith,C 42,200,2
+Standish,A 11,400,1
+Standish,A 12,425,2
+Standish,A 13,250,1
+Standish,A 15,325,2
+Standish,A 21,450,1
+Standish,A 22,500,2
+Standish,A 23,275,1
+Standish,A 24,375,2
+Standish,A 25,350,2
+Standish,A 31,450,1
+Standish,A 32,500,2
+Standish,A 33,275,1
+Standish,A 34,375,2
+Standish,A 35,350,2
+Standish,A 41,300,5
+Standish,B 11,350,2
+Standish,B 12,250,1
+Standish,B 13,300,2
+Standish,B 21,375,2
+Standish,B 22,275,1
+Standish,B 23,325,2
+Standish,B 24,400,2
+Standish,B 31,375,2
+Standish,B 33,325,2
+Standish,B 34,400,2
+Standish,B 41,220,4
+Standish,B 42,300,2
+Standish,C 21,450,3
+Standish,C 22,400,1
+Standish,C 23,450,3
+Standish,C 31,300,3
+Standish,C 32,400,1
+Standish,C 33,350,4
+Standish,C 41,300,3
+Standish,C 42,350,1
+Standish,C 43,325,4
+Standish,C 51,245,7
+Standish,D 11,300,2
+Standish,D 12,375,1
+Standish,D 13,350,2
+Standish,D 21,400,2
+Standish,D 22,325,2
+Standish,D 23,375,2
+Standish,D 24,300,1
+Standish,D 31,400,2
+Standish,D 32,325,2
+Standish,D 33,375,2
+Standish,D 34,300,1
+Standish,D 41,325,2
+Standish,D 42,220,4
+Standish,E 11,375,2
+Standish,E 12,275,1
+Standish,E 13,275,1
+Standish,E 14,425,2
+Standish,E 15,425,1
+Standish,E 21,400,2
+Standish,E 22,300,3
+Standish,E 23,300,1
+Standish,E 31,400,2
+Standish,E 32,375,2
+Standish,E 33,300,1
+Standish,E 34,500,2
+Standish,E 35,475,1
+Standish,E 41,300,5
+Gore,A 11,300,4
+Gore,A 12,425,1
+Gore,A 13,300,2
+Gore,A 14,350,2
+Gore,A 21,500,2
+Gore,A 22,475,1
+Gore,A 23,350,2
+Gore,A 24,375,2
+Gore,A 31,500,2
+Gore,A 32,475,1
+Gore,A 33,350,2
+Gore,A 34,375,2
+Gore,A 35,325,1
+Gore,A 41,450,2
+Gore,A 42,425,1
+Gore,A 43,325,2
+Gore,A 44,350,2
+Gore,A 45,300,1
+Gore,B 11,325,2
+Gore,B 13,300,2
+Gore,B 21,375,2
+Gore,B 22,275,1
+Gore,B 23,325,2
+Gore,B 24,375,1
+Gore,B 25,300,4
+Gore,B 31,375,2
+Gore,B 32,275,1
+Gore,B 33,325,2
+Gore,B 34,375,1
+Gore,B 35,300,4
+Gore,B 41,350,2
+Gore,B 42,250,1
+Gore,B 43,250,2
+Gore,B 44,350,1
+Gore,B 45,300,4
+Gore,C 21,300,4
+Gore,C 22,375,1
+Gore,C 23,325,4
+Gore,C 31,400,2
+Gore,C 32,350,2
+Gore,C 34,400,2
+Gore,C 41,375,2
+Gore,C 42,325,2
+Gore,C 43,300,1
+Gore,C 44,375,2
+Gore,C 51,160,4
+Gore,C 52,120,3
+Gore,D 11,300,2
+Gore,D 12,225,1
+Gore,D 13,300,2
+Gore,D 21,300,4
+Gore,D 22,350,1
+Gore,D 23,325,2
+Gore,D 25,325,2
+Gore,D 31,300,4
+Gore,D 32,350,1
+Gore,D 33,325,2
+Gore,D 34,275,1
+Gore,D 35,325,2
+Gore,D 41,300,4
+Gore,D 42,325,1
+Gore,D 43,250,2
+Gore,D 44,250,1
+Gore,D 45,350,2
+Gore,E 11,325,2
+Gore,E 12,300,2
+Gore,E 13,300,4
+Gore,E 14,425,1
+Gore,E 21,300,1
+Gore,E 22,350,2
+Gore,E 23,350,2
+Gore,E 31,300,1
+Gore,E 32,350,2
+Gore,E 33,350,2
+Gore,E 34,500,2
+Gore,E 35,475,1
+Gore,E 41,250,1
+Gore,E 42,350,2
+Gore,E 43,325,2
+Gore,E 44,450,2
+Gore,E 45,425,1

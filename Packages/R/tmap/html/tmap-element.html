@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: tmap element</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tmap-element {tmap}"><tr><td>tmap-element {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>tmap element</h2>
+
+<h3>Description</h3>
+
+<p>Building block for drawing thematic maps. All element functions have the prefix <code>tm_</code>.
+</p>
+
+
+<h3>Details</h3>
+
+<p>The fundamental, and hence required element is <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code>, which specifies the shape object, and also specifies the projection and bounding box.
+</p>
+<p>The elements that serve as aesthetics layers are
+</p>
+<p>Base layers:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code></td><td style="text-align: left;"> Create a polygon layer (with borders) </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code></td><td style="text-align: left;"> Create a layer of symbols </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code></td><td style="text-align: left;"> Create a layer of lines </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_raster.html">tm_raster</a></code></td><td style="text-align: left;"> Create a raster layer </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_text.html">tm_text</a></code></td><td style="text-align: left;"> Create a layer of text labels </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_basemap.html">tm_basemap</a></code></td><td style="text-align: left;"> Create a layer of basemap tiles </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_tiles.html">tm_tiles</a></code></td><td style="text-align: left;"> Create a layer of overlay tiles </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+</td>
+</tr>
+
+</table>
+
+<p>Derived layers:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_fill.html">tm_fill</a></code></td><td style="text-align: left;"> Create a polygon layer (without borders) </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_borders.html">tm_borders</a></code></td><td style="text-align: left;"> Create polygon borders </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_bubbles.html">tm_bubbles</a></code></td><td style="text-align: left;"> Create a layer of bubbles </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_squares.html">tm_squares</a></code></td><td style="text-align: left;"> Create a layer of squares </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_dots.html">tm_dots</a></code></td><td style="text-align: left;"> Create a layer of dots </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_markers.html">tm_markers</a></code></td><td style="text-align: left;"> Create a layer of markers </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_iso.html">tm_iso</a></code></td><td style="text-align: left;"> Create a layer of iso/contour lines </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_rgb.html">tm_rgb</a></code></td><td style="text-align: left;"> Create a raster layer of an image </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+</td>
+</tr>
+
+</table>
+
+<p>The layers can be stacked by simply adding them with the + symbol. The combination of the elements described above form one group. Multiple groups can be stacked. Each group should start with <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code>.
+</p>
+<p>Attributes layers:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_grid.html">tm_grid</a></code></td><td style="text-align: left;"> Create grid lines </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_scale_bar.html">tm_scale_bar</a></code></td><td style="text-align: left;"> Create a scale bar </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_compass.html">tm_compass</a></code></td><td style="text-align: left;"> Create a map compass </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_credits.html">tm_credits</a></code></td><td style="text-align: left;"> Create a text for credits </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_logo.html">tm_logo</a></code></td><td style="text-align: left;"> Create a logo </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_xlab.html">tm_xlab</a> and <a href="../../tmap/help/tm_ylab.html">tm_ylab</a></code></td><td style="text-align: left;"> Create axis labels </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_minimap.html">tm_minimap</a></code></td><td style="text-align: left;"> Create a minimap (view mode only) </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+</td>
+</tr>
+
+</table>
+
+<p>Layout element:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code></td><td style="text-align: left;"> Adjust the layout (main function)</td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_legend.html">tm_legend</a></code></td><td style="text-align: left;"> Adjust the legend </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_view.html">tm_view</a></code></td><td style="text-align: left;"> Configure the interactive view mode </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_style.html">tm_style</a></code></td><td style="text-align: left;"> Apply a predefined style </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code><a href="../../tmap/help/tm_format.html">tm_format</a></code></td><td style="text-align: left;"> Apply a predefined format </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+--------------------------- </td><td style="text-align: left;"> --------------------------------------------------------------------------------------------------- </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+</td>
+</tr>
+
+</table>
+
+
+
+<h3>References</h3>
+
+<p>Tennekes, M., 2018, tmap: Thematic Maps in R, Journal of Statistical Software, 84(6), 1-39, <a href="https://doi.org/10.18637/jss.v084.i06">DOI</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="../doc/tmap-getstarted.html"><code>vignette("tmap-getstarted")</code></a>
+</p>
+<p>The examples in each of the element functions
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

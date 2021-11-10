@@ -1,0 +1,7 @@
+\begin{tabular}{l cccc|lccc}
+Class report occ.&	Has wage inc.&	Wage inc.&	Wage inc. 5k+&	Has non-wage inc.&	Modal census occ.&	Occ. score&	N&	Share\\ \hline
+Finance&	0.75&	 3637&	0.39&	0.64&	Managers, officials, and proprietors (n.e.c.)&	4200&	  246&	0.30\\ 
+Senior management&	0.79&	 3703&	0.40&	0.56&	Managers, officials, and proprietors (n.e.c.)&	4200&	  385&	0.26\\ 
+Law&	0.48&	 3217&	0.25&	0.68&	Lawyers and judges&	6200&	  545&	0.59\\ 
+Medicine&	0.34&	 1921&	0.11&	0.74&	Physicians and surgeons&	8000&	  356&	0.55\\ 
+\end{tabular}

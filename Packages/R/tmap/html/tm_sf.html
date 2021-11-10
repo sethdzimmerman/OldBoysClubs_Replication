@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Draw simple features</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_sf {tmap}"><tr><td>tm_sf {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Draw simple features</h2>
+
+<h3>Description</h3>
+
+<p>Creates a <code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code> that draws simple features. Basically, it is a stack of <code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code>, <code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code> and <code><a href="../../tmap/help/tm_dots.html">tm_dots</a></code>. In other words, polygons are plotted as polygons, lines as lines and points as dots.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_sf(
+  col = NA,
+  size = 0.02,
+  shape = 16,
+  lwd = 1,
+  lty = "solid",
+  alpha = NA,
+  palette = NULL,
+  border.col = NA,
+  border.lwd = 1,
+  border.lty = "solid",
+  border.alpha = NA,
+  group = NA,
+  ...
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>col</code></td>
+<td>
+<p>color of the simple features. See the <code>col</code> argument of <code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code>, <code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code> and <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>size</code></td>
+<td>
+<p>size of the dots. See the <code>size</code> argument <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>. By default, the size is similar to dot size (see <code><a href="../../tmap/help/tm_dots.html">tm_dots</a></code>)</p>
+</td></tr>
+<tr valign="top"><td><code>shape</code></td>
+<td>
+<p>shape of the dots. See the <code>shape</code> argument <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>. By default, dots are shown.</p>
+</td></tr>
+<tr valign="top"><td><code>lwd</code></td>
+<td>
+<p>width of the lines. See the <code>lwd</code> argument of <code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>lty</code></td>
+<td>
+<p>type of the lines. See the <code>lty</code> argument of <code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>alpha</code></td>
+<td>
+<p>transparency number. See <code>alpha</code> argument of <code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code>, <code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code> and <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>palette</code></td>
+<td>
+<p>palette. See <code>palette</code> argument of <code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code>, <code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code> and <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>border.col</code></td>
+<td>
+<p>color of the borders. See <code>border.col</code> argument of <code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code> and <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>border.lwd</code></td>
+<td>
+<p>line width of the borders. See <code>border.lwd</code> argument of <code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code> and <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>border.lty</code></td>
+<td>
+<p>line type of the borders. See <code>border.lwd</code> argument of <code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code> and <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>border.alpha</code></td>
+<td>
+<p>transparency of the borders. See <code>border.alpha</code> argument of <code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code> and <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>group</code></td>
+<td>
+<p>name of the group to which this layer belongs in view mode. Each group can be selected or deselected in the layer control item. Set <code>group = NULL</code> to hide the layer in the layer control item. By default, it will be set to the name of the shape (specified in <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code>).</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>other arguments passed on to <code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code>, <code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code> and <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code></p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p><code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="../doc/tmap-getstarted.html"><code>vignette("tmap-getstarted")</code></a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(World)
+
+World$geometry[World$continent == "Africa"] &lt;- 
+  sf::st_centroid(World$geometry[World$continent == "Africa"])
+World$geometry[World$continent == "South America"] &lt;- 
+  sf::st_cast(World$geometry[World$continent == "South America"], 
+    "MULTILINESTRING", group_or_split = FALSE)
+
+tm_shape(World) + 
+	tm_sf()
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

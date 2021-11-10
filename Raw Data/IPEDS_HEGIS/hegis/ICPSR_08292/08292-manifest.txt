@@ -1,0 +1,47 @@
+File Manifest for ICPSR 8292
+
+U.S. Dept. of Education, National Center for Education Statistics. HIGHER
+EDUCATION GENERAL INFORMATION SURVEY (HEGIS), 1982: FALL ENROLLMENT. ICPSR
+version. Washington, DC: U.S. Dept. of Education, National Center for
+Education Statistics [producer], 1982. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 1999.
+http://doi.org/10.3886/ICPSR08292.v1
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    08292-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    08292-related_literature.txt        -       -         -       daily       -
+
+    08292-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Main Data File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    08292-0001-Codebook.pdf             -       -         -       1999-03-17  d1cd4584d7af20c96e67f00e7e0ab536
+
+    08292-0001-Data.txt                 244     47,135    unknown 1995-05-17  6a50c7179a4fed0753e801b212d7cf01
+
+
+DS0002 HEGIS Record Layout
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    08292-0002-Record_layout.xls        -       -         -       1999-03-17  59d3d2186e89eea043bdf31f6b1fe1c2
+
+
+Version History
+
+1999-03-18 Part 2, HEGIS Record Layout (an Excel worksheet),  was added to
+this collection. Also, some pages were eliminated from the codebook, and
+the codebook was converted to a PDF file.

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Draw iso (contour) lines with labels</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_iso {tmap}"><tr><td>tm_iso {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Draw iso (contour) lines with labels</h2>
+
+<h3>Description</h3>
+
+<p>This function is a wrapper of <code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code> and <code><a href="../../tmap/help/tm_text.html">tm_text</a></code> aimed to draw isopleths.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_iso(
+  col = NA,
+  text = "level",
+  size = 0.5,
+  remove.overlap = TRUE,
+  along.lines = TRUE,
+  overwrite.lines = TRUE,
+  group = NA,
+  ...
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>col</code></td>
+<td>
+<p>line color. See <code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>text</code></td>
+<td>
+<p>text to display.</p>
+</td></tr>
+<tr valign="top"><td><code>size</code></td>
+<td>
+<p>text size (see <code><a href="../../tmap/help/tm_text.html">tm_text</a></code>)</p>
+</td></tr>
+<tr valign="top"><td><code>remove.overlap</code></td>
+<td>
+<p>see <code><a href="../../tmap/help/tm_text.html">tm_text</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>along.lines</code></td>
+<td>
+<p>see <code><a href="../../tmap/help/tm_text.html">tm_text</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>overwrite.lines</code></td>
+<td>
+<p>see <code><a href="../../tmap/help/tm_text.html">tm_text</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>group</code></td>
+<td>
+<p>name of the group to which this layer belongs in view mode. Each group can be selected or deselected in the layer control item. Set <code>group = NULL</code> to hide the layer in the layer control item. By default, it will be set to the name of the shape (specified in <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code>).</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>arguments passed on to <code><a href="../../tmap/help/tm_lines.html">tm_lines</a></code> or <code><a href="../../tmap/help/tm_text.html">tm_text</a></code></p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

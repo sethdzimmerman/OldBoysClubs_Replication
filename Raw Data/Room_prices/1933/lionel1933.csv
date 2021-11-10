@@ -1,0 +1,13 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Lionel,A-11,280,2 single,1,W,A-11
+Lionel,A-12,220,3 single,1,W,A-12
+Lionel,A-21,,,2,W,A-21
+Lionel,A-22,260,3 single,2,W,A-22
+Lionel,A-31,260,2 single,3,W,A-31
+Lionel,A-32,240,2 single,3,W,A-32
+Lionel,B-11,220,3 single,1,E,B-11
+Lionel,B-12,280,2 single,1,E,B-12
+Lionel,B-21,260,3 single,2,E,B-21
+Lionel,B-22,300,2 single,2,E,B-22
+Lionel,B-31,200,3 single,3,E,B-31
+Lionel,B-32,260,2 single,3,E,B-32

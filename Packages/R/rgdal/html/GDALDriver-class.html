@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Class &quot;GDALDriver&quot;: GDAL Driver Object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for GDALDriver-class {rgdal}"><tr><td>GDALDriver-class {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Class &quot;GDALDriver&quot;: GDAL Driver Object</h2>
+
+<h3>Description</h3>
+
+<p><code>GDALDriver</code> objects encapsulate GDAL file format
+drivers. <code>GDALDriver</code> inherits from <code><a href="../../rgdal/help/GDALMajorObject-class.html">GDALMajorObject-class</a></code>.</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+getGDALDriverNames()
+gdalDrivers()
+getDriverName(driver)
+getDriverLongName(driver)
+getGDALVersionInfo(str = "--version")
+getGDALCheckVersion()
+getGDALwithGEOS()
+rgdal_extSoftVersion()
+getCPLConfigOption(ConfigOption)
+setCPLConfigOption(ConfigOption, value)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>driver</code></td>
+<td>
+<p>An object inheriting from class 'GDALDriver'</p>
+</td></tr>
+<tr valign="top"><td><code>str</code></td>
+<td>
+<p>A string, may be one of <code>"--version"</code>, <code>"VERSION_NUM"</code>, <code>"RELEASE_DATE"</code>, <code>"RELEASE_NAME"</code></p>
+</td></tr>
+<tr valign="top"><td><code>ConfigOption</code></td>
+<td>
+<p>CPL configure option documented in <a href="http://trac.osgeo.org/gdal/wiki/ConfigOptions">http://trac.osgeo.org/gdal/wiki/ConfigOptions</a> and elsewhere in GDAL source code</p>
+</td></tr>
+<tr valign="top"><td><code>value</code></td>
+<td>
+<p>a string value to set a CPL option; NULL is used to unset the CPL option</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+
+<dl>
+<dt><code>getGDALDriverNames, gdalDrivers</code>:</dt><dd><p>returns all driver names currently installed in GDAL, with their declared create and copy status (some drivers can create datasets, others can only copy from a prototype with a different driver.</p>
+</dd>
+<dt><code>getDriverName</code>:</dt><dd><p>returns the GDAL driver name associated
+with the driver object.</p>
+</dd>
+<dt><code>getDriverLongName</code>:</dt><dd><p>returns a longer driver name.</p>
+</dd>
+<dt><code>getGDALVersionInfo</code>:</dt><dd><p>returns the version of the GDAL runtime shared object.</p>
+</dd>
+<dt><code>getGDALCheckVersion</code>:</dt><dd><p>checks the version of the GDAL headers used when building the package (GDAL_VERSION_MAJOR, GDAL_VERSION_MINOR) - if the two versions differ, problems may arise (the C++ API/ABI may have changed), and rgdal should be re-installed</p>
+</dd>
+<dt><code>getGDALwithGEOS</code>:</dt><dd><p>because drivers may behave differently if GDAL itself was built with GEOS support, the function uses a heuristic to check whether GDAL has access to the GEOS Union function or not</p>
+</dd>
+</dl>
+
+
+
+<h3>Objects from the Class</h3>
+
+<p>Objects can be created by calls of the form <code>new("GDALDriver", name, handle)</code>, where name: a string giving the name of a GDAL driver, handle: used internally; not for public consumption (default = NULL).
+</p>
+
+
+<h3>Slots</h3>
+
+
+<dl>
+<dt><code>handle</code>:</dt><dd><p>Object of class <code>"externalptr", from class "GDALMajorObject"</code>, used internally; not for public consumption</p>
+</dd>
+</dl>
+
+
+
+<h3>Extends</h3>
+
+<p>Class <code>"GDALMajorObject"</code>, directly.
+</p>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>initialize</dt><dd><p><code>signature(.Object = "GDALDriver")</code>: drivername: a string giving the name of a GDAL driver, handle: used internally; not for public consumption (default = NULL) </p>
+</dd>
+</dl>
+
+
+
+<h3>Note</h3>
+
+<p>Loading the rgdal package changes the <code>GDAL\_DATA</code> environmental variable to the GDAL support files bundled with the package.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Timothy H. Keitt, modified by Roger Bivand</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../rgdal/help/GDALMajorObject-class.html">GDALMajorObject-class</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+gdalDrivers()
+logo &lt;- system.file("pictures/logo.jpg", package="rgdal")[1]
+x &lt;- new("GDALReadOnlyDataset", logo)
+getDriver(x)
+getDriverLongName(getDriver(x))
+GDAL.close(x)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

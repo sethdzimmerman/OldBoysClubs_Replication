@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Set tmap mode to static plotting or interactive viewing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tmap_mode {tmap}"><tr><td>tmap_mode {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Set tmap mode to static plotting or interactive viewing</h2>
+
+<h3>Description</h3>
+
+<p>Set tmap mode to static plotting or interactive viewing. The global option <code>tmap.mode</code> determines the whether thematic maps are plot in the graphics device, or shown as an interactive leaflet map (see also <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code>. The function <code>tmap_mode</code> is a wrapper to set this global option. The convenient function <code>ttm</code> is a toggle switch between the two modes. Tip 1: use <code>tmap_mode</code> in scripts and <code>ttm</code> in the console. Tip 2: use <code>ttm</code> in combination with <code><a href="../../tmap/help/tmap_last.html">tmap_last</a></code> to redraw the last map in the other mode.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tmap_mode(mode = c("plot", "view"))
+
+ttm()
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>mode</code></td>
+<td>
+<p>one of
+</p>
+
+<dl>
+<dt><code>"plot"</code></dt><dd><p>Thematic maps are shown in the graphics device. This is the default mode, and supports all tmap's features, such as small multiples (see <code><a href="../../tmap/help/tm_facets.html">tm_facets</a></code>) and extensive layout settings (see <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>). It is recommended for saving static maps (see <code><a href="../../tmap/help/tmap_save.html">tmap_save</a></code>).</p>
+</dd> 
+<dt><code>"view"</code></dt><dd><p>Thematic maps are viewed interactively in the web browser or RStudio's Viewer pane. Maps are fully interactive with tiles from OpenStreetMap or other map providers (see <code><a href="../../tmap/help/tm_tiles.html">tm_tiles</a></code>). See also <code><a href="../../tmap/help/tm_view.html">tm_view</a></code> for options related to the <code>"view"</code> mode. This mode generates a <code><a href="../../leaflet/help/leaflet.html">leaflet</a></code> widget, which can also be directly obtained with <code><a href="../../tmap/help/tmap_leaflet.html">tmap_leaflet</a></code>. With RMarkdown, it is possible to publish it to an HTML page. 
+There are a couple of constraints in comparison to <code>"plot"</code>:
+</p>
+
+<ul>
+<li><p> The map is always projected according to the Web Mercator projection. Although this projection is the de facto standard for interactive web-based mapping, it lacks the equal-area property, which is important for many thematic maps, especially choropleths (see examples from <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code>).
+</p>
+</li>
+<li><p> Small multiples are not supported
+</p>
+</li>
+<li><p> The legend cannot be made for aesthetics regarding size, which are symbol size and line width.
+</p>
+</li>
+<li><p> Text labels are not supported (yet)
+</p>
+</li>
+<li><p> The layout options set with <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>) regarding map format are not used. However, the styling options still apply.</p>
+</li></ul>
+
+</dd></dl>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>the mode before changing
+</p>
+
+
+<h3>References</h3>
+
+<p>Tennekes, M., 2018, tmap: Thematic Maps in R, Journal of Statistical Software, 84(6), 1-39, <a href="https://doi.org/10.18637/jss.v084.i06">DOI</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="../doc/tmap-getstarted.html"><code>vignette("tmap-getstarted")</code></a>, <code><a href="../../tmap/help/tmap_last.html">tmap_last</a></code> to show the last map, <code><a href="../../tmap/help/tm_view.html">tm_view</a></code> for viewing options, and <code><a href="../../tmap/help/tmap_leaflet.html">tmap_leaflet</a></code> for obtaining a leaflet widget, and <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code> for tmap options.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# world choropleth/bubble map of the world
+data(World, metro)
+metro$growth &lt;- (metro$pop2020 - metro$pop2010) / (metro$pop2010 * 10) * 100
+
+map1 &lt;- tm_shape(World) +
+	tm_polygons("income_grp", palette="-Blues", contrast=.7, id="name", title="Income group") +
+	tm_shape(metro) +
+	tm_bubbles("pop2010", col = "growth", 
+		border.col = "black", border.alpha = .5, 
+		style="fixed", breaks=c(-Inf, seq(0, 6, by=2), Inf),
+		palette="-RdYlBu", contrast=1, 
+		title.size="Metro population", 
+		title.col="Growth rate (%)", id="name",
+		popup.vars = c("pop2010", "pop2020", "growth")) + 
+	tm_layout(legend.bg.color = "grey90", legend.bg.alpha=.5, legend.frame=TRUE)
+
+# initial mode: "plot"
+current.mode &lt;- tmap_mode("plot")
+
+# plot map
+map1
+
+# switch to other mode: "view"
+ttm()
+
+# view map
+map1
+
+## Not run: 
+# choropleth of the Dutch population in interactive mode:
+require(tmaptools)
+data(NLD_muni, NLD_prov)
+NLD_muni$pop_dens &lt;- calc_densities(NLD_muni, var = "population")
+
+tm_shape(NLD_muni) +
+	tm_fill(col="pop_dens", 
+		style="kmeans", 
+		title = "Population (per km^2)", id = "name") +
+	tm_borders("grey25", alpha=.5) + 
+	tm_shape(NLD_prov) +
+	tm_borders("grey40", lwd=2)
+
+## End(Not run)
+
+# restore current mode
+tmap_mode(current.mode)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

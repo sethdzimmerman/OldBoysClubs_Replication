@@ -1,0 +1,45 @@
+File Manifest for ICPSR 8397
+
+United States Department of Education. National Center for Education
+Statistics. Higher Education General Information Survey (HEGIS), 1983:
+Fall Enrollment. ICPSR08397-v1. Ann Arbor, MI: Inter-university Consortium
+for Political and Social Research [distributor], 1999.
+http://doi.org/10.3886/ICPSR08397.v1
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    08397-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    08397-related_literature.txt        -       -         -       daily       -
+
+    08397-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Main Data File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    08397-0001-Codebook.pdf             -       -         -       1999-02-15  dda471d8174c5bca4b86a6086818e770
+
+    08397-0001-Data.txt                 244     47,574    unknown 1995-05-17  3647cdb8e0c47659288e2dcfe9563ebb
+
+
+DS0002 HEGIS Record Layout
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    08397-0002-Record_layout.xls        -       -         -       1999-02-15  59d3d2186e89eea043bdf31f6b1fe1c2
+
+
+Version History
+
+1999-02-17 Part 2, HEGIS Record Layout (an Excel worksheet)  was added to
+this collection. Also, the codebook has been converted to a PDF file.

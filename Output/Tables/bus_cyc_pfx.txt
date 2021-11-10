@@ -1,0 +1,12 @@
+\begin{tabular}{l ccc}
+	& Pre-depression cohorts	& Depression cohorts	& Test\\ \hline
+Selective final club& 	0.134& 	0.167& 	0.773\\ 
+& 	(0.093)& 	(0.069)\\ 
+Any social club& 	0.214& 	0.258& 	0.751\\ 
+& 	(0.114)& 	(0.082)\\ 
+Occupation index& 	0.694& 	0.340& 	0.348\\ 
+& 	(0.305)& 	(0.224)\\ 
+Class Reports wage index& 	140.253& 	104.683& 	0.691\\ 
+& 	(75.436)& 	(49.135)\\ \hline
+N& 	         739& 	        1355\\ 
+\end{tabular}

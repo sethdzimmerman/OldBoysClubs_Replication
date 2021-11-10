@@ -1,0 +1,657 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Layout of cartographic maps</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_layout {tmap}"><tr><td>tm_layout {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Layout of cartographic maps</h2>
+
+<h3>Description</h3>
+
+<p>This element specifies the map layout. The main function <code>tm_layout</code> controls title, margins, aspect ratio, colors, frame, legend, among many other things. The function <code>tm_legend</code> is a shortcut to access all <code>legend.</code> arguments without this prefix. The other functions are wrappers for two purposes: <code>tm_format</code> specifies position related layout settings such as margins, and <code>tm_style</code> specifies general styling related layout settings such as colors and font. Typically, the former functions are shape dependent, and the latter functions are shape independent. See details for predefined styles and formats. With <code>tmap.style</code>, a default style can be specified. Multiple <code>tm_layout</code> elements (or wrapper functions) can be stacked: called arguments will be overwritten.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_layout(
+  title,
+  scale,
+  title.size,
+  bg.color,
+  aes.color,
+  aes.palette,
+  attr.color,
+  sepia.intensity,
+  saturation,
+  frame,
+  frame.lwd,
+  frame.double.line,
+  asp,
+  outer.margins,
+  inner.margins,
+  between.margin,
+  outer.bg.color,
+  fontface,
+  fontfamily,
+  compass.type,
+  earth.boundary,
+  earth.boundary.color,
+  earth.boundary.lwd,
+  earth.datum,
+  space.color,
+  legend.show,
+  legend.only,
+  legend.outside,
+  legend.outside.position,
+  legend.outside.size,
+  legend.position,
+  legend.stack,
+  legend.just,
+  legend.width,
+  legend.height,
+  legend.hist.height,
+  legend.hist.width,
+  legend.title.color,
+  legend.title.size,
+  legend.title.fontface,
+  legend.title.fontfamily,
+  legend.text.color,
+  legend.text.size,
+  legend.text.fontface,
+  legend.text.fontfamily,
+  legend.hist.size,
+  legend.format,
+  legend.frame,
+  legend.frame.lwd,
+  legend.bg.color,
+  legend.bg.alpha,
+  legend.hist.bg.color,
+  legend.hist.bg.alpha,
+  title.snap.to.legend,
+  title.position,
+  title.color,
+  title.fontface,
+  title.fontfamily,
+  title.bg.color,
+  title.bg.alpha,
+  panel.show,
+  panel.labels,
+  panel.label.size,
+  panel.label.color,
+  panel.label.fontface,
+  panel.label.fontfamily,
+  panel.label.bg.color,
+  panel.label.height,
+  panel.label.rot,
+  main.title,
+  main.title.size,
+  main.title.color,
+  main.title.fontface,
+  main.title.fontfamily,
+  main.title.position,
+  attr.outside,
+  attr.outside.position,
+  attr.outside.size,
+  attr.position,
+  attr.just,
+  design.mode
+)
+
+tm_legend(...)
+
+tm_style(style, ...)
+
+tm_format(format, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>title</code></td>
+<td>
+<p>Global title of the map. For small multiples, multiple titles can be specified. The title is drawn inside the map. Alternatively, use <code>panel.labels</code> to print the map as a panel, with the title inside the panel header (especially useful for small multiples). Another alternative is the <code>main.title</code> which prints a title above the map. Titles for the legend items are specified at the layer functions (e.g. <code><a href="../../tmap/help/tm_fill.html">tm_fill</a></code>).</p>
+</td></tr>
+<tr valign="top"><td><code>scale</code></td>
+<td>
+<p>numeric value that serves as the global scale parameter. All font sizes, symbol sizes, border widths, and line widths are controlled by this value. Each of these elements can be scaled independently with the <code>scale</code>, <code>lwd</code>, or <code>size</code> arguments provided by the <code><a href="../../tmap/help/tmap-element.html">tmap-element</a>s</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>title.size</code></td>
+<td>
+<p>Relative size of the title</p>
+</td></tr>
+<tr valign="top"><td><code>bg.color</code></td>
+<td>
+<p>Background color. By default it is <code>"white"</code>. A recommended alternative for choropleths is light grey (e.g., <code>"grey85"</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>aes.color</code></td>
+<td>
+<p>Default color values for the aesthetics layers. Should be a named vector with the names chosen from: <code>fill</code>, <code>borders</code>, <code>symbols</code>, <code>dots</code>, <code>lines</code>, <code>text</code>, <code>na</code>. Use <code>"#00000000"</code> for transparency.</p>
+</td></tr>
+<tr valign="top"><td><code>aes.palette</code></td>
+<td>
+<p>Default color palettes for the aesthetics. It takes a list of three items: <code>seq</code> for sequential palettes, <code>div</code> for diverging palettes, and <code>cat</code> for categorical palettes. By default, Color Brewer palettes (see (see <code>tmaptools::palette_explorer()</code>)) are used. It is also possible provide a vector of colors for any of these items.</p>
+</td></tr>
+<tr valign="top"><td><code>attr.color</code></td>
+<td>
+<p>Default color value for map attributes</p>
+</td></tr>
+<tr valign="top"><td><code>sepia.intensity</code></td>
+<td>
+<p>Number between 0 and 1 that defines the amount of sepia effect, which gives the map a brown/yellowish flavour. By default this effect is disabled (<code>sepia.intensity=0</code>). All colored used in the map are adjusted with this effect.</p>
+</td></tr>
+<tr valign="top"><td><code>saturation</code></td>
+<td>
+<p>Number that determines how much saturation (also known as chroma) is used: <code>saturation=0</code> is greyscale and <code>saturation=1</code> is normal. A number larger than 1 results in very saturated maps. All colored used in the map are adjusted with this effect. Hacking tip: use a negative number.</p>
+</td></tr>
+<tr valign="top"><td><code>frame</code></td>
+<td>
+<p>Either a boolean that determines whether a frame is drawn, or a color value that specifies the color of the frame.</p>
+</td></tr>
+<tr valign="top"><td><code>frame.lwd</code></td>
+<td>
+<p>width of the frame</p>
+</td></tr>
+<tr valign="top"><td><code>frame.double.line</code></td>
+<td>
+<p>draw a double frame line border?</p>
+</td></tr>
+<tr valign="top"><td><code>asp</code></td>
+<td>
+<p>Aspect ratio. The aspect ratio of the map (width/height). If <code>NA</code>, it is determined by the bounding box (see argument <code>bbox</code> of <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code>), the <code>outer.margins</code>, and the <code>inner.margins</code>. If <code>0</code>, then the aspect ratio is adjusted to the aspect ratio of the device.</p>
+</td></tr>
+<tr valign="top"><td><code>outer.margins</code></td>
+<td>
+<p>Relative margins between device and frame. Vector of four values specifying the bottom, left, top, and right margin. Values are between 0 and 1. When facets are created, the outer margins are the margins between the outer panels and the device borders (see also <code>between.margin</code>)</p>
+</td></tr>
+<tr valign="top"><td><code>inner.margins</code></td>
+<td>
+<p>Relative margins inside the frame. Vector of four values specifying the bottom, left, top, and right margin. Values are between 0 and 1. By default, 0 for each side if master shape is a raster, otherwise 0.02.</p>
+</td></tr>
+<tr valign="top"><td><code>between.margin</code></td>
+<td>
+<p>Margin between facets (small multiples) in number of text line heights. The height of a text line is automatically scaled down based on the number of facets.</p>
+</td></tr>
+<tr valign="top"><td><code>outer.bg.color</code></td>
+<td>
+<p>Background color outside the frame.</p>
+</td></tr>
+<tr valign="top"><td><code>fontface</code></td>
+<td>
+<p>global font face for the text in the map. It can also be set locally per element (see e.g. <code>title.fontface</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>fontfamily</code></td>
+<td>
+<p>global font family for the text in the map. It can also be set locally per  (see e.g. <code>title.fontfamily</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>compass.type</code></td>
+<td>
+<p>type of compass, one of: <code>"arrow"</code>, <code>"4star"</code>, <code>"8star"</code>, <code>"radar"</code>, <code>"rose"</code>. Of course, only applicable if a compass is shown. The compass type can also be set within <code><a href="../../tmap/help/tm_compass.html">tm_compass</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>earth.boundary</code></td>
+<td>
+<p>Logical that determines whether the boundaries of the earth are shown or an object that specifies the boundaries. This object can be a vector of size four, a 2 by 2 matrix (bounding box), or an <code><a href="../../raster/help/extent.html">extent</a></code> object. By default, the boundaries are <code>c(-180, -90, 180, 90)</code>. Useful for projected world maps. Often, it is useful to crop both poles (e.g., with <code>c(-180, -88, 180, 88)</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>earth.boundary.color</code></td>
+<td>
+<p>Color of the earth boundary.</p>
+</td></tr>
+<tr valign="top"><td><code>earth.boundary.lwd</code></td>
+<td>
+<p>Line width of the earth boundary.</p>
+</td></tr>
+<tr valign="top"><td><code>earth.datum</code></td>
+<td>
+<p>Geodetic datum to determine the earth boundary. By default epsg <code>4326</code> (long/lat).</p>
+</td></tr>
+<tr valign="top"><td><code>space.color</code></td>
+<td>
+<p>Color of the space, i.e. the region inside the frame, and outside the earth boundary.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.show</code></td>
+<td>
+<p>Logical that determines whether the legend is shown.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.only</code></td>
+<td>
+<p>logical. Only draw the legend (without map)? Particularly useful for small multiples with a common legend.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.outside</code></td>
+<td>
+<p>Logical that determines whether the legend is plot outside of the map/facets. Especially useful when using facets that have a common legend (i.e. with <code>free.scales=FALSE</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>legend.outside.position</code></td>
+<td>
+<p>Character that determines the outside position of the legend. Only applicable when <code>legend.outside=TRUE</code>. One of: <code>"right"</code>, <code>"left"</code>, <code>"top"</code>, or <code>"bottom"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.outside.size</code></td>
+<td>
+<p>Numeric value that determines the relative size of the legend, when <code>legend.outside=TRUE</code>. If the first value of <code>legend.outside.position</code> is <code>"top"</code> or <code>"bottom"</code>, then it is the width of the legend, else it is the height of the legend. Note that the actual height or width of the legend is determined by the content of the legend (and the used font sizes). This argument specifies the upperbound of the width or height.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.position</code></td>
+<td>
+<p>Position of the legend. Vector of two values, specifying the x and y coordinates. Either this vector contains <code>"left"</code>, <code>"LEFT"</code>, <code>"center"</code>, <code>"right"</code>, or <code>"RIGHT"</code> for the first value and <code>"top"</code>, <code>"TOP"</code>, <code>"center"</code>, <code>"bottom"</code>, or <code>"BOTTOM"</code> for the second value, or this vector contains two numeric values between 0 and 1 that specifies the x and y coordinates of the left bottom corner of the legend. The uppercase values correspond to the position without margins (so tighter to the frame). By default, it is automatically placed in the corner with most space based on the (first) shape object. If <code>legend.outside=TRUE</code>, this argument specifies the legend position within the outside panel.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.stack</code></td>
+<td>
+<p>Value that determines how different legends are stacked: <code>"vertical"</code> or <code>"horizontal"</code>. To stack items within a same legend, look at <code>"legend.is.portrait"</code> in the specific layer calls.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.just</code></td>
+<td>
+<p>Justification of the legend relative to the point coordinates.  The first value specifies horizontal and the second value vertical justification. Possible values are: <code>"left"</code> , <code>"right"</code>, <code>"center"</code>, <code>"bottom"</code>, and <code>"top"</code>. Numeric values of 0 specify left/bottom alignment and 1 right/top alignment. This option is only used, if <code>legend.position</code> is specified by numeric coordinates.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.width</code></td>
+<td>
+<p>width of the legend. This number is relative to the map area (so 1 means the whole map width). If it is a negative number, it will be the exact legend width. If it is a positive number (by default), it will be the maximum legend width; the actual legend width will be decreased automatically based on the legend content and font sizes.or Default color value for map attributes</p>
+</td></tr>
+<tr valign="top"><td><code>legend.height</code></td>
+<td>
+<p>height of the legend. If it is a negative number, it will be the exact legend height. If it is a positive number (by default), it will be the maximum legend height; the actual legend height will be decreased automatically based on the legend content and font sizes.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.hist.height</code></td>
+<td>
+<p>height of the histogram. This height is initial. If the total legend is downscaled to <code>legend.height</code>, the histogram is downscaled as well.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.hist.width</code></td>
+<td>
+<p>width of the histogram. By default, it is equal to the <code>legend.width</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.title.color</code></td>
+<td>
+<p>color of the legend titles</p>
+</td></tr>
+<tr valign="top"><td><code>legend.title.size</code></td>
+<td>
+<p>Relative font size for the legend title</p>
+</td></tr>
+<tr valign="top"><td><code>legend.title.fontface</code></td>
+<td>
+<p>font face for the legend title. By default, set to the global parameter <code>fontface</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.title.fontfamily</code></td>
+<td>
+<p>font family for the legend title. By default, set to the global parameter <code>fontfamily</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.text.color</code></td>
+<td>
+<p>color of the legend text</p>
+</td></tr>
+<tr valign="top"><td><code>legend.text.size</code></td>
+<td>
+<p>Relative font size for the legend text elements</p>
+</td></tr>
+<tr valign="top"><td><code>legend.text.fontface</code></td>
+<td>
+<p>font face for the legend text labels. By default, set to the global parameter <code>fontface</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.text.fontfamily</code></td>
+<td>
+<p>font family for the legend text labels. By default, set to the global parameter <code>fontfamily</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.hist.size</code></td>
+<td>
+<p>Relative font size for the choropleth histogram</p>
+</td></tr>
+<tr valign="top"><td><code>legend.format</code></td>
+<td>
+<p>list of formatting options for the legend numbers. Only applicable for layer functions (such as <code><a href="../../tmap/help/tm_fill.html">tm_fill</a></code>) where <code>labels</code> is undefined. Parameters are:
+</p>
+
+<dl>
+<dt>fun</dt><dd><p>Function to specify the labels. It should take a numeric vector, and should return a character vector of the same size. By default it is not specified. If specified, the list items <code>scientific</code>, <code>format</code>, and <code>digits</code> (see below) are not used.</p>
+</dd>
+<dt>scientific</dt><dd><p>Should the labels be formatted scientifically? If so, square brackets are used, and the <code>format</code> of the numbers is <code>"g"</code>. Otherwise, <code>format="f"</code>, and <code>text.separator</code>, <code>text.less.than</code>, <code>text.or.more</code>, and <code>big.num.abbr</code> are used. Also, the numbers are automatically  rounded to millions or billions if applicable.</p>
+</dd>
+<dt>format</dt><dd><p>By default, <code>"f"</code>, i.e. the standard notation <code>xxx.xxx</code>, is used. If <code>scientific=TRUE</code> then <code>"g"</code>, which means that numbers are formatted scientifically, i.e. <code>n.dddE+nn</code> if needed to save space.</p>
+</dd>
+<dt>digits</dt><dd><p>Number of digits after the decimal point if <code>format="f"</code>, and the number of significant digits otherwise.</p>
+</dd>
+<dt>big.num.abbr</dt><dd><p>Vector that defines whether and which abbrevations are used for large numbers. It is a named numeric vector, where the name indicated the abbreviation, and the number the magnitude (in terms on numbers of zero). Numbers are only abbrevation when they are large enough. Set it to <code>NA</code> to disable abbrevations.  The default is <code>c("mln" = 6, "bln" = 9)</code>. For layers where <code>style</code> is set to <code>log10</code> or <code>log10_pretty</code>, the default is <code>NA</code>.</p>
+</dd>
+<dt>text.separator</dt><dd><p>Character string to use to separate numbers in the legend (default: &quot;to&quot;).</p>
+</dd>
+<dt>text.less.than</dt><dd><p>Character value(s) to use to translate &quot;Less than&quot;. When a character vector of length 2 is specified, one for each word, these words are aligned when <code>text.to.columns = TRUE</code></p>
+</dd>
+<dt>text.or.more</dt><dd><p>Character value(s) to use to translate &quot;or more&quot;. When a character vector of length 2 is specified, one for each word, these words are aligned when <code>text.to.columns = TRUE</code></p>
+</dd>
+<dt>text.align</dt><dd><p>Value that determines how the numbers are aligned, <code>"left"</code>, <code>"center"</code> or <code>"right"</code></p>
+</dd></dl>
+<p>. By default <code>"left"</code> for legends in portrait format (<code>legend.is.protrait = TRUE</code>), and <code>"center"</code> otherwise.
+</p>
+<dl>
+<dt>text.to.columns</dt><dd><p>Logical that determines whether the text is aligned to three columns (from, text.separator, to). By default <code>FALSE</code>.</p>
+</dd>
+<dt>text.align</dt><dd><p>Value that determines how the numbers are aligned, <code>"left"</code>, <code>"center"</code> or <code>"right"</code></p>
+</dd></dl>
+<p>. By default <code>"left"</code> for legends in portrait format (<code>legend.is.protrait = TRUE</code>), and <code>"center"</code> otherwise.
+</p>
+<dl>
+<dt>text.to.columns</dt><dd><p>Logical that determines whether the text is aligned to three columns (from, text.separator, to). By default <code>FALSE</code>.</p>
+</dd>
+<dt>...</dt><dd><p>Other arguments passed on to <code><a href="../../base/help/formatC.html">formatC</a></code></p>
+</dd>
+</dl>
+</td></tr>
+<tr valign="top"><td><code>legend.frame</code></td>
+<td>
+<p>either a logical that determines whether the legend is placed inside a frame, or a color that directly specifies the frame border color.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.frame.lwd</code></td>
+<td>
+<p>line width of the legend frame (applicable if <code>legend.frame</code> is <code>TRUE</code> or a color)</p>
+</td></tr>
+<tr valign="top"><td><code>legend.bg.color</code></td>
+<td>
+<p>Background color of the legend. Use <code>TRUE</code> to match with the overall background color <code>bg.color</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>legend.bg.alpha</code></td>
+<td>
+<p>Transparency number between 0 (totally transparent) and 1 (not transparent). By default, the alpha value of the <code>legend.bg.color</code> is used (normally 1).</p>
+</td></tr>
+<tr valign="top"><td><code>legend.hist.bg.color</code></td>
+<td>
+<p>Background color of the histogram</p>
+</td></tr>
+<tr valign="top"><td><code>legend.hist.bg.alpha</code></td>
+<td>
+<p>Transparency number between 0 (totally transparent) and 1 (not transparent). By default, the alpha value of the <code>legend.hist.bg.color</code> is used (normally 1).</p>
+</td></tr>
+<tr valign="top"><td><code>title.snap.to.legend</code></td>
+<td>
+<p>Logical that determines whether the title is part of the legend. By default <code>FALSE</code>, unless the legend is drawn outside the map (see <code>legend.outside</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>title.position</code></td>
+<td>
+<p>Position of the title. Vector of two values, specifying the x and y coordinates. Either this vector contains &quot;left&quot;, &quot;LEFT&quot;, &quot;center&quot;, &quot;right&quot;, or &quot;RIGHT&quot; for the first value and &quot;top&quot;, &quot;TOP&quot;, &quot;center&quot;, &quot;bottom&quot;, or &quot;BOTTOM&quot; for the second value, or this vector contains two numeric values between 0 and 1 that specifies the x and y coordinates of the tile. The uppercase values correspond to the position without margins (so tighter to the frame). 
+By default the title is placed on top of the legend (determined by <code>legend.position</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>title.color</code></td>
+<td>
+<p>color of the title</p>
+</td></tr>
+<tr valign="top"><td><code>title.fontface</code></td>
+<td>
+<p>font face for the title. By default, set to the global parameter <code>fontface</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>title.fontfamily</code></td>
+<td>
+<p>font family for the title. By default, set to the global parameter <code>fontfamily</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>title.bg.color</code></td>
+<td>
+<p>background color of the title. Use <code>TRUE</code> to match with the overall background color <code>bg.color</code>. By default, it is <code>TRUE</code> if <code>legend.frame</code> is <code>TRUE</code> or a color.</p>
+</td></tr>
+<tr valign="top"><td><code>title.bg.alpha</code></td>
+<td>
+<p>Transparency number between 0 (totally transparent) and 1 (not transparent). By default, the alpha value of the <code>title.bg.color</code> is used (normally 1).</p>
+</td></tr>
+<tr valign="top"><td><code>panel.show</code></td>
+<td>
+<p>Logical that determines if the map(s) are shown as panels. If <code>TRUE</code>, the title will be placed in the panel header instead of inside the map. By default, it is <code>TRUE</code> when small multiples are created with the <code>by</code> variable. (See <code><a href="../../tmap/help/tm_facets.html">tm_facets</a></code>)</p>
+</td></tr>
+<tr valign="top"><td><code>panel.labels</code></td>
+<td>
+<p>Panel labels. Only applicable when <code>panel.show</code> is <code>TRUE</code>. For cross tables facets, it should be a list containing the row names in the first, and column names in the second item.</p>
+</td></tr>
+<tr valign="top"><td><code>panel.label.size</code></td>
+<td>
+<p>Relative font size of the panel labels</p>
+</td></tr>
+<tr valign="top"><td><code>panel.label.color</code></td>
+<td>
+<p>Font color of the panel labels</p>
+</td></tr>
+<tr valign="top"><td><code>panel.label.fontface</code></td>
+<td>
+<p>font face for the panel labels. By default, set to the global parameter <code>fontface</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>panel.label.fontfamily</code></td>
+<td>
+<p>font family for the panel labels. By default, set to the global parameter <code>fontfamily</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>panel.label.bg.color</code></td>
+<td>
+<p>Background color of the panel labels</p>
+</td></tr>
+<tr valign="top"><td><code>panel.label.height</code></td>
+<td>
+<p>Height of the labels in number of text line heights.</p>
+</td></tr>
+<tr valign="top"><td><code>panel.label.rot</code></td>
+<td>
+<p>Rotation angles of the panel labels. Vector of two values: the first is the rotation angle (in degrees) of the row panels, which are only used in cross-table facets (when <code><a href="../../tmap/help/tm_facets.html">tm_facets</a></code>'s <code>by</code> is specified with two variables). The second is the rotation angle of the column panels.</p>
+</td></tr>
+<tr valign="top"><td><code>main.title</code></td>
+<td>
+<p>Title that is printed above the map (or small multiples). When multiple pages are generated (see <code>along</code> argument of <code><a href="../../tmap/help/tm_facets.html">tm_facets</a></code>), a vector can be provided. By default, the main title is only printed when this <code>along</code> argument is specified.</p>
+</td></tr>
+<tr valign="top"><td><code>main.title.size</code></td>
+<td>
+<p>Size of the main title</p>
+</td></tr>
+<tr valign="top"><td><code>main.title.color</code></td>
+<td>
+<p>Color of the main title</p>
+</td></tr>
+<tr valign="top"><td><code>main.title.fontface</code></td>
+<td>
+<p>font face for the main title. By default, set to the global parameter <code>fontface</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>main.title.fontfamily</code></td>
+<td>
+<p>font family for the main title. By default, set to the global parameter <code>fontfamily</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>main.title.position</code></td>
+<td>
+<p>Position of the main title. Either a numeric value between 0 (left) and 1 (right), or a character value: <code>"left"</code>, <code>"center"</code>, or <code>"right"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>attr.outside</code></td>
+<td>
+<p>Logical that determines whether the attributes are plot outside of the map/facets.</p>
+</td></tr>
+<tr valign="top"><td><code>attr.outside.position</code></td>
+<td>
+<p>Character that determines the outside position of the attributes: <code>"top"</code> or <code>"bottom"</code>. Only applicable when <code>attr.outside=TRUE</code>. If the legend is also drawn outside (with <code>legend.outside=TRUE</code>) and on the same side of the map (e.g. also <code>"top"</code> or <code>"bottom"</code>), the attributes are placed between the map and the legend. This can be changed by setting <code>attr.outside.position</code> to <code>"TOP"</code> or <code>"BOTTOM"</code>: in this case, the attributes are placed above respectively below the legend.</p>
+</td></tr>
+<tr valign="top"><td><code>attr.outside.size</code></td>
+<td>
+<p>Numeric value that determines the relative height of the attribute viewport, when <code>attr.outside=TRUE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>attr.position</code></td>
+<td>
+<p>Position of the map attributes, which are <code><a href="../../tmap/help/tm_credits.html">tm_credits</a></code>, <code><a href="../../tmap/help/tm_scale_bar.html">tm_scale_bar</a></code>, <code><a href="../../tmap/help/tm_compass.html">tm_compass</a></code>, and <code><a href="../../tmap/help/tm_minimap.html">tm_minimap</a></code>. Vector of two values, specifying the x and y coordinates. The first value is <code>"left"</code>, <code>"LEFT"</code>, <code>"center"</code>, <code>"right"</code>, or <code>"RIGHT"</code>, and the second value <code>"top"</code>, <code>"TOP"</code>, <code>"center"</code>, <code>"bottom"</code>, or <code>"BOTTOM"</code>. The uppercase values correspond to the position without margins (so tighter to the frame). Positions can also be set separately in the map attribute functions. If <code>attr.outside=TRUE</code>, this argument specifies the position of the attributes within the outside panel.</p>
+</td></tr>
+<tr valign="top"><td><code>attr.just</code></td>
+<td>
+<p>Justification of the attributes relative to the point coordinates.  The first value specifies horizontal and the second value vertical justification. Possible values are: <code>"left"</code> , <code>"right"</code>, <code>"center"</code>, <code>"bottom"</code>, and <code>"top"</code>. Numeric values of 0 specify left/bottom alignment and 1 right/top alignment. This option is only used, if <code>attr.position</code> is specified by numeric coordinates. It can also be specified per attribute function.</p>
+</td></tr>
+<tr valign="top"><td><code>design.mode</code></td>
+<td>
+<p>Logical that enables the design mode. If <code>TRUE</code>, inner and outer margins, legend position, aspect ratio are explicitly shown. Also, feedback text in the console is given.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>other arguments from <code>tm_layout</code></p>
+</td></tr>
+<tr valign="top"><td><code>style</code></td>
+<td>
+<p>name of the style</p>
+</td></tr>
+<tr valign="top"><td><code>format</code></td>
+<td>
+<p>name of the format</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Predefined styles:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: left;">
+<code>"white"</code></td><td style="text-align: left;"> White background, commonly used colors (default) </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>"gray"</code>/<code>"grey"</code></td><td style="text-align: left;"> Grey background, useful to highlight sequential palettes (e.g. in choropleths) </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>"natural"</code></td><td style="text-align: left;"> Emulation of natural view: blue waters and green land </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>"bw"</code></td><td style="text-align: left;"> Greyscale, obviously useful for greyscale printing </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>"classic"</code></td><td style="text-align: left;"> Classic styled maps (recommended) </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>"cobalt"</code></td><td style="text-align: left;"> Inspired by latex beamer style cobalt </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>"albatross"</code></td><td style="text-align: left;"> Inspired by latex beamer style albatross </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>"beaver"</code></td><td style="text-align: left;"> Inspired by latex beamer style beaver </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+--------------------------- </td><td style="text-align: left;"> --------------------------------------------------------------------------------------------------- </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+</td>
+</tr>
+
+</table>
+
+<p>Predefined formats
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td style="text-align: left;">
+<code>"World"</code></td><td style="text-align: left;"> Format specified for world maps </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>"World_wide"</code></td><td style="text-align: left;"> Format specified for world maps with more space for the legend </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>"NLD"</code></td><td style="text-align: left;"> Format specified for maps of the Netherlands </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+<code>"NLD_wide"</code></td><td style="text-align: left;"> Format specified for maps of the Netherlands with more space for the legend </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+--------------------------- </td><td style="text-align: left;"> --------------------------------------------------------------------------------------------------- </td>
+</tr>
+<tr>
+ <td style="text-align: left;">
+</td>
+</tr>
+
+</table>
+
+
+
+<h3>References</h3>
+
+<p>Tennekes, M., 2018, tmap: Thematic Maps in R, Journal of Statistical Software, 84(6), 1-39, <a href="https://doi.org/10.18637/jss.v084.i06">DOI</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="../doc/tmap-getstarted.html"><code>vignette("tmap-getstarted")</code></a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(World, land)
+
+tm_shape(World) + 
+    tm_fill("pop_est_dens", style="kmeans", title="Population density") +
+tm_style("albatross", frame.lwd=10) + tm_format("World", title="The World")
+
+## Not run: 
+tm_shape(land) +
+	tm_raster("elevation", breaks=c(-Inf, 250, 500, 1000, 1500, 2000, 2500, 3000, 4000, Inf),  
+		palette = terrain.colors(9), title="Elevation", midpoint = NA) +
+tm_shape(World, is.master=TRUE) +
+	tm_borders("grey20") +
+	tm_grid(projection="longlat", labels.size = .5) +
+	tm_text("name", size="AREA") +
+tm_compass(position = c(.65, .15), color.light = "grey90") +
+tm_credits("Eckert IV projection", position = c("right", "BOTTOM")) +
+tm_style("classic") +
+tm_layout(bg.color="lightblue",
+	inner.margins=c(.04,.03, .02, .01), 
+	earth.boundary = TRUE, 
+	space.color="grey90") +
+tm_legend(position = c("left", "bottom"), 
+	frame = TRUE,
+	bg.color="lightblue")
+
+## End(Not run)
+	
+tm_shape(World, projection="+proj=robin") +
+	tm_polygons("HPI", palette="div", n=7, 
+			title = "Happy Planet Index") +
+tm_credits("Robinson projection", position = c("right", "BOTTOM")) +
+tm_style("natural", earth.boundary = c(-180, -87, 180, 87), inner.margins = .05) +
+tm_legend(position=c("left", "bottom"), bg.color="grey95", frame=TRUE)
+
+# Example to illustrate the type of titles
+tm_shape(World) +
+	tm_polygons(c("income_grp", "economy"), title = c("Legend Title 1", "Legend Title 2")) +
+	tm_layout(main.title = "Main Title",
+		main.title.position = "center",
+		main.title.color = "blue",
+		title = c("Title 1", "Title 2"),
+		title.color = "red",
+		panel.labels = c("Panel Label 1", "Panel Label 2"),
+		panel.label.color = "purple",
+		legend.text.color = "brown")
+
+## Not run: 
+# global option tmap.style demo
+	
+# get current style
+current.style &lt;- tmap_style() 
+	
+qtm(World, fill = "economy", format = "World")
+
+tmap_style("col_blind")
+qtm(World, fill = "economy", format = "World")
+
+tmap_style("cobalt")
+qtm(World, fill = "economy", format = "World")
+
+# set to current style
+tmap_style(current.style)
+
+## End(Not run)
+
+# TIP: check out these examples in view mode, enabled with tmap_mode("view")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

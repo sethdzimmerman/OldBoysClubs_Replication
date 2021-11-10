@@ -1,0 +1,61 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Matthews,1,200,2 single,1,N,1
+Matthews,2,180,2 single,1,N,2
+Matthews,3,120,1 double,1,N,3
+Matthews,4,100,1 double,1,N,4
+Matthews,5,220,2 single,1,N,5
+Matthews,6,340,1 single,1,N,6
+Matthews,7,220,2 single,2,N,7
+Matthews,8,200,2 single,2,N,8
+Matthews,9,220,2 single,2,N,9
+Matthews,10,,,2,N,10
+Matthews,11,240,2 single,2,N,11
+Matthews,12,220,2 single,2,N,12
+Matthews,13,200,2 single,3,N,13
+Matthews,14,180,2 single,3,N,14
+Matthews,15,200,2 single,3,N,15
+Matthews,16,120,1 double,3,N,16
+Matthews,17,220,2 single,3,N,17
+Matthews,18,200,2 single,3,N,18
+Matthews,19,180,2 single,4,N,19
+Matthews,20,160,2 single,4,N,20
+Matthews,21,180,2 single,4,N,21
+Matthews,22,100,1 double,4,N,22
+Matthews,23,200,2 single,4,N,23
+Matthews,24,180,2 single,4,N,24
+Matthews,25,80,"1 single, 1 double",5,N,25
+Matthews,26,80,"1 single, 1 double",5,N,26
+Matthews,27,80,1 double,5,N,27
+Matthews,28,80,1 double,5,N,28
+Matthews,29,160,2 single,5,N,29
+Matthews,30,160,2 single,5,N,30
+Matthews,31,200,2 single,1,S,31
+Matthews,32,180,2 single,1,S,32
+Matthews,33,,,1,S,33
+Matthews,34,100,1 double,1,S,34
+Matthews,35,220,2 single,1,S,35
+Matthews,36,200,2 single,1,S,36
+Matthews,37,220,2 single,2,S,37
+Matthews,38,200,2 single,2,S,38
+Matthews,39,220,2 single,2,S,39
+Matthews,40,140,1 double,2,S,40
+Matthews,41,240,2 single,2,S,41
+Matthews,42,220,2 single,2,S,42
+Matthews,43,200,2 single,3,S,43
+Matthews,44,180,2 single,3,S,44
+Matthews,45,200,2 single,3,S,45
+Matthews,46,,,3,S,46
+Matthews,47,220,2 single,3,S,47
+Matthews,48,200,2 single,3,S,48
+Matthews,49,180,2 single,4,S,49
+Matthews,50,160,2 single,4,S,50
+Matthews,51,180,2 single,4,S,51
+Matthews,52,100,1 double,4,S,52
+Matthews,53,200,2 single,4,S,53
+Matthews,54,180,2 single,4,S,54
+Matthews,55,80,"1 single, 1 double",5,S,55
+Matthews,56,80,"1 single, 1 double",5,S,56
+Matthews,57,80,1 double,5,S,57
+Matthews,58,80,1 double,5,S,58
+Matthews,59,160,2 single,5,S,59
+Matthews,60,160,2 single,5,S,60

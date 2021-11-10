@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Credits text</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_credits {tmap}"><tr><td>tm_credits {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Credits text</h2>
+
+<h3>Description</h3>
+
+<p>Creates a text annotation that could be used for credits or acknowledgements.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_credits(
+  text,
+  size = 0.7,
+  col = NA,
+  alpha = NA,
+  align = "left",
+  bg.color = NA,
+  bg.alpha = NA,
+  fontface = NA,
+  fontfamily = NA,
+  position = NA,
+  just = NA
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>text</code></td>
+<td>
+<p>text. Multiple lines can be created with the line break symbol <code>"\n"</code>. Facets can have different texts: in that case a vector of characters is required. Use <code>""</code> to omit the credits for specific facets.</p>
+</td></tr>
+<tr valign="top"><td><code>size</code></td>
+<td>
+<p>relative text size</p>
+</td></tr>
+<tr valign="top"><td><code>col</code></td>
+<td>
+<p>color of the text. By default equal to the argument <code>attr.color</code> of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>alpha</code></td>
+<td>
+<p>transparency number between 0 (totally transparent) and 1 (not transparent). By default, the alpha value of <code>col</code> is used (normally 1).</p>
+</td></tr>
+<tr valign="top"><td><code>align</code></td>
+<td>
+<p>horizontal alignment: <code>"left"</code> (default), <code>"center"</code>, or <code>"right"</code>. Only applicable if <code>text</code> contains multiple lines</p>
+</td></tr>
+<tr valign="top"><td><code>bg.color</code></td>
+<td>
+<p>background color for the text</p>
+</td></tr>
+<tr valign="top"><td><code>bg.alpha</code></td>
+<td>
+<p>Transparency number between 0 (totally transparent) and 1 (not transparent). By default, the alpha value of the <code>bg.color</code> is used (normally 1).</p>
+</td></tr>
+<tr valign="top"><td><code>fontface</code></td>
+<td>
+<p>font face of the text. By default, determined by the fontface argument of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>fontfamily</code></td>
+<td>
+<p>font family of the text. By default, determined by the fontfamily argument of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>position</code></td>
+<td>
+<p>position of the text. Vector of two values, specifying the x and y coordinates. Either this vector contains &quot;left&quot;, &quot;LEFT&quot;, &quot;center&quot;, &quot;right&quot;, or &quot;RIGHT&quot; for the first value and &quot;top&quot;, &quot;TOP&quot;, &quot;center&quot;, &quot;bottom&quot;, or &quot;BOTTOM&quot; for the second value, or this vector contains two numeric values between 0 and 1 that specifies the x and y value of the center of the text. The uppercase values correspond to the position without margins (so tighter to the frame). The default value is controlled by the argument <code>"attr.position"</code> of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>just</code></td>
+<td>
+<p>Justification of the attribute relative to the point coordinates.  The first value specifies horizontal and the second value vertical justification. Possible values are: <code>"left"</code> , <code>"right"</code>, <code>"center"</code>, <code>"bottom"</code>, and <code>"top"</code>. Numeric values of 0 specify left/bottom alignment and 1 right/top alignment. This option is only used, if <code>position</code> is specified by numeric coordinates. The default value is controlled by the argument <code>"attr.just"</code> of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+</table>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../tmap/help/tm_xlab.html">tm_xlab</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+current.mode &lt;- tmap_mode("plot")
+
+data(NLD_muni, NLD_prov)
+
+tm_shape(NLD_muni) +
+    tm_fill(col="population", convert2density=TRUE, 
+        style="kmeans", title = expression("Population (per " * km^2 * ")")) +
+    tm_borders("grey25", alpha=.5) + 
+    tm_shape(NLD_prov) +
+    tm_borders("grey40", lwd=2) +
+tm_format("NLD", bg.color="white", frame = TRUE) +
+tm_credits("(c) Statistics Netherlands (CBS) and\nKadaster Nederland", position=c("left", "bottom"))
+
+# restore current mode
+tmap_mode(current.mode)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

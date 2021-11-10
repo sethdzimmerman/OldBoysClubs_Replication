@@ -1,0 +1,24 @@
+\begin{tabular}{l ccccc}
+&	All&	Private feeder&	Non-private&	Hasty Pudding&	Sel. Fin. Club\\ \hline
+\multicolumn{5}{l}{\emph{A. Demographics}}\\ 
+Have high school data&	0.984&	1.000&	0.979&	0.979&	0.981\\ 
+From MA&	0.509&	0.453&	0.527&	0.473&	0.439\\ 
+From NY&	0.172&	0.255&	0.145&	0.249&	0.293\\ 
+\\ 
+\multicolumn{5}{l}{\emph{B. Census childhood household demographics}}\\ 
+Have Census pre-Harvard&	0.619&	0.707&	0.591&	0.727&	0.742\\ 
+Have father's occupation&	0.643&	0.606&	0.657&	0.609&	0.630\\ 
+\\ 
+\multicolumn{5}{l}{\emph{C. First-year campus location}}\\ 
+Have address data&	0.950&	0.995&	0.936&	0.998&	0.999\\ 
+Have room attributes&	0.712&	0.910&	0.650&	0.933&	0.919\\ 
+\\ 
+\multicolumn{5}{l}{\emph{D. Academic class rank groups}}\\ 
+Rank group 1&	0.018&	0.008&	0.021&	0.004&	0.000\\ 
+Rank group 2&	0.069&	0.040&	0.078&	0.027&	0.023\\ 
+Rank group 3&	0.155&	0.105&	0.171&	0.088&	0.069\\ 
+Rank group 4&	0.242&	0.218&	0.249&	0.204&	0.197\\ 
+Rank group 5&	0.376&	0.436&	0.357&	0.449&	0.452\\ 
+Rank group 6&	0.140&	0.194&	0.124&	0.228&	0.258\\ \hline
+N&	       14383&	        3449&	       10934&	        2053&	         941\\ 
+\end{tabular}

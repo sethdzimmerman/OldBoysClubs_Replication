@@ -1,0 +1,33 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Stoughton,1,240,None,1,W,1
+Stoughton,2,240,None,1,W,2
+Stoughton,3,260,None,1,W,3
+Stoughton,4,260,None,1,W,4
+Stoughton,5,240,None,2,W,5
+Stoughton,6,240,None,2,W,6
+Stoughton,7,260,None,2,W,7
+Stoughton,8,260,None,2,W,8
+Stoughton,9,240,None,3,W,9
+Stoughton,10,240,None,3,W,10
+Stoughton,11,260,None,3,W,11
+Stoughton,12,260,None,3,W,12
+Stoughton,13,240,None,4,W,13
+Stoughton,14,220,None,4,W,14
+Stoughton,15,260,None,4,W,15
+Stoughton,16,220,None,4,W,16
+Stoughton,17,240,None,1,E,17
+Stoughton,18,240,None,1,E,18
+Stoughton,19,260,None,1,E,19
+Stoughton,20,260,None,1,E,20
+Stoughton,21,240,None,2,E,21
+Stoughton,22,,,2,E,22
+Stoughton,23,260,None,2,E,23
+Stoughton,24,,,2,E,24
+Stoughton,25,240,None,3,E,25
+Stoughton,26,240,None,3,E,26
+Stoughton,27,260,None,3,E,27
+Stoughton,28,260,None,3,E,28
+Stoughton,29,220,None,4,E,29
+Stoughton,30,220,None,4,E,30
+Stoughton,31,300,1 single,4,E,31
+Stoughton,32,280,1 single,4,E,32

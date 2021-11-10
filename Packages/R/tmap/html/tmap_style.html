@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Set or get the default tmap style</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tmap_style {tmap}"><tr><td>tmap_style {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Set or get the default tmap style</h2>
+
+<h3>Description</h3>
+
+<p>Set or get the default tmap style. Without arguments, the current style is returned. Also the available styles are displayed. When a style is set, the corresponding tmap options  (see <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code>) will be set accordingly. The default style (i.e. when loading the package) is <code>"white"</code>.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tmap_style(style)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>style</code></td>
+<td>
+<p>name of the style. When omitted, <code>tmap_style</code> returns the current style and also shows all available styles. When the style is specified, <code>tmap_style</code> sets the style accordingly. Note that in that case, all tmap options (see <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code>) will be reset according to the style definition. See <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code> for predefined styles, and <code><a href="../../tmap/help/tmap_style_catalogue.html">tmap_style_catalogue</a></code> for creating a catalogue.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Note that <code><a href="../../tmap/help/tm_style.html">tm_style</a></code> is used within a plot call (so it only affects that plot), whereas <code>tmap_style</code> sets the style globally.
+</p>
+<p>After loading a style, the options that defined this style (i.e. the difference with the default <code>"white"</code> style) can be obtained by <code><a href="../../tmap/help/tmap_options_diff.html">tmap_options_diff</a></code>.
+</p>
+<p>The documentation of <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code> (details and the examples) shows how a new style is created.
+</p>
+
+
+<h3>Value</h3>
+
+<p>the style before changing
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code> for tmap options, and <code><a href="../../tmap/help/tmap_style_catalogue.html">tmap_style_catalogue</a></code> to create a style catalogue of all available styles.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(World)
+
+current.style &lt;- tmap_style("classic")
+qtm(World, fill="life_exp", fill.title="Life expectancy")
+
+tmap_style("cobalt")
+qtm(World, fill="life_exp", fill.title="Life expectancy")
+
+# restore current style
+tmap_style(current.style)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

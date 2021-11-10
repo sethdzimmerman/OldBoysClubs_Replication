@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Class &quot;GDALReadOnlyDataset&quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for GDALReadOnlyDataset-class {rgdal}"><tr><td>GDALReadOnlyDataset-class {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Class &quot;GDALReadOnlyDataset&quot;</h2>
+
+<h3>Description</h3>
+
+<p><code>GDALReadOnlyDataset</code> is the base class for a GDAL Dataset
+classes. Only read operations are supported. Both <code>GDALDataset</code>
+and <code>GDALTransientDataset</code> inherit these read operations while
+providing additional write operations (see
+<code><a href="../../rgdal/help/GDALDataset-class.html">GDALDataset-class</a></code>). <code>GDALReadOnlyDataset-class</code> inherits
+from <code><a href="../../rgdal/help/GDALMajorObject-class.html">GDALMajorObject-class</a></code>.</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+GDAL.close(dataset)
+GDAL.open(filename, read.only = TRUE, silent=FALSE,
+                 allowedDrivers = NULL, options=NULL)
+getDriver(dataset)
+
+
+
+getColorTable(dataset, band = 1)
+getGeoTransFunc(dataset)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dataset</code></td>
+<td>
+<p>An object inheriting from class 'GDALReadOnlyDataset'</p>
+</td></tr>
+<tr valign="top"><td><code>filename</code></td>
+<td>
+<p>name of file to contain raster data object; will be normalized with <code><a href="../../base/html/normalizePath.html">normalizePath</a></code> if it is a file</p>
+</td></tr>
+</table>
+
+
+
+
+
+
+<table summary="R argblock">
+<tr valign="top"><td><code>band</code></td>
+<td>
+<p>The band number (1-based) to read from</p>
+</td></tr>
+</table>
+
+
+
+
+
+<table summary="R argblock">
+<tr valign="top"><td><code>read.only</code></td>
+<td>
+<p>A logical flag indicating whether to open the file as a
+<code>GDALReadOnlyDataset</code> or as a writable <code>GDALDataset</code></p>
+</td></tr>
+<tr valign="top"><td><code>silent</code></td>
+<td>
+<p> logical; if TRUE, comment and non-fatal CPL driver errors suppressed </p>
+</td></tr>
+<tr valign="top"><td><code>allowedDrivers</code></td>
+<td>
+<p>a character vector of suggested driver short names may be provided starting from GDAL 2.0</p>
+</td></tr>
+<tr valign="top"><td><code>options</code></td>
+<td>
+<p>open options may be passed to raster drivers starting from GDAL 2.0; very few drivers support these options</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p><code>GDAL.open</code> and <code>GDAL.close</code> are shorter versions of <code>new("GDALReadOnlyDataset", ...)</code> and <code>closeDataset()</code>. Because <code>GDAL.close</code> through <code>closeDataset()</code> uses the finalization mechanism to destroy the handles to the dataset and its driver, messages such as:
+</p>
+<p>&quot;Closing GDAL dataset handle 0x8ff7900...  destroyed ... done.&quot;
+</p>
+<p>may appear when <code>GDAL.close</code> is run, or at some later stage. 
+<code>getDriver</code> returns an object inheriting from class 'GDALDriver'.
+
+<code>getColorTable</code> returns the dataset colour table (currently does not support RGB imaging).
+<code>getGeoTransFunc</code> returns a warping function.
+</p>
+
+
+<h3>Objects from the Class</h3>
+
+<p>Objects can be created by calls of the form <code>new("GDALReadOnlyDataset", filename, handle)</code>.
+~~ describe objects here ~~ 
+</p>
+
+
+<h3>Slots</h3>
+
+
+<dl>
+<dt><code>handle</code>:</dt><dd><p>Object of class <code>"externalptr", from class "GDALMajorObject"</code> ~~ </p>
+</dd>
+</dl>
+
+
+
+<h3>Extends</h3>
+
+<p>Class <code>"GDALMajorObject"</code>, directly.
+</p>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>closeDataset</dt><dd><p><code>signature(dataset = "GDALReadOnlyDataset")</code>: ... </p>
+</dd>
+<dt>dim</dt><dd><p><code>signature(x = "GDALReadOnlyDataset")</code>: ... </p>
+</dd>
+<dt>initialize</dt><dd><p><code>signature(.Object = "GDALReadOnlyDataset")</code>: ... </p>
+</dd>
+</dl>
+
+
+
+
+
+
+
+
+<h3>Author(s)</h3>
+
+<p>Timothy H. Keitt, modified by Roger Bivand</p>
+
+
+<h3>References</h3>
+
+<p><a href="http://www.gdal.org/">http://www.gdal.org/</a></p>
+
+
+<h3>See Also</h3>
+
+<p>See also <code><a href="../../rgdal/help/GDALDriver-class.html">GDALDriver-class</a></code>, <code><a href="../../rgdal/help/GDALDataset-class.html">GDALDataset-class</a></code>, <code><a href="../../rgdal/help/GDALTransientDataset-class.html">GDALTransientDataset-class</a></code>.</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+logo &lt;- system.file("pictures/logo.jpg", package="rgdal")[1]
+x &lt;- new("GDALReadOnlyDataset", logo)
+dim(x)
+plot(density(getRasterTable(x)$band1))
+#displayDataset(x)
+#displayDataset(x, col=function(x){rev(cm.colors(x))})
+#im &lt;- displayDataset(x, col=function(x){rev(cm.colors(x))}, reset.par=FALSE)
+#contour(1:attr(im, "size")[2], 1:attr(im, "size")[1],
+# t(attr(im, "index"))[,attr(im, "size")[1]:1], nlevels = 1,
+# levels = 100, col = 'black', add = TRUE)
+GDAL.close(x)
+logo &lt;- system.file("pictures/Rlogo.jpg", package="rgdal")[1]
+x &lt;- new("GDALReadOnlyDataset", logo)
+dim(x)
+#displayDataset(x)
+GDAL.close(x)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

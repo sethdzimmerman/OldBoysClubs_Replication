@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Quick thematic map plot</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for qtm {tmap}"><tr><td>qtm {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Quick thematic map plot</h2>
+
+<h3>Description</h3>
+
+<p>Draw a thematic map quickly. This function is a convenient wrapper of the main plotting method of stacking <code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code>s. Without arguments or with a search term, this functions draws an interactive map.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+qtm(
+  shp,
+  fill = NA,
+  symbols.size = NULL,
+  symbols.col = NULL,
+  symbols.shape = NULL,
+  dots.col = NULL,
+  text = NULL,
+  text.size = 1,
+  text.col = NA,
+  lines.lwd = NULL,
+  lines.col = NULL,
+  raster = NA,
+  borders = NA,
+  by = NULL,
+  scale = NA,
+  title = NA,
+  projection = NULL,
+  bbox = NULL,
+  basemaps = NA,
+  overlays = NA,
+  style = NULL,
+  format = NULL,
+  ...
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>shp</code></td>
+<td>
+<p>One of
+</p>
+
+<ul>
+<li><p> shape object, which is an object from a class defined by the <code><a href="../../sf/help/sf.html">sf</a></code>, <code><a href="../../sp/help/sp.html">sp</a></code>, or <code><a href="../../raster/help/raster-package.html">raster</a></code> package. For instance, an <code><a href="../../sf/help/sf.html">sf</a></code> object, an <code><a href="../../sp/help/SpatialPolygonsDataFrame.html">SpatialPolygons(DataFrame)</a></code>, or a <code><a href="../../raster/help/Raster-class.html">RasterBrick</a></code>.
+</p>
+</li>
+<li><p> Not specified, i.e. <code>qtm()</code> is executed. In this case a plain interactive map is shown.
+</p>
+</li>
+<li><p> A OSM search string, e.g. <code>qtm("Amsterdam")</code>. In this case a plain interactive map is shown positioned according to the results of the search query (from OpenStreetMap nominatim)
+</p>
+</li></ul>
+</td></tr>
+<tr valign="top"><td><code>fill</code></td>
+<td>
+<p>either a color to fill the polygons, or name of the data variable in <code>shp</code> to draw a choropleth. Only applicable when <code>shp</code> contains polygons.  Set <code>fill = NULL</code> to draw only polygon borders. See also argument <code>borders</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>symbols.size</code></td>
+<td>
+<p>either the size of the symbols or a name of the data variable in <code>shp</code> that specifies the sizes of the symbols.  See also the <code>size</code> argument of <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>. Only applicable when <code>shp</code> contains spatial points, lines, or polygons.</p>
+</td></tr>
+<tr valign="top"><td><code>symbols.col</code></td>
+<td>
+<p>either the color of the symbols or a name of the data variable in <code>shp</code> that specifies the colors of the symbols. See also the <code>col</code> arugment of <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>. Only applicable when <code>shp</code> contains spatial points, lines, or polygons.</p>
+</td></tr>
+<tr valign="top"><td><code>symbols.shape</code></td>
+<td>
+<p>either the shape of the symbols or a name of the data variable in <code>shp</code> that specifies the shapes of the symbols. See also the <code>shape</code> arugment of <code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>. Only applicable when <code>shp</code> contains spatial points, lines, or polygons.</p>
+</td></tr>
+<tr valign="top"><td><code>dots.col</code></td>
+<td>
+<p>name of the data variable in <code>shp</code> for the dot map that specifies the colors of the dots. If <code>dots.col</code> is specified instead <code>symbols.col</code>, dots instead of bubbles are drawn (unless <code>symbols.shape</code> is specified).</p>
+</td></tr>
+<tr valign="top"><td><code>text</code></td>
+<td>
+<p>Name of the data variable that contains the text labels. Only applicable when <code>shp</code> contains spatial points, lines, or polygons.</p>
+</td></tr>
+<tr valign="top"><td><code>text.size</code></td>
+<td>
+<p>Font size of the text labels. Either a constant value, or the name of a numeric data variable. Only applicable when <code>shp</code> contains spatial points, lines, or polygons.</p>
+</td></tr>
+<tr valign="top"><td><code>text.col</code></td>
+<td>
+<p>name of the data variable in <code>shp</code> for the that specifies the colors of the text labels. Only applicable when <code>shp</code> contains spatial points, lines, or polygons.</p>
+</td></tr>
+<tr valign="top"><td><code>lines.lwd</code></td>
+<td>
+<p>either a line width or a name of the data variable that specifies the line width. Only applicable when <code>shp</code> contains spatial lines.</p>
+</td></tr>
+<tr valign="top"><td><code>lines.col</code></td>
+<td>
+<p>either a line color or a name of the data variable that specifies the line colors. Only applicable when <code>shp</code> contains spatial lines.</p>
+</td></tr>
+<tr valign="top"><td><code>raster</code></td>
+<td>
+<p>either a color or a name of the data variable that specifices the raster colors. Only applicable when <code>shp</code> is a spatial raster.</p>
+</td></tr>
+<tr valign="top"><td><code>borders</code></td>
+<td>
+<p>color of the polygon borders. Use <code>NULL</code> to omit the borders.</p>
+</td></tr>
+<tr valign="top"><td><code>by</code></td>
+<td>
+<p>data variable name by which the data is split, or a vector of two variable names to split the data by two variables (where the first is used for the rows and the second for the columns). See also <code><a href="../../tmap/help/tm_facets.html">tm_facets</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>scale</code></td>
+<td>
+<p>numeric value that serves as the global scale parameter. All font sizes, symbol sizes, border widths, and line widths are controlled by this value. The parameters <code>symbols.size</code>, <code>text.size</code>, and <code>lines.lwd</code> can be scaled seperately with respectively <code>symbols.scale</code>, <code>text.scale</code>, and <code>lines.scale</code>. See also <code>...</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>title</code></td>
+<td>
+<p>main title. For legend titles, use <code>X.style</code>, where X is the layer name (see <code>...</code>).</p>
+</td></tr>
+<tr valign="top"><td><code>projection</code></td>
+<td>
+<p>Either a <code><a href="../../sf/help/st_crs.html">crs</a></code> object or a character value (<code>PROJ.4</code> character string). By default, the projection is used that is defined in the <code>shp</code> object itself.</p>
+</td></tr>
+<tr valign="top"><td><code>bbox</code></td>
+<td>
+<p>bounding box. Arugment passed on to <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>basemaps</code></td>
+<td>
+<p>name(s) of the provider or an URL of a tiled basemap. It is a shortcut to <code><a href="../../tmap/help/tm_basemap.html">tm_basemap</a></code>. Set to <code>NULL</code> to disable basemaps. By default, it is set to the tmap option <code>basemaps</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>overlays</code></td>
+<td>
+<p>name(s) of the provider or an URL of a tiled overlay map. It is a shortcut to <code><a href="../../tmap/help/tm_tiles.html">tm_tiles</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>style</code></td>
+<td>
+<p>Layout options (see <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>) that define the style. See <code><a href="../../tmap/help/tmap_style.html">tmap_style</a></code> for details.</p>
+</td></tr>
+<tr valign="top"><td><code>format</code></td>
+<td>
+<p>Layout options (see <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>) that define the format. See <code><a href="../../tmap/help/tmap_format.html">tmap_format</a></code> for details.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>arguments passed on to the <code>tm_*</code> functions. The prefix of these arguments should be with the layer function name without <code>"tm_"</code> and a period. For instance, the palette for polygon fill color is called <code>fill.palette</code>. The following prefixes are supported: <code>shape.</code>, <code>fill.</code>, <code>borders.</code>, <code>polygons.</code>, <code>symbols.</code>, <code>dots.</code>, <code>lines.</code>, <code>raster.</code>, <code>text.</code>, <code>layout.</code>, <code>grid.</code>, <code>facets.</code>, and <code>view.</code>. Arguments that have a unique name, i.e. that does not exist in any other layer function, e.g. <code>convert2density</code>, can also be called without prefix.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The first argument is a shape object (normally specified by <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code>). The next arguments, from <code>fill</code> to <code>raster</code>, are the aesthetics from the main layers. The remaining arguments are related to the map layout. Any argument from any main layer function, such as <code><a href="../../tmap/help/tm_polygons.html">tm_polygons</a></code>, can be specified (see <code>...</code>). It is also possible to stack <code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code>s on a <code>qtm</code> plot. See examples.
+</p>
+<p>By default, a scale bar is shown. This option can be set with <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code> (argument <code>qtm.scalebar</code>). A minimap is shown by default when <code>qtm</code> is called without arguments of with a search term. This option can be set with <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code> (argument <code>qtm.minimap</code>).
+</p>
+
+
+<h3>Value</h3>
+
+<p><code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code>
+</p>
+
+
+<h3>References</h3>
+
+<p>Tennekes, M., 2018, tmap: Thematic Maps in R, Journal of Statistical Software, 84(6), 1-39, <a href="https://doi.org/10.18637/jss.v084.i06">DOI</a>
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="../doc/tmap-getstarted.html"><code>vignette("tmap-getstarted")</code></a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(World, rivers, metro)
+
+# just the map
+qtm(World)
+
+# choropleth
+qtm(World, fill = "economy", format = "World", style = "col_blind")
+
+# choropleth with more specifications
+qtm(World, fill="HPI", fill.n = 9, fill.palette = "div",
+    fill.title = "Happy Planet Index", fill.id = "name", 
+    style = "gray", format = "World")
+# this map can also be created with the main plotting method,
+# which is recommended in this case.
+## Not run: 
+tm_shape(World) +
+    tm_polygons("HPI", n = 9, palette = "div",
+        title = "Happy Planet Index", id = "name") +
+tm_style("gray") +
+tm_format("World")
+
+## End(Not run)
+
+# bubble map
+## Not run: 
+qtm(World, borders = NULL) + 
+qtm(metro, symbols.size = "pop2010", 
+    symbols.title.size= "Metropolitan Areas", 
+    symbols.id= "name",
+    format = "World")
+
+## End(Not run)
+
+# dot map
+## Not run: 
+current.mode &lt;- tmap_mode("view")
+qtm(metro, bbox = "China")
+tmap_mode(current.mode) # restore mode
+
+## End(Not run)
+
+## Not run: 
+# without arguments, a plain interactive map is shown (the mode is set to view)
+qtm()
+
+# search query for OpenStreetMap nominatim
+qtm("Amsterdam")
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

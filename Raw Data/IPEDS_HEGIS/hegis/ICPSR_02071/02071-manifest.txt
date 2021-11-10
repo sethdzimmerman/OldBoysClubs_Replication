@@ -1,0 +1,46 @@
+File Manifest for ICPSR 2071
+
+U.S. Dept. of Education, National Center for Education Statistics. HIGHER
+EDUCATION GENERAL INFORMATION SURVEY (HEGIS) XX: FALL ENROLLMENT IN
+INSTITUTIONS OF HIGHER EDUCATION, 1985. ICPSR02071-v1. Washington, DC: U.S.
+Dept. of Education, National Center for Education Statistics [producer],
+1985. Ann Arbor, MI: Inter-university Consortium for Political and Social
+Research [distributor], 2005-07-06. http://doi.org/10.3886/ICPSR02071.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02071-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    02071-related_literature.txt        -       -         -       daily       -
+
+    02071-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Higher Education General Information Survey (HEGIS) XX:  Fall
+Enrollment in Institutions of Higher Education, 1985
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02071-0001-Codebook.pdf             -       -         -       2005-07-06  59f90484438009b1a5d8cefe28ed6252
+
+    02071-0001-Data.dta                 -       48,046    66      2005-07-06  fc1da852eb498e94eddbeee8e3be1850
+
+    02071-0001-Data.por                 -       48,046    66      2005-07-06  c6c5f010cdffc8119c591b4de62d104a
+
+    02071-0001-Data.txt                 258     48,046    66      2005-07-06  2033f82d3621e4e1c4e9bf726f5635bf
+
+    02071-0001-Data.xpt                 -       48,046    66      2005-07-06  6db00963eeefa634c3ad590225f08d90
+
+    02071-0001-Setup.dct                -       -         -       2005-07-06  7ce022ebc8cb3becbae447937bf25dc1
+
+    02071-0001-Setup.do                 -       -         -       2005-07-06  69b387a264c0e1b57eafbb007a95bce4
+
+    02071-0001-Setup.sas                -       -         -       2005-07-06  a5d8ac37eda1e821c913ed9477413288
+
+    02071-0001-Setup.sps                -       -         -       2005-07-06  84cb36e32f15e450b0c3c1ef556022e2
+

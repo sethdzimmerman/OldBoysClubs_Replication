@@ -1,0 +1,25 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Holworthy,1,280,2 single,1,W,1
+Holworthy,2,260,2 single,1,W,2
+Holworthy,3,300,2 single,2,W,3
+Holworthy,4,,,2,W,4
+Holworthy,5,300,2 single,3,W,5
+Holworthy,6,280,2 single,3,W,6
+Holworthy,7,260,2 single,4,W,7
+Holworthy,8,240,2 single,4,W,8
+Holworthy,9,260,2 single,1,M,9
+Holworthy,10,260,2 single,1,M,10
+Holworthy,11,280,2 single,2,M,11
+Holworthy,12,280,2 single,2,M,12
+Holworthy,13,280,2 single,3,M,13
+Holworthy,14,280,2 single,3,M,14
+Holworthy,15,240,2 single,4,M,15
+Holworthy,16,240,2 single,4,M,16
+Holworthy,17,260,2 single,1,E,17
+Holworthy,18,280,2 single,1,E,18
+Holworthy,19,280,2 single,2,E,19
+Holworthy,20,,,2,E,20
+Holworthy,21,280,2 single,3,E,21
+Holworthy,22,300,2 single,3,E,22
+Holworthy,23,240,2 single,4,E,23
+Holworthy,24,260,2 single,4,E,24

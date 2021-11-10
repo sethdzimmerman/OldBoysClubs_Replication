@@ -1,0 +1,44 @@
+File Manifest for ICPSR 7650
+
+United States Department of Education. National Center for Education
+Statistics. Higher Education Opening Fall Enrollment, 1976. ICPSR07650-v2.
+Ann Arbor, MI: Inter-university Consortium for Political and Social
+Research [distributor], 1998. http://doi.org/10.3886/ICPSR07650.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    07650-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    07650-related_literature.txt        -       -         -       daily       -
+
+    07650-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Main Data File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    07650-0001-Codebook.pdf             -       -         -       1998-12-16  da2e8b22bf30906a7f6ccc906777fe21
+
+    07650-0001-Data.txt                 221     189,357   unknown 1998-12-16  8780f633c6b970039b2c7bca6f7143c0
+
+
+DS0002 HEGIS Record Layout
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    07650-0002-Record_layout.xls        -       -         -       1998-12-16  59d3d2186e89eea043bdf31f6b1fe1c2
+
+
+Version History
+
+1998-12-17 Revised data are now available for this collection,  along with
+a record layout (Excel worksheet) and a revised codebook in a PDF file.

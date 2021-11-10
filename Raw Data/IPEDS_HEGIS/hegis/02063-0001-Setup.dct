@@ -1,0 +1,56 @@
+dictionary {
+*****************************************************************
+*
+*  Warning: Edit this file at your own risk
+*
+*****************************************************************
+_lines(1)
+
+_line(1)
+
+_column(1)     long  FICE               %6f    "FICE CODE"
+_column(7)     int   OESTATE  :OESTATE  %2f    "OE STATE CODE"
+_column(9)     int   SEQUENCE           %4f    "SEQUENCE NUMBER"
+_column(13)    str1  SYSCODE            %1s    "SYSTEM CODE"
+_column(14)    str2  SEQCODE            %2s    "SEQUENCE CODE"
+_column(16)    str1  STATCOD            %1s    "STATUS CODE"
+_column(17)    int   OECODE             %4f    "OE CODE"
+_column(21)    int   GEOGCODE :GEOGCODE %2f    "GEOGRAPHIC CODE"
+_column(23)    int   OEREGCOD :OEREGCOD %1f    "OE REGION CODE"
+_column(24)    int   OBEREGCO :OBEREGCO %1f    "OBE REGION CODE"
+_column(25)    int   RACECODE :RACECODE %1f    "RACE CODE"
+_column(26)    int   CONTCODE :CONTCODE %1f    "CONTROL CODE"
+_column(27)    str1  INSTCOD            %1s    "INSTITUTE TYPE CODE"
+_column(28)    int   SEXCODE  :SEXCODE  %1f    "SEX CODE"
+_column(29)    int   LANDGRAN :LANDGRAN %1f    "INDIC WHETHER INSTIT IS LAND GRANT OR NO"
+_column(30)    int   ACCREDIT :ACCREDIT %1f    "INDIC DENOTING TYPE OF ACCREDITION"
+_column(31)    str1  DEGREE             %1s    "DEGREE"
+_column(32)    int   OFFERLEV :OFFERLEV %2f    "OFFERING LEVEL"
+_column(34)    int   CALENSYS :CALENSYS %1f    "CALENDAR SYSTEM"
+_column(35)    int   RECLASS  :RECLASS  %1f    "RECLASSIFICATION CODE"
+_column(36)    str1  UNKNOWN            %1s    "UNKNOWN"
+_column(37)    int   AFFILI             %2f    "INDICATE CONTROL OF INSTITUTION"
+_column(39)    int   RANGECOD :RANGECOD %1f    "RANGE CODE FOR ENROLLMENT"
+_column(40)    str6  ENROLLM            %6s    "TOTAL NUMB OF STUDENTS ENROLLED"
+_column(46)    str25 INSTNAME           %25s   "NAME OF REPORTING INSTITUTION"
+_column(71)    long  FICECODE           %6f    "FICE CODE"
+_column(77)    int   RESTRIC  :RESTRIC  %1f    "RESTRIC"
+_column(78)    int   IMPUTCOD :IMPUTCOD %1f    "IMPUTATION CODE"
+_column(79)    int   PARTID   :PARTID   %1f    "PART ID"
+_column(80)    int   LINECOD            %4f    "IDENT THE LINE NUMBER"
+_column(84)    str2  COMPUTID           %2s    "COMPUTE ID"
+_column(86)    long  PARTAB1            %7f    "DATA OF THE FIRST DATA ENTRY COL"
+_column(93)    long  PARTAB2            %7f    "DATA OF THE SECOND DATA ENTRY COL"
+_column(100)   long  PARTAB3            %7f    "DATA OF THE THIRD DATA ENTRY COL"
+_column(107)   long  PARTAB4            %7f    "DATA OF THE FOURTH DATA ENTRY COL"
+_column(114)   long  PARTAB5            %7f    "DATA OF THE FIFTH DATA ENTRY COL"
+_column(121)   long  PARTOT             %7f    "DATA FOR TOTAL"
+_column(128)   long  PARTAB6            %7f    "DATA OF THE SIXTH DATA ENTRY COL"
+_column(135)   long  PARTFUL            %7f    "DATA FOR FULL-TIME"
+_column(142)   int   PARTAB7            %7f    "DATA OF THE SEVENTH DATA ENTRY COL"
+_column(149)   int   PARTAB8            %7f    "DATA OF THE EIGTH DATA ENTRY COL"
+_column(156)   int   PART1367           %7f    "SUM OF COLS 1 3 6 7"
+_column(163)   int   ENTRY              %2f    "initial update cycle"
+_column(165)   int   UPDATE             %2f    "latest update cycle"
+_column(170)   int   SURVEYIN           %1f    "survey indicator"
+}

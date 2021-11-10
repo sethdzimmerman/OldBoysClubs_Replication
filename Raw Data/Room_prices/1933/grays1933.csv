@@ -1,0 +1,53 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Grays,1,260,1 double,1,W,1
+Grays,2,260,1 double,1,W,1
+Grays,3,220,"1 single, 1 double",1,W,3
+Grays,4,220,"1 single, 1 double",1,W,3
+Grays,5,,,2,W,5
+Grays,6,,,2,W,5
+Grays,7,220,"1 single, 1 double",2,W,7
+Grays,8,220,"1 single, 1 double",2,W,7
+Grays,9,280,1 double,3,W,9
+Grays,10,280,1 double,3,W,9
+Grays,11,220,"1 single, 1 double",3,W,11
+Grays,12,220,"1 single, 1 double",3,W,11
+Grays,13,240,1 double,4,W,13
+Grays,14,240,1 double,4,W,13
+Grays,15,180,"1 single, 1 double",4,W,15
+Grays,16,180,"1 single, 1 double",4,W,15
+Grays,17,,,1,M,17
+Grays,18,,,1,M,17
+Grays,19,220,"1 single, 1 double",1,M,19
+Grays,20,220,"1 single, 1 double",1,M,19
+Grays,21,280,1 double,2,M,21
+Grays,22,280,1 double,2,M,21
+Grays,23,220,"1 single, 1 double",2,M,23
+Grays,24,220,"1 single, 1 double",2,M,23
+Grays,25,280,1 double,3,M,25
+Grays,26,280,1 double,3,M,25
+Grays,27,220,"1 single, 1 double",3,M,27
+Grays,28,220,"1 single, 1 double",3,M,27
+Grays,29,240,1 double,4,M,29
+Grays,30,240,1 double,4,M,29
+Grays,31,180,"1 single, 1 double",4,M,31
+Grays,32,180,"1 single, 1 double",4,M,31
+Grays,33,160,1 double,5,M,33
+Grays,34,160,1 double,5,M,33
+Grays,35,140,"1 single, 1 double",5,M,35
+Grays,36,140,"1 single, 1 double",5,E,35
+Grays,37,,,1,E,37
+Grays,38,,,1,E,37
+Grays,39,220,"1 single, 1 double",1,E,39
+Grays,40,220,"1 single, 1 double",1,E,39
+Grays,41,,,2,E,41
+Grays,42,,,2,E,41
+Grays,43,240,"1 single, 1 double",2,E,43
+Grays,44,240,"1 single, 1 double",2,E,43
+Grays,45,280,1 double,3,E,45
+Grays,46,280,1 double,3,E,45
+Grays,47,240,"1 single, 1 double",3,E,47
+Grays,48,240,"1 single, 1 double",3,E,47
+Grays,49,220,1 double,4,E,49
+Grays,50,220,1 double,4,E,49
+Grays,51,200,"1 single, 1 double",4,E,51
+Grays,52,200,"1 single, 1 double",4,E,51

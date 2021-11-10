@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Draw thematic map</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for print.tmap {tmap}"><tr><td>print.tmap {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Draw thematic map</h2>
+
+<h3>Description</h3>
+
+<p>Draw thematic map. If the tmap mode is set to <code>"plot"</code> (see <code><a href="../../tmap/help/tmap_mode.html">tmap_mode</a></code>), the map is plot in the current graphics device. If the mode is set to <code>"view"</code>, the map is shown interactively as an htmlwidget.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S3 method for class 'tmap'
+print(
+  x,
+  vp = NULL,
+  return.asp = FALSE,
+  mode = getOption("tmap.mode"),
+  show = TRUE,
+  knit = FALSE,
+  options = NULL,
+  ...
+)
+
+knit_print.tmap(x, ..., options = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>tmap object. A tmap object is created with <code><a href="../../tmap/help/qtm.html">qtm</a></code> or by stacking <code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code>s.</p>
+</td></tr>
+<tr valign="top"><td><code>vp</code></td>
+<td>
+<p><code><a href="../../grid/help/viewport.html">viewport</a></code> to draw the plot in. This is particularly useful for insets.</p>
+</td></tr>
+<tr valign="top"><td><code>return.asp</code></td>
+<td>
+<p>Logical that determines whether the aspect ratio of the map is returned. In that case, <code><a href="../../grid/help/grid.newpage.html">grid.newpage()</a></code> will be called, but without plotting of the map. This is used by <code><a href="../../tmap/help/tmap_save.html">tmap_save</a></code> to determine the aspect ratio of the map.</p>
+</td></tr>
+<tr valign="top"><td><code>mode</code></td>
+<td>
+<p>the mode of tmap: <code>"plot"</code> (static) or <code>"view"</code> (interactive). See <code><a href="../../tmap/help/tmap_mode.html">tmap_mode</a></code> for details.</p>
+</td></tr>
+<tr valign="top"><td><code>show</code></td>
+<td>
+<p>logical that determines whether to show to map. Obviously <code>TRUE</code> by default, but <code>show=FALSE</code> can be useful for just obtaining the returned objects.</p>
+</td></tr>
+<tr valign="top"><td><code>knit</code></td>
+<td>
+<p>should <code><a href="../../knitr/help/knit_print.html">knit_print</a></code> be enabled, or the normal <code><a href="../../base/help/print.html">print</a></code> function?</p>
+</td></tr>
+<tr valign="top"><td><code>options</code></td>
+<td>
+<p>options passed on to knitprint</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>not used</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>If <code>mode=="plot"</code>, then a list is returned with the processed shapes and the metadata. If <code>mode=="view"</code>, a <code><a href="../../leaflet/help/leaflet.html">leaflet</a></code> object is returned (see also <code><a href="../../tmap/help/tmap_leaflet.html">tmap_leaflet</a></code>)
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Methods for Function spTransform for map projection and datum...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for spTransform-methods {rgdal}"><tr><td>spTransform-methods {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2> Methods for Function spTransform for map projection and datum transformation in package &quot;rgdal&quot; </h2>
+
+<h3>Description</h3>
+
+<p>The <code>spTransform</code> methods provide transformation between datum(s) and conversion between projections (also known as projection and/or re-projection), from one unambiguously specified coordinate reference system to another, using PROJ.4 projection arguments. For simple projection, when no +datum tags are used, datum projection does not occur. When datum transformation is required, the +datum tag should be present with a valid value both in the CRS of the object to be transformed, and in the target CRS. In general +datum= is to be prefered to +ellps=, because the datum always fixes the ellipsoid, but the ellipsoid never fixes the datum. 
+</p>
+<p>In addition, the +towgs84 tag should be used where needed to make sure that datum transformation does take place. Parameters for +towgs84 will be taken from the bundled EPSG database if they are known unequivocally, but may be entered manually from known authorities. Not providing the appropriate +datum and +towgs84 tags may lead to coordinates being out by hundreds of metres. Unfortunately, there is no easy way to provide this information: the user has to know the correct metadata for the data being used, even if this can be hard to discover.</p>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>&quot;ANY&quot;</dt><dd><p>default void method</p>
+</dd>
+<dt>&quot;SpatialPoints&quot;, CRSobj = CRS</dt><dd><p>returns transformed coordinates of an &quot;SpatialPoints&quot; object using the projection arguments in &quot;CRSobj&quot;, of class CRS</p>
+</dd>
+<dt>&quot;SpatialPointsDataFrame&quot;, CRSobj = CRS</dt><dd><p>returns transformed coordinates of an &quot;SpatialPointsDataFrame&quot; object using the projection arguments in &quot;CRSobj&quot;, of class CRS</p>
+</dd>
+<dt>&quot;SpatialLines&quot;, CRSobj = CRS</dt><dd><p>returns transformed coordinates of an &quot;SpatialLines&quot; object using the projection arguments in &quot;CRSobj&quot;, of class CRS</p>
+</dd>
+<dt>&quot;SpatialLinesDataFrame&quot;, CRSobj = CRS</dt><dd><p>returns transformed coordinates of an &quot;SpatialLinesDataFrame&quot; object using the projection arguments in &quot;CRSobj&quot;, of class CRS</p>
+</dd>
+<dt>&quot;SpatialPolygons&quot;, CRSobj = CRS</dt><dd><p>returns transformed coordinates of an &quot;SpatialPolygons&quot; object using the projection arguments in &quot;CRSobj&quot;, of class CRS</p>
+</dd>
+<dt>&quot;SpatialPolygonsDataFrame&quot;, CRSobj = CRS</dt><dd><p>returns transformed coordinates of an &quot;SpatialPolygonsDataFrame&quot; object using the projection arguments in &quot;CRSobj&quot;, of class CRS</p>
+</dd>
+<dt>&quot;SpatialPixelsDataFrame&quot;, CRSobj = CRS</dt><dd><p>Because regular grids will usually not be regular after projection/datum transformation, the input object is coerced to a SpatialPointsDataFrame, and the transformation carried out on that object. A warning: &ldquo;Grid warping not available, coercing to points&rdquo; is given.</p>
+</dd>
+<dt>&quot;SpatialGridDataFrame&quot;, CRSobj = CRS</dt><dd><p>Because regular grids will usually not be regular after projection/datum transformation, the input object is coerced to a SpatialPointsDataFrame, and the transformation carried out on that object. A warning: &ldquo;Grid warping not available, coercing to points&rdquo; is given.</p>
+</dd>
+</dl>
+
+
+<h3>Note</h3>
+
+<p>The projection arguments must be entered exactly as in the PROJ.4 documentation, in particular there cannot be any white space in +&lt;arg&gt;=&lt;value&gt; strings, and successive such strings can only be separated by blanks.
+Note that warnings about different projections may be issued when the PROJ.4 library extends projection arguments; examine the warning to see if the differences are real.
+</p>
+<p>Also note that re-projection and/or datum transformation will usually not work for regular grids. The term used for similar operations for regular grids is warping, which involved resampling to a regular grid in the target coordinate reference system.
+</p>
+<p>The methods may take an optional argument &ldquo;use_ob_tran&rdquo;, default FALSE, if TRUE and &ldquo;+proj=ob_tran&rdquo;, use General Oblique Transformation with internalised from/to projection reversal (the user oblique transforms from longlat to oblique forward rather than inverse as suggested in PROJ.4 mailing list postings); these changes are intended to meet a need pointed out by Martin Ivanov (2012-08-15). A subsequent point raised by Martin Ivanov (2017-04-28) was that use of a projected CRS with &ldquo;+proj=ob_tran&rdquo; led to errors, so mixing projected CRS and &ldquo;+proj=ob_tran&rdquo; is blocked. Transform first &ldquo;+proj=ob_tran&rdquo; to or from &ldquo;+proj=longlat&rdquo;, and then on from geographical coordinates to those desired or the reverse - see example.
+</p>
+<p>If a SpatialPoints object has three dimensions, the third will also be transformed, with the metric of the third dimension assumed to be meters if the vertical units metric is not given in the projection description with +vunits= or +vto_meter= (which is 1.0 by default) <a href="https://proj.org/faq.html">https://proj.org/faq.html</a>.
+</p>
+<p>Note that WGS84 is both an ellipse and a datum, and that since 1984 there have been changes in the relative positions of continents, leading to a number of modifications. This is discussed for example in <a href="http://www.uvm.edu/giv/resources/WGS84_NAD83.pdf">http://www.uvm.edu/giv/resources/WGS84_NAD83.pdf</a>; there are then multiple transformations between NAD83 and WGS84 depending on the WGS84 definition used. One would expect that &ldquo;+towgs84=&rdquo; is a no-op for WGS84, but this only applies sometimes, and as there are now at least 30 years between now and 1984, things have shifted. It may be useful to note that &ldquo;+nadgrids=@null&rdquo; can help, see these threads: <a href="https://stat.ethz.ch/pipermail/r-sig-geo/2014-August/021611.html">https://stat.ethz.ch/pipermail/r-sig-geo/2014-August/021611.html</a>, <a href="http://lists.maptools.org/pipermail/proj/2014-August/006894.html">http://lists.maptools.org/pipermail/proj/2014-August/006894.html</a>, with thanks to Hermann Peifer for assistance.
+</p>
+<p>Note that from PROJ.4 4.9.3, the definition of UTM is changed from TMERC to ETMERC; see example.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Roger Bivand <a href="mailto:Roger.Bivand@nhh.no">Roger.Bivand@nhh.no</a></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(state)
+states &lt;- data.frame(state.x77, state.center)
+states &lt;- states[states$x &gt; -121,]
+coordinates(states) &lt;- c("x", "y")
+proj4string(states) &lt;- CRS("+proj=longlat +ellps=clrk66")
+summary(states)
+state.ll83 &lt;- spTransform(states, CRS("+proj=longlat +ellps=GRS80"))
+summary(state.ll83)
+state.merc &lt;- spTransform(states, CRS=CRS("+proj=merc +ellps=GRS80"))
+summary(state.merc)
+state.merc &lt;- spTransform(states,
+ CRS=CRS("+proj=merc +ellps=GRS80 +units=us-mi"))
+summary(state.merc)
+if (projNAD()) {
+states &lt;- data.frame(state.x77, state.center)
+states &lt;- states[states$x &gt; -121,]
+coordinates(states) &lt;- c("x", "y")
+proj4string(states) &lt;- CRS("+init=epsg:4267")
+print(summary(states))
+state.ll83 &lt;- spTransform(states, CRS("+init=epsg:4269"))
+print(summary(state.ll83))
+state.kansasSlcc &lt;- spTransform(states, CRS=CRS("+init=epsg:26978"))
+print(summary(state.kansasSlcc))
+SFpoint_NAD83 &lt;- SpatialPoints(matrix(c(-103.869667, 44.461676), nrow=1),
+ proj4string=CRS("+init=epsg:4269"))
+SFpoint_NAD27 &lt;- spTransform(SFpoint_NAD83, CRS("+init=epsg:4267"))
+print(all.equal(coordinates(SFpoint_NAD83), coordinates(SFpoint_NAD27)))
+print(coordinates(SFpoint_NAD27), digits=12)
+print(coordinates(SFpoint_NAD83), digits=12)
+}
+data(meuse)
+coordinates(meuse) &lt;- c("x", "y")
+proj4string(meuse) &lt;- CRS(paste("+init=epsg:28992",
+ "+towgs84=565.237,50.0087,465.658,-0.406857,0.350733,-1.87035,4.0812"))
+# see http://trac.osgeo.org/gdal/ticket/1987
+summary(meuse)
+meuse.utm &lt;- spTransform(meuse, CRS("+proj=utm +zone=32 +datum=WGS84"))
+summary(meuse.utm)
+cbind(coordinates(meuse), coordinates(meuse.utm))
+kiritimati_primary_roads &lt;- readOGR(system.file("vectors",
+ package = "rgdal")[1], "kiritimati_primary_roads")
+kiritimati_primary_roads_ll &lt;- spTransform(kiritimati_primary_roads,
+ CRS("+proj=longlat +datum=WGS84"))
+opar &lt;- par(mfrow=c(1,2))
+plot(kiritimati_primary_roads, axes=TRUE)
+plot(kiritimati_primary_roads_ll, axes=TRUE, las=1)
+par(opar)
+opar &lt;- par(mfrow=c(1,2))
+scot_BNG &lt;- readOGR(system.file("vectors", package = "rgdal")[1],
+   "scot_BNG")
+scot_LL &lt;- spTransform(scot_BNG, CRS("+proj=longlat +datum=WGS84"))
+plot(scot_LL, axes=TRUE)
+grd_LL &lt;- gridlines(scot_LL, ndiscr=100)
+summary(grd_LL)
+grd_BNG &lt;- spTransform(grd_LL, CRS(proj4string(scot_BNG)))
+grdtxt_LL &lt;- gridat(scot_LL)
+grdtxt_BNG &lt;- spTransform(grdtxt_LL, CRS(proj4string(scot_BNG)))
+plot(scot_BNG, axes=TRUE, las=1)
+plot(grd_BNG, add=TRUE, lty=2)
+text(coordinates(grdtxt_BNG),
+   labels=parse(text=as.character(grdtxt_BNG$labels)))
+par(opar)
+crds &lt;- matrix(data=c(9.05, 48.52), ncol=2)
+spPoint &lt;- SpatialPoints(coords=crds,
+ proj4string=CRS("+proj=longlat +ellps=sphere +no_defs"))
+a &lt;- spTransform(spPoint, CRS(paste("+proj=ob_tran +o_proj=longlat",
+ "+o_lon_p=-162 +o_lat_p=39.25 +lon_0=180 +ellps=sphere +no_defs")),
+ use_ob_tran=TRUE)
+a
+#should be (-5.917698, -1.87195)
+spTransform(a, CRS("+proj=longlat +ellps=sphere +no_defs"),
+ use_ob_tran=TRUE)
+try(spTransform(a, CRS(paste("+proj=tmerc +lat_0=0 +lon_0=9 +k=1",
+"+x_0=3500000 +y_0=0 +ellps=bessel +units=m +no_defs")),
+ use_ob_tran=TRUE))
+spTransform(spPoint, CRS(paste("+proj=tmerc +lat_0=0 +lon_0=9 +k=1",
+"+x_0=3500000 +y_0=0 +ellps=bessel +units=m +no_defs")))
+spTransform(spTransform(a, CRS("+proj=longlat +ellps=sphere +no_defs"),
+ use_ob_tran=TRUE), CRS(paste("+proj=tmerc +lat_0=0 +lon_0=9 +k=1",
+"+x_0=3500000 +y_0=0 +ellps=bessel +units=m +no_defs")))
+crds1 &lt;- matrix(data=c(7, 51, 8, 52, 9, 52, 10, 51, 7, 51), ncol=2,
+byrow=TRUE, dimnames=list(NULL, c("lon", "lat")));
+crds2 &lt;- matrix(data=c(8, 48, 9, 49, 11, 49, 9, 48, 8, 48), ncol=2,
+byrow=TRUE, dimnames=list(NULL, c("lon", "lat")));
+crds3 &lt;- matrix(data=c(6, 47, 6, 55, 15, 55, 15, 47, 6, 47), ncol=2,
+byrow=TRUE, dimnames=list(NULL, c("lon", "lat")));
+spLines &lt;- SpatialLines(list(Lines(list(Line(crds1), Line(crds2),
+Line(crds3)), ID="a")));
+spLines@proj4string &lt;- CRS("+proj=longlat +ellps=sphere +no_defs");
+bbox(spLines);
+spLines_tr &lt;- spTransform(spLines, CRS("+proj=ob_tran +o_proj=longlat
++o_lon_p=-162 +o_lat_p=39.25 +lon_0=180 +ellps=sphere +no_defs"),
+use_ob_tran=TRUE);
+bbox(spLines_tr)
+bbox(spTransform(spLines_tr, CRS("+proj=longlat +ellps=sphere"),
+ use_ob_tran=TRUE))
+spPolygons &lt;- SpatialPolygons(list(Polygons(list(Polygon(crds1),
+Polygon(crds2), Polygon(crds3)), ID="a")));
+spPolygons@proj4string &lt;- CRS("+proj=longlat +ellps=sphere +no_defs");
+bbox(spPolygons);
+spPolygons_tr &lt;- spTransform(spPolygons, CRS("+proj=ob_tran +o_proj=longlat
++o_lon_p=-162 +o_lat_p=39.25 +lon_0=180 +ellps=sphere +no_defs"),
+use_ob_tran=TRUE);
+bbox(spPolygons_tr)
+bbox(spTransform(spPolygons_tr, CRS("+proj=longlat +ellps=sphere"),
+ use_ob_tran=TRUE))
+#added after posting by Martin Ivanov
+data(nor2k)
+summary(nor2k)
+nor2kNGO &lt;- spTransform(nor2k, CRS("+init=epsg:4273"))
+summary(nor2kNGO)
+all.equal(coordinates(nor2k)[,3], coordinates(nor2kNGO)[,3])
+#added after posting by Don MacQueen 
+crds &lt;- cbind(c(-121.524764291826, -121.523480804667), c(37.6600366036405, 37.6543604613483))
+ref &lt;- cbind(c(1703671.30566227, 1704020.20113366), c(424014.398045834, 421943.708664294))
+crs.step1.cf &lt;- CRS(paste("+proj=lcc +lat_1=38.43333333333333",
+ "+lat_2=37.06666666666667 +lat_0=36.5 +lon_0=-120.5",
+ "+x_0=2000000.0 +y_0=500000.0 +ellps=GRS80 +units=us-ft +no_defs",
+ "+towgs84=-0.991,1.9072,0.5129,0.025789908,0.0096501,0.0116599,0.0"))
+locs.step1.cf &lt;- spTransform(SpatialPoints(crds,
+ proj4string=CRS("+proj=longlat +datum=WGS84")), crs.step1.cf)
+suppressWarnings(proj4string(locs.step1.cf) &lt;- CRS(paste("+proj=lcc",
+"+lat_1=38.43333333333333 +lat_2=37.06666666666667 +lat_0=36.5",
+"+lon_0=-120.5 +x_0=2000000.0 +y_0=500000.0 +ellps=GRS80 +units=us-ft",
+"+no_defs +nadgrids=@null")))
+locs.step2.cfb &lt;- spTransform(locs.step1.cf, CRS("+init=epsg:26743"))
+coordinates(locs.step2.cfb) - ref
+all.equal(unname(coordinates(locs.step2.cfb)), ref)
+# Test for UTM == TMERC (&lt;= 4.9.2) or UTM == ETMERC (&gt; 4.9.2)
+nhh &lt;- SpatialPointsDataFrame(matrix(c(5.304234, 60.422311), ncol=2),
+ proj4string=CRS("+init=epsg:4326"), data=data.frame(office="RSB"))
+nhh_utm_32N_P4 &lt;- spTransform(nhh, CRS("+init=epsg:3044"))
+nhh_tmerc_P4 &lt;- spTransform(nhh, CRS(paste("+proj=tmerc +k=0.9996",
+ "+lon_0=9 +x_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs")))
+nhh_etmerc_P4 &lt;- spTransform(nhh, CRS(paste("+proj=etmerc +k=0.9996",
+ "+lon_0=9 +x_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs")))
+all.equal(coordinates(nhh_utm_32N_P4), coordinates(nhh_tmerc_P4),
+ tolerance=1e-9, scale=1)
+# UTM == TMERC: PROJ4 &lt;=4.9.2
+all.equal(coordinates(nhh_utm_32N_P4), coordinates(nhh_etmerc_P4),
+ tolerance=1e-9, scale=1)
+# UTM == ETMERC: PROJ4 &gt; 4.9.2
+unis &lt;- SpatialPointsDataFrame(matrix(c(15.653453, 78.222504), ncol=2),
+ proj4string=CRS("+init=epsg:4326"), data=data.frame(office="UNIS"))
+unis_utm_33N_P4 &lt;- spTransform(unis, CRS("+init=epsg:3045"))
+unis_tmerc_P4 &lt;- spTransform(unis, CRS(paste("+proj=tmerc +k=0.9996 +lon_0=15",
+ "+x_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs")))
+unis_etmerc_P4 &lt;- spTransform(unis, CRS(paste("+proj=etmerc +k=0.9996",
+ "+lon_0=15 +x_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs")))
+all.equal(coordinates(unis_utm_33N_P4), coordinates(unis_tmerc_P4),
+ tolerance=1e-9, scale=1)
+# UTM == TMERC: PROJ4 &lt;=4.9.2
+all.equal(coordinates(unis_utm_33N_P4), coordinates(unis_etmerc_P4),
+ tolerance=1e-9, scale=1)
+# UTM == ETMERC: PROJ4 &gt; 4.9.2
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

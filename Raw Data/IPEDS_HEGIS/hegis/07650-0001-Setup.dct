@@ -1,0 +1,67 @@
+dictionary {
+*****************************************************************
+*
+*  Warning: Edit this file at your own risk
+*
+*****************************************************************
+_lines(1)
+
+_line(1)
+
+_column(1)     long  FICE               %6f    "FICE CODE"
+_column(7)     int   OESTATE  :OESTATE  %2f    "OE STATE CODE"
+_column(9)     int   SEQUENCE           %4f    "SEQUENCE NUMBER"
+_column(13)    str1  SYSCODE            %1s    "SYSTEM CODE"
+_column(14)    str2  SEQCODE            %2s    "SEQUENCE CODE"
+_column(16)    str1  STATCOD            %1s    "STATUS CODE"
+_column(17)    int   OECODE             %4f    "OE CODE"
+_column(21)    int   GEOGCODE :GEOGCODE %2f    "GEOGRAPHIC CODE"
+_column(23)    int   OEREGCOD :OEREGCOD %1f    "OE REGION CODE"
+_column(24)    int   OBEREGCO :OBEREGCO %1f    "OBE REGION CODE"
+_column(25)    int   RACECODE :RACECODE %1f    "RACE CODE"
+_column(26)    int   CONTCODE :CONTCODE %1f    "CONTROL CODE"
+_column(27)    str1  INSTCOD            %1s    "INSTITUTE TYPE CODE"
+_column(28)    int   SEXCODE  :SEXCODE  %1f    "SEX CODE"
+_column(29)    int   LANDGRAN :LANDGRAN %1f    "INDIC WHETHER INSTIT IS LAND GRANT OR NO"
+_column(30)    int   ACCREDIT :ACCREDIT %1f    "INDIC DENOTING TYPE OF ACCREDITION"
+_column(31)    str1  DEGREE             %1s    "DEGREE"
+_column(32)    int   OFFERLEV :OFFERLEV %2f    "OFFERING LEVEL"
+_column(34)    int   CALENSYS :CALENSYS %1f    "CALENDAR SYSTEM"
+_column(35)    int   RECLASS  :RECLASS  %1f    "RECLASSIFICATION CODE"
+_column(36)    str1  UNKNOWN            %1s    "UNKNOWN"
+_column(37)    int   AFFILI             %2f    "INDICATE CONTROL OF INSTITUTION"
+_column(39)    int   RANGECOD :RANGECOD %1f    "RANGE CODE FOR ENROLLMENT"
+_column(40)    str6  ENROLLM            %6s    "TOTAL NUMB OF STUDENTS ENROLLED"
+_column(46)    str25 INSTNAME           %25s   "NAME OF REPORTING INSTITUTION"
+_column(71)    long  FICECODE           %6f    "FICE CODE"
+_column(77)    int   RESTRIC  :RESTRIC  %1f    "RESTRIC"
+_column(78)    int   IMPUTCOD :IMPUTCOD %1f    "IMPUTATION CODE"
+_column(79)    str4   DISCIPID	        %1s    "DISCIPLINE ID"
+_column(80)    int   LINECOD            %4f    "IDENT THE LINE NUMBER"
+_column(84)    int  CALCID          	%1s    "CALCULATE ID"
+_column(85)    str1  SURVID           	%1s    "Survey ID"
+_column(86)	str1 ACTION	%1s	"Action Code"
+_column(87)	long	SUBLINENO	%3f "Sub Line Number"
+* survey data
+_column(90)	long NONRESMENTOT %5f "Non resident alien men total"
+_column(95)	long NONRESWOMENTOT %5f "Non resident alien women total"
+_column(100)	long	BLACKMENTOT	%5f	"Black non hisp men total"
+_column(105)	long	BLACKWOMENTOT	%5f	"Black non hisp women total"
+_column(110)	long	NAMENTOT	%5f	"Indian or Alaskan men total"
+_column(115)	long	NAWOMENTOT	%5f	"Indian or Alaskan men total"
+_column(120)	long	APIMENTOT	%5f	"asian or pacific islander men total"
+_column(125)	long	APIWOMENTOT	%5f	"asian or pacific islander women total"
+_column(130)	long	HISPMENTOT	%5f	"hispanic men total"
+_column(135)	long	HISPWOMENTOT	%5f	"hispanic men total"
+_column(140)	long	WHITEMENTOT	%5f	"white non hispanic men total"
+_column(145)	long	WHITEWOMENTOT	%5f	"white non hispanic women total"
+_column(150)	long	REPORTMENTOT	%5f	"reported men total"
+_column(155)	long	CALCMENTOT	%5f	"calculated men total"
+_column(160)	long	REPORTWOMENTOT	%5f	"reported women total"
+_column(165)	long	CALCWOMENTOT	%5f	"calculated women total"
+_column(170)	long	FULLTIMECR	%7f	"full time credit hour load"
+_column(184)	long	FULLTIMECRTOT	%7f	"full time credit hour total"
+_column(191)	long	CREDITSCALC	%7f	"total men + total women * avg load"
+_column(222)	long	FICESUB		%6f	"Imputed original FICE code"
+_column(228)   int   SURVEYIN           %1f    "survey indicator"
+}

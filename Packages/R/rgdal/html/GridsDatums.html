@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Grids and Datums PE&amp;RS listing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for GridsDatums {rgdal}"><tr><td>GridsDatums {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Grids and Datums PE&amp;RS listing</h2>
+
+<h3>Description</h3>
+
+<p>A data.frame of years and months of Grids &amp; Datums column publications by country and country code.</p>
+
+
+<h3>Usage</h3>
+
+<pre>data("GridsDatums")</pre>
+
+
+<h3>Format</h3>
+
+<p>A data frame with 207 observations on the following 4 variables.
+</p>
+
+<dl>
+<dt><code>country</code></dt><dd><p>name of PE&amp;RS column</p>
+</dd>
+<dt><code>month</code></dt><dd><p>issue month</p>
+</dd>
+<dt><code>year</code></dt><dd><p>publication year</p>
+</dd>
+<dt><code>ISO</code></dt><dd><p>ISO code for country</p>
+</dd>
+</dl>
+
+
+
+<h3>Details</h3>
+
+<p>The journal <em>Photogrammetric Engineering &amp; Remote Sensing</em>, run by the American Society for Photogrammetry and Remote Sensing (ASPRS), began publishing a more-or-less monthly column on the spatial reference systems used in different countries, including their datums. The column first appeared in September 1997, and continued until March 2016; subsequent columns are updated reprints of previous ones. Some also cover other topics, such as world and Martian spatial reference systems. They are written by Clifford J. Mugnier, Louisiana State University, Fellow Emeritus ASPRS. To access the columns, visit <a href="https://www.asprs.org/asprs-publications/grids-and-datums">https://www.asprs.org/asprs-publications/grids-and-datums</a>.</p>
+
+
+<h3>Source</h3>
+
+<p><a href="https://www.asprs.org/asprs-publications/grids-and-datums">https://www.asprs.org/asprs-publications/grids-and-datums</a></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(GridsDatums)
+GridsDatums[grep("Norway", GridsDatums$country),]
+GridsDatums[grep("Google", GridsDatums$country),]
+GridsDatums[grep("^Mars$", GridsDatums$country),]
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

@@ -1,0 +1,99 @@
+Bibliography
+Higher Education General Information Survey (HEGIS) Series
+
+This bibliography includes published and unpublished works that are
+related to ICPSR series 30. It includes works that are based on
+primary or secondary analysis of the data, or which describe or critique
+those data or the collection methodology. This list represents all items
+known to ICPSR as of 2019-05-21.
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR series used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Dolman, Geoffrey, Jr.; Kaufman, Norman S., "Minorities in Higher
+Education: The Changing Southwest--Texas." Boulder, CO: Western Interstate
+Commission for Higher Education, Sep 1984.
+
+2. Hoffman, Charlene, "HIstorically Black Colleges and Universities, 1976-
+1994." NCES 96-902, Washington, DC: United States Department of Education,
+Office of Educational Research and Improvement, Sep 1996.
+Abstract: http://www.nces.ed.gov/pubsearch/pubsinfo.asp?pubid=96902
+Full text PDF: http://nces.ed.gov/pubs/96902.pdf
+
+3. Jacob, Brian A.; Linkow,Tamara Wilder, "Educational expectations and
+attainment." In Duncan, Greg J.; Murnane, Richard J., Whither Opportunity?
+Rising Inequality, Schools, and Children's Life Chances. 133 - 162, New
+York, NY: Russell Sage Foundation,2011.
+Abstract: http://www.nces.ed.gov/pubsearch/pubsinfo.asp?pubid=96902
+Full text PDF: http://nces.ed.gov/pubs/96902.pdf
+
+4. Jacobs, Jerry A., "Gender and the stratification of colleges." Journal
+of Higher Education. Mar/Apr 1999, 70, (2), 161 - 187.
+Full text: http://www.jstor.org/stable/2649126
+
+5. Kim, Jae-Woong, "The College Dropout: The Relative Contribution of
+Individual, Structural, and Institutional Factors to the Withdrawal of Male
+and Female, Black and White Students from 4-Year Colleges." Dissertation,
+University of Illinois at Urbana-Champaign, 1991.
+Full text: http://www.jstor.org/stable/2649126
+
+6. Klass, Patricia Harrington, "Factors Affecting Undergraduates' Academic
+Performance and Satisfaction: A Causal model." Dissertation, Illinois State
+University, 1986.
+Full text: http://www.jstor.org/stable/2649126
+
+7. Kodrzycki, Yolanda K.; LaPenta, Matthew P., "Geographic shifts in higher
+education." New England Economic Review. Jul/Aug 1999, 27 - 29.
+Full text: http://www.jstor.org/stable/2649126
+
+8. Kraatz, Matthew S.; Zajac, Edward J., "Exploring the limits of the new
+institutionalism: The causes and consequences of illegitimate
+organizational change." American Sociological Review. Oct 1996, 61, (5),
+812 - 836.
+Full text: http://www.jstor.org/stable/2096455
+
+9. Rojas, Rabio, "Social movement tactics, organizational change and the
+spread of African-American studies." Social Forces. Jun 2006, 84, (4), 2147
+- 2166. DOI: 10.1353/sof.2006.0107
+Full text: http://www.jstor.org/stable/2096455
+
+10. Schwarzmueller, E. Beth; Pounds, Haskin R., "The use of HEGIS data in
+higher education research." Research in Higher Education. Sep 1984, 20,
+(3), 323 - 327. DOI: 10.1007/BF00983506
+Full text: http://www.jstor.org/stable/2096455
+
+11. Simpson, Jacqueline Christine, "Major Choices: Maternal, Racial, and
+Institutional Influence on the Selection of Academic Major." Dissertation,
+University of Arizona, 1998.
+Full text: http://www.jstor.org/stable/2096455
+
+12. Snyder, Thomas D., "State Comparisons of Education Statistics: 1969-70
+to 1993-94." NCES 95-122, Washington, DC: United States Department of
+Education, National Center for Education Statistics, Jul 7, 1995.
+Abstract: http://www.nces.ed.gov/pubsearch/pubsinfo.asp?pubid=95122
+Full text PDF: http://nces.ed.gov/pubs95/95122.pdf
+
+13. Snyder, Thomas D.; Hoffman, Charlene M., "Digest of Education
+Statistics 2001." NCES 2002-130, Washington, DC: United States Department
+of Education, Office of Educational Research and Improvement, Feb 2002.
+Abstract: http://www.nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2002130
+Full text PDF: http://nces.ed.gov/pubs2002/2002130.pdf
+
+14. Sylvia, Barbara Ann, "Conditional Effects of Institutional
+Characteristics on the Persistence of Traditional-Age Students at Four-Year
+Institutions of Higher Education." Dissertation, University of
+Pennsylvania, 1993.
+Abstract: http://www.nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2002130
+Full text PDF: http://nces.ed.gov/pubs2002/2002130.pdf
+
+15. Tolbert, Pamela S.; Oberfield, Alice A., "Sources of organizational
+demography: Faculty sex ratios in colleges and universities." Sociology of
+Education. Oct 1991, 64, (4), 305 - 315.
+Full text: http://www.jstor.org/stable/2112710
+
+16. Trent, William T., "Race and Sex Differences in Degree Attainment and
+Major Field Distributions from 1975-76 to 1980-81." Baltimore, MD: Center
+for Social Organization of Schools, Johns Hopkins University, 1983.
+Full text: http://www.jstor.org/stable/2112710

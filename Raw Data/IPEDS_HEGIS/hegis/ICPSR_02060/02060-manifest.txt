@@ -1,0 +1,37 @@
+File Manifest for ICPSR 2060
+
+U.S. Dept. of Education, National Center for Education Statistics. HIGHER
+EDUCATION GENERAL INFORMATION SURVEY (HEGIS), 1972: FALL ENROLLMENT. ICPSR
+version. Washington, DC: U.S. Dept. of Education, National Center for
+Education Statistics [producer], 1973. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 1999.
+http://doi.org/10.3886/ICPSR02060.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02060-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    02060-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Main Data File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02060-0001-Codebook.pdf             -       -         -       1999-01-05  0bd85bb650ab2e811433fe33554ae29f
+
+    02060-0001-Data.txt                 150     38,661    unknown 1999-01-05  25bbe491ee9003767e223c4a221d230e
+
+
+DS0002 HEGIS Record Layout
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02060-0002-Record_layout.xls        -       -         -       1999-01-05  5d8add49fbb29dce46706c9d41566bdc
+

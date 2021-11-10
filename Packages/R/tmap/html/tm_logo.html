@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Logo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_logo {tmap}"><tr><td>tm_logo {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Logo</h2>
+
+<h3>Description</h3>
+
+<p>Creates a map logo. Multiple logos can be specified which are shown next to each other. Logos placed on top of each other can be specified with stacking <code>tm_logo</code> elements.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_logo(
+  file,
+  height = 3,
+  halign = "center",
+  margin = 0.2,
+  position = NA,
+  just = NA
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>file</code></td>
+<td>
+<p>either a filename or url of a png image. If multiple files/urls are provided with a character vector, the logos are placed near each other. To specify logos for small multiples use a list of character values/vectors. In order to stack logos vertically, multiple <code>tm_logo</code> elements can be stacked.</p>
+</td></tr>
+<tr valign="top"><td><code>height</code></td>
+<td>
+<p>height of the logo in number of text line heights. The width is scaled based the height and the aspect ratio of the logo. If multiple logos are specified by a vector or list, the heights can be specified accordingly.</p>
+</td></tr>
+<tr valign="top"><td><code>halign</code></td>
+<td>
+<p>if logos in one row have different heights, <code>halign</code> specifies the vertical alignment. Possible values are <code>"top"</code>, <code>"center"</code> and <code>"bottom"</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>margin</code></td>
+<td>
+<p>margin around the logo in number of text line heights.</p>
+</td></tr>
+<tr valign="top"><td><code>position</code></td>
+<td>
+<p>position of the logo. Vector of two values, specifying the x and y coordinates. Either this vector contains &quot;left&quot;, &quot;LEFT&quot;, &quot;center&quot;, &quot;right&quot;, or &quot;RIGHT&quot; for the first value and &quot;top&quot;, &quot;TOP&quot;, &quot;center&quot;, &quot;bottom&quot;, or &quot;BOTTOM&quot; for the second value, or this vector contains two numeric values between 0 and 1 that specifies the x and y value of the center of the text. The uppercase values correspond to the position without margins (so tighter to the frame). The default value is controlled by the argument <code>"attr.position"</code> of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>just</code></td>
+<td>
+<p>Justification of the attribute relative to the point coordinates.  The first value specifies horizontal and the second value vertical justification. Possible values are: <code>"left"</code> , <code>"right"</code>, <code>"center"</code>, <code>"bottom"</code>, and <code>"top"</code>. Numeric values of 0 specify left/bottom alignment and 1 right/top alignment. This option is only used, if <code>position</code> is specified by numeric coordinates. The default value is controlled by the argument <code>"attr.just"</code> of <code><a href="../../tmap/help/tm_layout.html">tm_layout</a></code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+data(NLD_muni, NLD_prov)
+
+tm_shape(NLD_muni) +
+	tm_polygons("origin_native", border.alpha=0.5, style="cont", title="Native Dutch (%)") +
+	tm_logo("http://statline.cbs.nl/Statweb/Images/cbs_logo.png", 
+        position=c("left", "bottom"), height = 2) +
+	tm_layout(bg.color="gray98")
+
+data(World)
+
+tm_shape(World) +
+	tm_polygons("HPI", palette="RdYlGn") +
+	tm_logo(c("https://www.r-project.org/logo/Rlogo.png", 
+        system.file("img/tmap.png", package="tmap"))) +
+	tm_logo("http://blog.kulikulifoods.com/wp-content/uploads/2014/10/logo.png", 
+        height=5, position = c("left", "top")) +
+	tm_format("World")
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

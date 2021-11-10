@@ -1,0 +1,13 @@
+Intermediate[[:space:]]Data/Stata[[:space:]]Files/lr_series_redbooks_raw.dta filter=lfs diff=lfs merge=lfs -text
+Cleaned[[:space:]]Data/lr_class_reports_clean.dta filter=lfs diff=lfs merge=lfs -text
+Cleaned[[:space:]]Data/lr_series_redbooks_clean.dta filter=lfs diff=lfs merge=lfs -text
+Intermediate[[:space:]]Data/Stata[[:space:]]Files/data_random_inf.dta filter=lfs diff=lfs merge=lfs -text
+Raw[[:space:]]Data/Layers/gore2_base_georef.tif filter=lfs diff=lfs merge=lfs -text
+Raw[[:space:]]Data/Layers/smith1_base_georef.tif filter=lfs diff=lfs merge=lfs -text
+Raw[[:space:]]Data/Layers/smith3_base_georef.tif filter=lfs diff=lfs merge=lfs -text
+Raw[[:space:]]Data/Layers/smith4_base_georef.tif filter=lfs diff=lfs merge=lfs -text
+Raw[[:space:]]Data/Layers/gore1_base_georef.tif filter=lfs diff=lfs merge=lfs -text
+Raw[[:space:]]Data/Layers/gore3_base_georef.tif filter=lfs diff=lfs merge=lfs -text
+Raw[[:space:]]Data/Layers/gore4_base_georef.tif filter=lfs diff=lfs merge=lfs -text
+Raw[[:space:]]Data/Layers/smith2_base_georef.tif filter=lfs diff=lfs merge=lfs -text
+

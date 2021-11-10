@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Class &quot;GDALDataset&quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for GDALDataset-class {rgdal}"><tr><td>GDALDataset-class {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Class &quot;GDALDataset&quot;</h2>
+
+<h3>Description</h3>
+
+<p><code>GDALDataset</code> extends <code><a href="../../rgdal/help/GDALReadOnlyDataset-class.html">GDALReadOnlyDataset-class</a></code> with data update commands.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+putRasterData(dataset, rasterData, band = 1, offset = c(0, 0))
+saveDataset(dataset, filename, options=NULL, returnNewObj=FALSE)
+copyDataset(dataset, driver, strict = FALSE, options = NULL, fname=NULL)
+deleteDataset(dataset)
+saveDatasetAs(dataset, filename, driver = NULL, options=NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dataset</code></td>
+<td>
+<p>An object inheriting from class 'GDALDataset'</p>
+</td></tr>
+<tr valign="top"><td><code>rasterData</code></td>
+<td>
+<p>A data array with <code>length(dim(rasterData)) = 2</code></p>
+</td></tr>
+<tr valign="top"><td><code>band</code></td>
+<td>
+<p>The band number (1-based) to read from</p>
+</td></tr>
+<tr valign="top"><td><code>offset</code></td>
+<td>
+<p>Number of rows and columns from the origin (usually the
+upper left corner) to begin reading from</p>
+</td></tr>
+<tr valign="top"><td><code>filename</code></td>
+<td>
+<p>name of file to contain raster data object; will be normalized with <code><a href="../../base/html/normalizePath.html">normalizePath</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>returnNewObj</code></td>
+<td>
+<p>until and including 0.5-27, <code>saveDataset</code> returned an invisible copy of the new file handle, which was then only finalized when the garbage collector ran. The old behaviour can be retained by setting to FALSE, the default behaviour is to close the hande and not return it.</p>
+</td></tr>
+<tr valign="top"><td><code>driver</code></td>
+<td>
+<p>GDAL driver name to use for saving raster data object</p>
+</td></tr>
+<tr valign="top"><td><code>strict</code></td>
+<td>
+<p>TRUE if the copy must be strictly equivalent, or more normally FALSE indicating that the copy may adapt as needed for the output format</p>
+</td></tr>
+<tr valign="top"><td><code>options</code></td>
+<td>
+<p>Driver specific options (currently passed to GDAL)</p>
+</td></tr>
+<tr valign="top"><td><code>fname</code></td>
+<td>
+<p>default NULL, used internally to pass through a file name with a required extension (RST driver has this problem)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+
+<dl>
+<dt><code>putRasterData</code>:</dt><dd><p>writes data contained in
+<code>rasterData</code> to the dataset, begining at <code>offset</code> rows
+and columns from the origin (usually the upper left corner). Data
+type conversion is automatic.</p>
+</dd>
+<dt><code>saveDataset</code>:</dt><dd><p>saves a raster data object in a file using the driver of the object</p>
+</dd>
+<dt><code>saveDatasetAs</code>:</dt><dd><p>saves a raster data object in a file using the specified driver</p>
+</dd>
+<dt><code>copyDataset</code>:</dt><dd><p>make a copy of raster data object in a file using the specified driver</p>
+</dd>
+<dt><code>deleteDataset</code>:</dt><dd><p>delete the file from which the raster data object was read (should only delete files opened as GDALDataset objects</p>
+</dd>
+</dl>
+
+
+
+<h3>Objects from the Class</h3>
+
+<p>Objects can be created by calls of the form <code>new("GDALDataset", filename, handle)</code>, where name: a string giving the name of a GDAL driver, handle: used internally; not for public consumption (default = NULL).
+</p>
+
+
+<h3>Slots</h3>
+
+
+<dl>
+<dt><code>handle</code>:</dt><dd><p>Object of class <code>"externalptr", from class "GDALReadOnlyDataset"</code>, used internally; not for public consumption</p>
+</dd>
+</dl>
+
+
+
+<h3>Extends</h3>
+
+<p>Class <code>"GDALReadOnlyDataset"</code>, directly.
+Class <code>"GDALMajorObject"</code>, by class &quot;GDALReadOnlyDataset&quot;.
+</p>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>initialize</dt><dd><p><code>signature(.Object = "GDALDataset")</code>: ... </p>
+</dd>
+</dl>
+
+
+
+<h3>Author(s)</h3>
+
+<p>Timothy H. Keitt, modified by Roger Bivand</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../rgdal/help/GDALDriver-class.html">GDALDriver-class</a></code>,
+<code><a href="../../rgdal/help/GDALReadOnlyDataset-class.html">GDALReadOnlyDataset-class</a></code>, <code><a href="../../rgdal/help/GDALTransientDataset-class.html">GDALTransientDataset-class</a></code></p>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

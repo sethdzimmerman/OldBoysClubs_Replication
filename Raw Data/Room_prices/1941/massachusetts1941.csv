@@ -1,0 +1,13 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Massachusetts,A-31,,,3,E,A-31
+Massachusetts,A-32,480,1 single,3,E,A-32
+Massachusetts,A-33,280,3 single,3,E,A-33
+Massachusetts,A-41,460,1 single,4,E,A-41
+Massachusetts,A-42,440,1 single,4,E,A-42
+Massachusetts,A-43,220,3 single,4,E,A-43
+Massachusetts,B-31,280,3 single,3,W,B-31
+Massachusetts,B-32,460,1 single,3,W,B-32
+Massachusetts,B-33,480,1 single,3,W,B-33
+Massachusetts,B-41,220,3 single,4,W,B-41
+Massachusetts,B-42,420,1 single,4,W,B-42
+Massachusetts,B-43,440,1 single,4,W,B-43

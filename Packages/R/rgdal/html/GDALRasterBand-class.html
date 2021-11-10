@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Class &quot;GDALRasterBand&quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for GDALRasterBand-class {rgdal}"><tr><td>GDALRasterBand-class {rgdal}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Class &quot;GDALRasterBand&quot;</h2>
+
+<h3>Description</h3>
+
+<p>Returns a two-dimensional array with data from a raster band, used internally within functions</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+getRasterData(dataset, band = NULL, offset = c(0, 0),
+              region.dim = dim(dataset), output.dim = region.dim,
+              interleave = c(0, 0), as.is = FALSE, list_out=FALSE) 
+
+getRasterTable(dataset, band = NULL, offset = c(0, 0), 
+  region.dim = dim(dataset))
+
+getProjectionRef(dataset, OVERRIDE_PROJ_DATUM_WITH_TOWGS84 = NULL)
+
+getRasterBand(dataset, band = 1)
+
+getRasterBlockSize(raster)
+
+toSigned(x, base)
+
+toUnSigned(x, base)
+
+get_OVERRIDE_PROJ_DATUM_WITH_TOWGS84()
+set_OVERRIDE_PROJ_DATUM_WITH_TOWGS84(value)
+
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dataset</code></td>
+<td>
+<p>An object inheriting from class 'GDALReadOnlyDataset'</p>
+</td></tr>
+<tr valign="top"><td><code>band</code></td>
+<td>
+<p>The band number (1-based) to read from</p>
+</td></tr>
+<tr valign="top"><td><code>offset</code></td>
+<td>
+<p>Number of rows and columns from the origin (usually the
+upper left corner) to begin reading from; presently ordered (y,x) - this may change</p>
+</td></tr>
+<tr valign="top"><td><code>region.dim</code></td>
+<td>
+<p>The number of rows and columns to read from the
+dataset; presently ordered (y,x) - this may change</p>
+</td></tr>
+<tr valign="top"><td><code>output.dim</code></td>
+<td>
+<p>Number of rows and columns in the output data; if
+smaller than <code>region.dim</code> the data will be subsampled</p>
+</td></tr>
+<tr valign="top"><td><code>interleave</code></td>
+<td>
+<p>Element and row stride while reading data; rarely
+needed</p>
+</td></tr>
+<tr valign="top"><td><code>as.is</code></td>
+<td>
+<p>If false, scale the data to its natural units; if the
+case of thematic data, return the data as factors</p>
+</td></tr>
+<tr valign="top"><td><code>list_out</code></td>
+<td>
+<p>default FALSE, return array, if TRUE, return a list of vector bands</p>
+</td></tr>
+<tr valign="top"><td><code>raster</code></td>
+<td>
+<p>An object of class GDALRasterBand</p>
+</td></tr>
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>integer variable for conversion</p>
+</td></tr>
+<tr valign="top"><td><code>base</code></td>
+<td>
+<p>If Byte input, 8, if Int16 or UInt16, 16</p>
+</td></tr>
+<tr valign="top"><td><code>OVERRIDE_PROJ_DATUM_WITH_TOWGS84</code></td>
+<td>
+<p>logical value, default NULL, which case the cached option set by <code>set_OVERRIDE_PROJ_DATUM_WITH_TOWGS84</code> is used. Ignored if the GDAL version is less than &ldquo;1.8.0&rdquo; or if the CPLConfigOption variable is already set</p>
+</td></tr>
+<tr valign="top"><td><code>value</code></td>
+<td>
+<p>logical value to set OVERRIDE_PROJ_DATUM_WITH_TOWGS84</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+
+<dl>
+<dt><code>getRasterData</code>:</dt><dd><p>retrieves data from the dataset as an array or list of bands; will try to convert relevant bands to factor if category names are available in the GDAL driver when returning a list.</p>
+</dd>
+<dt><code>getRasterTable</code>:</dt><dd><p>retrieves data from the dataset as data frame.</p>
+</dd>
+<dt><code>getProjectionRef</code>:</dt><dd><p>returns the geodetic projection in
+Well Known Text format.</p>
+</dd>
+<dt><code>getRasterBand</code>:</dt><dd><p>returns a raster band</p>
+</dd>
+<dt><code>getRasterBlockSize</code>:</dt><dd><p>returns the natural block size of
+the raster band. Use this for efficient tiled IO.</p>
+</dd>
+<dt><code>toSigned</code>:</dt><dd><p>used to convert a band read as unsigned integer to signed integer</p>
+</dd>
+<dt><code>toUnSigned</code>:</dt><dd><p>used to convert a band read as signed integer to unsigned integer</p>
+</dd>
+</dl>
+
+
+
+<h3>Objects from the Class</h3>
+
+<p>Objects can be created by calls of the form <code>new("GDALRasterBand", dataset, band)</code>.
+</p>
+
+
+<h3>Slots</h3>
+
+
+<dl>
+<dt><code>handle</code>:</dt><dd><p>Object of class <code>"externalptr", from class "GDALMajorObject"</code>, used internally; not for public consumption </p>
+</dd>
+</dl>
+
+
+
+<h3>Extends</h3>
+
+<p>Class <code>"GDALMajorObject"</code>, directly.
+</p>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt>dim</dt><dd><p><code>signature(x = "GDALRasterBand")</code>: ... </p>
+</dd>
+<dt>initialize</dt><dd><p><code>signature(.Object = "GDALRasterBand")</code>: ... </p>
+</dd>
+</dl>
+
+
+
+<h3>Note</h3>
+
+<p>The OVERRIDE_PROJ_DATUM_WITH_TOWGS84 argument is used to revert GDAL behaviour to pre-1.8.0 status; from 1.8.0, any input datum may be discarded if the input also includes a towgs84 tag in conversion to the PROJ.4 representation, see <a href="http://trac.osgeo.org/gdal/ticket/4880">http://trac.osgeo.org/gdal/ticket/4880</a> and <a href="http://lists.osgeo.org/pipermail/gdal-dev/2012-November/034550.html">http://lists.osgeo.org/pipermail/gdal-dev/2012-November/034550.html</a>. The cached value of OVERRIDE_PROJ_DATUM_WITH_TOWGS84 will also be used in <code>open.SpatialGDAL</code>, <code>sub.GDROD</code>, and <code>asGDALROD_SGDF</code>, which do not have a suitable argument</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Timothy H. Keitt, modified by Roger Bivand</p>
+
+
+<h3>See Also</h3>
+
+<p>See also <code><a href="../../rgdal/help/GDALDriver-class.html">GDALDriver-class</a></code>, <code><a href="../../rgdal/help/GDALDataset-class.html">GDALDataset-class</a></code>, <code><a href="../../rgdal/help/GDALTransientDataset-class.html">GDALTransientDataset-class</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+logo &lt;- system.file("pictures/logo.jpg", package="rgdal")[1]
+x &lt;- new("GDALReadOnlyDataset", logo)
+plot(density(getRasterTable(x)$band1))
+GDAL.close(x)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>rgdal</em> version 1.4-8 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

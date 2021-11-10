@@ -1,0 +1,961 @@
+name,year1,year2,dorm,roomno
+Andrew Gibson Frantz,1951,1948,Grays,1
+John Mason Harding,1951,1948,Grays,1
+"Howard F. Root, Jr.",1951,1947,Grays,1
+Leonard H. Ruvin,1951,1947,Grays,1
+Rodman A. Sharp,1951,1947,Grays,1
+William Rotch,1951,1947,Grays,1
+David Joseph Caliri,1951,1948,Grays,11
+Joseph Michael Walsh,1951,1948,Grays,11
+Joseph Paul Garibaldi Ziluca,1951,1948,Grays,11
+"Robert Hilton Knox, III",1951,1948,Grays,11
+David F. P. Sheehan,1951,1947,Grays,11
+Andrew Gibson Frantz,1951,1948,Grays,2
+John Mason Harding,1951,1948,Grays,2
+"Howard F. Root, Jr.",1951,1947,Grays,2
+Leonard H. Ruvin,1951,1947,Grays,2
+Robert Pierce Balderson,1951,1948,Grays,27
+William Alexander Gaston,1951,1948,Grays,27
+Carleton L. Pierpont,1951,1947,Grays,27
+"George B. Emmons, Jr.",1951,1947,Grays,27
+Robert Pierce Balderson,1951,1948,Grays,28
+Carleton L. Pierpont,1951,1947,Grays,28
+Robert Anthony John Barry,1951,1948,Grays,29
+Robert Anthony John Barry,1951,1948,Grays,30
+David C. Skinner,1951,1947,Grays,47
+John D. Stubbs,1951,1947,Grays,47
+"Nicholas J. Callahan, Jr.",1951,1947,Grays,47
+David C. Skinner,1951,1947,Grays,48
+John D. Stubbs,1951,1947,Grays,48
+"Nicholas J. Callahan, Jr.",1951,1947,Grays,48
+George Alban Patterson,1951,1948,Grays,49
+Ronald S. Daniels,1951,1947,Grays,49
+George Alban Patterson,1951,1948,Grays,50
+Richard Charles Miller,1951,1948,Grays,50
+Ronald S. Daniels,1951,1947,Grays,50
+Charles Warren Hollister,1951,1948,Grays,51
+Donald Anthony Giannella,1951,1948,Grays,51
+Edward Benjamin Glassman,1951,1948,Grays,51
+Stephen Oscar Saxe,1951,1948,Grays,51
+Eugene J. Sterett,1951,1947,Grays,51
+Reinhold Adolph Ullrich,1951,1947,Grays,51
+Donald Anthony Giannella,1951,1948,Grays,52
+Edward Benjamin Glassman,1951,1948,Grays,52
+Stephen Oscar Saxe,1951,1948,Grays,52
+Reinhold Adolph Ullrich,1951,1947,Grays,52
+John Taylor Simpson,1951,1948,Grays,7
+Raymond Andrew Bernabo,1951,1948,Grays,7
+Robert James Davis,1951,1948,Grays,7
+William Joseph Toohy,1951,1948,Grays,7
+Alvin Taub,1951,1947,Grays,7
+John Taylor Simpson,1951,1948,Grays,8
+Raymond Andrew Bernabo,1951,1948,Grays,8
+Robert James Davis,1951,1948,Grays,8
+William Joseph Toohy,1951,1948,Grays,8
+Alvin Taub,1951,1947,Grays,8
+David Joseph Caliri,1951,1948,Grays,E12
+Joseph Michael Walsh,1951,1948,Grays,E12
+Joseph Paul Garibaldi Ziluca,1951,1948,Grays,E12
+"Robert Hilton Knox, III",1951,1948,Grays,E12
+David F. P. Sheehan,1951,1947,Grays,E12
+Alvin Bennett Rutner,1951,1948,Grays,E21
+Lewis Robert Cowan,1951,1948,Grays,E21
+Melvin David Sacks,1951,1948,Grays,E21
+"George O. Pratt, Jr.",1951,1947,Grays,E21
+Hugh Shepley,1951,1947,Grays,E21
+John S. King,1951,1947,Grays,E21
+Alvin Bennett Rutner,1951,1948,Grays,E22
+Lewis Robert Cowan,1951,1948,Grays,E22
+Hugh Shepley,1951,1947,Grays,E22
+John S. King,1951,1947,Grays,E22
+"John Melville Cotton, Jr.",1951,1948,Grays,E31
+George A. Vicas,1951,1947,Grays,E31
+"John Melville Cotton, Jr.",1951,1948,Grays,E32
+George A. Vicas,1951,1947,Grays,E32
+Christopher May,1951,1948,Grays,M13
+Michael Ralph Paine,1951,1948,Grays,M13
+Richard Skeffington Welch,1951,1948,Grays,M13
+Christopher May,1951,1948,Grays,M14
+Michael Ralph Paine,1951,1948,Grays,M14
+John J. Sorensen,1951,1947,Grays,M33
+James B. Kenyon,1951,1947,Grays,M43
+John F. Bok,1951,1947,Grays,M43
+James B. Kenyon,1951,1947,Grays,M44
+John F. Bok,1951,1947,Grays,M44
+"Charles Adams Cahill, III",1951,1948,Grays,W15
+George Hermann Fick,1951,1948,Grays,W15
+John Robert Meyer,1951,1948,Grays,W15
+John B. Little,1951,1947,Grays,W15
+"R. L. Markham, Jr.",1951,1947,Grays,W15
+"Charles Adams Cahill, III",1951,1948,Grays,W16
+George Hermann Fick,1951,1948,Grays,W16
+John Robert Meyer,1951,1948,Grays,W16
+John B. Little,1951,1947,Grays,W16
+"R. L. Markham, Jr.",1951,1947,Grays,W16
+Edward Lyon Davis,1951,1948,Grays,W25
+Edward Lyon Davis,1951,1948,Grays,W26
+Edward Robert Michael Kane,1951,1948,Grays,W35
+James Fallon Draper,1951,1948,Grays,W35
+"John Talbot, Jr.",1951,1948,Grays,W35
+Edward Robert Michael Kane,1951,1948,Grays,W36
+James Fallon Draper,1951,1948,Grays,W36
+"John Talbot, Jr.",1951,1948,Grays,W36,Roderick M. Macdougall,1951,1947,Grays,W45,Roderick M. Macdougall,1951,1947,Grays,W46,Benjamin Horace Weese,1951,1947,Hollis,1,Francis Llewellyn Davis,1951,1947,Hollis,1,Arthur Acy Rouner,1951,1947,Hollis,10,Ernest Einer Monrad,1951,1947,Hollis,10,Layton Francis Smith III,1951,1947,Hollis,11,"Louis Mitchell Bohnenkamp, Jr.",1951,1947,Hollis,11,Frank George Standaert,1951,1947,Hollis,12,William Joseph Costa,1951,1947,Hollis,12,"Harry Ashwill Phillips, Jr.",1951,1947,Hollis,13,John Ames Savage,1951,1947,Hollis,13,Brooks Henry Lupien,1951,1947,Hollis,14,Don Philip Swensen,1951,1947,Hollis,14,Isam Said Kheiry,1951,1947,Hollis,15,Richard Lee Stockton,1951,1947,Hollis,15,Julian Irwin Joseph,1951,1947,Hollis,16,Marvin Sheldon Eiger,1951,1947,Hollis,16,Alejandro Aurelio Lichauco,1951,1947,Hollis,17,Paul George Gardescu,1951,1947,Hollis,17,Arnold Gordon Gofstein,1951,1947,Hollis,18,James Eugene Goodby,1951,1947,Hollis,18,Warren Mortimer Greene,1951,1947,Hollis,19,"William Louis Stuckey, Jr.",1951,1947,Hollis,19,"Daniel Jeremiah Rourke, Jr.",1951,1947,Hollis,2,Robert Wilfred Horan,1951,1947,Hollis,2,"Nicholas Hugh Hagoort, Jr.",1951,1947,Hollis,20,Raymond Grew,1951,1947,Hollis,20,James Bennett Holmes,1951,1947,Hollis,21,William Van Horn Mason,1951,1947,Hollis,21,Howard Sheldon Satin,1951,1947,Hollis,22,Sheldon Lee Berens,1951,1947,Hollis,22,Richard Arthur Nenneman,1951,1947,Hollis,23,Christopher Rutgers Knauth,1951,1947,Hollis,24,Lee Davison Cunningham,1951,1947,Hollis,24,Donald Richard Morris,1951,1947,Hollis,25,Douglas McDonald Fouquet,1951,1947,Hollis,25,James Howard Finkelstein,1951,1947,Hollis,26,Nathaniel Greenspun,1951,1947,Hollis,26,William Alexander Gaston,1951,1947,Hollis,27,William Blish Joyner,1951,1947,Hollis,27,Harrison Lindsay Blair,1951,1947,Hollis,28,Wilbur Lee Van Bremen,1951,1947,Hollis,28,Robert Pierce Balderson,1951,1947,Hollis,29,Robert Straube Harper,1951,1947,Hollis,29,Richard Roger Re Pass,1951,1947,Hollis,3,William Alan Plissner,1951,1947,Hollis,3,Donald Golden,1951,1947,Hollis,30,Mitchell Thornton Rabkin,1951,1947,Hollis,30,Martin Boykan,1951,1947,Hollis,31,Severo Mallet Ornstein,1951,1947,Hollis,31,"Charles George Mayer, Jr.",1951,1947,Hollis,32,Peter Le May,1951,1947,Hollis,32,Ariel Zemach,1951,1947,Hollis,4,Leonard Stuart Taylor,1951,1947,Hollis,4,Charles Campbell Hughes,1951,1947,Hollis,5,Richard Manning White,1951,1947,Hollis,5,Leonard Charles Gordon,1951,1947,Hollis,6,Nathaniel Richardson Howard II,1951,1947,Hollis,6,George Paul Fitch,1951,1947,Hollis,8,William Christian Becker,1951,1947,Hollis,8,"Charles Lane Clements, Jr.",1951,1947,Hollis,9,Samuel Henderson Cantwell,1951,1947,Hollis,9,"Maxwell Evarts Foster, Jr.",1951,1947,Holworthy,1,Robert Montgomery Scott,1951,1947,Holworthy,1,Samuel Abbot Cordingley Stevens,1951,1947,Holworthy,1,Thomas William Macaulay Smith,1951,1947,Holworthy,1,Charles Stuart Proctor Barker,1951,1947,Holworthy,10,"David Thurber Eaton, Jr.",1951,1947,Holworthy,10,"George Louis Strehlke, Jr.",1951,1947,Holworthy,10,"William Lucius Olmsted, Jr.",1951,1947,Holworthy,10,Kenneth John Scott,1951,1947,Holworthy,11,"Thomas Adams Munns, Jr.",1951,1947,Holworthy,11,Thomas Lamont O'Donoghue,1951,1947,Holworthy,11,"Harold Simmons Tate, Jr.",1951,1947,Holworthy,12,James Allen Gleason,1951,1947,Holworthy,12,"Stanley Dunham Truelson, Jr.",1951,1947,Holworthy,12,David Arthur Durfee,1951,1947,Holworthy,13,David Ring Crownfield,1951,1947,Holworthy,13,John Mark Thompson,1951,1947,Holworthy,13,John Ross Andes,1951,1947,Holworthy,13,Frank Henderson Wood,1951,1947,Holworthy,14,Henrik Ali Edvard Krogius,1951,1947,Holworthy,14,Henry Dwight Sedgwick II,1951,1947,Holworthy,14,William Robert Sherwood III,1951,1947,Holworthy,14,Dave Hennen Morris III,1951,1947,Holworthy,15,John Stearns Molloy,1951,1947,Holworthy,15,Priestley Toulmin III,1951,1947,Holworthy,15,Ricardo Augusto Ball,1951,1947,Holworthy,15,Philip Raymond Swain,1951,1947,Holworthy,16,Robert Gogan Dederick,1951,1947,Holworthy,16,Thomas Andrew Unverferth,1951,1947,Holworthy,16,"John Monteith Gates, Jr.",1951,1947,Holworthy,17,Joseph Lee Colt,1951,1947,Holworthy,17,"Lewis Arthur Cushman, Jr.",1951,1947,Holworthy,17,Peter Thorpe Dixon,1951,1947,Holworthy,17,Elroy Eric Anderson,1951,1947,Holworthy,18,George Hanc,1951,1947,Holworthy,18,Quentin Roy Stiles,1951,1947,Holworthy,18
+"John Talbot, Jr.",1951,1948,Grays,W36
+Roderick M. Macdougall,1951,1947,Grays,W45
+Roderick M. Macdougall,1951,1947,Grays,W46
+Benjamin Horace Weese,1951,1947,Hollis,1
+Francis Llewellyn Davis,1951,1947,Hollis,1
+Arthur Acy Rouner,1951,1947,Hollis,10
+Ernest Einer Monrad,1951,1947,Hollis,10
+Layton Francis Smith III,1951,1947,Hollis,11
+"Louis Mitchell Bohnenkamp, Jr.",1951,1947,Hollis,11
+Frank George Standaert,1951,1947,Hollis,12
+William Joseph Costa,1951,1947,Hollis,12
+"Harry Ashwill Phillips, Jr.",1951,1947,Hollis,13
+John Ames Savage,1951,1947,Hollis,13
+Brooks Henry Lupien,1951,1947,Hollis,14
+Don Philip Swensen,1951,1947,Hollis,14
+Isam Said Kheiry,1951,1947,Hollis,15
+Richard Lee Stockton,1951,1947,Hollis,15
+Julian Irwin Joseph,1951,1947,Hollis,16
+Marvin Sheldon Eiger,1951,1947,Hollis,16
+Alejandro Aurelio Lichauco,1951,1947,Hollis,17
+Paul George Gardescu,1951,1947,Hollis,17
+Arnold Gordon Gofstein,1951,1947,Hollis,18
+James Eugene Goodby,1951,1947,Hollis,18
+Warren Mortimer Greene,1951,1947,Hollis,19
+"William Louis Stuckey, Jr.",1951,1947,Hollis,19
+"Daniel Jeremiah Rourke, Jr.",1951,1947,Hollis,2
+Robert Wilfred Horan,1951,1947,Hollis,2
+"Nicholas Hugh Hagoort, Jr.",1951,1947,Hollis,20
+Raymond Grew,1951,1947,Hollis,20
+James Bennett Holmes,1951,1947,Hollis,21
+William Van Horn Mason,1951,1947,Hollis,21
+Howard Sheldon Satin,1951,1947,Hollis,22
+Sheldon Lee Berens,1951,1947,Hollis,22
+Richard Arthur Nenneman,1951,1947,Hollis,23
+Christopher Rutgers Knauth,1951,1947,Hollis,24
+Lee Davison Cunningham,1951,1947,Hollis,24
+Donald Richard Morris,1951,1947,Hollis,25
+Douglas McDonald Fouquet,1951,1947,Hollis,25
+James Howard Finkelstein,1951,1947,Hollis,26
+Nathaniel Greenspun,1951,1947,Hollis,26
+William Alexander Gaston,1951,1947,Hollis,27
+William Blish Joyner,1951,1947,Hollis,27
+Harrison Lindsay Blair,1951,1947,Hollis,28
+Wilbur Lee Van Bremen,1951,1947,Hollis,28
+Robert Pierce Balderson,1951,1947,Hollis,29
+Robert Straube Harper,1951,1947,Hollis,29
+Richard Roger Re Pass,1951,1947,Hollis,3
+William Alan Plissner,1951,1947,Hollis,3
+Donald Golden,1951,1947,Hollis,30
+Mitchell Thornton Rabkin,1951,1947,Hollis,30
+Martin Boykan,1951,1947,Hollis,31
+Severo Mallet Ornstein,1951,1947,Hollis,31
+"Charles George Mayer, Jr.",1951,1947,Hollis,32
+Peter Le May,1951,1947,Hollis,32
+Ariel Zemach,1951,1947,Hollis,4
+Leonard Stuart Taylor,1951,1947,Hollis,4
+Charles Campbell Hughes,1951,1947,Hollis,5
+Richard Manning White,1951,1947,Hollis,5
+Leonard Charles Gordon,1951,1947,Hollis,6
+Nathaniel Richardson Howard II,1951,1947,Hollis,6
+George Paul Fitch,1951,1947,Hollis,8
+William Christian Becker,1951,1947,Hollis,8
+"Charles Lane Clements, Jr.",1951,1947,Hollis,9
+Samuel Henderson Cantwell,1951,1947,Hollis,9
+"Maxwell Evarts Foster, Jr.",1951,1947,Holworthy,1
+Robert Montgomery Scott,1951,1947,Holworthy,1
+Samuel Abbot Cordingley Stevens,1951,1947,Holworthy,1
+Thomas William Macaulay Smith,1951,1947,Holworthy,1
+Charles Stuart Proctor Barker,1951,1947,Holworthy,10
+"David Thurber Eaton, Jr.",1951,1947,Holworthy,10
+"George Louis Strehlke, Jr.",1951,1947,Holworthy,10
+"William Lucius Olmsted, Jr.",1951,1947,Holworthy,10
+Kenneth John Scott,1951,1947,Holworthy,11
+"Thomas Adams Munns, Jr.",1951,1947,Holworthy,11
+Thomas Lamont O'Donoghue,1951,1947,Holworthy,11
+"Harold Simmons Tate, Jr.",1951,1947,Holworthy,12
+James Allen Gleason,1951,1947,Holworthy,12
+"Stanley Dunham Truelson, Jr.",1951,1947,Holworthy,12
+David Arthur Durfee,1951,1947,Holworthy,13
+David Ring Crownfield,1951,1947,Holworthy,13
+John Mark Thompson,1951,1947,Holworthy,13
+John Ross Andes,1951,1947,Holworthy,13
+Frank Henderson Wood,1951,1947,Holworthy,14
+Henrik Ali Edvard Krogius,1951,1947,Holworthy,14
+Henry Dwight Sedgwick II,1951,1947,Holworthy,14
+William Robert Sherwood III,1951,1947,Holworthy,14
+Dave Hennen Morris III,1951,1947,Holworthy,15
+John Stearns Molloy,1951,1947,Holworthy,15
+Priestley Toulmin III,1951,1947,Holworthy,15
+Ricardo Augusto Ball,1951,1947,Holworthy,15
+Philip Raymond Swain,1951,1947,Holworthy,16
+Robert Gogan Dederick,1951,1947,Holworthy,16
+Thomas Andrew Unverferth,1951,1947,Holworthy,16
+"John Monteith Gates, Jr.",1951,1947,Holworthy,17
+Joseph Lee Colt,1951,1947,Holworthy,17
+"Lewis Arthur Cushman, Jr.",1951,1947,Holworthy,17
+Peter Thorpe Dixon,1951,1947,Holworthy,17
+Elroy Eric Anderson,1951,1947,Holworthy,18
+George Hanc,1951,1947,Holworthy,18
+Quentin Roy Stiles,1951,1947,Holworthy,18
+"Richard Hazen Kimball, Jr.",1951,1947,Holworthy,18,George Winston McClellan II,1951,1947,Holworthy,19,Jasper McKee,1951,1947,Holworthy,19,Stewart Burnett Clifford,1951,1947,Holworthy,19,Alan David Cohn,1951,1947,Holworthy,2,David Harrison,1951,1947,Holworthy,2,David Joseph Melamed,1951,1947,Holworthy,2,Harvey Jerome Weiss,1951,1947,Holworthy,2,Eric Stephen Beckjord,1951,1947,Holworthy,21,Frederick Rhodes Coburn,1951,1947,Holworthy,21,Richard Clarence Rosane,1951,1947,Holworthy,21,Robert La Branche Van Dusen,1951,1947,Holworthy,21,"Frederick Wegner, Jr.",1951,1947,Holworthy,22,Gordon Desmond Henderson,1951,1947,Holworthy,22,James Robert Drumwright,1951,1947,Holworthy,22,"Walker La Brunerie, Jr.",1951,1947,Holworthy,22,Dale Perry Masher,1951,1947,Holworthy,23,Goddard Williams Winterbottom,1951,1947,Holworthy,23,Richard Woodcock Herr,1951,1947,Holworthy,23,William Randolph Jones,1951,1947,Holworthy,23,Gene Raser Kearney,1951,1947,Holworthy,24,Robert Douglas Milne,1951,1947,Holworthy,24,William Knight Moore,1951,1947,Holworthy,24,Bruce Beebe White,1951,1947,Holworthy,3,"Douglas Hinsdale Worrall, Jr.",1951,1947,Holworthy,3,Eliot Miles Herter,1951,1947,Holworthy,3,Horatio Hollis Hunnewell,1951,1947,Holworthy,3,Bruce Marshall Beringer,1951,1947,Holworthy,5,Clayton Peters Wood,1951,1947,Holworthy,5,Francis Van Wyck Mason II,1951,1947,Holworthy,5,Norris Williams Darrell,1951,1947,Holworthy,5,Robert Kenyon Nesbet,1951,1947,Holworthy,6,Walter William Sapp,1951,1947,Holworthy,6,William John Paule,1951,1947,Holworthy,6,Donald Anthony Giannella,1951,1947,Holworthy,7,"Richard Harrington, Jr.",1951,1947,Holworthy,7,Stephen Oscar Saxe,1951,1947,Holworthy,7,Donald Walter Dowd,1951,1947,Holworthy,8,John Alderson Dame,1951,1947,Holworthy,8,John Robert Meyer,1951,1947,Holworthy,8,Robin Ernest Esch,1951,1947,Holworthy,8,Andrew Adie Hunter,1951,1947,Holworthy,9,Christopher Grant,1951,1947,Holworthy,9,Frederic Martin Bowne,1951,1947,Holworthy,9,"Frederick Andrew Parker, Jr.",1951,1947,Holworthy,9,"Francis McCarthy, Jr.",1951,1947,Lionel,A-11,"William Randall Grafe, Jr.",1951,1947,Lionel,A-11,Alexander Sears Gardner,1951,1947,Lionel,A-12,Anthony Allen Barnett,1951,1947,Lionel,A-12,Bayley Frederick Mason,1951,1947,Lionel,A-12,"Wilfrid McNaught Knapp, Jr.",1951,1947,Lionel,A-12,Edmond Arthur Levy,1951,1947,Lionel,A-22,Edward Morton Cowett,1951,1947,Lionel,A-22,Julian I. Edison,1951,1947,Lionel,A-22,Paul William Mandel,1951,1947,Lionel,A-22,"Harold Stanley Nelson, Jr.",1951,1947,Lionel,A-31,John Barry Decker,1951,1947,Lionel,A-31,Samuel Coles Butler,1951,1947,Lionel,A-32,Walter Jack Kinkel,1951,1947,Lionel,A-32,William Pettee Perry,1951,1947,Lionel,A-32,"Bernard Robert Carman, Jr.",1951,1947,Lionel,B-11,Howard Mayer Brown,1951,1947,Lionel,B-11,John Roland Lee,1951,1947,Lionel,B-11,Peter Sigurd Odegard,1951,1947,Lionel,B-11,F. Bruce Lewis,1951,1947,Lionel,B-12,Richard Kane Berg,1951,1947,Lionel,B-12,Roger Dawson Milkman,1951,1947,Lionel,B-12,"Bernard Charles McGuire, Jr.",1951,1947,Lionel,B-21,"Charles Lawrence Evans, Jr.",1951,1947,Lionel,B-21,Joseph Paul Garibaldi Ziluca,1951,1947,Lionel,B-21,"Matthew Philip Scullin, Jr.",1951,1947,Lionel,B-21,Robert Treat Paine Metcalf,1951,1947,Lionel,B-22,"Stedman Buttrick, Jr.",1951,1947,Lionel,B-22,Forrest Lee Carter,1951,1947,Lionel,B-31,John Henry Pankey III,1951,1947,Lionel,B-31,John Taylor Simpson,1951,1947,Lionel,B-31,Robert James Davis,1951,1947,Lionel,B-31,Edward Claflin Thayer II,1951,1947,Lionel,B-32,Jay Sheesley Lewis,1951,1947,Lionel,B-32,John Bordman,1951,1947,Lionel,B-32,Robert Hilton Knox III,1951,1947,Lionel,B-32,Joseph B. Dallett,1951,1947,Massachusetts,A-32,Walter M. Aikman,1951,1947,Massachusetts,A-32,Bruce Weston,1951,1947,Massachusetts,A-33,David B. Stewart,1951,1947,Massachusetts,A-33,Leroy W. Yolton,1951,1947,Massachusetts,A-33,Paul L. Cloke,1951,1947,Massachusetts,A-33,William J. Fisk,1951,1947,Massachusetts,A-33,"Gordon Harrower, Jr.",1951,1947,Massachusetts,A-41,"William E. Beehan, Jr.",1951,1947,Massachusetts,A-41,"William G. Hughes, Jr.",1951,1947,Massachusetts,A-42,"George C. Lee, III",1951,1947,Massachusetts,A-43,"Joseph S. Clark, III",1951,1947,Massachusetts,A-43,Julius D. Campbell,1951,1947,Massachusetts,A-43,"Sydney P. Clark, Jr.",1951,1947,Massachusetts,A-43,Carl D. Bottenfield,1951,1947,Massachusetts,B-31,Harold G. Thomas,1951,1947,Massachusetts,B-31,"John F. Fraser, Jr.",1951,1947,Massachusetts,B-31,Joseph R. Stratton,1951,1947,Massachusetts,B-31,Richard B. Hansen,1951,1947,Massachusetts,B-31
+"Richard Hazen Kimball, Jr.",1951,1947,Holworthy,18
+George Winston McClellan II,1951,1947,Holworthy,19
+Jasper McKee,1951,1947,Holworthy,19
+Stewart Burnett Clifford,1951,1947,Holworthy,19
+Alan David Cohn,1951,1947,Holworthy,2
+David Harrison,1951,1947,Holworthy,2
+David Joseph Melamed,1951,1947,Holworthy,2
+Harvey Jerome Weiss,1951,1947,Holworthy,2
+Eric Stephen Beckjord,1951,1947,Holworthy,21
+Frederick Rhodes Coburn,1951,1947,Holworthy,21
+Richard Clarence Rosane,1951,1947,Holworthy,21
+Robert La Branche Van Dusen,1951,1947,Holworthy,21
+"Frederick Wegner, Jr.",1951,1947,Holworthy,22
+Gordon Desmond Henderson,1951,1947,Holworthy,22
+James Robert Drumwright,1951,1947,Holworthy,22
+"Walker La Brunerie, Jr.",1951,1947,Holworthy,22
+Dale Perry Masher,1951,1947,Holworthy,23
+Goddard Williams Winterbottom,1951,1947,Holworthy,23
+Richard Woodcock Herr,1951,1947,Holworthy,23
+William Randolph Jones,1951,1947,Holworthy,23
+Gene Raser Kearney,1951,1947,Holworthy,24
+Robert Douglas Milne,1951,1947,Holworthy,24
+William Knight Moore,1951,1947,Holworthy,24
+Bruce Beebe White,1951,1947,Holworthy,3
+"Douglas Hinsdale Worrall, Jr.",1951,1947,Holworthy,3
+Eliot Miles Herter,1951,1947,Holworthy,3
+Horatio Hollis Hunnewell,1951,1947,Holworthy,3
+Bruce Marshall Beringer,1951,1947,Holworthy,5
+Clayton Peters Wood,1951,1947,Holworthy,5
+Francis Van Wyck Mason II,1951,1947,Holworthy,5
+Norris Williams Darrell,1951,1947,Holworthy,5
+Robert Kenyon Nesbet,1951,1947,Holworthy,6
+Walter William Sapp,1951,1947,Holworthy,6
+William John Paule,1951,1947,Holworthy,6
+Donald Anthony Giannella,1951,1947,Holworthy,7
+"Richard Harrington, Jr.",1951,1947,Holworthy,7
+Stephen Oscar Saxe,1951,1947,Holworthy,7
+Donald Walter Dowd,1951,1947,Holworthy,8
+John Alderson Dame,1951,1947,Holworthy,8
+John Robert Meyer,1951,1947,Holworthy,8
+Robin Ernest Esch,1951,1947,Holworthy,8
+Andrew Adie Hunter,1951,1947,Holworthy,9
+Christopher Grant,1951,1947,Holworthy,9
+Frederic Martin Bowne,1951,1947,Holworthy,9
+"Frederick Andrew Parker, Jr.",1951,1947,Holworthy,9
+"Francis McCarthy, Jr.",1951,1947,Lionel,A-11
+"William Randall Grafe, Jr.",1951,1947,Lionel,A-11
+Alexander Sears Gardner,1951,1947,Lionel,A-12
+Anthony Allen Barnett,1951,1947,Lionel,A-12
+Bayley Frederick Mason,1951,1947,Lionel,A-12
+"Wilfrid McNaught Knapp, Jr.",1951,1947,Lionel,A-12
+Edmond Arthur Levy,1951,1947,Lionel,A-22
+Edward Morton Cowett,1951,1947,Lionel,A-22
+Julian I. Edison,1951,1947,Lionel,A-22
+Paul William Mandel,1951,1947,Lionel,A-22
+"Harold Stanley Nelson, Jr.",1951,1947,Lionel,A-31
+John Barry Decker,1951,1947,Lionel,A-31
+Samuel Coles Butler,1951,1947,Lionel,A-32
+Walter Jack Kinkel,1951,1947,Lionel,A-32
+William Pettee Perry,1951,1947,Lionel,A-32
+"Bernard Robert Carman, Jr.",1951,1947,Lionel,B-11
+Howard Mayer Brown,1951,1947,Lionel,B-11
+John Roland Lee,1951,1947,Lionel,B-11
+Peter Sigurd Odegard,1951,1947,Lionel,B-11
+F. Bruce Lewis,1951,1947,Lionel,B-12
+Richard Kane Berg,1951,1947,Lionel,B-12
+Roger Dawson Milkman,1951,1947,Lionel,B-12
+"Bernard Charles McGuire, Jr.",1951,1947,Lionel,B-21
+"Charles Lawrence Evans, Jr.",1951,1947,Lionel,B-21
+Joseph Paul Garibaldi Ziluca,1951,1947,Lionel,B-21
+"Matthew Philip Scullin, Jr.",1951,1947,Lionel,B-21
+Robert Treat Paine Metcalf,1951,1947,Lionel,B-22
+"Stedman Buttrick, Jr.",1951,1947,Lionel,B-22
+Forrest Lee Carter,1951,1947,Lionel,B-31
+John Henry Pankey III,1951,1947,Lionel,B-31
+John Taylor Simpson,1951,1947,Lionel,B-31
+Robert James Davis,1951,1947,Lionel,B-31
+Edward Claflin Thayer II,1951,1947,Lionel,B-32
+Jay Sheesley Lewis,1951,1947,Lionel,B-32
+John Bordman,1951,1947,Lionel,B-32
+Robert Hilton Knox III,1951,1947,Lionel,B-32
+Joseph B. Dallett,1951,1947,Massachusetts,A-32
+Walter M. Aikman,1951,1947,Massachusetts,A-32
+Bruce Weston,1951,1947,Massachusetts,A-33
+David B. Stewart,1951,1947,Massachusetts,A-33
+Leroy W. Yolton,1951,1947,Massachusetts,A-33
+Paul L. Cloke,1951,1947,Massachusetts,A-33
+William J. Fisk,1951,1947,Massachusetts,A-33
+"Gordon Harrower, Jr.",1951,1947,Massachusetts,A-41
+"William E. Beehan, Jr.",1951,1947,Massachusetts,A-41
+"William G. Hughes, Jr.",1951,1947,Massachusetts,A-42
+"George C. Lee, III",1951,1947,Massachusetts,A-43
+"Joseph S. Clark, III",1951,1947,Massachusetts,A-43
+Julius D. Campbell,1951,1947,Massachusetts,A-43
+"Sydney P. Clark, Jr.",1951,1947,Massachusetts,A-43
+Carl D. Bottenfield,1951,1947,Massachusetts,B-31
+Harold G. Thomas,1951,1947,Massachusetts,B-31
+"John F. Fraser, Jr.",1951,1947,Massachusetts,B-31
+Joseph R. Stratton,1951,1947,Massachusetts,B-31
+Richard B. Hansen,1951,1947,Massachusetts,B-31
+John C. Schmertz,1951,1947,Massachusetts,B-32,Edwin U. C. Bohlen,1951,1947,Massachusetts,B-33,"Francis E. Baker, Jr.",1951,1947,Massachusetts,B-33,Christopher May,1951,1947,Massachusetts,B-41,"James A. Dawson, Jr.",1951,1947,Massachusetts,B-41,Paul R. Kinkel,1951,1947,Massachusetts,B-41,Roland J. Gibson,1951,1947,Massachusetts,B-41,John J. Kristopik,1951,1947,Massachusetts,B-42,Leonard J. Friedman,1951,1947,Massachusetts,B-42,"Charles Burlingham, Jr.",1951,1947,Massachusetts,B-43,Richard St. F. Post,1951,1947,Massachusetts,B-43,"Charles Summerall, III",1951,1947,Matthews,101,Don C. Harshman,1951,1947,Matthews,101,Nathaniel P. Carleton,1951,1947,Matthews,101,Albert I. Borowitz,1951,1947,Matthews,103,Andreas F. Lowenfeld,1951,1947,Matthews,103,Lawrence R. Zeitlin,1951,1947,Matthews,103,John C. Woodbury,1951,1947,Matthews,104,Robert T. Hennes,1951,1947,Matthews,104,Winslow Whitman,1951,1947,Matthews,104,Paul E. Allinger,1951,1947,Matthews,106,Earle M. Neyman,1951,1947,Matthews,107,Melvin H. Levine,1951,1947,Matthews,107,Peter J. Schlesinger,1951,1947,Matthews,107,Charles De Rham,1951,1947,Matthews,108,Hugh A. Burr,1951,1947,Matthews,111,Thomas B. Hunt,1951,1947,Matthews,111,Ascanio Branca,1951,1947,Matthews,112,Sidney H. Stires,1951,1947,Matthews,112,Weld Coxe,1951,1947,Matthews,112,David F. Reese,1951,1947,Matthews,201,James D. Gabler,1951,1947,Matthews,201,James P. Johnson,1951,1947,Matthews,201,Arthur E. Dreben,1951,1947,Matthews,202,Donald C. Wyner,1951,1947,Matthews,202,Kenneth S. Warren,1951,1947,Matthews,202,John B. Rutherford,1951,1947,Matthews,203,"Francis H. Phelps, Jr.",1951,1947,Matthews,204,"H. E. Harrington, Jr.",1951,1947,Matthews,204,"Oliver E. Clubb, Jr.",1951,1947,Matthews,204,Arthur J. Deikman,1951,1947,Matthews,205,Robert J. Hoffman,1951,1947,Matthews,205,"Macnider Wetherby, Jr.",1951,1947,Matthews,206,"Matthew J. Peppard, II",1951,1947,Matthews,206,Robert R. Melville Van Carnbee,1951,1947,Matthews,206,George B. Hagee,1951,1947,Matthews,207,Richard A. Hersey,1951,1947,Matthews,207,Tom W. Day,1951,1947,Matthews,207,Fred Wyle,1951,1947,Matthews,209,Eugene R. Baker,1951,1947,Matthews,210,Ralph M. Weintraub,1951,1947,Matthews,210,Richard N. Ellner,1951,1947,Matthews,210,David J. Gordon,1951,1947,Matthews,211,Henry Steiner,1951,1947,Matthews,211,Jeremy Bernstein,1951,1947,Matthews,211,George H. Williams,1951,1947,Matthews,212,John S. Rodgers,1951,1947,Matthews,212,Jonathan E. Robbin,1951,1947,Matthews,212,Alan L. Habertman,1951,1947,Matthews,302,Andrew L. Kaufman,1951,1947,Matthews,302,John M. Jentz,1951,1947,Matthews,302,Malcolm T. McClure,1951,1947,Matthews,303,Richard S. Martin,1951,1947,Matthews,303,"Albert J. Walsh, Jr.",1951,1947,Matthews,304,Charles B. Flood,1951,1947,Matthews,304,John A. Palladino,1951,1947,Matthews,304,"Donald A. Hall, Jr.",1951,1947,Matthews,306,Norman E. Nichols,1951,1947,Matthews,306,Russell A. Ames,1951,1947,Matthews,306,Warren C. Moffett,1951,1947,Matthews,306,Burton N. Bromson,1951,1947,Matthews,307,Richard S. Welch,1951,1947,Matthews,307,Robert A. Feldman,1951,1947,Matthews,307,Frederick L. Dunn,1951,1947,Matthews,308,Ralph V. Hagopian,1951,1947,Matthews,308,John P. Phipps,1951,1947,Matthews,309,Roger L. Butler,1951,1947,Matthews,309,Sherman H. Hawkins,1951,1947,Matthews,309,David T. Owsley,1951,1947,Matthews,310,"E. J. Ottenheimer, Jr.",1951,1947,Matthews,310,Warren J. Abbott,1951,1947,Matthews,310,John C. Olney,1951,1947,Matthews,311,Jonathan L. King,1951,1947,Matthews,311,Michael E. Sterner,1951,1947,Matthews,311,John R. W. Smail,1951,1947,Matthews,401,Samuel D. Timmons,1951,1947,Matthews,401,William B. Young,1951,1947,Matthews,401,"John V. Merrick, IV",1951,1947,Matthews,402,Peter A. Pardue,1951,1947,Matthews,402,Philip Dexter,1951,1947,Matthews,402,Martin A. Tuller,1951,1947,Matthews,403,Ralph H. Bender,1951,1947,Matthews,403,Thomas B. Roos,1951,1947,Matthews,403,John B. Abbot,1951,1947,Matthews,404,Michael E. Pulitzer,1951,1947,Matthews,404,Robert K. Cassatt,1951,1947,Matthews,404,Harold F. Chase,1951,1947,Matthews,406,Seargent K. Wild,1951,1947,Matthews,406,Stig Host,1951,1947,Matthews,406,Alexander K. Ogloblin,1951,1947,Matthews,407
+John C. Schmertz,1951,1947,Massachusetts,B-32
+Edwin U. C. Bohlen,1951,1947,Massachusetts,B-33
+"Francis E. Baker, Jr.",1951,1947,Massachusetts,B-33
+Christopher May,1951,1947,Massachusetts,B-41
+"James A. Dawson, Jr.",1951,1947,Massachusetts,B-41
+Paul R. Kinkel,1951,1947,Massachusetts,B-41
+Roland J. Gibson,1951,1947,Massachusetts,B-41
+John J. Kristopik,1951,1947,Massachusetts,B-42
+Leonard J. Friedman,1951,1947,Massachusetts,B-42
+"Charles Burlingham, Jr.",1951,1947,Massachusetts,B-43
+Richard St. F. Post,1951,1947,Massachusetts,B-43
+"Charles Summerall, III",1951,1947,Matthews,101
+Don C. Harshman,1951,1947,Matthews,101
+Nathaniel P. Carleton,1951,1947,Matthews,101
+Albert I. Borowitz,1951,1947,Matthews,103
+Andreas F. Lowenfeld,1951,1947,Matthews,103
+Lawrence R. Zeitlin,1951,1947,Matthews,103
+John C. Woodbury,1951,1947,Matthews,104
+Robert T. Hennes,1951,1947,Matthews,104
+Winslow Whitman,1951,1947,Matthews,104
+Paul E. Allinger,1951,1947,Matthews,106
+Earle M. Neyman,1951,1947,Matthews,107
+Melvin H. Levine,1951,1947,Matthews,107
+Peter J. Schlesinger,1951,1947,Matthews,107
+Charles De Rham,1951,1947,Matthews,108
+Hugh A. Burr,1951,1947,Matthews,111
+Thomas B. Hunt,1951,1947,Matthews,111
+Ascanio Branca,1951,1947,Matthews,112
+Sidney H. Stires,1951,1947,Matthews,112
+Weld Coxe,1951,1947,Matthews,112
+David F. Reese,1951,1947,Matthews,201
+James D. Gabler,1951,1947,Matthews,201
+James P. Johnson,1951,1947,Matthews,201
+Arthur E. Dreben,1951,1947,Matthews,202
+Donald C. Wyner,1951,1947,Matthews,202
+Kenneth S. Warren,1951,1947,Matthews,202
+John B. Rutherford,1951,1947,Matthews,203
+"Francis H. Phelps, Jr.",1951,1947,Matthews,204
+"H. E. Harrington, Jr.",1951,1947,Matthews,204
+"Oliver E. Clubb, Jr.",1951,1947,Matthews,204
+Arthur J. Deikman,1951,1947,Matthews,205
+Robert J. Hoffman,1951,1947,Matthews,205
+"Macnider Wetherby, Jr.",1951,1947,Matthews,206
+"Matthew J. Peppard, II",1951,1947,Matthews,206
+Robert R. Melville Van Carnbee,1951,1947,Matthews,206
+George B. Hagee,1951,1947,Matthews,207
+Richard A. Hersey,1951,1947,Matthews,207
+Tom W. Day,1951,1947,Matthews,207
+Fred Wyle,1951,1947,Matthews,209
+Eugene R. Baker,1951,1947,Matthews,210
+Ralph M. Weintraub,1951,1947,Matthews,210
+Richard N. Ellner,1951,1947,Matthews,210
+David J. Gordon,1951,1947,Matthews,211
+Henry Steiner,1951,1947,Matthews,211
+Jeremy Bernstein,1951,1947,Matthews,211
+George H. Williams,1951,1947,Matthews,212
+John S. Rodgers,1951,1947,Matthews,212
+Jonathan E. Robbin,1951,1947,Matthews,212
+Alan L. Habertman,1951,1947,Matthews,302
+Andrew L. Kaufman,1951,1947,Matthews,302
+John M. Jentz,1951,1947,Matthews,302
+Malcolm T. McClure,1951,1947,Matthews,303
+Richard S. Martin,1951,1947,Matthews,303
+"Albert J. Walsh, Jr.",1951,1947,Matthews,304
+Charles B. Flood,1951,1947,Matthews,304
+John A. Palladino,1951,1947,Matthews,304
+"Donald A. Hall, Jr.",1951,1947,Matthews,306
+Norman E. Nichols,1951,1947,Matthews,306
+Russell A. Ames,1951,1947,Matthews,306
+Warren C. Moffett,1951,1947,Matthews,306
+Burton N. Bromson,1951,1947,Matthews,307
+Richard S. Welch,1951,1947,Matthews,307
+Robert A. Feldman,1951,1947,Matthews,307
+Frederick L. Dunn,1951,1947,Matthews,308
+Ralph V. Hagopian,1951,1947,Matthews,308
+John P. Phipps,1951,1947,Matthews,309
+Roger L. Butler,1951,1947,Matthews,309
+Sherman H. Hawkins,1951,1947,Matthews,309
+David T. Owsley,1951,1947,Matthews,310
+"E. J. Ottenheimer, Jr.",1951,1947,Matthews,310
+Warren J. Abbott,1951,1947,Matthews,310
+John C. Olney,1951,1947,Matthews,311
+Jonathan L. King,1951,1947,Matthews,311
+Michael E. Sterner,1951,1947,Matthews,311
+John R. W. Smail,1951,1947,Matthews,401
+Samuel D. Timmons,1951,1947,Matthews,401
+William B. Young,1951,1947,Matthews,401
+"John V. Merrick, IV",1951,1947,Matthews,402
+Peter A. Pardue,1951,1947,Matthews,402
+Philip Dexter,1951,1947,Matthews,402
+Martin A. Tuller,1951,1947,Matthews,403
+Ralph H. Bender,1951,1947,Matthews,403
+Thomas B. Roos,1951,1947,Matthews,403
+John B. Abbot,1951,1947,Matthews,404
+Michael E. Pulitzer,1951,1947,Matthews,404
+Robert K. Cassatt,1951,1947,Matthews,404
+Harold F. Chase,1951,1947,Matthews,406
+Seargent K. Wild,1951,1947,Matthews,406
+Stig Host,1951,1947,Matthews,406
+Alexander K. Ogloblin,1951,1947,Matthews,407
+"Edward C. Kemp, Jr.",1951,1947,Matthews,407,"Robert H. Young, Jr.",1951,1947,Matthews,407,Albert E. Wolf,1951,1947,Matthews,408,John J. Kaplan,1951,1947,Matthews,408,Stuart Falk,1951,1947,Matthews,408,Archibald C. Spencer,1951,1947,Matthews,410,George C. Hewitt,1951,1947,Matthews,410,Robert B. McGandy,1951,1947,Matthews,410,"Douglas B. Bell, II",1951,1947,Matthews,411,Herbert P. Wilkins,1951,1947,Matthews,411,William C. Sawyer,1951,1947,Matthews,411,Donald H. Kaplan,1951,1947,Matthews,412,John N. White,1951,1947,Matthews,412,Phillip L. Isenberg,1951,1947,Matthews,412,"John P. Rice, Jr.",1951,1947,Matthews,502,Charles N. Carr,1951,1947,Matthews,503,Edward L. Foote,1951,1947,Matthews,503,Raoul H. Gersten,1951,1947,Matthews,504,William J. Adelson,1951,1947,Matthews,504,Alfred Aronovitz,1951,1947,Matthews,505,Calvert Smith,1951,1947,Matthews,509,Richard W. Sackett,1951,1947,Matthews,511,Victor M. Carnes,1951,1947,Matthews,511,"David John Arthur Hayes, Jr.",1951,1947,Mower,A-12,"Thomas Ambrose Lee, Jr.",1951,1947,Mower,A-12,Thomas Galvin O'Neil,1951,1947,Mower,A-12,"Edward Grant Sparrow, Jr.",1951,1947,Mower,A-21,"Henry Lansing McVickar, Jr.",1951,1947,Mower,A-21,Richard Wright Southgate,1951,1947,Mower,A-21,Andrew Peter Zimmer,1951,1947,Mower,A-22,"Cyril Vincent Devery, Jr.",1951,1947,Mower,A-22,Frederick Joseph English,1951,1947,Mower,A-22,Raymond Andrew Bernabo,1951,1947,Mower,A-22,Antone Gardner Jacobson,1951,1947,Mower,A-31,C. Duane Lansverk,1951,1947,Mower,A-31,Donald Mac Drummond,1951,1947,Mower,A-31,Anthony Tramontozzi,1951,1947,Mower,A-32,Phillip E. Areeda,1951,1947,Mower,A-32,Richard Anthony Van Deuren,1951,1947,Mower,A-32,Edward Cathcart Dobbs,1951,1947,Mower,B-11,John Robert Hodgdon,1951,1947,Mower,B-11,"Richard Tuttle Loring, Jr.",1951,1947,Mower,B-11,John Joseph Trudon III,1951,1947,Mower,B-12,Joseph Michael Walsh,1951,1947,Mower,B-12,William Joseph Toohy,1951,1947,Mower,B-12,Edwin Franklin Atkins,1951,1947,Mower,B-21,Jerome Rockhill Dwight,1951,1947,Mower,B-21,"Winfred Overholser, Jr.",1951,1947,Mower,B-21,Alvin Bennett Rutner,1951,1947,Mower,B-22,Melvin David Sacks,1951,1947,Mower,B-22,Laurence Dow Lovett,1951,1947,Mower,B-31,"Philip Erskine Miles, Jr.",1951,1947,Mower,B-31,Robert Dale Adams,1951,1947,Mower,B-31,John Richard Hayes,1951,1947,Mower,B-32,Thomas A. Hubbard,1951,1947,Mower,B-32,William John Joseph Holbrook,1951,1947,Mower,B-32,Donald Carlton Hauck,1951,1947,Stoughton,1,William Merton Bolman,1951,1947,Stoughton,1,Eric Peter Bierrie,1951,1947,Stoughton,10,C. Grant La Farge,1951,1947,Stoughton,11,"Everett Morss, Jr.",1951,1947,Stoughton,11,Peter Anthony Bator,1951,1947,Stoughton,11,Freeman Widener Cope,1951,1947,Stoughton,12,Hugh Lincoln McCulloch,1951,1947,Stoughton,12,Elliott Porter Doane,1951,1947,Stoughton,13,Owen Bertwell Mathre,1951,1947,Stoughton,13,Edward David Stearns,1951,1947,Stoughton,14,Gerry Peter Gallo,1951,1947,Stoughton,14,Arthur Chase Shafer,1951,1947,Stoughton,15,Arthur Walker Bingham III,1951,1947,Stoughton,15,Harold Paul Furth,1951,1947,Stoughton,16,"Anthony Hicks Brackett, Jr.",1951,1947,Stoughton,17,Douglas Scranton Hesley Anderson,1951,1947,Stoughton,17,James Parker Dow,1951,1947,Stoughton,17,James Alan Gregg,1951,1947,Stoughton,18,"Carl Borromeo Schmitt, Jr.",1951,1947,Stoughton,2,Henry Venard Cieszynski,1951,1947,Stoughton,2,Charles Sanborn La Follette,1951,1947,Stoughton,20,James Crawford Allen,1951,1947,Stoughton,20,Charles Adams Cahill III,1951,1947,Stoughton,21,John Finley Freeman,1951,1947,Stoughton,21,Norman Martin Hinerfeld,1951,1947,Stoughton,22,Robert Bernard Glynn,1951,1947,Stoughton,22,"Gordon Norfolk McKee, Jr.",1951,1947,Stoughton,23,Howard Bruce Boal,1951,1947,Stoughton,23,George Alban Patterson,1951,1947,Stoughton,24,"Robert Harold Brink, Jr.",1951,1947,Stoughton,24,James Stewart Marcus,1951,1947,Stoughton,25,Roy Matz Goodman,1951,1947,Stoughton,25,Robert Charles Fisher,1951,1947,Stoughton,26,William Harold Banaka,1951,1947,Stoughton,26,"Alexander Stuart McDill, Jr.",1951,1947,Stoughton,27,"John Quincy Adams, Jr.",1951,1947,Stoughton,27,Bruce La Sala,1951,1947,Stoughton,28,Kailash Kumar Singh,1951,1947,Stoughton,28,Clifford Lefebvre,1951,1947,Stoughton,29,"George Gholson Walker, Jr.",1951,1947,Stoughton,29,Robert Avram Cohen,1951,1947,Stoughton,3,Ronald Maurice Sendak,1951,1947,Stoughton,3,Don Allen Strehler,1951,1947,Stoughton,30
+"Edward C. Kemp, Jr.",1951,1947,Matthews,407
+"Robert H. Young, Jr.",1951,1947,Matthews,407
+Albert E. Wolf,1951,1947,Matthews,408
+John J. Kaplan,1951,1947,Matthews,408
+Stuart Falk,1951,1947,Matthews,408
+Archibald C. Spencer,1951,1947,Matthews,410
+George C. Hewitt,1951,1947,Matthews,410
+Robert B. McGandy,1951,1947,Matthews,410
+"Douglas B. Bell, II",1951,1947,Matthews,411
+Herbert P. Wilkins,1951,1947,Matthews,411
+William C. Sawyer,1951,1947,Matthews,411
+Donald H. Kaplan,1951,1947,Matthews,412
+John N. White,1951,1947,Matthews,412
+Phillip L. Isenberg,1951,1947,Matthews,412
+"John P. Rice, Jr.",1951,1947,Matthews,502
+Charles N. Carr,1951,1947,Matthews,503
+Edward L. Foote,1951,1947,Matthews,503
+Raoul H. Gersten,1951,1947,Matthews,504
+William J. Adelson,1951,1947,Matthews,504
+Alfred Aronovitz,1951,1947,Matthews,505
+Calvert Smith,1951,1947,Matthews,509
+Richard W. Sackett,1951,1947,Matthews,511
+Victor M. Carnes,1951,1947,Matthews,511
+"David John Arthur Hayes, Jr.",1951,1947,Mower,A-12
+"Thomas Ambrose Lee, Jr.",1951,1947,Mower,A-12
+Thomas Galvin O'Neil,1951,1947,Mower,A-12
+"Edward Grant Sparrow, Jr.",1951,1947,Mower,A-21
+"Henry Lansing McVickar, Jr.",1951,1947,Mower,A-21
+Richard Wright Southgate,1951,1947,Mower,A-21
+Andrew Peter Zimmer,1951,1947,Mower,A-22
+"Cyril Vincent Devery, Jr.",1951,1947,Mower,A-22
+Frederick Joseph English,1951,1947,Mower,A-22
+Raymond Andrew Bernabo,1951,1947,Mower,A-22
+Antone Gardner Jacobson,1951,1947,Mower,A-31
+C. Duane Lansverk,1951,1947,Mower,A-31
+Donald Mac Drummond,1951,1947,Mower,A-31
+Anthony Tramontozzi,1951,1947,Mower,A-32
+Phillip E. Areeda,1951,1947,Mower,A-32
+Richard Anthony Van Deuren,1951,1947,Mower,A-32
+Edward Cathcart Dobbs,1951,1947,Mower,B-11
+John Robert Hodgdon,1951,1947,Mower,B-11
+"Richard Tuttle Loring, Jr.",1951,1947,Mower,B-11
+John Joseph Trudon III,1951,1947,Mower,B-12
+Joseph Michael Walsh,1951,1947,Mower,B-12
+William Joseph Toohy,1951,1947,Mower,B-12
+Edwin Franklin Atkins,1951,1947,Mower,B-21
+Jerome Rockhill Dwight,1951,1947,Mower,B-21
+"Winfred Overholser, Jr.",1951,1947,Mower,B-21
+Alvin Bennett Rutner,1951,1947,Mower,B-22
+Melvin David Sacks,1951,1947,Mower,B-22
+Laurence Dow Lovett,1951,1947,Mower,B-31
+"Philip Erskine Miles, Jr.",1951,1947,Mower,B-31
+Robert Dale Adams,1951,1947,Mower,B-31
+John Richard Hayes,1951,1947,Mower,B-32
+Thomas A. Hubbard,1951,1947,Mower,B-32
+William John Joseph Holbrook,1951,1947,Mower,B-32
+Donald Carlton Hauck,1951,1947,Stoughton,1
+William Merton Bolman,1951,1947,Stoughton,1
+Eric Peter Bierrie,1951,1947,Stoughton,10
+C. Grant La Farge,1951,1947,Stoughton,11
+"Everett Morss, Jr.",1951,1947,Stoughton,11
+Peter Anthony Bator,1951,1947,Stoughton,11
+Freeman Widener Cope,1951,1947,Stoughton,12
+Hugh Lincoln McCulloch,1951,1947,Stoughton,12
+Elliott Porter Doane,1951,1947,Stoughton,13
+Owen Bertwell Mathre,1951,1947,Stoughton,13
+Edward David Stearns,1951,1947,Stoughton,14
+Gerry Peter Gallo,1951,1947,Stoughton,14
+Arthur Chase Shafer,1951,1947,Stoughton,15
+Arthur Walker Bingham III,1951,1947,Stoughton,15
+Harold Paul Furth,1951,1947,Stoughton,16
+"Anthony Hicks Brackett, Jr.",1951,1947,Stoughton,17
+Douglas Scranton Hesley Anderson,1951,1947,Stoughton,17
+James Parker Dow,1951,1947,Stoughton,17
+James Alan Gregg,1951,1947,Stoughton,18
+"Carl Borromeo Schmitt, Jr.",1951,1947,Stoughton,2
+Henry Venard Cieszynski,1951,1947,Stoughton,2
+Charles Sanborn La Follette,1951,1947,Stoughton,20
+James Crawford Allen,1951,1947,Stoughton,20
+Charles Adams Cahill III,1951,1947,Stoughton,21
+John Finley Freeman,1951,1947,Stoughton,21
+Norman Martin Hinerfeld,1951,1947,Stoughton,22
+Robert Bernard Glynn,1951,1947,Stoughton,22
+"Gordon Norfolk McKee, Jr.",1951,1947,Stoughton,23
+Howard Bruce Boal,1951,1947,Stoughton,23
+George Alban Patterson,1951,1947,Stoughton,24
+"Robert Harold Brink, Jr.",1951,1947,Stoughton,24
+James Stewart Marcus,1951,1947,Stoughton,25
+Roy Matz Goodman,1951,1947,Stoughton,25
+Robert Charles Fisher,1951,1947,Stoughton,26
+William Harold Banaka,1951,1947,Stoughton,26
+"Alexander Stuart McDill, Jr.",1951,1947,Stoughton,27
+"John Quincy Adams, Jr.",1951,1947,Stoughton,27
+Bruce La Sala,1951,1947,Stoughton,28
+Kailash Kumar Singh,1951,1947,Stoughton,28
+Clifford Lefebvre,1951,1947,Stoughton,29
+"George Gholson Walker, Jr.",1951,1947,Stoughton,29
+Robert Avram Cohen,1951,1947,Stoughton,3
+Ronald Maurice Sendak,1951,1947,Stoughton,3
+Don Allen Strehler,1951,1947,Stoughton,30
+Robert Anthony John Barry,1951,1947,Stoughton,30,John Otis Gates,1951,1947,Stoughton,31,Peter Carter Wilkinson,1951,1947,Stoughton,31,Roland Frank Wille,1951,1947,Stoughton,31,Donald A. Little,1951,1947,Stoughton,32,George Hermann Fick,1951,1947,Stoughton,32,Karl Neugebauer,1951,1947,Stoughton,4,Paul Flanagan,1951,1947,Stoughton,4,Peter Aronsohn Lewis,1951,1947,Stoughton,5,Robert Penniman Hubbard,1951,1947,Stoughton,5,David Lyman Smith,1951,1947,Stoughton,6,Richard Joseph Turyn,1951,1947,Stoughton,6,Julius Binstock,1951,1947,Stoughton,7,Robert L. Handros,1951,1947,Stoughton,7,Byrne Richard Marston,1951,1947,Stoughton,8,"John Lewis Montgomery, Jr.",1951,1947,Stoughton,8,"Thomas Oliver Nevison, Jr.",1951,1947,Stoughton,9,Carl P. Josephson,1951,1947,Straus,A-21,J. Mason Harding,1951,1947,Straus,A-21,"George I. Mulhern, Jr.",1951,1947,Straus,A-22,Roger M. Hewlett,1951,1947,Straus,A-31,Hollis L. Robbins,1951,1947,Straus,A-32,"William D. Kelley, Jr.",1951,1947,Straus,A-32,Robert A. Harrison,1951,1947,Straus,B-11,David H. Andrews,1951,1947,Straus,B-21,"Ralph G. Wilmot, Jr.",1951,1947,Straus,B-21,Stepehn C. Brown,1951,1947,Straus,B-21,Hugh Whitman,1951,1947,Straus,B-32,Milton S. Kanzaki,1951,1947,Straus,B-32,Nicholas Verven,1951,1947,Straus,B-32,Thomas Fulton,1951,1947,Straus,C-12,Andre E. Rheault,1951,1947,Straus,C-21,"Frederic W. Stark, II",1951,1947,Straus,C-21,Ross O. Davies,1951,1947,Straus,C-21,"Edmund J. Blake, Jr.",1951,1947,Straus,C-22,Robert G. Murphy,1951,1947,Straus,C-22,James W. Fulton,1951,1947,Straus,C-31,Lewis E. Braverman,1951,1947,Straus,C-31,Maximillian W. Kempner,1951,1947,Straus,C-31,Edward A. Blagdon,1951,1947,Straus,C-32,David B. Stone,1951,1947,Straus,C-41,Robert M. Ross,1951,1947,Straus,C-41,Peter D. Hanson,1951,1947,Straus,D-11,Fabian Bradbury,1951,1947,Straus,D-22,Gwilym S. Brown,1951,1947,Straus,D-22,Peter E. Schweitzer,1951,1947,Straus,D-22,Donald W. Born,1951,1947,Straus,D-31,Richard C. Braisted,1951,1947,Straus,D-32,Wayne P. Libhart,1951,1947,Straus,D-32,Christopher Wheeler,1951,1947,Straus,D-42,James Parke Morton,1951,1947,Thayer,101,"John Cowles, Jr.",1951,1947,Thayer,101,William George Brown Graham,1951,1947,Thayer,101,Leigh Cross,1951,1947,Thayer,102,Leland Lewis Fellows,1951,1947,Thayer,102,Richard Woodward Hulbert,1951,1947,Thayer,102,Thomas Bartling Calhoun,1951,1947,Thayer,102,David Goldsborough Manning,1951,1947,Thayer,103,"John Talbot, Jr.",1951,1947,Thayer,103,Marvin Hunter Taylor,1951,1947,Thayer,103,"Arthur Henry Rohn, Jr.",1951,1947,Thayer,104,Donald Alexander Kennedy,1951,1947,Thayer,104,Ralph Waverly Judd,1951,1947,Thayer,104,James Edward Conroy III,1951,1947,Thayer,105,Kevin John Gaffney,1951,1947,Thayer,105,David Shoolman,1951,1947,Thayer,106,"Richard Howorth Fitton, Jr.",1951,1947,Thayer,106,Theodore Inglis Anderson,1951,1947,Thayer,107,William John Starr,1951,1947,Thayer,107,Elmer George Cloutier,1951,1947,Thayer,108,Oliver Minseem Lee,1951,1947,Thayer,108,James Noyes Douglass,1951,1947,Thayer,109,Richard Vassall Upjohn,1951,1947,Thayer,109,"Bertram True French, Jr.",1951,1947,Thayer,110,James Paris Gazaway,1951,1947,Thayer,110,"John Melville Cotton, Jr.",1951,1947,Thayer,110,Edward Robert Michael Kane,1951,1947,Thayer,111,Paul Michael O'Brien,1951,1947,Thayer,111,Robert Neville John Berke,1951,1947,Thayer,111,Hamilton Searight Johnson,1951,1947,Thayer,112,Robert Elisha Peters,1951,1947,Thayer,112,Bradley Morrell Walls,1951,1947,Thayer,114,"Paul Ancel Wallace, Jr.",1951,1947,Thayer,114,Richard Frederick H. Zimmerman,1951,1947,Thayer,114,Eugene Klebenov,1951,1947,Thayer,13,Jonas Melvin Goldstone,1951,1947,Thayer,13,Robert Eliot Remis,1951,1947,Thayer,13,"John Tilghman Hazel, Jr.",1951,1947,Thayer,19,Leonard Bruce Ellis,1951,1947,Thayer,19,Thomas Frederick Hart,1951,1947,Thayer,19,Peter Templeton Rowley,1951,1947,Thayer,201,Scott Bruce Lukins,1951,1947,Thayer,201,Sirius C. Proestopoulos,1951,1947,Thayer,201,Roberto Henrique Palacios,1951,1947,Thayer,202,Stanley McWhorter Weir,1951,1947,Thayer,202,"George Karl Fenn, Jr.",1951,1947,Thayer,203,Roger Wach,1951,1947,Thayer,203,Herbert D. Hoffman,1951,1947,Thayer,204,Rene Vielman,1951,1947,Thayer,204,Courtland Warren Troutman,1951,1947,Thayer,205
+Robert Anthony John Barry,1951,1947,Stoughton,30
+John Otis Gates,1951,1947,Stoughton,31
+Peter Carter Wilkinson,1951,1947,Stoughton,31
+Roland Frank Wille,1951,1947,Stoughton,31
+Donald A. Little,1951,1947,Stoughton,32
+George Hermann Fick,1951,1947,Stoughton,32
+Karl Neugebauer,1951,1947,Stoughton,4
+Paul Flanagan,1951,1947,Stoughton,4
+Peter Aronsohn Lewis,1951,1947,Stoughton,5
+Robert Penniman Hubbard,1951,1947,Stoughton,5
+David Lyman Smith,1951,1947,Stoughton,6
+Richard Joseph Turyn,1951,1947,Stoughton,6
+Julius Binstock,1951,1947,Stoughton,7
+Robert L. Handros,1951,1947,Stoughton,7
+Byrne Richard Marston,1951,1947,Stoughton,8
+"John Lewis Montgomery, Jr.",1951,1947,Stoughton,8
+"Thomas Oliver Nevison, Jr.",1951,1947,Stoughton,9
+Carl P. Josephson,1951,1947,Straus,A-21
+J. Mason Harding,1951,1947,Straus,A-21
+"George I. Mulhern, Jr.",1951,1947,Straus,A-22
+Roger M. Hewlett,1951,1947,Straus,A-31
+Hollis L. Robbins,1951,1947,Straus,A-32
+"William D. Kelley, Jr.",1951,1947,Straus,A-32
+Robert A. Harrison,1951,1947,Straus,B-11
+David H. Andrews,1951,1947,Straus,B-21
+"Ralph G. Wilmot, Jr.",1951,1947,Straus,B-21
+Stepehn C. Brown,1951,1947,Straus,B-21
+Hugh Whitman,1951,1947,Straus,B-32
+Milton S. Kanzaki,1951,1947,Straus,B-32
+Nicholas Verven,1951,1947,Straus,B-32
+Thomas Fulton,1951,1947,Straus,C-12
+Andre E. Rheault,1951,1947,Straus,C-21
+"Frederic W. Stark, II",1951,1947,Straus,C-21
+Ross O. Davies,1951,1947,Straus,C-21
+"Edmund J. Blake, Jr.",1951,1947,Straus,C-22
+Robert G. Murphy,1951,1947,Straus,C-22
+James W. Fulton,1951,1947,Straus,C-31
+Lewis E. Braverman,1951,1947,Straus,C-31
+Maximillian W. Kempner,1951,1947,Straus,C-31
+Edward A. Blagdon,1951,1947,Straus,C-32
+David B. Stone,1951,1947,Straus,C-41
+Robert M. Ross,1951,1947,Straus,C-41
+Peter D. Hanson,1951,1947,Straus,D-11
+Fabian Bradbury,1951,1947,Straus,D-22
+Gwilym S. Brown,1951,1947,Straus,D-22
+Peter E. Schweitzer,1951,1947,Straus,D-22
+Donald W. Born,1951,1947,Straus,D-31
+Richard C. Braisted,1951,1947,Straus,D-32
+Wayne P. Libhart,1951,1947,Straus,D-32
+Christopher Wheeler,1951,1947,Straus,D-42
+James Parke Morton,1951,1947,Thayer,101
+"John Cowles, Jr.",1951,1947,Thayer,101
+William George Brown Graham,1951,1947,Thayer,101
+Leigh Cross,1951,1947,Thayer,102
+Leland Lewis Fellows,1951,1947,Thayer,102
+Richard Woodward Hulbert,1951,1947,Thayer,102
+Thomas Bartling Calhoun,1951,1947,Thayer,102
+David Goldsborough Manning,1951,1947,Thayer,103
+"John Talbot, Jr.",1951,1947,Thayer,103
+Marvin Hunter Taylor,1951,1947,Thayer,103
+"Arthur Henry Rohn, Jr.",1951,1947,Thayer,104
+Donald Alexander Kennedy,1951,1947,Thayer,104
+Ralph Waverly Judd,1951,1947,Thayer,104
+James Edward Conroy III,1951,1947,Thayer,105
+Kevin John Gaffney,1951,1947,Thayer,105
+David Shoolman,1951,1947,Thayer,106
+"Richard Howorth Fitton, Jr.",1951,1947,Thayer,106
+Theodore Inglis Anderson,1951,1947,Thayer,107
+William John Starr,1951,1947,Thayer,107
+Elmer George Cloutier,1951,1947,Thayer,108
+Oliver Minseem Lee,1951,1947,Thayer,108
+James Noyes Douglass,1951,1947,Thayer,109
+Richard Vassall Upjohn,1951,1947,Thayer,109
+"Bertram True French, Jr.",1951,1947,Thayer,110
+James Paris Gazaway,1951,1947,Thayer,110
+"John Melville Cotton, Jr.",1951,1947,Thayer,110
+Edward Robert Michael Kane,1951,1947,Thayer,111
+Paul Michael O'Brien,1951,1947,Thayer,111
+Robert Neville John Berke,1951,1947,Thayer,111
+Hamilton Searight Johnson,1951,1947,Thayer,112
+Robert Elisha Peters,1951,1947,Thayer,112
+Bradley Morrell Walls,1951,1947,Thayer,114
+"Paul Ancel Wallace, Jr.",1951,1947,Thayer,114
+Richard Frederick H. Zimmerman,1951,1947,Thayer,114
+Eugene Klebenov,1951,1947,Thayer,13
+Jonas Melvin Goldstone,1951,1947,Thayer,13
+Robert Eliot Remis,1951,1947,Thayer,13
+"John Tilghman Hazel, Jr.",1951,1947,Thayer,19
+Leonard Bruce Ellis,1951,1947,Thayer,19
+Thomas Frederick Hart,1951,1947,Thayer,19
+Peter Templeton Rowley,1951,1947,Thayer,201
+Scott Bruce Lukins,1951,1947,Thayer,201
+Sirius C. Proestopoulos,1951,1947,Thayer,201
+Roberto Henrique Palacios,1951,1947,Thayer,202
+Stanley McWhorter Weir,1951,1947,Thayer,202
+"George Karl Fenn, Jr.",1951,1947,Thayer,203
+Roger Wach,1951,1947,Thayer,203
+Herbert D. Hoffman,1951,1947,Thayer,204
+Rene Vielman,1951,1947,Thayer,204
+Courtland Warren Troutman,1951,1947,Thayer,205
+
+
+Norman Lloyd Van Patten,1951,1947,Thayer,205,Richard Eugene Platt,1951,1947,Thayer,205,John Felton Ashton,1951,1947,Thayer,207,Meredith Nehrbas Springer,1951,1947,Thayer,207,William Frederick Heijn,1951,1947,Thayer,207,"John Wallace Simons, Jr.",1951,1947,Thayer,208,Robert Walter Tolf,1951,1947,Thayer,208,"Donald More Maynard, Jr.",1951,1947,Thayer,211,James Kilburn Weaver,1951,1947,Thayer,211,Marion H1tson Sass,1951,1947,Thayer,211,Richard Bradley Burtis,1951,1947,Thayer,212,Robert Lee Pratt,1951,1947,Thayer,212,"Thomas Marshall Gilbert, Jr.",1951,1947,Thayer,212,Douglas William McCallum,1951,1947,Thayer,214,"John Henry Warvel, Jr.",1951,1947,Thayer,214,Thomas Whitney Grossman,1951,1947,Thayer,214,"Edward Otis Handy, Jr.",1951,1947,Thayer,22,Martin George Lobkowicz,1951,1947,Thayer,22,"Sherrod E. Skinner, Jr.",1951,1947,Thayer,22,David Joseph Caliri,1951,1947,Thayer,301,Gilbert Clinton Taylor,1951,1947,Thayer,301,Kenneth Keniston,1951,1947,Thayer,301,David Alfred Brockway,1951,1947,Thayer,302,David Nestor Gorman,1951,1947,Thayer,302,James Fallon Draper,1951,1947,Thayer,303,Raymond Francis Norton,1951,1947,Thayer,303,Bruce Warren Nelson,1951,1947,Thayer,304,Chester Fleming Relyea,1951,1947,Thayer,304,James Porter Moffett,1951,1947,Thayer,304,Robert Taylor,1951,1947,Thayer,305,William Robert Wright,1951,1947,Thayer,305,Bernard P. Cohen,1951,1947,Thayer,306,Edward Benjamin Glassman,1951,1947,Thayer,306,Lionel Braham,1951,1947,Thayer,306,John Castner Walcott,1951,1947,Thayer,307,Joseph Kevin O'Neill Ott,1951,1947,Thayer,307,Jefferson Watkins,1951,1947,Thayer,308,"Kenneth Shaw Safe, Jr.",1951,1947,Thayer,308,Richard Grosvenor,1951,1947,Thayer,308,"Donald Thomas Fox, Jr.",1951,1947,Thayer,309,William John Chadwick,1951,1947,Thayer,309,Charles Warren Hollister,1951,1947,Thayer,310,George Palmer Le Roy,1951,1947,Thayer,310,Rodman Frederic Duane,1951,1947,Thayer,310,John Mesmer Todd,1951,1947,Thayer,311,Richard Charles Miller,1951,1947,Thayer,311,Harry Robinson Dow III,1951,1947,Thayer,314,Sherrill Houghton Houston,1951,1947,Thayer,314,Bayard Van Rensselaer Robb,1951,1947,Thayer,316,Frederick Strong Moseley III,1951,1947,Thayer,316,"S. Preston Cement, Jr.",1951,1947,Thayer,316,DeWitt Stetten Goodman,1951,1947,Thayer,32,Edward Selig Epstein,1951,1947,Thayer,32,Gilbert Elliott Matthews,1951,1947,Thayer,32,Gilbert Dolan Huebner,1951,1947,Thayer,401,"James Edward Barrett, Jr.",1951,1947,Thayer,401,Paul Anthony Lucey,1951,1947,Thayer,401,Jerry Kanter,1951,1947,Thayer,402,Marvin Harold Kraus,1951,1947,Thayer,402,John Shippen Wells,1951,1947,Thayer,403,Edward Bernard Smith,1951,1947,Thayer,404,Frederick Peter Weber,1951,1947,Thayer,404,Robert Heller Dix,1951,1947,Thayer,404,"Edward William Digges, Jr.",1951,1947,Thayer,405,James Crichton Heigham,1951,1947,Thayer,405,Radford R. Stone,1951,1947,Thayer,405,Frederick Gallatin Cammann,1951,1947,Thayer,406,Peter Van Slingerland,1951,1947,Thayer,406,Hoosen Coovadia,1951,1947,Thayer,407,J. David Baumann,1951,1947,Thayer,407,Alfred David,1951,1947,Thayer,408,John J. Sack,1951,1947,Thayer,408,Peter Benjamin Taub,1951,1947,Thayer,408,James Herbert Wright,1951,1947,Thayer,409,Lewis Nathaniel Travis,1951,1947,Thayer,409,Peter John Simmons,1951,1947,Thayer,409,Leon Ove Andersen,1951,1947,Thayer,410,Rolf Roald Vang,1951,1947,Thayer,410,John Chapman Pittenger,1951,1947,Thayer,411,Sanford Jackson Langa,1951,1947,Thayer,411,Jack Newton Freyhof,1951,1947,Thayer,412,Paul Howard Voreacos,1951,1947,Thayer,412,Ruel R. Robins,1951,1947,Thayer,412,Glen Hisashi Kumasaka,1951,1947,Thayer,413,Glen Merle Reem II,1951,1947,Thayer,413,Kenneth Ernest Biller,1951,1947,Thayer,414,Richard John Lawrence,1951,1947,Thayer,414,"George Abbot Furness, Jr.",1951,1947,Thayer,415,John May,1951,1947,Thayer,415,Arnold George Schumacher,1951,1947,Thayer,416,David Manship Hollister,1951,1947,Thayer,416,Thomas Edward Weesner,1951,1947,Thayer,416,Charles Weiss,1951,1947,Thayer,504,Harold Roy Brodkey,1951,1947,Thayer,504,Louis Solomon,1951,1947,Thayer,504,Frank De Leeuw,1951,1947,Thayer,505,Paul Theodore Broneer,1951,1947,Thayer,505,Thomas Masurat,1951,1947,Thayer,505,"Arthur Holder Post, Jr.",1951,1947,Thayer,512,"Douglas Campbell, Jr.",1951,1947,Thayer,512
+
+
+
+
+Norman Lloyd Van Patten,1951,1947,Thayer,205
+Richard Eugene Platt,1951,1947,Thayer,205
+John Felton Ashton,1951,1947,Thayer,207
+Meredith Nehrbas Springer,1951,1947,Thayer,207
+William Frederick Heijn,1951,1947,Thayer,207
+"John Wallace Simons, Jr.",1951,1947,Thayer,208
+Robert Walter Tolf,1951,1947,Thayer,208
+"Donald More Maynard, Jr.",1951,1947,Thayer,211
+James Kilburn Weaver,1951,1947,Thayer,211
+Marion H1tson Sass,1951,1947,Thayer,211
+Richard Bradley Burtis,1951,1947,Thayer,212
+Robert Lee Pratt,1951,1947,Thayer,212
+"Thomas Marshall Gilbert, Jr.",1951,1947,Thayer,212
+Douglas William McCallum,1951,1947,Thayer,214
+"John Henry Warvel, Jr.",1951,1947,Thayer,214
+Thomas Whitney Grossman,1951,1947,Thayer,214
+"Edward Otis Handy, Jr.",1951,1947,Thayer,22
+Martin George Lobkowicz,1951,1947,Thayer,22
+"Sherrod E. Skinner, Jr.",1951,1947,Thayer,22
+David Joseph Caliri,1951,1947,Thayer,301
+Gilbert Clinton Taylor,1951,1947,Thayer,301
+Kenneth Keniston,1951,1947,Thayer,301
+David Alfred Brockway,1951,1947,Thayer,302
+David Nestor Gorman,1951,1947,Thayer,302
+James Fallon Draper,1951,1947,Thayer,303
+Raymond Francis Norton,1951,1947,Thayer,303
+Bruce Warren Nelson,1951,1947,Thayer,304
+Chester Fleming Relyea,1951,1947,Thayer,304
+James Porter Moffett,1951,1947,Thayer,304
+Robert Taylor,1951,1947,Thayer,305
+William Robert Wright,1951,1947,Thayer,305
+Bernard P. Cohen,1951,1947,Thayer,306
+Edward Benjamin Glassman,1951,1947,Thayer,306
+Lionel Braham,1951,1947,Thayer,306
+John Castner Walcott,1951,1947,Thayer,307
+Joseph Kevin O'Neill Ott,1951,1947,Thayer,307
+Jefferson Watkins,1951,1947,Thayer,308
+"Kenneth Shaw Safe, Jr.",1951,1947,Thayer,308
+Richard Grosvenor,1951,1947,Thayer,308
+"Donald Thomas Fox, Jr.",1951,1947,Thayer,309
+William John Chadwick,1951,1947,Thayer,309
+Charles Warren Hollister,1951,1947,Thayer,310
+George Palmer Le Roy,1951,1947,Thayer,310
+Rodman Frederic Duane,1951,1947,Thayer,310
+John Mesmer Todd,1951,1947,Thayer,311
+Richard Charles Miller,1951,1947,Thayer,311
+Harry Robinson Dow III,1951,1947,Thayer,314
+Sherrill Houghton Houston,1951,1947,Thayer,314
+Bayard Van Rensselaer Robb,1951,1947,Thayer,316
+Frederick Strong Moseley III,1951,1947,Thayer,316
+"S. Preston Cement, Jr.",1951,1947,Thayer,316
+DeWitt Stetten Goodman,1951,1947,Thayer,32
+Edward Selig Epstein,1951,1947,Thayer,32
+Gilbert Elliott Matthews,1951,1947,Thayer,32
+Gilbert Dolan Huebner,1951,1947,Thayer,401
+"James Edward Barrett, Jr.",1951,1947,Thayer,401
+Paul Anthony Lucey,1951,1947,Thayer,401
+Jerry Kanter,1951,1947,Thayer,402
+Marvin Harold Kraus,1951,1947,Thayer,402
+John Shippen Wells,1951,1947,Thayer,403
+Edward Bernard Smith,1951,1947,Thayer,404
+Frederick Peter Weber,1951,1947,Thayer,404
+Robert Heller Dix,1951,1947,Thayer,404
+"Edward William Digges, Jr.",1951,1947,Thayer,405
+James Crichton Heigham,1951,1947,Thayer,405
+Radford R. Stone,1951,1947,Thayer,405
+Frederick Gallatin Cammann,1951,1947,Thayer,406
+Peter Van Slingerland,1951,1947,Thayer,406
+Hoosen Coovadia,1951,1947,Thayer,407
+J. David Baumann,1951,1947,Thayer,407
+Alfred David,1951,1947,Thayer,408
+John J. Sack,1951,1947,Thayer,408
+Peter Benjamin Taub,1951,1947,Thayer,408
+James Herbert Wright,1951,1947,Thayer,409
+Lewis Nathaniel Travis,1951,1947,Thayer,409
+Peter John Simmons,1951,1947,Thayer,409
+Leon Ove Andersen,1951,1947,Thayer,410
+Rolf Roald Vang,1951,1947,Thayer,410
+John Chapman Pittenger,1951,1947,Thayer,411
+Sanford Jackson Langa,1951,1947,Thayer,411
+Jack Newton Freyhof,1951,1947,Thayer,412
+Paul Howard Voreacos,1951,1947,Thayer,412
+Ruel R. Robins,1951,1947,Thayer,412
+Glen Hisashi Kumasaka,1951,1947,Thayer,413
+Glen Merle Reem II,1951,1947,Thayer,413
+Kenneth Ernest Biller,1951,1947,Thayer,414
+Richard John Lawrence,1951,1947,Thayer,414
+"George Abbot Furness, Jr.",1951,1947,Thayer,415
+John May,1951,1947,Thayer,415
+Arnold George Schumacher,1951,1947,Thayer,416
+David Manship Hollister,1951,1947,Thayer,416
+Thomas Edward Weesner,1951,1947,Thayer,416
+Charles Weiss,1951,1947,Thayer,504
+Harold Roy Brodkey,1951,1947,Thayer,504
+Louis Solomon,1951,1947,Thayer,504
+Frank De Leeuw,1951,1947,Thayer,505
+Paul Theodore Broneer,1951,1947,Thayer,505
+Thomas Masurat,1951,1947,Thayer,505
+"Arthur Holder Post, Jr.",1951,1947,Thayer,512
+"Douglas Campbell, Jr.",1951,1947,Thayer,512
+
+
+
+Herbert Leroy Young,1951,1947,Thayer,512,"Ames Stevens, Jr.",1951,1947,Thayer,53,Charles Porter Buckley,1951,1947,Thayer,53,William Gordon Weir,1951,1947,Thayer,53,Richard L. Lutz,1951,1947,Weld,11,Stephen B. Lemann,1951,1947,Weld,11,Edward W. Thompson,1951,1947,Weld,12,"Leroy J. Burlingame, Jr.",1951,1947,Weld,12,"William V. Warren, Jr.",1951,1947,Weld,12,Armand V. Fabella,1951,1947,Weld,13,Bradley M. Richardson,1951,1947,Weld,13,Dimitri V. D'Arbeloff,1951,1947,Weld,13,Howard Lessch,1951,1947,Weld,13,Julio Muvdi,1951,1947,Weld,13,Louis J. Tsavaris,1951,1947,Weld,13,Henry P. Clifford,1951,1947,Weld,14,Richard E. Burwell,1951,1947,Weld,14,Edward L. Davis,1951,1947,Weld,19,Glynn H. Coryell,1951,1947,Weld,19,Andrew G. Frantz,1951,1947,Weld,21,George S. Miller,1951,1947,Weld,21,David E. Rust,1951,1947,Weld,22,Samuel E. Nylen,1951,1947,Weld,22,Curtis C. Kaufman,1951,1947,Weld,23,David C. Brisk,1951,1947,Weld,23,Peter W. Rand,1951,1947,Weld,25,Samuel H. Ridge,1951,1947,Weld,25,Erik A. Stromsted,1951,1947,Weld,26,Jonathan M. Gell,1951,1947,Weld,26,Michael O. Reinoehl,1951,1947,Weld,26,Thomas H. Ingham,1951,1947,Weld,26,Ian M. White,1951,1947,Weld,27,Jurgen A. Hilton,1951,1947,Weld,27,Stanton A. Cook,1951,1947,Weld,27,David G. Hays,1951,1947,Weld,28,Edward H. Cass,1951,1947,Weld,28,"George Sommaripa, Jr.",1951,1947,Weld,32,"James B. Ross, Jr.",1951,1947,Weld,33,"Kenneth W. Proctor, Jr.",1951,1947,Weld,33,Charles R. Shepardson,1951,1947,Weld,34,Elliot L. Hoffman,1951,1947,Weld,34,Frederick F. Ladd,1951,1947,Weld,34,John M. Teal,1951,1947,Weld,34,Joseph A. Griffin,1951,1947,Weld,34,Phillip W. Smith,1951,1947,Weld,34,Robert L. Lasky,1951,1947,Weld,34,Christopher Bird,1951,1947,Weld,38,David Bird,1951,1947,Weld,38,Alan Sweetser,1951,1947,Weld,41,Charles J. Keever,1951,1947,Weld,41,Harold R. Von Der Osten,1951,1947,Weld,42,"Hiram Kendall, Jr.",1951,1947,Weld,42,"George M. Kurzon, Jr.",1951,1947,Weld,43,Miles I. Levine,1951,1947,Weld,43,Julius Binstock,1951,1948,Weld,44,Jack H. Mostow,1951,1947,Weld,44,"Arthur D. Hyde, Jr.",1951,1947,Weld,45,Randolph R. Brown,1951,1947,Weld,45,Frank Boas,1951,1947,Weld,46,John K. Speer,1951,1947,Weld,46,Kenneth C. Keller,1951,1947,Weld,46,Robert J. Herbert,1951,1947,Weld,46,Hugh B. Williams,1951,1947,Weld,47,John A. Bailey,1951,1947,Weld,47,Richard R. Reynolds,1951,1947,Weld,47,Anthony G. Oettinger,1951,1947,Weld,48,Gary Felsenfeld,1951,1947,Weld,48,Hubert L. Dreyfus,1951,1947,Weld,48,John S. Spier,1951,1947,Weld,49,Michael R. Paine,1951,1947,Weld,49,Myron R. Stocking,1951,1947,Weld,49,Bradley S. Phillips,1951,1947,Weld,52,George R. Mathey,1951,1947,Weld,52,"George R. Hargreaves, III",1951,1947,Weld,53,William M. Twaddle,1951,1947,Weld,53,Franklin P. Dunbaugh,1951,1947,Weld,54,John S. Steinhart,1951,1947,Weld,54,"Joseph L. Rauh, III",1951,1947,Weld,54,Paul H. Tobias,1951,1947,Weld,54,Robert W. Rex,1951,1947,Weld,54,"Donald H. Tilson, Jr.",1951,1947,Weld,55,"Marcus White, II",1951,1947,Weld,55,Richard Barry Griffin,1951,1948,Wigglesworth,A-11,Robert Anthony Fallon,1951,1948,Wigglesworth,A-11,Thomas Joseph Butler,1951,1948,Wigglesworth,A-11,"Charles H. W. Foster, II",1951,1947,Wigglesworth,A-11,Richard Southworth Baker,1951,1949,Wigglesworth,A-21,Edward Joseph Power,1951,1948,Wigglesworth,A-21,Robert John Hansman,1951,1948,Wigglesworth,A-21,"William Gregor Crook, Jr.",1951,1948,Wigglesworth,A-21,Aaron W. Putnam,1951,1947,Wigglesworth,A-21,Robert J. Hansman,1951,1947,Wigglesworth,A-21,"William G. Crook, Jr.",1951,1947,Wigglesworth,A-21,William R. F. Engels,1951,1947,Wigglesworth,A-21,David Francis Patrick Sheehan,1951,1948,Wigglesworth,A-31,James Francis Peter Cunningham,1951,1948,Wigglesworth,A-31,Donald B. Haines,1951,1947,Wigglesworth,A-31,Fletcher P. Tomic,1951,1947,Wigglesworth,A-31,James F. P. Cunningham,1951,1947,Wigglesworth,A-31,David Joseph Melamed,1951,1948,Wigglesworth,B-11
+
+
+
+
+Herbert Leroy Young,1951,1947,Thayer,512
+"Ames Stevens, Jr.",1951,1947,Thayer,53
+Charles Porter Buckley,1951,1947,Thayer,53
+William Gordon Weir,1951,1947,Thayer,53
+Richard L. Lutz,1951,1947,Weld,11
+Stephen B. Lemann,1951,1947,Weld,11
+Edward W. Thompson,1951,1947,Weld,12
+"Leroy J. Burlingame, Jr.",1951,1947,Weld,12
+"William V. Warren, Jr.",1951,1947,Weld,12
+Armand V. Fabella,1951,1947,Weld,13
+Bradley M. Richardson,1951,1947,Weld,13
+Dimitri V. D'Arbeloff,1951,1947,Weld,13
+Howard Lessch,1951,1947,Weld,13
+Julio Muvdi,1951,1947,Weld,13
+Louis J. Tsavaris,1951,1947,Weld,13
+Henry P. Clifford,1951,1947,Weld,14
+Richard E. Burwell,1951,1947,Weld,14
+Edward L. Davis,1951,1947,Weld,19
+Glynn H. Coryell,1951,1947,Weld,19
+Andrew G. Frantz,1951,1947,Weld,21
+George S. Miller,1951,1947,Weld,21
+David E. Rust,1951,1947,Weld,22
+Samuel E. Nylen,1951,1947,Weld,22
+Curtis C. Kaufman,1951,1947,Weld,23
+David C. Brisk,1951,1947,Weld,23
+Peter W. Rand,1951,1947,Weld,25
+Samuel H. Ridge,1951,1947,Weld,25
+Erik A. Stromsted,1951,1947,Weld,26
+Jonathan M. Gell,1951,1947,Weld,26
+Michael O. Reinoehl,1951,1947,Weld,26
+Thomas H. Ingham,1951,1947,Weld,26
+Ian M. White,1951,1947,Weld,27
+Jurgen A. Hilton,1951,1947,Weld,27
+Stanton A. Cook,1951,1947,Weld,27
+David G. Hays,1951,1947,Weld,28
+Edward H. Cass,1951,1947,Weld,28
+"George Sommaripa, Jr.",1951,1947,Weld,32
+"James B. Ross, Jr.",1951,1947,Weld,33
+"Kenneth W. Proctor, Jr.",1951,1947,Weld,33
+Charles R. Shepardson,1951,1947,Weld,34
+Elliot L. Hoffman,1951,1947,Weld,34
+Frederick F. Ladd,1951,1947,Weld,34
+John M. Teal,1951,1947,Weld,34
+Joseph A. Griffin,1951,1947,Weld,34
+Phillip W. Smith,1951,1947,Weld,34
+Robert L. Lasky,1951,1947,Weld,34
+Christopher Bird,1951,1947,Weld,38
+David Bird,1951,1947,Weld,38
+Alan Sweetser,1951,1947,Weld,41
+Charles J. Keever,1951,1947,Weld,41
+Harold R. Von Der Osten,1951,1947,Weld,42
+"Hiram Kendall, Jr.",1951,1947,Weld,42
+"George M. Kurzon, Jr.",1951,1947,Weld,43
+Miles I. Levine,1951,1947,Weld,43
+Julius Binstock,1951,1948,Weld,44
+Jack H. Mostow,1951,1947,Weld,44
+"Arthur D. Hyde, Jr.",1951,1947,Weld,45
+Randolph R. Brown,1951,1947,Weld,45
+Frank Boas,1951,1947,Weld,46
+John K. Speer,1951,1947,Weld,46
+Kenneth C. Keller,1951,1947,Weld,46
+Robert J. Herbert,1951,1947,Weld,46
+Hugh B. Williams,1951,1947,Weld,47
+John A. Bailey,1951,1947,Weld,47
+Richard R. Reynolds,1951,1947,Weld,47
+Anthony G. Oettinger,1951,1947,Weld,48
+Gary Felsenfeld,1951,1947,Weld,48
+Hubert L. Dreyfus,1951,1947,Weld,48
+John S. Spier,1951,1947,Weld,49
+Michael R. Paine,1951,1947,Weld,49
+Myron R. Stocking,1951,1947,Weld,49
+Bradley S. Phillips,1951,1947,Weld,52
+George R. Mathey,1951,1947,Weld,52
+"George R. Hargreaves, III",1951,1947,Weld,53
+William M. Twaddle,1951,1947,Weld,53
+Franklin P. Dunbaugh,1951,1947,Weld,54
+John S. Steinhart,1951,1947,Weld,54
+"Joseph L. Rauh, III",1951,1947,Weld,54
+Paul H. Tobias,1951,1947,Weld,54
+Robert W. Rex,1951,1947,Weld,54
+"Donald H. Tilson, Jr.",1951,1947,Weld,55
+"Marcus White, II",1951,1947,Weld,55
+Richard Barry Griffin,1951,1948,Wigglesworth,A-11
+Robert Anthony Fallon,1951,1948,Wigglesworth,A-11
+Thomas Joseph Butler,1951,1948,Wigglesworth,A-11
+"Charles H. W. Foster, II",1951,1947,Wigglesworth,A-11
+Richard Southworth Baker,1951,1949,Wigglesworth,A-21
+Edward Joseph Power,1951,1948,Wigglesworth,A-21
+Robert John Hansman,1951,1948,Wigglesworth,A-21
+"William Gregor Crook, Jr.",1951,1948,Wigglesworth,A-21
+Aaron W. Putnam,1951,1947,Wigglesworth,A-21
+Robert J. Hansman,1951,1947,Wigglesworth,A-21
+"William G. Crook, Jr.",1951,1947,Wigglesworth,A-21
+William R. F. Engels,1951,1947,Wigglesworth,A-21
+David Francis Patrick Sheehan,1951,1948,Wigglesworth,A-31
+James Francis Peter Cunningham,1951,1948,Wigglesworth,A-31
+Donald B. Haines,1951,1947,Wigglesworth,A-31
+Fletcher P. Tomic,1951,1947,Wigglesworth,A-31
+James F. P. Cunningham,1951,1947,Wigglesworth,A-31
+David Joseph Melamed,1951,1948,Wigglesworth,B-11
+
+
+
+Harvey Jerome Weiss,1951,1948,Wigglesworth,B-11,S. David Harrison,1951,1948,Wigglesworth,B-11,James R. Pittman,1951,1947,Wigglesworth,B-12,"William A. Clark, III",1951,1947,Wigglesworth,B-12,George Glenn Miller,1951,1949,Wigglesworth,B-21,Samuel Ooley King,1951,1949,Wigglesworth,B-21,John Bordman,1951,1948,Wigglesworth,B-21,"Stedman Buttrick, Jr.",1951,1948,Wigglesworth,B-21,Samuel M. Allen,1951,1947,Wigglesworth,B-21,"John Tilghman Hazel, Jr.",1951,1948,Wigglesworth,B-22,Leonard Bruce Ellis,1951,1948,Wigglesworth,B-22,Russell Alan Ames,1951,1948,Wigglesworth,B-22,Thomas Frederick Hart,1951,1948,Wigglesworth,B-22,Lynn N. Peterson,1951,1947,Wigglesworth,B-22,David Arthur Durfee,1951,1948,Wigglesworth,B-31,David Ring Crownfield,1951,1948,Wigglesworth,B-31,John Mark Thompson,1951,1948,Wigglesworth,B-31,John Ross Andes,1951,1948,Wigglesworth,B-31,"Mercer W. Sweeney, Jr.",1951,1947,Wigglesworth,B-31,Robert P. Menslage,1951,1947,Wigglesworth,B-31,Vernon D. Patch,1951,1947,Wigglesworth,B-32,Robert Lindsey Swanson,1951,1948,Wigglesworth,C-11,"Arthur E. Nilsson, Jr.",1951,1947,Wigglesworth,C-12,Paul E. Schafer,1951,1947,Wigglesworth,C-12,Robert E. Whitelaw,1951,1947,Wigglesworth,C-12,Robert Myles Downey,1951,1947,Wigglesworth,C-12,"Frederick Andrew Parker, Jr.",1951,1948,Wigglesworth,C-21,Joseph Lee Colt,1951,1948,Wigglesworth,C-21,David Henry Locke,1951,1948,Wigglesworth,C-31,David Wells Foss,1951,1948,Wigglesworth,C-31,"John Francis McCarthy, Jr.",1951,1948,Wigglesworth,C-31,"Albert Joseph Walsh, Jr.",1951,1948,Wigglesworth,C-32,"James Edward Conroy, III",1951,1948,Wigglesworth,C-32,John Aldo Palladino,1951,1948,Wigglesworth,C-32,Edward Selig Epstein,1951,1948,Wigglesworth,D-11,Gilbert Elliott Matthews,1951,1948,Wigglesworth,D-11,Harold Lewis Burstyn,1951,1948,Wigglesworth,D-11,Jaspar McKee,1951,1948,Wigglesworth,D-12,Robert La Branche Van Dusen,1951,1948,Wigglesworth,D-12,Andrew E. Norman,1951,1947,Wigglesworth,D-12,Paul H. Ode,1951,1947,Wigglesworth,D-12,William R. Polk,1951,1947,Wigglesworth,D-12,"Anthony Hicks Brackett, Jr.",1951,1949,Wigglesworth,D-22,"Harold Stanley Nelson, Jr.",1951,1948,Wigglesworth,D-22,Howard J. Laster,1951,1947,Wigglesworth,D-22,Seymour M. Laster,1951,1947,Wigglesworth,D-22,Barnard P. Cohen,1951,1948,Wigglesworth,D-31,Julian Irwin Joseph,1951,1948,Wigglesworth,D-31,Paul Alton Marshall Gross,1951,1948,Wigglesworth,D-31,Robert Joseph Hoffman,1951,1948,Wigglesworth,D-31,Dominic Worsowicz,1951,1947,Wigglesworth,E-11,John Celani,1951,1947,Wigglesworth,E-11,David Harold Carver,1951,1948,Wigglesworth,E-31,James Howard Finkelstein,1951,1948,Wigglesworth,E-31,William John Fisk,1951,1948,Wigglesworth,E-31,Alexander Flash,1951,1947,Wigglesworth,E-31,Bradley Morrell Walls,1951,1948,Wigglesworth,E-32,Paul Emile Roland Vachon,1951,1949,Wigglesworth,F-11,"Charles Fremont McKhann, III",1951,1948,Wigglesworth,F-12,Donald Frank French,1951,1948,Wigglesworth,F-12,Addison D. McMullan,1951,1947,Wigglesworth,F-12,"Charles F. McKhann, III",1951,1947,Wigglesworth,F-12,Donald F. French,1951,1947,Wigglesworth,F-12,John T. Fauls,1951,1947,Wigglesworth,F-12,Charles Livingston Shedd,1951,1947,Wigglesworth,F-21,"Frederick S. Rutan, Jr.",1951,1947,Wigglesworth,F-21,Skiddy M. Lund,1951,1947,Wigglesworth,F-21,Peter Jay Schlesinger,1951,1948,Wigglesworth,F-22,Robert Arnold Feldman,1951,1948,Wigglesworth,F-22,Conrad A. Brevick,1951,1947,Wigglesworth,F-22,Raymond K. Pierce,1951,1947,Wigglesworth,F-32,A. Robert Abboud,1951,1947,Wigglesworth,G-11,"Hugh Nawn, Jr.",1951,1947,Wigglesworth,G-11,John L. Moore,1951,1947,Wigglesworth,G-11,Leonard Slack Larsen,1951,1948,Wigglesworth,G-12,Gregory A. Seymour,1951,1947,Wigglesworth,G-21,Robert N. Lord,1951,1947,Wigglesworth,G-21,"Hiram Kendall, Jr.",1951,1948,Wigglesworth,G-22,James Douglas Wood,1951,1948,Wigglesworth,G-22,Robert Walter Rex,1951,1948,Wigglesworth,G-22,Andre R. Sigourney,1951,1947,Wigglesworth,G-22,Arthur Windsor Arundel,1951,1947,Wigglesworth,G-22,Stephen V. R. Goodhue,1951,1947,Wigglesworth,G-22,William W. Rosenau,1951,1947,Wigglesworth,G-22,James W. Duff,1951,1947,Wigglesworth,G-31,John C. Blankenship,1951,1947,Wigglesworth,G-31,John K. Rabenold,1951,1947,Wigglesworth,G-31,Ian McKibbin White,1951,1948,Wigglesworth,G-32,Thomas Otto Max Eisner,1951,1949,Wigglesworth,H-11,John Castner Walcott,1951,1948,Wigglesworth,H-12,John Mesmer Todd,1951,1948,Wigglesworth,H-12,Rodman Frederic Duane,1951,1948,Wigglesworth,H-12,Arthur H. Katz,1951,1947,Wigglesworth,H-21,Hilary Strauss,1951,1947,Wigglesworth,H-21,Peter John Dobson Allatt,1951,1949,Wigglesworth,H-22,Charles G. Washburn,1951,1947,Wigglesworth,H-22,Edward A. Lobkowicz,1951,1947,Wigglesworth,H-22,Richard R. Hudner,1951,1947,Wigglesworth,H-22,John Larimore Patten,1951,1948,Wigglesworth,H-31,Robert Damos Ouimet,1951,1948,Wigglesworth,H-31
+
+
+
+
+Harvey Jerome Weiss,1951,1948,Wigglesworth,B-11
+S. David Harrison,1951,1948,Wigglesworth,B-11
+James R. Pittman,1951,1947,Wigglesworth,B-12
+"William A. Clark, III",1951,1947,Wigglesworth,B-12
+George Glenn Miller,1951,1949,Wigglesworth,B-21
+Samuel Ooley King,1951,1949,Wigglesworth,B-21
+John Bordman,1951,1948,Wigglesworth,B-21
+"Stedman Buttrick, Jr.",1951,1948,Wigglesworth,B-21
+Samuel M. Allen,1951,1947,Wigglesworth,B-21
+"John Tilghman Hazel, Jr.",1951,1948,Wigglesworth,B-22
+Leonard Bruce Ellis,1951,1948,Wigglesworth,B-22
+Russell Alan Ames,1951,1948,Wigglesworth,B-22
+Thomas Frederick Hart,1951,1948,Wigglesworth,B-22
+Lynn N. Peterson,1951,1947,Wigglesworth,B-22
+David Arthur Durfee,1951,1948,Wigglesworth,B-31
+David Ring Crownfield,1951,1948,Wigglesworth,B-31
+John Mark Thompson,1951,1948,Wigglesworth,B-31
+John Ross Andes,1951,1948,Wigglesworth,B-31
+"Mercer W. Sweeney, Jr.",1951,1947,Wigglesworth,B-31
+Robert P. Menslage,1951,1947,Wigglesworth,B-31
+Vernon D. Patch,1951,1947,Wigglesworth,B-32
+Robert Lindsey Swanson,1951,1948,Wigglesworth,C-11
+"Arthur E. Nilsson, Jr.",1951,1947,Wigglesworth,C-12
+Paul E. Schafer,1951,1947,Wigglesworth,C-12
+Robert E. Whitelaw,1951,1947,Wigglesworth,C-12
+Robert Myles Downey,1951,1947,Wigglesworth,C-12
+"Frederick Andrew Parker, Jr.",1951,1948,Wigglesworth,C-21
+Joseph Lee Colt,1951,1948,Wigglesworth,C-21
+David Henry Locke,1951,1948,Wigglesworth,C-31
+David Wells Foss,1951,1948,Wigglesworth,C-31
+"John Francis McCarthy, Jr.",1951,1948,Wigglesworth,C-31
+"Albert Joseph Walsh, Jr.",1951,1948,Wigglesworth,C-32
+"James Edward Conroy, III",1951,1948,Wigglesworth,C-32
+John Aldo Palladino,1951,1948,Wigglesworth,C-32
+Edward Selig Epstein,1951,1948,Wigglesworth,D-11
+Gilbert Elliott Matthews,1951,1948,Wigglesworth,D-11
+Harold Lewis Burstyn,1951,1948,Wigglesworth,D-11
+Jaspar McKee,1951,1948,Wigglesworth,D-12
+Robert La Branche Van Dusen,1951,1948,Wigglesworth,D-12
+Andrew E. Norman,1951,1947,Wigglesworth,D-12
+Paul H. Ode,1951,1947,Wigglesworth,D-12
+William R. Polk,1951,1947,Wigglesworth,D-12
+"Anthony Hicks Brackett, Jr.",1951,1949,Wigglesworth,D-22
+"Harold Stanley Nelson, Jr.",1951,1948,Wigglesworth,D-22
+Howard J. Laster,1951,1947,Wigglesworth,D-22
+Seymour M. Laster,1951,1947,Wigglesworth,D-22
+Barnard P. Cohen,1951,1948,Wigglesworth,D-31
+Julian Irwin Joseph,1951,1948,Wigglesworth,D-31
+Paul Alton Marshall Gross,1951,1948,Wigglesworth,D-31
+Robert Joseph Hoffman,1951,1948,Wigglesworth,D-31
+Dominic Worsowicz,1951,1947,Wigglesworth,E-11
+John Celani,1951,1947,Wigglesworth,E-11
+David Harold Carver,1951,1948,Wigglesworth,E-31
+James Howard Finkelstein,1951,1948,Wigglesworth,E-31
+William John Fisk,1951,1948,Wigglesworth,E-31
+Alexander Flash,1951,1947,Wigglesworth,E-31
+Bradley Morrell Walls,1951,1948,Wigglesworth,E-32
+Paul Emile Roland Vachon,1951,1949,Wigglesworth,F-11
+"Charles Fremont McKhann, III",1951,1948,Wigglesworth,F-12
+Donald Frank French,1951,1948,Wigglesworth,F-12
+Addison D. McMullan,1951,1947,Wigglesworth,F-12
+"Charles F. McKhann, III",1951,1947,Wigglesworth,F-12
+Donald F. French,1951,1947,Wigglesworth,F-12
+John T. Fauls,1951,1947,Wigglesworth,F-12
+Charles Livingston Shedd,1951,1947,Wigglesworth,F-21
+"Frederick S. Rutan, Jr.",1951,1947,Wigglesworth,F-21
+Skiddy M. Lund,1951,1947,Wigglesworth,F-21
+Peter Jay Schlesinger,1951,1948,Wigglesworth,F-22
+Robert Arnold Feldman,1951,1948,Wigglesworth,F-22
+Conrad A. Brevick,1951,1947,Wigglesworth,F-22
+Raymond K. Pierce,1951,1947,Wigglesworth,F-32
+A. Robert Abboud,1951,1947,Wigglesworth,G-11
+"Hugh Nawn, Jr.",1951,1947,Wigglesworth,G-11
+John L. Moore,1951,1947,Wigglesworth,G-11
+Leonard Slack Larsen,1951,1948,Wigglesworth,G-12
+Gregory A. Seymour,1951,1947,Wigglesworth,G-21
+Robert N. Lord,1951,1947,Wigglesworth,G-21
+"Hiram Kendall, Jr.",1951,1948,Wigglesworth,G-22
+James Douglas Wood,1951,1948,Wigglesworth,G-22
+Robert Walter Rex,1951,1948,Wigglesworth,G-22
+Andre R. Sigourney,1951,1947,Wigglesworth,G-22
+Arthur Windsor Arundel,1951,1947,Wigglesworth,G-22
+Stephen V. R. Goodhue,1951,1947,Wigglesworth,G-22
+William W. Rosenau,1951,1947,Wigglesworth,G-22
+James W. Duff,1951,1947,Wigglesworth,G-31
+John C. Blankenship,1951,1947,Wigglesworth,G-31
+John K. Rabenold,1951,1947,Wigglesworth,G-31
+Ian McKibbin White,1951,1948,Wigglesworth,G-32
+Thomas Otto Max Eisner,1951,1949,Wigglesworth,H-11
+John Castner Walcott,1951,1948,Wigglesworth,H-12
+John Mesmer Todd,1951,1948,Wigglesworth,H-12
+Rodman Frederic Duane,1951,1948,Wigglesworth,H-12
+Arthur H. Katz,1951,1947,Wigglesworth,H-21
+Hilary Strauss,1951,1947,Wigglesworth,H-21
+Peter John Dobson Allatt,1951,1949,Wigglesworth,H-22
+Charles G. Washburn,1951,1947,Wigglesworth,H-22
+Edward A. Lobkowicz,1951,1947,Wigglesworth,H-22
+Richard R. Hudner,1951,1947,Wigglesworth,H-22
+John Larimore Patten,1951,1948,Wigglesworth,H-31
+Robert Damos Ouimet,1951,1948,Wigglesworth,H-31
+
+
+
+"Gordon Harrower, Jr.",1951,1948,Wigglesworth,H-32,John Baron Abbot,1951,1948,Wigglesworth,H-32,Elmer M. Harmon,1951,1947,Wigglesworth,H-32,Stephen Minot,1951,1948,Wigglesworth,I-11,Harold Francis Chase,1951,1948,Wigglesworth,I-31,James Byron Kenyon,1951,1948,Wigglesworth,I-31,"Mercer White Sweeney, Jr.",1951,1948,Wigglesworth,I-31,Kirk Hollingsworth,1951,1947,Wigglesworth,I-31,Bertrand Waldstein,1951,1948,Wigglesworth,J-11,Irving Salloway,1951,1948,Wigglesworth,J-11,George Leonard Hersey,1951,1948,Wigglesworth,J-22,Edward R. Bott,1951,1947,Wigglesworth,J-22,George L. Hersey,1951,1947,Wigglesworth,J-22,Peter M. Payne,1951,1947,Wigglesworth,J-22,Charles Stevens Enright,1951,1948,Wigglesworth,J-31,Theodore Boutelle Barrett,1951,1948,Wigglesworth,J-31,John B. Havey,1951,1947,Wigglesworth,K-11,William E. Bacon,1951,1947,Wigglesworth,K-11,Howard Bruce Boal,1951,1948,Wigglesworth,K-12,Jerry Kanter,1951,1948,Wigglesworth,K-31,John Joseph Kristopik,1951,1948,Wigglesworth,K-31
+
+
+
+
+"Gordon Harrower, Jr.",1951,1948,Wigglesworth,H-32
+John Baron Abbot,1951,1948,Wigglesworth,H-32
+Elmer M. Harmon,1951,1947,Wigglesworth,H-32
+Stephen Minot,1951,1948,Wigglesworth,I-11
+Harold Francis Chase,1951,1948,Wigglesworth,I-31
+James Byron Kenyon,1951,1948,Wigglesworth,I-31
+"Mercer White Sweeney, Jr.",1951,1948,Wigglesworth,I-31
+Kirk Hollingsworth,1951,1947,Wigglesworth,I-31
+Bertrand Waldstein,1951,1948,Wigglesworth,J-11
+Irving Salloway,1951,1948,Wigglesworth,J-11
+George Leonard Hersey,1951,1948,Wigglesworth,J-22
+Edward R. Bott,1951,1947,Wigglesworth,J-22
+George L. Hersey,1951,1947,Wigglesworth,J-22
+Peter M. Payne,1951,1947,Wigglesworth,J-22
+Charles Stevens Enright,1951,1948,Wigglesworth,J-31
+Theodore Boutelle Barrett,1951,1948,Wigglesworth,J-31
+John B. Havey,1951,1947,Wigglesworth,K-11
+William E. Bacon,1951,1947,Wigglesworth,K-11
+Howard Bruce Boal,1951,1948,Wigglesworth,K-12
+Jerry Kanter,1951,1948,Wigglesworth,K-31
+John Joseph Kristopik,1951,1948,Wigglesworth,K-31
+
+
+

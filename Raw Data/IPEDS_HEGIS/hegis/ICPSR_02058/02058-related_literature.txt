@@ -1,0 +1,19 @@
+Bibliography
+Higher Education General Information Survey (HEGIS), 1970:  Fall Enrollment
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 2058. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Brint, Steven; Proctor, Kristopher; Hanneman, Robert A.; Mulligan,
+Kerry; Rotondi, Matthew B.;  Murphy, Scott P., "Who are the early adopters
+of new academic fields? Comparing four perspectives on the
+institutionalization of degree granting programs in US four-year colleges
+and Universities, 1970-2005." Higher Education. May 2011, 61, (5), 563 -
+585. DOI: 10.1007/s10734-010-9349-z

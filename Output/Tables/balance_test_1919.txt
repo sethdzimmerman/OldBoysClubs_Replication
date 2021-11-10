@@ -1,0 +1,30 @@
+\begin{tabular}{l cccccc}
+&	\multicolumn{2}{c}{Year FEs}&	\multicolumn{2}{c}{Price * Year FEs}&	\multicolumn{2}{c}{Block FEs}\\ \hline
+\emph{A. Balance test}\\ 
+Room price per occupant&	206.6&	( 3.3)&	--&	--&	--&	--\\ 
+Any private high school&	0.394&	(0.024)&	-0.044&	(0.037)&	-0.064&	(0.032)\\ 
+Private feeder high school&	0.296&	(0.021)&	0.022&	(0.035)&	--&	--\\ 
+Have HS code&	0.297&	(0.022)&	-0.025&	(0.034)&	-0.030&	(0.031)\\ 
+From MA&	-0.056&	(0.021)&	0.007&	(0.036)&	0.028&	(0.035)\\ 
+From NY&	0.083&	(0.017)&	-0.028&	(0.029)&	-0.037&	(0.030)\\ 
+Have Harvard father&	0.071&	(0.011)&	0.005&	(0.019)&	0.016&	(0.022)\\ 
+Have Harvard brother&	0.110&	(0.018)&	0.008&	(0.028)&	-0.005&	(0.031)\\ 
+Jewish name&	-0.014&	(0.008)&	0.005&	(0.013)&	0.013&	(0.015)\\ 
+Catholic name&	-0.031&	(0.008)&	-0.008&	(0.012)&	-0.006&	(0.013)\\ 
+Colonial name&	0.104&	(0.019)&	0.004&	(0.031)&	-0.014&	(0.032)\\ 
+S or E Eur. immg. gen. 1-2&	-0.050&	(0.014)&	0.001&	(0.018)&	0.006&	(0.019)\\ 
+Have father's occupation&	-0.059&	(0.025)&	-0.008&	(0.042)&	-0.011&	(0.046)\\ 
+Father's occupation: doctor&	0.038&	(0.023)&	0.046&	(0.040)&	0.055&	(0.042)\\ 
+Father's occupation: lawyer&	0.101&	(0.023)&	-0.051&	(0.040)&	-0.059&	(0.045)\\ 
+\\ 
+\emph{Joint balance test [p-value]}&	[0.000]&	&	[0.824]&	&	[0.459]&	\\ 
+\\ 
+\emph{B. Peer and neighborhood attributes}\\ 
+Private HS peer share&	0.370&	(0.024)&	0.306&	(0.031)&	0.282&	(0.033)\\ 
+Feeder HS peer share&	0.272&	(0.021)&	0.221&	(0.028)&	0.202&	(0.032)\\ 
+Legacy share&	0.062&	(0.012)&	0.063&	(0.015)&	0.063&	(0.018)\\ 
+E Eur. peer share&	-0.045&	(0.014)&	-0.047&	(0.015)&	-0.048&	(0.016)\\ 
+Share rooms $>$ median price&	1.142&	(0.018)&	0.800&	(0.019)&	0.786&	(0.018)\\ 
+Share rooms $>$ 90th pctile price&	0.309&	(0.016)&	0.436&	(0.016)&	0.472&	(0.018)\\ \hline
+N&	        9343&	&	        9343&	&	        9343&	
+\end{tabular}

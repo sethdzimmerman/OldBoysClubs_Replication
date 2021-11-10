@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Draw a tile layer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tm_basemap {tmap}"><tr><td>tm_basemap {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Draw a tile layer</h2>
+
+<h3>Description</h3>
+
+<p>Creates a <code><a href="../../tmap/help/tmap-element.html">tmap-element</a></code> that draws a tile layer. This feature is only available in view mode. For plot mode, a tile image can be retrieved by <code><a href="../../tmaptools/help/read_osm.html">read_osm</a></code>. The function <code>tm_basemap</code> draws the tile layer as basemap (i.e. as bottom layer), whereas <code>tm_tiles</code> draws the tile layer as overlay layer (where the stacking order corresponds to the order in which this layer is called). Note that basemaps are shown by default (see details).
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tm_basemap(server = NA, group = NA, alpha = NA, tms = FALSE)
+
+tm_tiles(server, group = NA, alpha = 1, zindex = NA, tms = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>server</code></td>
+<td>
+<p>name of the provider or an URL. The list of available providers can be obtained with <code>leaflet::providers</code>. See <a href="http://leaflet-extras.github.io/leaflet-providers/preview">http://leaflet-extras.github.io/leaflet-providers/preview</a> for a preview of those. When a URL is provided, it should be in template format, e.g. <code>"http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"</code>. Use <code>NULL</code> in <code>tm_basemap</code> to disable the basemaps.</p>
+</td></tr>
+<tr valign="top"><td><code>group</code></td>
+<td>
+<p>name of the group to which this layer belongs in view mode. Each group can be selected or deselected in the layer control item. Set <code>group = NULL</code> to hide the layer in the layer control item. By default, it will be set to the name of the shape (specified in <code><a href="../../tmap/help/tm_shape.html">tm_shape</a></code>). Tile layers generated with <code>tm_basemap</code> will be base groups whereas tile layers generated with <code>tm_tiles</code> will be overlay groups.</p>
+</td></tr>
+<tr valign="top"><td><code>alpha</code></td>
+<td>
+<p>alpha</p>
+</td></tr>
+<tr valign="top"><td><code>tms</code></td>
+<td>
+<p>is the provided tile server defined according to the TMS protocol? By default <code>FALSE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>zindex</code></td>
+<td>
+<p>zindex of the pane in view mode. By default, it is set to the layer number plus 400. By default, the tmap layers will therefore be placed in the custom panes <code>"tmap401"</code>, <code>"tmap402"</code>, etc., except for the base tile layers, which are placed in the standard <code>"tile"</code>. This parameter determines both the name of the pane and the z-index, which determines the pane order from bottom to top. For instance, if <code>zindex</code> is set to 500, the pane will be named <code>"tmap500"</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>When <code>tm_basemap</code> is not specified, the default basemaps are shown, which can be configured by the <code>basemaps</code> arugument in <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code>. By default (for style <code>"white"</code>) three basemaps are drawn: <code>c("Esri.WorldGrayCanvas", "OpenStreetMap", "Esri.WorldTopoMap")</code>. To disable basemaps, add <code>tm_basemap(NULL)</code> to the plot, or set <code>tmap_options(basemaps = NULL)</code>. Similarly, when <code>tm_tiles</code> is not specified, the overlay maps specified by the <code>overlays</code> argument in in <code><a href="../../tmap/help/tmap_options.html">tmap_options</a></code> are shown as front layer. By default, this argument is set to <code>NULL</code>, so no overlay maps are shown by default. See examples.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+current.mode &lt;- tmap_mode("view")
+
+data(World, metro)
+
+tm_basemap(leaflet::providers$Stamen.Watercolor) +
+tm_shape(metro, bbox = "India") + tm_dots(col = "red", group = "Metropolitan areas") +
+tm_tiles(paste0("http://services.arcgisonline.com/arcgis/rest/services/Canvas/",
+    "World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}"), group = "Labels")
+
+
+# Use tmap options to set the basemap and overlay map permanently during the R session:
+opts &lt;- tmap_options(basemaps = c(Canvas = "Esri.WorldGrayCanvas", Imagery = "Esri.WorldImagery"),
+    overlays = c(Labels = paste0("http://services.arcgisonline.com/arcgis/rest/services/Canvas/",
+                                 "World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}")))
+	
+	qtm(World, fill = "HPI", fill.palette = "RdYlGn")
+
+# restore options
+tmap_options(opts)
+
+# restore current mode
+tmap_mode(current.mode)
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

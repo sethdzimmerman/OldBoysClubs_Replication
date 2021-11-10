@@ -1,0 +1,39 @@
+File Manifest for ICPSR 2058
+
+U.S. Dept. of Education, National Center for Education Statistics. HIGHER
+EDUCATION GENERAL INFORMATION SURVEY (HEGIS), 1970: FALL ENROLLMENT. ICPSR
+version. Washington, DC: U.S. Dept. of Education, National Center for
+Education Statistics [producer], 1970. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 1998.
+http://doi.org/10.3886/ICPSR02058.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02058-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    02058-related_literature.txt        -       -         -       daily       -
+
+    02058-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Main Data File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02058-0001-Codebook.pdf             -       -         -       1998-12-16  21d35e6183dcb7005d9739fcf3497201
+
+    02058-0001-Data.txt                 170     24,210    unknown 1998-12-16  ec66b899af5c80ba7f5fae0cf32a65c5
+
+
+DS0002 HEGIS Record Layout
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02058-0002-Record_layout.xls        -       -         -       1998-12-16  59d3d2186e89eea043bdf31f6b1fe1c2
+

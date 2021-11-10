@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Specify icons</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+
+<table width="100%" summary="page for tmap_icons {tmap}"><tr><td>tmap_icons {tmap}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Specify icons</h2>
+
+<h3>Description</h3>
+
+<p>Specifies icons from a png images, which can be used as markers in thematic maps. The function <code>marker_icon</code> is the specification of the default marker.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tmap_icons(
+  file,
+  width = 48,
+  height = 48,
+  keep.asp = TRUE,
+  just = c("center", "center"),
+  as.local = TRUE,
+  ...
+)
+
+marker_icon()
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>file</code></td>
+<td>
+<p>character value/vector containing the file path(s) or url(s).</p>
+</td></tr>
+<tr valign="top"><td><code>width</code></td>
+<td>
+<p>width of the icon. If <code>keep.asp</code>, this is interpreted as the maximum width.</p>
+</td></tr>
+<tr valign="top"><td><code>height</code></td>
+<td>
+<p>height of the icon. If <code>keep.asp</code>, this is interpreted as the maximum height.</p>
+</td></tr>
+<tr valign="top"><td><code>keep.asp</code></td>
+<td>
+<p>keep the aspect ratio of the png image. If <code>TRUE</code> and the aspect ratio differs from <code>width/height</code> either <code>width</code> or <code>height</code> is adjusted accordingly.</p>
+</td></tr>
+<tr valign="top"><td><code>just</code></td>
+<td>
+<p>justification of the icons relative to the point coordinates.  The first value specifies horizontal and the second value vertical justification. Possible values are: <code>"left"</code> , <code>"right"</code>, <code>"center"</code>, <code>"bottom"</code>, and <code>"top"</code>. Numeric values of 0 specify left alignment and 1 right alignment. The default value of <code>just</code> is <code>c("center", "center")</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>as.local</code></td>
+<td>
+<p>if the <code>file</code> is a url, should it be saved to local temporary file?</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>arguments passed on to <code><a href="../../leaflet/help/icons.html">icons</a></code>. When <code>iconWidth</code>, <code>iconHeight</code>, <code>iconAnchorX</code> and <code>iconAnchorY</code> are specified, they override <code>width</code> and <code>height</code>, and <code>just</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>icon data (see <code><a href="../../leaflet/help/icons.html">icons</a></code>)
+</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="../../tmap/help/tm_symbols.html">tm_symbols</a></code>
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>tmap</em> version 3.0 <a href="00Index.html">Index</a>]</div>
+</div></body></html>

@@ -1,0 +1,51 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 02056
+* HIGHER EDUCATION GENERAL INFORMATION SURVEY (HEGIS), 1968:
+* FALL ENROLLMENT
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     long  FICE               %6f    "FICE Code"
+_column(7)     int   OESTASTE           %2f    "OE State Code (First Part of Publication Sequence)"
+_column(9)     int   SEQ_NO             %4f    "Sequence Number (Second Part of Publication Sequence)"
+_column(13)    str1  SYSTEM             %1s    "System Code (First Part of Institute ID)"
+_column(14)    int   SEQ_CODE           %2f    "Sequence Code (Second Part of Institute ID)"
+_column(16)    str1  STATUS             %1s    "Status Code (Third and Last Part of Institute ID)"
+_column(17)    int   OECODE             %4f    "OE Code"
+_column(21)    int   GEOCODE            %2f    "Geographic Code"
+_column(23)    int   OEREGION           %1f    "OE Region Code"
+_column(24)    int   OBEREGION           %1f    "OBE Region Code"
+_column(25)    int   RACE     :RACE     %1f    "Race Code"
+_column(26)    int   CONTROL  :CONTROL  %1f    "Control Code"
+_column(27)    str1  INSTITUTE           %1s    "Institute Code"
+_column(28)    int   SEX      :SEX      %1f    "Sex Code"
+_column(29)    str1  LANDGRAN		%1f    "Land Grant Code"
+_column(30)    str1  ACCREDIT		%1f    "Accreditation"
+_column(31)    str1  DEGREE		%1f    "Degree"
+_column(32)    int  OFFERLEV       %1f    "Offering level"
+_column(34)    int  CALENSYS        %1f    "Calendar system"
+_column(39)    int   ENR_RANGE           %1f    "Current Enrollment: Range Code"
+_column(40)    long  ENR_TOTAL           %6f    "Current Enrollment: Total Number Enrolled"
+_column(46)    str25 INST_NAME           %25s   "Institute Name"
+_column(71)    int   FICE_CODE		 %1f    "FICE Code"
+_column(77)    int   RESTRICT :RESTRICT %1f    "Restriction Code"
+_column(78)    int   IMPUTATION :IMPUTATION %1f    "Imputation Code"
+_column(79)    int   PARTID             %1f    "Part ID (First Part of Record ID)"
+_column(80)    int   LINENO             %4f    "Line Number (Second and Last Part of Record ID)"
+_column(84)    int   ACTION             %1f    "Action Code"
+_column(90)    long  SURVEYA1           %6f    "Survey Data, Part A, 1st Column"
+_column(96)    long  SURVEYA2           %6f    "Survey Data, Part A, 2nd Column"
+_column(102)    long  SURVEYA3           %6f    "Survey Data, Part A, 3rd Column"
+_column(108)    long  SURVEYA4           %6f    "Survey Data, Part A, 4th Column"
+_column(114)    long  SURVEYA5           %6f    "Survey Data, Part A, 5th Column"
+_column(120)    str2  SURVEYCODE           %2s    "Survey Code"
+}
+

@@ -1,0 +1,31 @@
+Dorm,Room No.,Price,Bedrooms,Floor,Stairwell,Suite
+Straus,A-11,,,1,A,A-11
+Straus,A-12,260,2 single,1,A,A-12
+Straus,A-21,320,2 single,2,A,A-21
+Straus,A-22,300,2 single,2,A,A-22
+Straus,A-31,300,2 single,3,A,A-31
+Straus,A-32,280,2 single,3,A,A-32
+Straus,A-41,180,1 double,4,A,A-41
+Straus,A-42,380,1 single,4,A,A-42
+Straus,B-11,260,2 single,1,B,B-11
+Straus,B-21,300,2 single,2,B,B-21
+Straus,B-22,300,2 single,2,B,B-22
+Straus,B-31,280,2 single,3,B,B-31
+Straus,B-32,280,2 single,3,B,B-32
+Straus,B-41,240,2 single,4,B,B-41
+Straus,B-42,240,2 single,4,B,B-42
+Straus,C-12,260,2 single,1,C,C-12
+Straus,C-21,300,2 single,2,C,C-21
+Straus,C-22,300,2 single,2,C,C-22
+Straus,C-31,280,2 single,3,C,C-31
+Straus,C-32,280,2 single,3,C,C-32
+Straus,C-41,240,2 single,4,C,C-41
+Straus,C-42,240,2 single,4,C,C-42
+Straus,D-11,260,2 single,1,D,D-11
+Straus,D-12,280,2 single,1,D,D-12
+Straus,D-21,,,2,D,D-21
+Straus,D-22,320,2 single,2,D,D-22
+Straus,D-31,280,2 single,3,D,D-31
+Straus,D-32,300,2 single,3,D,D-32
+Straus,D-41,380,1 single,4,D,D-41
+Straus,D-42,180,1 double,4,D,D-42
